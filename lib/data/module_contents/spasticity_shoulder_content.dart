@@ -126,6 +126,72 @@ final TopicData spasticityShoulderContent = TopicData(
           'internal splint). Reducing LE extensor tone may paradoxically '
           'worsen function. Always assess functional impact before treating.',
         ),
+        ScaleBlock(
+          scaleName: 'Tardieu Scale',
+          description:
+              'Measures spasticity by assessing the muscle reaction at specified '
+              'velocities of passive stretch. More specific for true spasticity '
+              '(velocity-dependent) than the Modified Ashworth Scale.',
+          columns: ['Feature', 'Tardieu Scale', 'Modified Ashworth Scale'],
+          rows: [
+            ['What it measures', 'Velocity-dependent catch angle', 'Resistance to passive stretch at one speed'],
+            ['Testing speeds', 'Three velocities: V1 (slow as gravity), V2 (speed of gravity), V3 (fast as possible)', 'One standard speed'],
+            ['Key measurement', 'Angle of catch (R1) vs full passive ROM (R2); R2-R1 = dynamic component of tone', 'Ordinal grade 0-4'],
+            ['Differentiates neural vs non-neural', 'YES -- R2-R1 difference identifies neural (spastic) component', 'NO -- cannot distinguish spasticity from contracture'],
+            ['Clinical advantage', 'Detects true velocity-dependent spasticity', 'Simple, quick, widely used'],
+            ['Limitation', 'More complex to administer, less standardized', 'Poor inter-rater reliability, does not capture velocity-dependence'],
+          ],
+          boardPearl:
+              'The Tardieu Scale is more specific for true spasticity than the '
+              'MAS because it tests at multiple velocities and quantifies the '
+              'dynamic catch angle. The difference between R1 (angle of catch '
+              'at fast speed) and R2 (full passive ROM at slow speed) represents '
+              'the neural (treatable) component of tone. A large R2-R1 gap suggests '
+              'significant spasticity amenable to botulinum toxin. A small gap '
+              'with limited R2 suggests fixed contracture requiring surgical or '
+              'casting intervention.',
+        ),
+        TableBlock(
+          title: 'Botulinum Toxin Injection Targets in Stroke',
+          columns: ['Region', 'Target Muscle', 'Spastic Pattern Treated', 'Injection Guidance'],
+          rows: [
+            ['UE -- Elbow flexion', 'Biceps brachii, Brachialis, Brachioradialis', 'Elbow flexion in UE flexor synergy', 'EMG, ultrasound, or e-stim guided'],
+            ['UE -- Forearm pronation', 'Pronator teres, Pronator quadratus', 'Persistent forearm pronation', 'EMG or ultrasound guided'],
+            ['UE -- Wrist flexion', 'Flexor carpi radialis (FCR), Flexor carpi ulnaris (FCU)', 'Wrist flexion deformity', 'Palpation or ultrasound; FCR most common target'],
+            ['UE -- Finger flexion', 'Flexor digitorum profundus (FDP), Flexor digitorum superficialis (FDS)', 'Clenched fist, hygiene difficulty', 'Ultrasound preferred; both superficial and deep flexors'],
+            ['UE -- Thumb-in-palm', 'Flexor pollicis longus, Adductor pollicis, 1st dorsal interosseous', 'Thumb adducted across palm', 'Small muscles; use low doses per muscle'],
+            ['LE -- Equinus', 'Gastrocnemius (medial & lateral heads), Soleus', 'Ankle plantarflexion (equinus)', 'Most common LE injection target; use both gastroc and soleus'],
+            ['LE -- Varus', 'Tibialis posterior', 'Ankle inversion (varus)', 'Deep muscle; ultrasound or e-stim guided essential'],
+            ['LE -- Stiff knee', 'Rectus femoris', 'Stiff-legged gait, delayed knee flexion in swing', 'Palpation usually sufficient'],
+            ['LE -- Adducted thigh', 'Hip adductors (adductor longus, magnus)', 'Scissoring gait, hygiene issues', 'Palpation; phenol often preferred here due to large muscle mass'],
+            ['LE -- Toe curling', 'Flexor digitorum longus, Flexor hallucis longus', 'Claw toes, toe curling in shoe', 'Ultrasound guided; small doses'],
+          ],
+        ),
+        TableBlock(
+          title: 'Phenol vs Botulinum Toxin Comparison',
+          columns: ['Feature', 'Botulinum Toxin (Botox/Dysport)', 'Phenol (5-7%) / Alcohol'],
+          rows: [
+            ['Mechanism', 'Blocks presynaptic ACh release at NMJ', 'Chemical neurolysis -- denatures nerve protein'],
+            ['Onset', 'Gradual: 2-3 days to 2 weeks', 'Immediate (within minutes)'],
+            ['Peak effect', '2-6 weeks', 'Immediate to days'],
+            ['Duration', '3-6 months (re-injection needed)', '3-6 months (variable; can be longer)'],
+            ['Cost', 'Expensive (\$600-\$2000+ per session)', 'Very inexpensive (\$5-20 per vial)'],
+            ['Best targets', 'Small muscles, precise targeting needed', 'Large muscles, pure motor nerves (obturator, musculocutaneous)'],
+            ['Key risk', 'Diffusion to adjacent muscles; antibody formation with repeated use', 'Painful dysesthesia if sensory nerve fibers affected'],
+            ['Guidance', 'EMG, ultrasound, or electrical stimulation', 'Electrical stimulation essential to locate motor point'],
+            ['Reversibility', 'Self-limited; effect wears off', 'Partially reversible as nerve regenerates'],
+          ],
+        ),
+        PearlBlock(
+          'Board Pearl: Phenol for Obturator Nerve',
+          'Phenol nerve block to the obturator nerve is a classic treatment for '
+          'hip adductor spasticity causing scissoring gait or hygiene difficulty. '
+          'The obturator nerve is a PURE motor nerve to the adductors, so '
+          'dysesthesia risk is minimal. This makes it an ideal phenol target. '
+          'In contrast, phenol to the tibial nerve (mixed motor/sensory) carries '
+          'significant dysesthesia risk and is generally avoided in favor of '
+          'botulinum toxin for ankle/foot spasticity.',
+        ),
       ],
     ),
 
@@ -209,6 +275,66 @@ final TopicData spasticityShoulderContent = TopicData(
             'Scapular mobilization before glenohumeral ROM',
             'Educate all staff on proper handling techniques',
             'Avoid traction on the affected arm during transfers',
+          ],
+        ),
+        ComparisonCardBlock(
+          title: 'Shoulder Subluxation Grading and FES',
+          themeColor: Color(0xFF2563EB),
+          backgroundColor: Color(0xFFEFF6FF),
+          icon: Icons.straighten,
+          description:
+              'Subluxation severity is graded by palpation of the sub-acromial '
+              'gap. FES to the supraspinatus and posterior deltoid has the '
+              'strongest evidence for subluxation reduction.',
+          keyPoints: [
+            'Grading by finger-breadth palpation: 1 FB = mild, 1.5 FB = moderate, 2+ FB = severe',
+            'Palpate the sub-acromial space with patient seated, arm at side',
+            'Radiographic measurement: distance from inferior acromion to superior humeral head',
+            'FES protocol: supraspinatus and posterior deltoid, 30-60 min/day, 5-7 days/week for 4-6 weeks',
+            'FES reduces subluxation by re-educating the shoulder stabilizers and maintaining muscle bulk',
+            'Must start FES early (within first few weeks) for best results',
+            'Ada (2005): FES + conventional therapy superior to conventional therapy alone for subluxation',
+          ],
+        ),
+        ComparisonCardBlock(
+          title: 'Rotator Cuff Tears in Hemiplegic Shoulder',
+          themeColor: Color(0xFF2563EB),
+          backgroundColor: Color(0xFFEFF6FF),
+          icon: Icons.healing,
+          description:
+              'Rotator cuff pathology is common in hemiplegic shoulders and '
+              'is frequently missed because patients cannot report typical '
+              'symptoms and exam findings may be obscured by weakness/spasticity.',
+          keyPoints: [
+            'Prevalence: rotator cuff tears found in 22-40% of hemiplegic shoulders on ultrasound/MRI',
+            'Often pre-existing (age-related) but worsened by subluxation and abnormal mechanics',
+            'Supraspinatus tear most common (same as general population)',
+            'Mechanism: inferior subluxation stretches supraspinatus; abnormal scapulohumeral rhythm causes impingement',
+            'Diagnosis: ultrasound is first-line (dynamic, portable, inexpensive); MRI for surgical planning',
+            'Management: usually conservative (PT, subacromial injection); surgery rarely indicated in severe hemiplegia',
+            'Key point: always consider rotator cuff pathology when shoulder pain is disproportionate or not responding to standard treatment',
+          ],
+        ),
+        ComparisonCardBlock(
+          title: 'Central Post-Stroke Pain (Dejerine-Roussy Syndrome)',
+          themeColor: Color(0xFF2563EB),
+          backgroundColor: Color(0xFFEFF6FF),
+          icon: Icons.local_fire_department,
+          description:
+              'Neuropathic pain syndrome caused by damage to the spinothalamocortical '
+              'pathway, classically from thalamic infarction. Distinct from '
+              'nociceptive musculoskeletal shoulder pain.',
+          keyPoints: [
+            'Typically DELAYED onset: weeks to months after stroke (often 1-6 months)',
+            'Most commonly associated with thalamic strokes (ventral posterolateral nucleus -- VPL)',
+            'Can also occur with lateral medullary (Wallenberg) and cortical strokes',
+            'Character: burning, aching, lancinating, or freezing pain in hemiplegic side',
+            'Allodynia (pain from normally non-painful stimuli) and hyperalgesia common',
+            'Pain often worsened by temperature changes, emotional stress, and light touch',
+            'No edema, vasomotor, or trophic changes (distinguishes from CRPS)',
+            'First-line treatment: amitriptyline 25-75 mg at bedtime',
+            'Alternatives: gabapentin 300-3600 mg/day, pregabalin 75-600 mg/day, lamotrigine',
+            'Opioids generally ineffective for central neuropathic pain',
           ],
         ),
       ],
@@ -304,6 +430,36 @@ final TopicData spasticityShoulderContent = TopicData(
           'pain: amitriptyline, lamotrigine, gabapentin. These are distinct '
           'entities that can coexist.',
         ),
+        TableBlock(
+          title: 'Shoulder-Hand Syndrome (CRPS Type I) Stage Detail',
+          columns: ['Stage', 'Timeline', 'Shoulder', 'Hand', 'Bone/Imaging'],
+          rows: [
+            ['Stage 1 (Acute)', '0-3 months', 'Diffuse shoulder pain, limited ROM especially ER and abduction', 'Dorsal hand edema, warmth, erythema, sweating, metacarpophalangeal tenderness', 'X-ray may be normal; bone scan shows diffuse uptake'],
+            ['Stage 2 (Dystrophic)', '3-9 months', 'Persistent shoulder stiffness, decreasing pain in some', 'Skin becomes cool, cyanotic; edema transitions to brawny induration; finger ROM decreasing', 'Patchy osteoporosis on X-ray (Sudeck atrophy); periarticular demineralization'],
+            ['Stage 3 (Atrophic)', '9-12+ months', 'Adhesive capsulitis may be fixed', 'Glossy, pale, atrophic skin; severe MP and IP contractures; muscle wasting; pain may diminish', 'Marked diffuse osteoporosis; irreversible contractures; treatment at this stage has limited benefit'],
+          ],
+        ),
+        ComparisonCardBlock(
+          title: 'Budapest Criteria for CRPS Diagnosis',
+          themeColor: Color(0xFF2563EB),
+          backgroundColor: Color(0xFFEFF6FF),
+          icon: Icons.checklist,
+          description:
+              'The Budapest criteria (2003, revised 2010) are the current '
+              'international diagnostic criteria for CRPS. They replaced the '
+              'older IASP criteria and have improved specificity.',
+          keyPoints: [
+            'Criterion 1: Continuing pain disproportionate to any inciting event',
+            'Criterion 2: Must report at least 1 symptom in 3 of 4 categories:',
+            'Sensory: reports of hyperesthesia and/or allodynia',
+            'Vasomotor: reports of temperature asymmetry, skin color changes, or skin color asymmetry',
+            'Sudomotor/Edema: reports of edema, sweating changes, or sweating asymmetry',
+            'Motor/Trophic: reports of decreased ROM, motor dysfunction (weakness, tremor, dystonia), or trophic changes (hair, nail, skin)',
+            'Criterion 3: Must display at least 1 sign at time of evaluation in 2 or more categories',
+            'Criterion 4: No other diagnosis better explains the signs and symptoms',
+            'Sensitivity: 85%; Specificity: 69% (clinical criteria); research criteria require signs in 3 of 4 categories for higher specificity',
+          ],
+        ),
       ],
     ),
 
@@ -393,6 +549,42 @@ final TopicData spasticityShoulderContent = TopicData(
             'Genu recurvatum — knee hyperextension from quadriceps spasticity or weakness',
             'AFO prescribed to control equinovarus and improve clearance',
             'Articulated AFO allows dorsiflexion, blocks plantarflexion',
+          ],
+        ),
+        ComparisonCardBlock(
+          title: 'Contracture Prevention Protocols',
+          themeColor: Color(0xFF2563EB),
+          backgroundColor: Color(0xFFEFF6FF),
+          icon: Icons.accessibility,
+          description:
+              'Contractures develop rapidly in stroke patients due to spasticity, '
+              'immobility, and positioning. Prevention is far more effective '
+              'than treatment of established contractures.',
+          keyPoints: [
+            'Positioning: place limbs in anti-spasticity positions during rest and sleep',
+            'UE positioning: shoulder abducted/externally rotated, elbow extended, wrist neutral, fingers extended',
+            'LE positioning: hip neutral rotation, knee slightly flexed (avoid hyperextension), ankle at 90 degrees',
+            'Daily ROM exercises: minimum 2 times/day, all joints through full available range',
+            'Prolonged stretching: 20-30 minutes of sustained stretch is more effective than brief stretching',
+            'Resting splints: wrist-hand orthosis at night to prevent wrist/finger flexion contracture',
+            'Standing programs: 30-60 minutes/day of supported standing for LE contracture prevention',
+            'Serial casting: for established contracture -- sequential casts at increasing stretch, changed every 5-7 days',
+            'Combination therapy: botulinum toxin injection to reduce tone BEFORE serial casting improves outcomes',
+            'Dynamic splinting: spring-loaded or elastic devices that provide prolonged low-load stretch',
+          ],
+        ),
+        TableBlock(
+          title: 'Anti-Spasticity Positioning Guide',
+          columns: ['Joint', 'Spastic Pattern', 'Corrective Position'],
+          rows: [
+            ['Shoulder', 'Adduction, internal rotation', 'Abduction, external rotation; supported on pillow'],
+            ['Elbow', 'Flexion', 'Extension; elbow splint at night if needed'],
+            ['Forearm', 'Pronation', 'Neutral to slight supination'],
+            ['Wrist', 'Flexion, ulnar deviation', 'Neutral to slight extension; resting hand splint'],
+            ['Fingers', 'Flexion, thumb-in-palm', 'Extension with finger spreader or cone; thumb abduction splint'],
+            ['Hip', 'Adduction, internal rotation', 'Neutral alignment; trochanter roll to prevent ER'],
+            ['Knee', 'Extension (in standing/walking)', 'Slight flexion in bed (small roll behind knee)'],
+            ['Ankle', 'Plantarflexion, inversion', 'Neutral dorsiflexion; pillows or AFO to prevent equinus'],
           ],
         ),
       ],

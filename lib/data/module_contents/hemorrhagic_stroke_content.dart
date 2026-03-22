@@ -294,6 +294,88 @@ final TopicData hemorrhagicStrokeContent = TopicData(
           sideEffects: 'Hypotension (dose-limiting), headache, nausea',
           boardPearl: 'Nimodipine is the ONLY medication proven to improve outcomes in SAH. It must be given ORALLY -- IV administration is not approved and has caused fatal hypotension and cardiac arrest.',
         ),
+        ScaleBlock(
+          scaleName: 'Fisher Scale -- SAH CT Grading',
+          description:
+              'Grades the amount and distribution of blood on initial CT scan '
+              'after SAH. Predicts risk of delayed cerebral vasospasm.',
+          columns: ['Grade', 'CT Appearance', 'Vasospasm Risk'],
+          rows: [
+            ['Grade 1', 'No blood detected on CT', 'Low (~21%)'],
+            ['Grade 2', 'Diffuse thin layer of blood (<1 mm thick)', 'Low (~25%)'],
+            ['Grade 3', 'Thick clot or localized clot (>1 mm thick)', 'HIGH (~37%)'],
+            ['Grade 4', 'Diffuse or no subarachnoid blood but with intraventricular hemorrhage (IVH)', 'Moderate (~31%)'],
+          ],
+          boardPearl:
+              'Fisher Grade 3 (thick cisternal clot >1 mm) carries the highest risk '
+              'of vasospasm. The Modified Fisher Scale (0-4) adds IVH as a separate '
+              'variable and is increasingly used in clinical practice.',
+        ),
+        ScaleBlock(
+          scaleName: 'Modified Fisher Scale',
+          description:
+              'Updated version of the Fisher Scale. Better predictor of '
+              'symptomatic vasospasm. Independently scores cisternal blood and IVH.',
+          columns: ['Grade', 'Cisternal Blood', 'IVH', 'Symptomatic Vasospasm Risk'],
+          rows: [
+            ['0', 'No SAH or IVH', 'No', '~0%'],
+            ['1', 'Thin SAH, no IVH', 'No', '~24%'],
+            ['2', 'Thin SAH, with IVH', 'Yes', '~33%'],
+            ['3', 'Thick SAH, no IVH', 'No', '~33%'],
+            ['4', 'Thick SAH, with IVH', 'Yes', '~40%'],
+          ],
+          boardPearl:
+              'The Modified Fisher Scale improves on the original by treating IVH '
+              'as an independent predictor of vasospasm rather than grouping it with '
+              'Grade 4. Higher Modified Fisher grades correlate with higher '
+              'vasospasm rates.',
+        ),
+        BulletCardBlock(
+          title: 'Vasospasm -- Timeline and Management',
+          themeColor: Color(0xFFDC2626),
+          backgroundColor: Color(0xFFFEF2F2),
+          points: [
+            'Occurs in 30-70% of SAH patients angiographically; ~30% develop symptomatic delayed cerebral ischemia (DCI)',
+            'Timeline: begins day 3, peaks days 7-10, resolves by day 14-21',
+            'Monitored by: daily neurological exams, transcranial Doppler (TCD) velocities >120 cm/s suggest spasm, >200 cm/s is severe',
+            'Nimodipine 60 mg PO q4h x 21 days -- given to ALL SAH patients (only proven pharmacological intervention)',
+            'Triple-H therapy (hypertension, hypervolemia, hemodilution) was traditional treatment but is now largely ABANDONED',
+            'Current approach: euvolemia + induced hypertension (phenylephrine or norepinephrine drip) for symptomatic vasospasm',
+            'Refractory vasospasm: intra-arterial verapamil or balloon angioplasty via endovascular intervention',
+            'Hypervolemia is no longer recommended -- it increases complications (pulmonary edema, electrolyte derangement) without proven benefit',
+          ],
+        ),
+        PearlBlock(
+          'Board Pearl: Triple-H Therapy -- Outdated',
+          'Classic teaching emphasized "triple-H therapy" (Hypertension, '
+          'Hypervolemia, Hemodilution) for vasospasm. Modern evidence supports '
+          'ONLY induced hypertension with euvolemia. Hypervolemia and hemodilution '
+          'have been abandoned because they increase complications without '
+          'improving outcomes. However, older board questions may still reference '
+          'triple-H therapy as the answer.',
+        ),
+        BulletCardBlock(
+          title: 'SAH -- Hyponatremia Distinction',
+          themeColor: Color(0xFFDC2626),
+          backgroundColor: Color(0xFFFEF2F2),
+          points: [
+            'Hyponatremia occurs in ~30-50% of SAH patients and worsens vasospasm risk',
+            'Cerebral salt wasting (CSW) is the primary cause -- NOT SIADH (this distinction is high-yield)',
+            'CSW: hyponatremia + hypovolemia + high urine sodium + high urine output (renal salt loss)',
+            'SIADH: hyponatremia + euvolemia/hypervolemia + concentrated urine + low urine output',
+            'CSW treatment: aggressive IV normal saline + fludrocortisone (volume replacement)',
+            'SIADH treatment: fluid restriction -- but fluid restriction is CONTRAINDICATED in SAH (worsens vasospasm)',
+            'If unsure, always give saline in SAH (treating as CSW is safer than restricting fluids)',
+          ],
+        ),
+        PearlBlock(
+          'Board Pearl: CSW vs SIADH in SAH',
+          'In SAH, hyponatremia is almost always cerebral salt wasting (CSW), '
+          'NOT SIADH. The critical difference: CSW patients are hypovolemic '
+          'and need saline. SIADH patients are euvolemic and need fluid restriction. '
+          'Fluid restriction in SAH is DANGEROUS because it worsens cerebral '
+          'vasospasm. When in doubt in SAH, give saline.',
+        ),
       ],
     ),
 
@@ -372,6 +454,39 @@ final TopicData hemorrhagicStrokeContent = TopicData(
             'Stereotactic radiosurgery (Gamma Knife) -- for small, deep, or eloquent-area AVMs; takes 2-3 years for full obliteration',
             'Multimodality treatment -- combination approach for large or complex AVMs',
             'Conservative management -- may be appropriate for high-grade AVMs in elderly patients (ARUBA trial showed observation may be superior to intervention for unruptured AVMs)',
+          ],
+        ),
+        PearlBlock(
+          'Board Pearl: Spetzler-Martin Quick Reference',
+          'Spetzler-Martin Grade = Size (1-3) + Eloquence (0-1) + Drainage (0-1). '
+          'Grade I-II: surgical cure is usually safe and recommended. Grade III: '
+          'individualized. Grade IV-V: high surgical risk; consider radiosurgery '
+          'for small nidus or observation. Eloquent cortex includes motor, sensory, '
+          'language, visual, thalamus, hypothalamus, brainstem, and cerebellar peduncles.',
+        ),
+        BulletCardBlock(
+          title: 'Normal Perfusion Pressure Breakthrough',
+          themeColor: Color(0xFFDC2626),
+          backgroundColor: Color(0xFFFEF2F2),
+          points: [
+            'Complication after AVM resection or embolization',
+            'Chronic high-flow AVM shunting causes surrounding brain to lose autoregulation',
+            'After AVM removal, normal perfusion pressure is too high for the previously "steal"-affected tissue',
+            'Results in edema, hemorrhage, or both in the tissue surrounding the former AVM site',
+            'Risk is higher with large, high-flow AVMs',
+            'Staged embolization before surgery may reduce this risk by allowing gradual hemodynamic adjustment',
+          ],
+        ),
+        TableBlock(
+          title: 'Hemorrhagic Stroke -- Reversal Agents',
+          columns: ['Anticoagulant', 'Reversal Agent', 'Key Details'],
+          rows: [
+            ['Warfarin', '4-factor PCC (Kcentra) + IV Vitamin K', 'PCC preferred over FFP (faster, smaller volume); target INR <1.4 within 1 hour'],
+            ['Dabigatran (Pradaxa)', 'Idarucizumab (Praxbind)', 'Monoclonal antibody fragment; 5g IV; immediate and complete reversal'],
+            ['Rivaroxaban/Apixaban', 'Andexanet alfa (Andexxa)', 'Recombinant modified factor Xa; binds and sequesters factor Xa inhibitors'],
+            ['Heparin (UFH)', 'Protamine sulfate', '1 mg protamine per 100 units heparin given in prior 2-3 hours; max 50 mg'],
+            ['LMWH (enoxaparin)', 'Protamine sulfate (partial)', 'Only ~60% reversal; 1 mg per 1 mg enoxaparin given in prior 8 hours'],
+            ['Antiplatelet agents', 'Platelet transfusion (controversial)', 'PATCH trial showed platelet transfusion may WORSEN outcomes in antiplatelet-related ICH'],
           ],
         ),
       ],

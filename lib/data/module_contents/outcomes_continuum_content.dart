@@ -216,6 +216,78 @@ final TopicData outcomesContinuumContent = TopicData(
           'ambulator. Minimum gait speed to safely cross a street crosswalk is '
           'approximately 1.0-1.2 m/s.',
         ),
+        ScaleBlock(
+          scaleName: 'Modified Rankin Scale (mRS)',
+          description:
+              'The most widely used global outcome measure in stroke clinical '
+              'trials. Measures degree of disability and dependence in daily '
+              'activities. Simple 7-point scale (0-6).',
+          columns: ['Score', 'Description', 'Functional Level'],
+          rows: [
+            ['0', 'No symptoms', 'Completely asymptomatic — no residual effects'],
+            ['1', 'No significant disability', 'Symptoms present but able to carry out all usual activities and duties'],
+            ['2', 'Slight disability', 'Unable to carry out all previous activities but able to look after own affairs without assistance'],
+            ['3', 'Moderate disability', 'Requires some help but able to walk without assistance (may use cane)'],
+            ['4', 'Moderately severe disability', 'Unable to walk without assistance and unable to attend to own bodily needs without assistance'],
+            ['5', 'Severe disability', 'Bedridden, incontinent, requires constant nursing care and attention'],
+            ['6', 'Dead', 'Patient has died'],
+          ],
+          boardPearl:
+              'The mRS is the PRIMARY outcome measure in most major stroke trials '
+              '(NINDS tPA, MR CLEAN, DAWN, DEFUSE 3). "Good outcome" is typically '
+              'defined as mRS 0-2 (functional independence). "Favorable outcome" in '
+              'some trials includes mRS 0-3. The shift analysis (ordinal shift across '
+              'all mRS levels) is increasingly used rather than a single cutpoint. '
+              'Structured mRS interview improves inter-rater reliability.',
+        ),
+        ScaleBlock(
+          scaleName: 'Barthel Index',
+          description:
+              'A 10-item ordinal scale measuring independence in basic ADLs. '
+              'Total score 0-100. One of the oldest and most widely used ADL '
+              'measures worldwide.',
+          columns: ['Activity', 'Independent Score', 'Dependent Score'],
+          rows: [
+            ['Feeding', '10', '0 (unable) or 5 (needs help)'],
+            ['Bathing', '5', '0'],
+            ['Grooming', '5', '0'],
+            ['Dressing', '10', '0 or 5'],
+            ['Bowel control', '10', '0 (incontinent) or 5 (occasional accident)'],
+            ['Bladder control', '10', '0 or 5'],
+            ['Toilet use', '10', '0 or 5'],
+            ['Transfers (bed to chair)', '15', '0, 5, or 10'],
+            ['Mobility (level surface)', '15', '0, 5, or 10'],
+            ['Stairs', '10', '0 or 5'],
+          ],
+          boardPearl:
+              'Barthel Index >60 = modified independence (can manage with minimal '
+              'assistance). Score of 100 does NOT mean the patient is normal — it '
+              'means independent in BASIC ADLs only. Limitations: ceiling effect '
+              '(cannot distinguish among higher-functioning patients), does not '
+              'assess IADLs (cooking, finances, community mobility), and does not '
+              'assess cognition or communication. FIM is more sensitive than Barthel '
+              'because of its 7-point scale vs Barthel\'s 3-point increments.',
+        ),
+        ComparisonCardBlock(
+          title: 'Stroke Impact Scale (SIS)',
+          themeColor: Color(0xFF0891B2),
+          backgroundColor: Color(0xFFECFEFF),
+          icon: Icons.person,
+          description:
+              'A patient-reported outcome measure (PROM) that captures the '
+              'patient\'s own perspective on how stroke has affected their life '
+              'across 8 domains.',
+          keyPoints: [
+            '59 items across 8 domains: Strength, Hand function, Mobility, ADL/IADL, Memory/thinking, Communication, Emotion, Social participation',
+            'Each item scored 1-5 (1 = could not do, 5 = not difficult at all)',
+            'Domain scores transformed to 0-100 scale (higher = less impact/better function)',
+            'Includes a single-item stroke recovery rating (0-100 visual analog)',
+            'Captures patient perspective — clinician-rated scales may miss important deficits',
+            'More sensitive to change in higher-functioning patients than FIM or Barthel (no ceiling effect)',
+            'Widely used in stroke rehabilitation research',
+            'Limitation: requires adequate cognition and language to complete — not suitable for severe aphasia or cognitive impairment',
+          ],
+        ),
       ],
     ),
 
@@ -329,6 +401,55 @@ final TopicData outcomesContinuumContent = TopicData(
             ['Best for', 'Moderate-severe, motivated', 'Cannot tolerate IRF intensity', 'Homebound, functional plateau'],
           ],
         ),
+        ComparisonCardBlock(
+          title: 'CMS 60% Rule for IRF Admission',
+          themeColor: Color(0xFF0891B2),
+          backgroundColor: Color(0xFFECFEFF),
+          icon: Icons.gavel,
+          description:
+              'CMS compliance requirement that at least 60% of an IRF\'s total '
+              'patient population must have one of 13 qualifying diagnostic '
+              'categories to maintain IRF classification.',
+          keyPoints: [
+            'Stroke is one of the 13 qualifying diagnoses — a major IRF admission category',
+            'Other qualifying diagnoses: SCI, TBI, hip fracture, major multiple trauma, brain tumor, amputation, burns, and others',
+            'Facilities falling below 60% risk reclassification as an acute care hospital (lower reimbursement)',
+            'Pre-admission screening must document: qualifying diagnosis, medical stability, ability to tolerate 3 hours/day of therapy',
+            'Patient must require active physician involvement and coordinated interdisciplinary team',
+            'Rehabilitation physician must conduct face-to-face visit within 24 hours of admission',
+            'IRF Patient Assessment Instrument (IRF-PAI) documents functional status using Section GG items',
+            'CMS compliance review considers both diagnosis and intensity of services provided',
+          ],
+        ),
+        BulletCardBlock(
+          title: 'Length of Stay Trends in Stroke Rehabilitation',
+          themeColor: Color(0xFF0891B2),
+          backgroundColor: Color(0xFFECFEFF),
+          points: [
+            'Average IRF LOS for stroke: approximately 14-15 days (trending downward over the past two decades)',
+            'In the 1990s, average IRF LOS for stroke was 20-25 days',
+            'Prospective payment system (PPS) implementation in 2002 drove significant LOS reductions',
+            'Case mix groups (CMGs) determine reimbursement — grouped by diagnosis, functional status, age, and comorbidities',
+            'Shorter LOS does not always mean worse outcomes — higher therapy intensity can compensate',
+            'FIM efficiency (FIM gain / LOS) has INCREASED as LOS has decreased — more efficient rehabilitation',
+            'SNF average LOS for stroke: 21-35 days',
+            'Pressure to reduce LOS must be balanced against adequate functional recovery',
+          ],
+        ),
+        TableBlock(
+          title: 'Discharge Destination Predictors',
+          columns: ['Predictor', 'Home Discharge', 'Institutional Care'],
+          rows: [
+            ['FIM score', 'Discharge FIM >80', 'Discharge FIM <60'],
+            ['Social support', 'Spouse or family caregiver available', 'Lives alone, no caregiver'],
+            ['Age', 'Younger (<75)', 'Older (>85)'],
+            ['Cognition', 'Intact or mildly impaired', 'Moderate-severe cognitive impairment'],
+            ['Continence', 'Continent or managed', 'Persistent incontinence'],
+            ['Bowel/bladder', 'Independent management', 'Requires assistance'],
+            ['Neglect/awareness', 'Absent or mild', 'Severe neglect with anosognosia'],
+            ['Prior living situation', 'Community dwelling', 'Assisted living or nursing home'],
+          ],
+        ),
       ],
     ),
 
@@ -414,6 +535,69 @@ final TopicData outcomesContinuumContent = TopicData(
           'referrals. The Caregiver Strain Index (CSI) is a validated screening '
           'tool.',
         ),
+        ComparisonCardBlock(
+          title: 'Caregiver Training Needs — Detailed',
+          themeColor: Color(0xFF0891B2),
+          backgroundColor: Color(0xFFECFEFF),
+          icon: Icons.people,
+          description:
+              'Caregiver preparedness is a critical determinant of successful '
+              'home discharge. Training should begin during inpatient rehabilitation '
+              'and continue after discharge.',
+          keyPoints: [
+            'Transfer training: bed-to-wheelchair, wheelchair-to-toilet, car transfers — hands-on practice essential',
+            'Medication management: understanding dosing, recognizing side effects, pill organization',
+            'Skin inspection: daily checks of pressure-prone areas, recognition of early pressure injury',
+            'Signs of medical emergency: stroke recurrence (FAST), DVT, PE, seizure, aspiration',
+            'Emotional support: managing behavioral changes, depression screening, when to seek help',
+            'Communication strategies for aphasia: yes/no questions, visual cues, patience, communication boards',
+            'Fall prevention in the home: environmental hazards, safe mobility techniques, when to call for help',
+            'Caregiver self-care: respite services, support groups, recognizing burnout signs',
+            'Caregiver Strain Index (CSI): 13-item screening tool — score >=7 indicates high strain',
+          ],
+        ),
+        ComparisonCardBlock(
+          title: 'Community Reintegration Challenges',
+          themeColor: Color(0xFF0891B2),
+          backgroundColor: Color(0xFFECFEFF),
+          icon: Icons.public,
+          description:
+              'Return to community living involves challenges beyond physical '
+              'recovery. Social participation, transportation, leisure, and '
+              'meaningful activity are key quality of life determinants.',
+          keyPoints: [
+            'Transportation: loss of driving privilege, reliance on paratransit, public transit barriers (stairs, timing)',
+            'Social isolation: up to 50% of stroke survivors report significant social isolation',
+            'Loss of leisure activities: hobbies, sports, travel — require adaptation or substitution',
+            'Role changes within families: from provider/parent to dependent — significant psychological impact',
+            'Financial impact: lost income, medical costs, home modifications, caregiver lost wages',
+            'Community Participation Indicators (CPI) and Reintegration to Normal Living (RNL) Index — validated measures',
+            'Community-based exercise programs (YMCA, Livestrong, adapted fitness classes) improve participation',
+            'Stroke support groups provide peer support, information, and social connection',
+            'Community Integration Questionnaire (CIQ) assesses home, social, and productive activities',
+          ],
+        ),
+        ComparisonCardBlock(
+          title: 'Telerehabilitation Evidence',
+          themeColor: Color(0xFF0891B2),
+          backgroundColor: Color(0xFFECFEFF),
+          icon: Icons.video_call,
+          description:
+              'The delivery of rehabilitation services via telecommunication '
+              'technology. Expanded rapidly post-COVID with growing evidence '
+              'supporting its effectiveness.',
+          keyPoints: [
+            'Non-inferior to in-person therapy for many stroke rehabilitation interventions',
+            'Effective for: upper extremity training, speech-language therapy, cognitive rehabilitation, caregiver education',
+            'Advantages: eliminates transportation barriers, increases access in rural areas, enables more frequent sessions',
+            'Limitations: cannot perform hands-on manual therapy, limited for severe cognitive/communication impairment',
+            'Technology requirements: reliable internet, video-capable device, adequate hearing and vision',
+            'Hybrid models (combination of in-person and telehealth) may be optimal',
+            'CMS expanded telehealth coverage during COVID-19 pandemic — many expansions made permanent',
+            'Emerging: remote monitoring of activity, gait sensors, wearable devices for home exercise feedback',
+            'Patient satisfaction is generally high when technology barriers are addressed',
+          ],
+        ),
         BulletCardBlock(
           title: 'Adaptive Equipment & Community Resources',
           themeColor: Color(0xFF0891B2),
@@ -426,6 +610,27 @@ final TopicData outcomesContinuumContent = TopicData(
             'Communication: speech-generating devices, aphasia apps',
             'Transportation: paratransit services, adaptive driving',
             'National Stroke Association and American Stroke Association resources',
+          ],
+        ),
+        ComparisonCardBlock(
+          title: 'Quality Metrics in Stroke Care',
+          themeColor: Color(0xFF0891B2),
+          backgroundColor: Color(0xFFECFEFF),
+          icon: Icons.verified,
+          description:
+              'Quality measurement programs drive improvement in stroke care '
+              'and rehabilitation. Facilities are evaluated and compared on '
+              'standardized metrics.',
+          keyPoints: [
+            'Joint Commission Primary Stroke Center (PSC) certification: standardized processes for acute stroke care',
+            'Joint Commission Comprehensive Stroke Center (CSC): includes thrombectomy capability and neurocritical care',
+            'CMS Hospital Quality Measures for Stroke: VTE prophylaxis, antithrombotic therapy, AF anticoagulation, DVT screening, rehab assessment, dysphagia screening',
+            'Get With The Guidelines (GWTG) — Stroke: AHA/ASA quality improvement program tracking adherence to evidence-based care',
+            'GWTG Gold Plus achievement: >=85% adherence to all applicable measures for >=24 consecutive months',
+            'IRF quality measures: discharge to community rate, improvement in self-care, improvement in mobility (Section GG)',
+            'CMS IMPACT Act: standardized patient assessment data across post-acute care settings',
+            'Patient experience measures: HCAHPS (hospital), IRF-specific satisfaction surveys',
+            'Risk-adjusted 30-day readmission rates: publicly reported, affect reimbursement',
           ],
         ),
       ],

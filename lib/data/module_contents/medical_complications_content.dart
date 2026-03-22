@@ -419,6 +419,19 @@ final TopicData medicalComplicationsContent = TopicData(
             'Avoid phenytoin if possible (cognitive effects, drug interactions)',
           ],
         ),
+        TableBlock(
+          title: 'Early vs Late Post-Stroke Seizures',
+          columns: ['Feature', 'Early Seizures (<7 days)', 'Late Seizures (>7 days)'],
+          rows: [
+            ['Mechanism', 'Acute cellular dysfunction: glutamate excitotoxicity, ionic shifts, metabolic derangement', 'Epileptogenesis: gliosis, neuronal reorganization, scar formation, altered GABAergic inhibition'],
+            ['Prevalence', '2-5% of ischemic strokes; higher in hemorrhagic', '3-5%; cumulative risk increases over years'],
+            ['Seizure type', 'Often focal with secondary generalization', 'Focal onset, may generalize; more likely recurrent'],
+            ['Recurrence risk', 'Low (~30%) — many are isolated provoked seizures', 'High (~50-70%) — represents true poststroke epilepsy'],
+            ['Treatment approach', 'Treat acutely if prolonged; short-term AED may be sufficient; no long-term AED for single early seizure', 'Long-term AED typically indicated — high recurrence constitutes epilepsy'],
+            ['Risk factors', 'Hemorrhagic stroke, cortical involvement, large infarct, severe NIHSS', 'Hemorrhagic stroke, cortical involvement, early seizures (slight increased risk for late seizures)'],
+            ['Preferred AED', 'Levetiracetam (fewer drug interactions, no hepatic metabolism)', 'Levetiracetam, lamotrigine (good cognitive profile); avoid phenytoin if possible'],
+          ],
+        ),
         BulletCardBlock(
           title: 'Pressure Injury Prevention',
           themeColor: Color(0xFFF97316),
@@ -433,6 +446,124 @@ final TopicData medicalComplicationsContent = TopicData(
             'Daily skin inspections — especially insensate areas',
             'Weight shifts every 15-30 minutes in wheelchair',
             'Braden Scale for pressure injury risk assessment',
+          ],
+        ),
+        ScaleBlock(
+          scaleName: 'Braden Scale for Pressure Injury Risk',
+          description:
+              'The most widely used tool for predicting pressure injury risk. '
+              'Six subscales scored 1-4 (or 1-3), with LOWER total score indicating '
+              'HIGHER risk. Total score range: 6-23.',
+          columns: ['Subscale', 'Scoring', 'What It Assesses'],
+          rows: [
+            ['Sensory Perception', '1-4', 'Ability to respond meaningfully to pressure-related discomfort'],
+            ['Moisture', '1-4', 'Degree to which skin is exposed to moisture (incontinence, perspiration)'],
+            ['Activity', '1-4', 'Degree of physical activity (bedfast, chairfast, walks occasionally, walks frequently)'],
+            ['Mobility', '1-4', 'Ability to change and control body position'],
+            ['Nutrition', '1-4', 'Usual food intake pattern and nutritional status'],
+            ['Friction & Shear', '1-3', 'Level of friction and shear forces on skin during movement'],
+          ],
+          boardPearl:
+              'Braden score <=18 = at risk. <=15 = moderate risk. <=12 = high risk. '
+              '<=9 = very high risk. Stroke patients score low on sensory perception '
+              '(hemisensory loss), activity (hemiplegia), and mobility (immobility) — '
+              'making them inherently high risk. Intervene proactively for any patient '
+              'with a Braden score <=18.',
+        ),
+        ComparisonCardBlock(
+          title: 'Heterotopic Ossification (HO) After Stroke',
+          themeColor: Color(0xFFF97316),
+          backgroundColor: Color(0xFFFFF7ED),
+          icon: Icons.broken_image,
+          description:
+              'Formation of mature lamellar bone in periarticular soft tissues. '
+              'Less common in stroke than in TBI or SCI, but does occur.',
+          keyPoints: [
+            'Prevalence in stroke: ~1-5% (much lower than TBI at 10-20% or SCI at 15-30%)',
+            'Most common location: shoulder (glenohumeral) and elbow on the hemiplegic side',
+            'Presents as painful, warm, swollen joint with progressive loss of ROM',
+            'Can be confused with DVT, septic arthritis, or fracture',
+            'Diagnosis: elevated alkaline phosphatase, triple-phase bone scan (most sensitive early), plain X-ray (delayed 4-6 weeks)',
+            'Treatment: NSAIDs (indomethacin), gentle ROM (avoid aggressive stretching), etidronate',
+            'Surgical excision only after maturation (typically 12-18 months, confirmed by normalization of bone scan)',
+            'Radiation prophylaxis: used in TBI/SCI but rarely needed in stroke due to low incidence',
+          ],
+        ),
+        ComparisonCardBlock(
+          title: 'Osteoporosis on the Hemiplegic Side',
+          themeColor: Color(0xFFF97316),
+          backgroundColor: Color(0xFFFFF7ED),
+          icon: Icons.accessibility_new,
+          description:
+              'Disuse osteoporosis develops rapidly on the hemiplegic side due '
+              'to immobility and lack of weight-bearing, increasing fracture risk.',
+          keyPoints: [
+            'Bone mineral density (BMD) decreases significantly on the paretic side within weeks to months',
+            'Hemiplegic hip and proximal humerus are most vulnerable',
+            'Up to 4x increased fracture risk on the hemiplegic side compared to non-paretic side',
+            'Falls + osteoporosis = high fracture risk — a dangerous combination in stroke survivors',
+            'Hip fractures on the hemiplegic side have worse outcomes and higher mortality',
+            'DEXA scan recommended for stroke patients with prolonged immobility',
+            'Weight-bearing exercise and standing programs may slow bone loss',
+            'Vitamin D and calcium supplementation recommended',
+            'Bisphosphonates considered for documented osteoporosis',
+          ],
+        ),
+        TableBlock(
+          title: 'Post-Stroke Pain Syndromes — Comprehensive',
+          columns: ['Pain Type', 'Mechanism', 'Characteristics', 'Treatment'],
+          rows: [
+            [
+              'Central Post-Stroke Pain (CPSP)',
+              'Thalamic or spinothalamocortical pathway lesion',
+              'Burning, aching, lancinating pain in contralateral body; allodynia, hyperalgesia; often delayed onset (weeks-months)',
+              'Amitriptyline, gabapentin/pregabalin, lamotrigine; opioids generally ineffective',
+            ],
+            [
+              'Hemiplegic Shoulder Pain',
+              'Subluxation, rotator cuff injury, adhesive capsulitis, spasticity, impingement',
+              'Pain at rest and with movement; most common pain complaint in stroke (up to 72%); limits rehab',
+              'Positioning, slings, ROM exercises, suprascapular nerve block, botulinum toxin for spasticity',
+            ],
+            [
+              'Spasticity-Related Pain',
+              'Velocity-dependent muscle hypertonicity from UMN lesion',
+              'Cramping, tightness, painful muscle spasms; worse with positioning, triggers',
+              'Stretching, oral antispasmodics (baclofen, tizanidine), botulinum toxin, intrathecal baclofen',
+            ],
+            [
+              'Complex Regional Pain Syndrome (CRPS)',
+              'Shoulder-hand syndrome; sympathetically mediated pain with autonomic changes',
+              'Burning pain, edema, skin color/temperature changes, sweating abnormalities; typically hand/wrist',
+              'Aggressive ROM, desensitization, corticosteroids (early), stellate ganglion block, mirror therapy',
+            ],
+            [
+              'Musculoskeletal Pain',
+              'Abnormal biomechanics, joint malalignment, compensatory overuse',
+              'Pain in non-paretic limbs from overuse; back pain from asymmetric gait; knee hyperextension',
+              'Biomechanical correction, bracing (AFO), strengthening, NSAIDs, physical therapy',
+            ],
+          ],
+        ),
+        ComparisonCardBlock(
+          title: 'Nutritional Screening — MUST Tool',
+          themeColor: Color(0xFFF97316),
+          backgroundColor: Color(0xFFFFF7ED),
+          icon: Icons.restaurant_menu,
+          description:
+              'The Malnutrition Universal Screening Tool (MUST) is a validated '
+              '5-step screening tool to identify adults who are malnourished or '
+              'at risk of malnutrition.',
+          keyPoints: [
+            'Step 1: BMI score — >20 = 0 points, 18.5-20 = 1 point, <18.5 = 2 points',
+            'Step 2: Unplanned weight loss in past 3-6 months — <5% = 0, 5-10% = 1, >10% = 2',
+            'Step 3: Acute disease effect — if acutely ill AND no nutritional intake for >5 days = 2 points',
+            'Step 4: Add scores from steps 1-3 for overall risk',
+            'Step 5: Management — Score 0 = low risk (routine care), 1 = medium risk (observe), >=2 = high risk (treat)',
+            'Malnutrition in stroke: 16% at admission, rising to 26-35% during rehabilitation',
+            'Dysphagia, depression, cognitive impairment, and upper extremity weakness all contribute to poor intake',
+            'Dietitian referral recommended for all stroke patients with MUST score >=1',
+            'Adequate protein intake (1.0-1.5 g/kg/day) important for tissue healing and functional recovery',
           ],
         ),
       ],

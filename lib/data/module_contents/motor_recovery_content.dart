@@ -269,6 +269,65 @@ final TopicData motorRecoveryContent = TopicData(
             'LE: Ankle dorsiflexion with knee flexed',
           ],
         ),
+        ScaleBlock(
+          scaleName: 'Fugl-Meyer Assessment (FMA)',
+          description:
+              'The most widely used quantitative measure of motor impairment '
+              'after stroke. Evaluates motor function, sensation, balance, '
+              'joint ROM, and pain in a standardized protocol.',
+          columns: ['Domain', 'Score Range', 'Key Details'],
+          rows: [
+            ['Upper Extremity Motor', '0-66', 'Shoulder/elbow/forearm (36), wrist (10), hand/fingers (14), coordination/speed (6)'],
+            ['Lower Extremity Motor', '0-34', 'Hip/knee/ankle movements within and out of synergy, coordination'],
+            ['Total Motor Score', '0-100', 'Sum of UE (66) + LE (34); most commonly reported score'],
+            ['Sensation', '0-24', 'Light touch and proprioception of UE and LE'],
+            ['Balance', '0-14', 'Sitting and standing balance'],
+            ['Joint ROM', '0-44', 'Passive ROM of major joints'],
+            ['Joint Pain', '0-44', 'Pain during passive ROM'],
+            ['Grand Total', '0-226', 'All domains combined (rarely used as total)'],
+          ],
+          boardPearl:
+              'UE FMA severity categories: 0-19 = severe; 20-47 = moderate; '
+              '48-52 = mild-moderate; 53-66 = mild. Minimal clinically important '
+              'difference (MCID) = 5.25 points for UE motor. The FMA is scored '
+              'on a 3-point ordinal scale (0 = cannot perform, 1 = partial, '
+              '2 = full performance) for each item.',
+        ),
+        ComparisonCardBlock(
+          title: 'Wolf Motor Function Test (WMFT)',
+          themeColor: Color(0xFFE11D48),
+          backgroundColor: Color(0xFFFFF1F2),
+          icon: Icons.timer,
+          description:
+              'A timed functional assessment of UE motor ability used '
+              'primarily in CIMT research. Measures both speed and quality.',
+          keyPoints: [
+            '17 tasks progressing from simple (forearm to table) to complex (lifting basket)',
+            'Tasks timed with 120-second maximum per task',
+            'Functional ability scale: 0-5 for each task (0 = no attempt, 5 = normal)',
+            'Primary outcome in the EXCITE trial for CIMT',
+            'Sensitive to change in patients with mild-to-moderate UE impairment',
+            'Median time and functional ability scores reported separately',
+          ],
+        ),
+        ComparisonCardBlock(
+          title: 'Action Research Arm Test (ARAT)',
+          themeColor: Color(0xFFE11D48),
+          backgroundColor: Color(0xFFFFF1F2),
+          icon: Icons.back_hand,
+          description:
+              'A 19-item observational assessment of UE function evaluating '
+              'grasp, grip, pinch, and gross movement.',
+          keyPoints: [
+            '4 subscales: grasp (6 items), grip (4 items), pinch (6 items), gross movement (3 items)',
+            'Total score: 0-57 (higher = better function)',
+            'Each item scored 0-3 (0 = no movement, 3 = normal performance)',
+            'Hierarchical design: if patient scores 3 on hardest item in subscale, full score given for that subscale',
+            'Takes 8-10 minutes to administer',
+            'MCID = 5.7 points',
+            'Widely used in stroke rehabilitation research as a primary outcome measure',
+          ],
+        ),
       ],
     ),
 
@@ -374,6 +433,52 @@ final TopicData motorRecoveryContent = TopicData(
           'The strongest evidence supports task-specific, repetitive, '
           'high-intensity practice with sufficient dosing. The amount and '
           'intensity of practice matters more than the specific approach used.',
+        ),
+        TableBlock(
+          title: 'Locomotor Training Approaches Comparison',
+          columns: ['Approach', 'Description', 'Evidence'],
+          rows: [
+            ['Overground gait training', 'Walking on flat surface with manual assist or assistive device', 'Standard of care; allows real-world practice of functional gait'],
+            ['Body-weight-supported treadmill (BWSTT)', 'Harness-supported treadmill walking with therapist assistance', 'LEAPS trial: not superior to progressive overground exercise at 1 year'],
+            ['Robotic gait training (Lokomat, Ekso)', 'Robotic exoskeleton assists or guides leg movement on treadmill', 'May benefit non-ambulatory patients; not superior to conventional for ambulatory patients'],
+            ['FES-assisted gait', 'Electrical stimulation to dorsiflexors/plantarflexors during walking', 'Improves gait speed and reduces foot drop; can be neuroprosthetic or therapeutic'],
+            ['Task-specific stepping', 'Repetitive stepping practice with varied speed, direction, terrain', 'Strongest evidence; high step count (3000+/session) recommended'],
+          ],
+        ),
+        ComparisonCardBlock(
+          title: 'Ankle-Foot Orthosis (AFO) Prescribing',
+          themeColor: Color(0xFFE11D48),
+          backgroundColor: Color(0xFFFFF1F2),
+          icon: Icons.straighten,
+          description:
+              'AFOs are the most commonly prescribed orthotic after stroke, '
+              'primarily to control equinovarus deformity and foot drop.',
+          keyPoints: [
+            'Solid AFO: blocks all ankle motion; best for severe spasticity or fixed equinovarus; limits push-off in gait',
+            'Posterior leaf spring (PLS) AFO: thin posterior strut; assists dorsiflexion in swing; allows some plantarflexion; best for isolated foot drop with minimal spasticity',
+            'Articulated AFO: hinged joint allows dorsiflexion, blocks plantarflexion; best for moderate spasticity with some active dorsiflexion',
+            'Ground reaction AFO (GRAFO): anterior shell extends to tibial tuberosity; controls knee hyperextension (genu recurvatum)',
+            'Timing: prescribe when gait training begins; reassess as recovery progresses',
+            'Too rigid too early may limit motor learning; too flexible may not provide adequate control',
+            'FES to dorsiflexors is an alternative or adjunct to AFO for foot drop',
+          ],
+        ),
+        BulletCardBlock(
+          title: 'Neuroplasticity Principles for Rehabilitation',
+          themeColor: Color(0xFFE11D48),
+          backgroundColor: Color(0xFFFFF1F2),
+          points: [
+            'Use it or lose it: failure to drive specific brain functions leads to degradation',
+            'Use it and improve it: training drives cortical reorganization and functional improvement',
+            'Specificity: the nature of training determines the nature of plasticity (practice the task you want to improve)',
+            'Repetition matters: sufficient repetition is required to induce lasting neural changes (hundreds to thousands of reps)',
+            'Intensity matters: training must be of sufficient intensity to drive plasticity',
+            'Time matters: different forms of plasticity occur at different times post-stroke; earlier intervention drives more recovery',
+            'Salience matters: the training must be meaningful and motivating to the patient',
+            'Age matters: neuroplasticity occurs across the lifespan but may be slower in older adults',
+            'Transference: plasticity in one set of neural circuits can enhance related behaviors',
+            'Interference: plasticity in one pathway can impede others (maladaptive plasticity -- e.g., learned nonuse)',
+          ],
         ),
       ],
     ),

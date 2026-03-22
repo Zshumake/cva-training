@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../data/models/topic_content_model.dart';
 import '../../core/theme/app_theme.dart';
 
@@ -9,16 +10,29 @@ class TopicContentView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isScrollable = topicData.tabs.length > 3;
     return DefaultTabController(
       length: topicData.tabs.length,
       child: Column(
         children: [
           TabBar(
-            isScrollable: topicData.tabs.length > 3,
+            isScrollable: isScrollable,
+            tabAlignment: isScrollable ? TabAlignment.start : null,
             labelColor: AppTheme.primaryNavy,
             unselectedLabelColor: AppTheme.textSecondary,
             indicatorColor: AppTheme.accentTeal,
             indicatorWeight: 3,
+            dividerHeight: 0,
+            labelStyle: GoogleFonts.inter(
+              fontSize: 13,
+              fontWeight: FontWeight.w600,
+              letterSpacing: -0.1,
+            ),
+            unselectedLabelStyle: GoogleFonts.inter(
+              fontSize: 13,
+              fontWeight: FontWeight.w500,
+              letterSpacing: -0.1,
+            ),
             tabs: topicData.tabs.map((t) => Tab(text: t.title)).toList(),
           ),
           Expanded(
@@ -55,15 +69,36 @@ class TopicContentView extends StatelessWidget {
 
   Widget _buildHeader(HeaderBlock block) {
     return Padding(
-      padding: const EdgeInsets.only(top: 24, bottom: 12),
-      child: Text(
-        block.title,
-        style: const TextStyle(
-          fontSize: 22,
-          fontWeight: FontWeight.w800,
-          color: AppTheme.primaryNavy,
-          letterSpacing: -0.5,
-        ),
+      padding: const EdgeInsets.only(top: 28, bottom: 14),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            width: 3,
+            height: 28,
+            margin: const EdgeInsets.only(right: 12, top: 2),
+            decoration: BoxDecoration(
+              gradient: const LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [AppTheme.accentTeal, AppTheme.accentCopper],
+              ),
+              borderRadius: BorderRadius.circular(2),
+            ),
+          ),
+          Expanded(
+            child: Text(
+              block.title,
+              style: GoogleFonts.playfairDisplay(
+                fontSize: 22,
+                fontWeight: FontWeight.w800,
+                color: AppTheme.primaryNavy,
+                letterSpacing: -0.5,
+                height: 1.2,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -73,11 +108,12 @@ class TopicContentView extends StatelessWidget {
       padding: const EdgeInsets.only(bottom: 12),
       child: Text(
         block.text,
-        style: TextStyle(
+        style: GoogleFonts.inter(
           fontSize: block.isIntro ? 16 : 14,
           height: 1.6,
           color: block.isIntro ? AppTheme.textPrimary : AppTheme.textSecondary,
           fontStyle: block.isIntro ? FontStyle.italic : FontStyle.normal,
+          letterSpacing: -0.1,
         ),
       ),
     );
@@ -88,24 +124,48 @@ class TopicContentView extends StatelessWidget {
       margin: const EdgeInsets.symmetric(vertical: 8),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: AppTheme.pearlBackground,
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: AppTheme.pearlBorder, width: 1.5),
+        gradient: const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            AppTheme.pearlBackground,
+            Color(0xFFFFF8E1),
+            Color(0xFFFFFDF5),
+          ],
+        ),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(
+          color: AppTheme.pearlBorder.withValues(alpha: 0.35),
+          width: 1,
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: AppTheme.pearlBorder.withValues(alpha: 0.06),
+            blurRadius: 12,
+            offset: const Offset(0, 4),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
-              const Icon(Icons.lightbulb_rounded, color: AppTheme.pearlBorder, size: 20),
+              const Icon(
+                Icons.lightbulb_rounded,
+                color: AppTheme.pearlBorder,
+                size: 20,
+                semanticLabel: 'Clinical Pearl',
+              ),
               const SizedBox(width: 8),
               Expanded(
                 child: Text(
                   block.title,
-                  style: const TextStyle(
+                  style: GoogleFonts.inter(
                     fontSize: 14,
                     fontWeight: FontWeight.w700,
-                    color: Color(0xFF92400E),
+                    color: const Color(0xFF92400E),
+                    letterSpacing: -0.1,
                   ),
                 ),
               ),
@@ -114,10 +174,10 @@ class TopicContentView extends StatelessWidget {
           const SizedBox(height: 8),
           Text(
             block.text,
-            style: const TextStyle(
+            style: GoogleFonts.inter(
               fontSize: 13,
-              height: 1.5,
-              color: Color(0xFF78350F),
+              height: 1.55,
+              color: const Color(0xFF78350F),
             ),
           ),
         ],
@@ -128,43 +188,58 @@ class TopicContentView extends StatelessWidget {
   Widget _buildBulletCard(BulletCardBlock block) {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 8),
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(18),
       decoration: BoxDecoration(
         color: block.backgroundColor,
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: block.themeColor.withValues(alpha: 0.3)),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(
+          color: block.themeColor.withValues(alpha: 0.2),
+          width: 1,
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: block.themeColor.withValues(alpha: 0.04),
+            blurRadius: 10,
+            offset: const Offset(0, 3),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
             block.title,
-            style: TextStyle(
+            style: GoogleFonts.inter(
               fontSize: 15,
               fontWeight: FontWeight.w700,
               color: block.themeColor,
+              letterSpacing: -0.2,
             ),
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 12),
           ...block.points.map((point) => Padding(
-                padding: const EdgeInsets.only(bottom: 6),
+                padding: const EdgeInsets.only(bottom: 7),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
                       margin: const EdgeInsets.only(top: 7),
-                      width: 6,
-                      height: 6,
+                      width: 5,
+                      height: 5,
                       decoration: BoxDecoration(
-                        color: block.themeColor,
+                        color: block.themeColor.withValues(alpha: 0.7),
                         shape: BoxShape.circle,
                       ),
                     ),
-                    const SizedBox(width: 10),
+                    const SizedBox(width: 12),
                     Expanded(
                       child: Text(
                         point,
-                        style: const TextStyle(fontSize: 13, height: 1.5),
+                        style: GoogleFonts.inter(
+                          fontSize: 13,
+                          height: 1.55,
+                          color: AppTheme.textPrimary,
+                        ),
                       ),
                     ),
                   ],
@@ -179,8 +254,15 @@ class TopicContentView extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 8),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: Colors.grey.shade300),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: AppTheme.borderSubtle, width: 1),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.03),
+            blurRadius: 8,
+            offset: const Offset(0, 2),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -188,55 +270,74 @@ class TopicContentView extends StatelessWidget {
           if (block.title.isNotEmpty)
             Container(
               width: double.infinity,
-              padding: const EdgeInsets.all(12),
+              padding: const EdgeInsets.all(14),
               decoration: BoxDecoration(
                 color: block.headerColor ?? AppTheme.primaryNavy,
                 borderRadius: const BorderRadius.only(
-                  topLeft: Radius.circular(11),
-                  topRight: Radius.circular(11),
+                  topLeft: Radius.circular(13),
+                  topRight: Radius.circular(13),
                 ),
               ),
               child: Text(
                 block.title,
-                style: const TextStyle(
+                style: GoogleFonts.inter(
                   color: Colors.white,
                   fontWeight: FontWeight.w700,
                   fontSize: 14,
+                  letterSpacing: -0.1,
                 ),
               ),
             ),
           ClipRRect(
             borderRadius: const BorderRadius.only(
-              bottomLeft: Radius.circular(11),
-              bottomRight: Radius.circular(11),
+              bottomLeft: Radius.circular(13),
+              bottomRight: Radius.circular(13),
             ),
             child: SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: DataTable(
-                headingRowColor: WidgetStateProperty.all(Colors.grey.shade100),
-                columnSpacing: 16,
-                horizontalMargin: 12,
-                headingTextStyle: const TextStyle(
+                headingRowColor: WidgetStateProperty.all(
+                  const Color(0xFFF8FAFC),
+                ),
+                dataRowColor: WidgetStateProperty.resolveWith<Color>(
+                  (states) {
+                    return Colors.white;
+                  },
+                ),
+                columnSpacing: 18,
+                horizontalMargin: 14,
+                headingTextStyle: GoogleFonts.inter(
                   fontWeight: FontWeight.w700,
                   fontSize: 12,
                   color: AppTheme.textPrimary,
+                  letterSpacing: 0.2,
                 ),
-                dataTextStyle: const TextStyle(
+                dataTextStyle: GoogleFonts.inter(
                   fontSize: 12,
                   color: AppTheme.textPrimary,
-                  height: 1.3,
+                  height: 1.4,
                 ),
-                columns: block.columns.map((c) => DataColumn(label: Text(c))).toList(),
-                rows: block.rows.map((row) {
+                columns: block.columns
+                    .map((c) => DataColumn(label: Text(c)))
+                    .toList(),
+                rows: List.generate(block.rows.length, (rowIndex) {
                   return DataRow(
-                    cells: row.map((cell) => DataCell(
-                      ConstrainedBox(
-                        constraints: const BoxConstraints(maxWidth: 180),
-                        child: Text(cell),
-                      ),
-                    )).toList(),
+                    color: WidgetStateProperty.all(
+                      rowIndex.isEven
+                          ? Colors.white
+                          : const Color(0xFFFAFAFB),
+                    ),
+                    cells: block.rows[rowIndex]
+                        .map((cell) => DataCell(
+                              ConstrainedBox(
+                                constraints:
+                                    const BoxConstraints(maxWidth: 180),
+                                child: Text(cell),
+                              ),
+                            ))
+                        .toList(),
                   );
-                }).toList(),
+                }),
               ),
             ),
           ),
@@ -250,43 +351,68 @@ class TopicContentView extends StatelessWidget {
       margin: const EdgeInsets.symmetric(vertical: 8),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: AppTheme.mnemonicBackground,
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: AppTheme.mnemonicBorder, width: 1.5),
+        gradient: const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            AppTheme.mnemonicBackground,
+            Color(0xFFF0ECFF),
+            Color(0xFFF8F6FF),
+          ],
+        ),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(
+          color: AppTheme.mnemonicBorder.withValues(alpha: 0.3),
+          width: 1,
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: AppTheme.mnemonicBorder.withValues(alpha: 0.06),
+            blurRadius: 12,
+            offset: const Offset(0, 4),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
-              const Icon(Icons.psychology_alt_rounded, color: AppTheme.mnemonicBorder, size: 20),
+              const Icon(
+                Icons.psychology_alt_rounded,
+                color: AppTheme.mnemonicBorder,
+                size: 20,
+                semanticLabel: 'Memory Aid',
+              ),
               const SizedBox(width: 8),
-              const Text(
+              Text(
                 'Memory Aid',
-                style: TextStyle(
+                style: GoogleFonts.inter(
                   fontSize: 13,
                   fontWeight: FontWeight.w700,
-                  color: Color(0xFF5B21B6),
+                  color: const Color(0xFF5B21B6),
+                  letterSpacing: 0.2,
                 ),
               ),
             ],
           ),
-          const SizedBox(height: 8),
+          const SizedBox(height: 10),
           Text(
             block.mnemonic,
-            style: const TextStyle(
-              fontSize: 15,
+            style: GoogleFonts.playfairDisplay(
+              fontSize: 16,
               fontWeight: FontWeight.w800,
-              color: Color(0xFF4C1D95),
+              color: const Color(0xFF4C1D95),
+              letterSpacing: -0.2,
             ),
           ),
           const SizedBox(height: 6),
           Text(
             block.explanation,
-            style: const TextStyle(
+            style: GoogleFonts.inter(
               fontSize: 13,
-              height: 1.4,
-              color: Color(0xFF6D28D9),
+              height: 1.5,
+              color: const Color(0xFF6D28D9),
             ),
           ),
         ],
@@ -314,7 +440,7 @@ class TopicContentView extends StatelessWidget {
                   alignment: Alignment.center,
                   child: Text(
                     item.key,
-                    style: const TextStyle(
+                    style: GoogleFonts.inter(
                       fontSize: 12,
                       fontWeight: FontWeight.w700,
                       color: AppTheme.accentTeal,
@@ -325,7 +451,11 @@ class TopicContentView extends StatelessWidget {
                 Expanded(
                   child: Text(
                     item.value,
-                    style: const TextStyle(fontSize: 13, height: 1.5),
+                    style: GoogleFonts.inter(
+                      fontSize: 13,
+                      height: 1.55,
+                      color: AppTheme.textPrimary,
+                    ),
                   ),
                 ),
               ],
@@ -337,16 +467,25 @@ class TopicContentView extends StatelessWidget {
   }
 
   Widget _buildMedicationCard(MedicationCardBlock block) {
-    final borderColor = block.isAvoid ? AppTheme.avoidBorder : AppTheme.accentTeal;
-    final bgColor = block.isAvoid ? AppTheme.avoidBackground : const Color(0xFFF0FDFA);
+    final borderColor =
+        block.isAvoid ? AppTheme.avoidBorder : AppTheme.accentTeal;
+    final bgColor =
+        block.isAvoid ? AppTheme.avoidBackground : const Color(0xFFF0FDFA);
 
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 6),
-      padding: const EdgeInsets.all(14),
+      padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: bgColor,
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: borderColor.withValues(alpha: 0.4)),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: borderColor.withValues(alpha: 0.3), width: 1),
+        boxShadow: [
+          BoxShadow(
+            color: borderColor.withValues(alpha: 0.05),
+            blurRadius: 8,
+            offset: const Offset(0, 2),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -354,39 +493,78 @@ class TopicContentView extends StatelessWidget {
           Row(
             children: [
               Icon(
-                block.isAvoid ? Icons.do_not_disturb_rounded : Icons.check_circle_rounded,
+                block.isAvoid
+                    ? Icons.do_not_disturb_rounded
+                    : Icons.check_circle_rounded,
                 color: borderColor,
                 size: 18,
+                semanticLabel: block.isAvoid ? 'Avoid' : 'Recommended',
               ),
               const SizedBox(width: 8),
               Expanded(
                 child: Text(
                   '${block.name} (${block.drugClass})',
-                  style: TextStyle(
+                  style: GoogleFonts.inter(
                     fontSize: 14,
                     fontWeight: FontWeight.w700,
                     color: borderColor,
+                    letterSpacing: -0.1,
                   ),
                 ),
               ),
             ],
           ),
-          const SizedBox(height: 6),
-          Text('Mechanism: ${block.mechanism}', style: const TextStyle(fontSize: 12, height: 1.4)),
-          Text('Indication: ${block.indication}', style: const TextStyle(fontSize: 12, height: 1.4)),
+          const SizedBox(height: 8),
+          _buildMedDetailRow('Mechanism', block.mechanism),
+          _buildMedDetailRow('Indication', block.indication),
           if (block.dosing.isNotEmpty)
-            Text('Dosing: ${block.dosing}', style: const TextStyle(fontSize: 12, height: 1.4)),
+            Padding(
+              padding: const EdgeInsets.only(bottom: 3),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Dosing: ',
+                    style: GoogleFonts.inter(
+                      fontSize: 12,
+                      fontWeight: FontWeight.w600,
+                      height: 1.5,
+                      color: AppTheme.textSecondary,
+                    ),
+                  ),
+                  Expanded(
+                    child: Text(
+                      block.dosing,
+                      style: GoogleFonts.jetBrainsMono(
+                        fontSize: 12,
+                        height: 1.5,
+                        color: AppTheme.textPrimary,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
           if (block.sideEffects.isNotEmpty)
-            Text('Side Effects: ${block.sideEffects}', style: const TextStyle(fontSize: 12, height: 1.4)),
+            _buildMedDetailRow('Side Effects', block.sideEffects),
           if (block.boardPearl.isNotEmpty) ...[
-            const SizedBox(height: 6),
-            Text(
-              'Board Pearl: ${block.boardPearl}',
-              style: TextStyle(
-                fontSize: 12,
-                fontWeight: FontWeight.w600,
-                fontStyle: FontStyle.italic,
-                color: borderColor,
+            const SizedBox(height: 8),
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: AppTheme.pearlBackground.withValues(alpha: 0.6),
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Text(
+                'Board Pearl: ${block.boardPearl}',
+                style: GoogleFonts.inter(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w600,
+                  fontStyle: FontStyle.italic,
+                  color: borderColor,
+                  height: 1.4,
+                ),
               ),
             ),
           ],
@@ -395,45 +573,133 @@ class TopicContentView extends StatelessWidget {
     );
   }
 
+  Widget _buildMedDetailRow(String label, String value) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 3),
+      child: Text.rich(
+        TextSpan(
+          children: [
+            TextSpan(
+              text: '$label: ',
+              style: GoogleFonts.inter(
+                fontSize: 12,
+                fontWeight: FontWeight.w600,
+                height: 1.5,
+                color: AppTheme.textSecondary,
+              ),
+            ),
+            TextSpan(
+              text: value,
+              style: GoogleFonts.inter(
+                fontSize: 12,
+                height: 1.5,
+                color: AppTheme.textPrimary,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
   Widget _buildComparisonCard(ComparisonCardBlock block) {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 8),
-      padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: block.backgroundColor,
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: block.themeColor.withValues(alpha: 0.3)),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: block.themeColor.withValues(alpha: 0.2), width: 1),
+        boxShadow: [
+          BoxShadow(
+            color: block.themeColor.withValues(alpha: 0.04),
+            blurRadius: 10,
+            offset: const Offset(0, 3),
+          ),
+        ],
       ),
-      child: Column(
+      child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Row(
-            children: [
-              Icon(block.icon, color: block.themeColor, size: 22),
-              const SizedBox(width: 10),
-              Text(
-                block.title,
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w700,
-                  color: block.themeColor,
-                ),
+          Container(
+            width: 4,
+            decoration: BoxDecoration(
+              color: block.themeColor,
+              borderRadius: const BorderRadius.only(
+                topLeft: Radius.circular(14),
+                bottomLeft: Radius.circular(14),
               ),
-            ],
+            ),
           ),
-          const SizedBox(height: 8),
-          Text(block.description, style: const TextStyle(fontSize: 13, height: 1.4)),
-          const SizedBox(height: 8),
-          ...block.keyPoints.map((p) => Padding(
-                padding: const EdgeInsets.only(bottom: 4),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text('• ', style: TextStyle(color: block.themeColor, fontWeight: FontWeight.bold)),
-                    Expanded(child: Text(p, style: const TextStyle(fontSize: 12, height: 1.4))),
-                  ],
-                ),
-              )),
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Icon(
+                        block.icon,
+                        color: block.themeColor,
+                        size: 22,
+                        semanticLabel: block.title,
+                      ),
+                      const SizedBox(width: 10),
+                      Expanded(
+                        child: Text(
+                          block.title,
+                          style: GoogleFonts.inter(
+                            fontSize: 16,
+                            fontWeight: FontWeight.w700,
+                            color: block.themeColor,
+                            letterSpacing: -0.2,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    block.description,
+                    style: GoogleFonts.inter(
+                      fontSize: 13,
+                      height: 1.5,
+                      color: AppTheme.textPrimary,
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  ...block.keyPoints.map((p) => Padding(
+                        padding: const EdgeInsets.only(bottom: 5),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Container(
+                              margin: const EdgeInsets.only(top: 7),
+                              width: 5,
+                              height: 5,
+                              decoration: BoxDecoration(
+                                color: block.themeColor.withValues(alpha: 0.7),
+                                shape: BoxShape.circle,
+                              ),
+                            ),
+                            const SizedBox(width: 10),
+                            Expanded(
+                              child: Text(
+                                p,
+                                style: GoogleFonts.inter(
+                                  fontSize: 12,
+                                  height: 1.5,
+                                  color: AppTheme.textPrimary,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      )),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
@@ -443,20 +709,37 @@ class TopicContentView extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 8),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: AppTheme.accentTeal.withValues(alpha: 0.3)),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(
+          color: AppTheme.accentTeal.withValues(alpha: 0.2),
+          width: 1,
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: AppTheme.accentTeal.withValues(alpha: 0.04),
+            blurRadius: 10,
+            offset: const Offset(0, 3),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
             width: double.infinity,
-            padding: const EdgeInsets.all(12),
+            padding: const EdgeInsets.all(14),
             decoration: BoxDecoration(
-              color: AppTheme.accentTeal.withValues(alpha: 0.1),
+              gradient: LinearGradient(
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                colors: [
+                  AppTheme.accentTeal.withValues(alpha: 0.12),
+                  AppTheme.accentTeal.withValues(alpha: 0.05),
+                ],
+              ),
               borderRadius: const BorderRadius.only(
-                topLeft: Radius.circular(11),
-                topRight: Radius.circular(11),
+                topLeft: Radius.circular(13),
+                topRight: Radius.circular(13),
               ),
             ),
             child: Column(
@@ -464,58 +747,101 @@ class TopicContentView extends StatelessWidget {
               children: [
                 Text(
                   block.scaleName,
-                  style: const TextStyle(
-                    fontSize: 15,
+                  style: GoogleFonts.playfairDisplay(
+                    fontSize: 16,
                     fontWeight: FontWeight.w700,
                     color: AppTheme.accentTeal,
+                    letterSpacing: -0.2,
                   ),
                 ),
                 const SizedBox(height: 4),
                 Text(
                   block.description,
-                  style: const TextStyle(fontSize: 12, color: AppTheme.textSecondary),
+                  style: GoogleFonts.inter(
+                    fontSize: 12,
+                    color: AppTheme.textSecondary,
+                    height: 1.4,
+                  ),
                 ),
               ],
             ),
           ),
-          SingleChildScrollView(
-            scrollDirection: Axis.horizontal,
-            child: DataTable(
-              columnSpacing: 16,
-              horizontalMargin: 12,
-              headingTextStyle: const TextStyle(fontWeight: FontWeight.w700, fontSize: 11),
-              dataTextStyle: const TextStyle(fontSize: 11, height: 1.3),
-              columns: block.columns.map((c) => DataColumn(label: Text(c))).toList(),
-              rows: block.rows.map((row) {
-                return DataRow(
-                  cells: row.map((cell) => DataCell(
-                    ConstrainedBox(
-                      constraints: const BoxConstraints(maxWidth: 160),
-                      child: Text(cell),
+          ClipRRect(
+            borderRadius: BorderRadius.only(
+              bottomLeft: Radius.circular(
+                  block.boardPearl != null ? 0 : 13),
+              bottomRight: Radius.circular(
+                  block.boardPearl != null ? 0 : 13),
+            ),
+            child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: DataTable(
+                columnSpacing: 18,
+                horizontalMargin: 14,
+                headingRowColor: WidgetStateProperty.all(
+                  const Color(0xFFF8FAFC),
+                ),
+                headingTextStyle: GoogleFonts.inter(
+                  fontWeight: FontWeight.w700,
+                  fontSize: 11,
+                  color: AppTheme.textPrimary,
+                  letterSpacing: 0.2,
+                ),
+                dataTextStyle: GoogleFonts.inter(
+                  fontSize: 11,
+                  height: 1.4,
+                  color: AppTheme.textPrimary,
+                ),
+                columns: block.columns
+                    .map((c) => DataColumn(label: Text(c)))
+                    .toList(),
+                rows: List.generate(block.rows.length, (rowIndex) {
+                  return DataRow(
+                    color: WidgetStateProperty.all(
+                      rowIndex.isEven
+                          ? Colors.white
+                          : const Color(0xFFFAFAFB),
                     ),
-                  )).toList(),
-                );
-              }).toList(),
+                    cells: block.rows[rowIndex]
+                        .map((cell) => DataCell(
+                              ConstrainedBox(
+                                constraints:
+                                    const BoxConstraints(maxWidth: 160),
+                                child: Text(cell),
+                              ),
+                            ))
+                        .toList(),
+                  );
+                }),
+              ),
             ),
           ),
           if (block.boardPearl != null)
             Container(
               width: double.infinity,
-              padding: const EdgeInsets.all(10),
+              padding: const EdgeInsets.all(12),
               decoration: BoxDecoration(
-                color: AppTheme.pearlBackground,
+                gradient: const LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                  colors: [
+                    AppTheme.pearlBackground,
+                    Color(0xFFFFF8E1),
+                  ],
+                ),
                 borderRadius: const BorderRadius.only(
-                  bottomLeft: Radius.circular(11),
-                  bottomRight: Radius.circular(11),
+                  bottomLeft: Radius.circular(13),
+                  bottomRight: Radius.circular(13),
                 ),
               ),
               child: Text(
                 'Board Pearl: ${block.boardPearl}',
-                style: const TextStyle(
+                style: GoogleFonts.inter(
                   fontSize: 11,
                   fontWeight: FontWeight.w600,
                   fontStyle: FontStyle.italic,
-                  color: Color(0xFF92400E),
+                  color: const Color(0xFF92400E),
+                  height: 1.4,
                 ),
               ),
             ),
