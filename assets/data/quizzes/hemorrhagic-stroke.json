@@ -1,0 +1,171 @@
+{
+  "module": "hemorrhagic-stroke",
+  "title": "Hemorrhagic Stroke Quiz",
+  "questions": [
+    {
+      "question": "A 78-year-old normotensive patient presents with a recurrent lobar hemorrhage. Magnetic Resonance Imaging (MRI) using Gradient Echo (GRE) sequences reveals multiple cortical microbleeds. Which of the following is the most likely underlying pathology?",
+      "answerOptions": [
+        {"text": "Cerebral amyloid angiopathy (CAA)", "isCorrect": true, "rationale": "This condition is the leading cause of lobar ICH in elderly, non-hypertensive patients and is characterized by beta-amyloid deposition and cortical microbleeds."},
+        {"text": "Charcot-Bouchard microaneurysms", "isCorrect": false, "rationale": "These are typically associated with chronic hypertension and lead to deep structures hemorrhages rather than lobar ones."},
+        {"text": "Arteriovenous malformation (AVM)", "isCorrect": false, "rationale": "While a cause of ICH, these congenital tangles are more commonly the cause of hemorrhage in children and young adults."},
+        {"text": "Septic emboli", "isCorrect": false, "rationale": "These usually result in multiple small ischemic strokes or mycotic aneurysms, often in the setting of endocarditis, rather than a recurrent lobar pattern in a normotensive elderly patient."}
+      ],
+      "hint": "Consider the pathology associated with beta-amyloid protein in small cortical vessels.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to the 2022 AHA/ASA guidelines for Intracerebral Hemorrhage (ICH), what is the recommended target Systolic Blood Pressure (SBP) for a patient presenting with an SBP between 150 mmHg and 220 mmHg?",
+      "answerOptions": [
+        {"text": "140 mmHg", "isCorrect": true, "rationale": "Lowering SBP to this target is considered safe and may improve functional outcomes based on the INTERACT2 trial."},
+        {"text": "110 mmHg", "isCorrect": false, "rationale": "Aggressive lowering below this threshold was studied in the ATACH-2 trial and showed no benefit with possible renal harm."},
+        {"text": "180 mmHg", "isCorrect": false, "rationale": "This was the standard management arm in trials, but current guidelines favor more intensive lowering for better functional recovery."},
+        {"text": "160 mmHg", "isCorrect": false, "rationale": "While lower than some presentation levels, this does not meet the specific goal-directed target established by current evidence-based guidelines."}
+      ],
+      "hint": "Think of the target used in the intensive arm of the INTERACT2 trial.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which of the following reversal strategies is preferred for a patient with an acute ICH who was taking Warfarin with an elevated International Normalized Ratio (INR)?",
+      "answerOptions": [
+        {"text": "4-factor Prothrombin Complex Concentrate (PCC) and Vitamin K", "isCorrect": true, "rationale": "PCC is preferred over Fresh Frozen Plasma because it achieves faster INR correction with lower volume infusion."},
+        {"text": "Fresh Frozen Plasma (FFP) alone", "isCorrect": false, "rationale": "This requires large volumes and takes longer to reverse the INR compared to more modern concentrates."},
+        {"text": "Idarucizumab", "isCorrect": false, "rationale": "This is a specific monoclonal antibody fragment used solely for the reversal of the direct thrombin inhibitor dabigatran."},
+        {"text": "Protamine sulfate", "isCorrect": false, "rationale": "This agent is used to reverse the effects of heparin or low-molecular-weight heparin, not vitamin K antagonists."}
+      ],
+      "hint": "The preferred agent offers rapid reversal and a smaller volume than plasma.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient is diagnosed with a hypertensive ICH. Which location is statistically the most common site for this type of bleeding due to rupture of the lenticulostriate arteries?",
+      "answerOptions": [
+        {"text": "Putamen", "isCorrect": true, "rationale": "The putamen and basal ganglia are the most frequent sites for hypertensive hemorrhage, accounting for 35-50% of cases."},
+        {"text": "Thalamus", "isCorrect": false, "rationale": "Though common in hypertension, this site accounts for only 10-15% of hemorrhages and is classically associated with vertical gaze palsies."},
+        {"text": "Pons", "isCorrect": false, "rationale": "This is a less common site (5-10%) and usually presents with catastrophic features like pinpoint pupils and quadriplegia."},
+        {"text": "Cerebellum", "isCorrect": false, "rationale": "This site accounts for 5-10% of cases and is critical to identify because it often requires immediate surgical decompression."}
+      ],
+      "hint": "This deep structure is a branch territory of the Middle Cerebral Artery (MCA).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "The LANDMARK ENRICH trial (2024) demonstrated a significant functional benefit for early surgical evacuation using minimally invasive parafascicular surgery (MIPS) in which specific ICH presentation?",
+      "answerOptions": [
+        {"text": "Lobar (cortical) hemorrhages", "isCorrect": true, "rationale": "The trial showed that the benefit of MIPS was primarily driven by the lobar hemorrhage subgroup compared to deep hemorrhages."},
+        {"text": "Deep basal ganglia hemorrhages", "isCorrect": false, "rationale": "While included in the study, the functional benefit in this group was less pronounced, and other trials like MIND failed to show benefit in deep locations."},
+        {"text": "Infratentorial (cerebellar) hemorrhages", "isCorrect": false, "rationale": "These are managed with traditional open decompression rather than the MIPS techniques studied in ENRICH."},
+        {"text": "Small hemorrhages less than 15 mL", "isCorrect": false, "rationale": "ENRICH focused on larger clots (30-80 mL) where the mass effect and potential for secondary injury are higher."}
+      ],
+      "hint": "The benefit of the procedure appears to be location-dependent according to recent surgical trials.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "question": "A patient with a Subarachnoid Hemorrhage (SAH) develops hyponatremia and a high urine sodium output while appearing clinically hypovolemic. Which of the following is the most appropriate management strategy?",
+      "answerOptions": [
+        {"text": "Intravenous normal saline and fludrocortisone", "isCorrect": true, "rationale": "This treatment targets Cerebral Salt Wasting (CSW), which is the primary cause of hyponatremia in SAH and involves volume depletion."},
+        {"text": "Fluid restriction", "isCorrect": false, "rationale": "This is the treatment for SIADH but is contraindicated in SAH because it can precipitate or worsen cerebral vasospasm."},
+        {"text": "Vasopressin antagonists (vaptans)", "isCorrect": false, "rationale": "These are used for euvolemic hyponatremia and are not the first-line choice for the hypovolemic state seen in CSW."},
+        {"text": "Aggressive loop diuretics", "isCorrect": false, "rationale": "Diuretics would worsen the hypovolemia and sodium loss inherent in the underlying pathology."}
+      ],
+      "hint": "Identify the condition that causes salt loss and volume depletion rather than volume excess.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "What is the peak timeframe for the development of cerebral vasospasm and Delayed Cerebral Ischemia (DCI) following an aneurysmal Subarachnoid Hemorrhage (SAH)?",
+      "answerOptions": [
+        {"text": "4-14 days", "isCorrect": true, "rationale": "Vasospasm typically begins on day 3, peaks between days 7 and 10, and usually resolves by day 21."},
+        {"text": "The first 24 hours", "isCorrect": false, "rationale": "The immediate risk in the first day is rebleeding of the aneurysm, not vasospasm."},
+        {"text": "2-4 weeks", "isCorrect": false, "rationale": "By this time, most vasospasm has resolved, and the primary concerns shift to chronic complications like communicating hydrocephalus."},
+        {"text": "48-72 hours", "isCorrect": false, "rationale": "While vasospasm can begin during this window, it has not yet reached its period of maximal incidence and severity."}
+      ],
+      "hint": "The peak occurs roughly one to one-and-a-half weeks after the initial rupture.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which medication is proven to improve functional outcomes in all patients with aneurysmal Subarachnoid Hemorrhage (SAH) and must be administered orally?",
+      "answerOptions": [
+        {"text": "Nimodipine", "isCorrect": true, "rationale": "Nimodipine is a neuroprotective calcium channel blocker that is mandatory for 21 days to improve SAH outcomes."},
+        {"text": "Nicardipine", "isCorrect": false, "rationale": "This is an intravenous agent used for acute blood pressure control but does not provide the same neuroprotective benefit as oral nimodipine."},
+        {"text": "Phenylephrine", "isCorrect": false, "rationale": "This is a pressor used to induce hypertension once symptomatic vasospasm has already occurred."},
+        {"text": "Levetiracetam", "isCorrect": false, "rationale": "This is an anti-seizure medication that may be used for treatment but is not routinely recommended for prophylaxis in all SAH patients."}
+      ],
+      "hint": "This drug is a dihydropyridine calcium channel blocker used specifically for neuroprotection.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A 30-year-old patient presents with a first-time seizure and is found to have a brain lesion. The medical team describes a 'tangle of abnormal vessels' without a capillary bed. What is the annual rupture risk for this unruptured malformation?",
+      "answerOptions": [
+        {"text": "2-4% per year", "isCorrect": true, "rationale": "This represents the standard estimated annual risk of hemorrhage for a brain Arteriovenous Malformation (AVM)."},
+        {"text": "0.5-1% per year", "isCorrect": false, "rationale": "This lower risk is more characteristic of cavernous malformations rather than high-flow AVMs."},
+        {"text": "10% per year", "isCorrect": false, "rationale": "This overestimates the risk, as most AVMs have a slow cumulative risk over many decades."},
+        {"text": "Less than 0.1% per year", "isCorrect": false, "rationale": "This extremely low risk is associated with developmental venous anomalies (DVAs), which are usually benign."}
+      ],
+      "hint": "The risk is relatively low annually but accumulates significantly over a young patient's lifetime.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "The Spetzler-Martin Grading Scale for Arteriovenous Malformations (AVMs) is used to estimate surgical risk. Which of the following is one of the three components of this scale?",
+      "answerOptions": [
+        {"text": "Venous drainage (Superficial vs. Deep)", "isCorrect": true, "rationale": "The presence of deep venous drainage increases the complexity and risk of surgical resection."},
+        {"text": "Patient Age", "isCorrect": false, "rationale": "While age is a factor in overall clinical decision-making, it is not a formal component of the Spetzler-Martin scale."},
+        {"text": "Presence of a 'Spot Sign'", "isCorrect": false, "rationale": "The spot sign is a radiographic finding used to predict hematoma expansion in acute ICH, not to grade AVMs."},
+        {"text": "Degree of midline shift", "isCorrect": false, "rationale": "Midline shift is a measure of mass effect in acute hemorrhage or tumor, not a descriptor of AVM anatomy."}
+      ],
+      "hint": "Consider the anatomical factors that make an AVM difficult to remove safely.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Following the surgical resection of a large, high-flow Arteriovenous Malformation (AVM), a patient develops sudden brain edema and hemorrhage in the surrounding tissue. What is the most likely physiological cause?",
+      "answerOptions": [
+        {"text": "Normal perfusion pressure breakthrough", "isCorrect": true, "rationale": "This occurs when chronically dilated vessels in the 'steal' zone lose autoregulation and cannot handle normal pressure once the AVM shunt is removed."},
+        {"text": "Cerebral salt wasting", "isCorrect": false, "rationale": "This involves systemic sodium and volume loss, not localized edema and hemorrhage following AVM surgery."},
+        {"text": "Vasospasm of the feeding arteries", "isCorrect": false, "rationale": "Vasospasm is a complication of subarachnoid blood, whereas this post-resection issue is related to hemodynamic shifts."},
+        {"text": "Communicating hydrocephalus", "isCorrect": false, "rationale": "This involves impaired CSF absorption over weeks or months, not acute localized edema and bleeding."}
+      ],
+      "hint": "This phenomenon relates to the loss of autoregulation in the brain tissue previously affected by vascular 'steal'.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to the Copenhagen Stroke Study, by what timeframe do approximately 95% of stroke survivors reach their best neurological level?",
+      "answerOptions": [
+        {"text": "11 weeks", "isCorrect": true, "rationale": "The majority of neurological recovery occurs within this early window, though functional gains through neuroplasticity can continue."},
+        {"text": "4 weeks", "isCorrect": false, "rationale": "While early gains are rapid, many patients continue to show neurological improvement well past the first month."},
+        {"text": "6 months", "isCorrect": false, "rationale": "While a plateau is often cited at this mark for motor function, most neurological recovery has already peaked according to this specific study."},
+        {"text": "1 year", "isCorrect": false, "rationale": "Recovery can certainly continue for a year, particularly for aphasia, but 95% of survivors have reached their peak level much earlier."}
+      ],
+      "hint": "The timeframe is within the first three months post-stroke.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient with an acute ICH is being managed in the ICU. Which of the following is the CURRENT recommendation for Venous Thromboembolism (VTE) prophylaxis according to the 2022 AHA guidelines?",
+      "answerOptions": [
+        {"text": "Intermittent pneumatic compression (IPC) devices", "isCorrect": true, "rationale": "IPC devices are recommended for DVT prevention in the acute phase of hemorrhagic stroke."},
+        {"text": "Elastic compression stockings", "isCorrect": false, "rationale": "Modern evidence, including trials cited in the 2022 guidelines, shows no benefit for compression stockings in stroke."},
+        {"text": "Early mobilization within 24 hours", "isCorrect": false, "rationale": "The AVERT trial suggested that very early aggressive mobilization may actually lead to worse outcomes in some patients."},
+        {"text": "Immediate initiation of low-dose heparin", "isCorrect": false, "rationale": "While prophylactic heparin may eventually be started, it is generally delayed in the hyperacute phase of a hemorrhage and is secondary to mechanical methods."}
+      ],
+      "hint": "Mechanical methods are preferred, but not all types are effective.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient presents with 'the worst headache of their life' and neck stiffness. A non-contrast Head CT is negative for blood. What is the mandatory next step to rule out a Subarachnoid Hemorrhage (SAH)?",
+      "answerOptions": [
+        {"text": "Lumbar puncture for xanthochromia", "isCorrect": true, "rationale": "If the CT is negative but clinical suspicion is high, a lumbar puncture is necessary to look for blood breakdown products in the CSF."},
+        {"text": "MRI with Gadolinium", "isCorrect": false, "rationale": "Contrast MRI is not the standard next step for acute SAH and does not replace the sensitivity of a CSF analysis."},
+        {"text": "Conventional catheter angiography", "isCorrect": false, "rationale": "This is used to locate an aneurysm once SAH is confirmed, but it is not the primary tool to rule out the presence of blood."},
+        {"text": "Repeat Head CT in 24 hours", "isCorrect": false, "rationale": "CT sensitivity for SAH decreases over time as blood is cleared, so waiting would decrease diagnostic accuracy."}
+      ],
+      "hint": "Consider the gold standard test for detecting blood in the cerebrospinal fluid.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "The 'Spot Sign' on a Computed Tomography Angiography (CTA) is a significant finding in acute Intracerebral Hemorrhage. What does this sign specifically predict?",
+      "answerOptions": [
+        {"text": "Hematoma expansion", "isCorrect": true, "rationale": "The spot sign represents active contrast extravasation, indicating a high risk that the bleed will continue to grow within the first 24 hours."},
+        {"text": "Likelihood of vasospasm", "isCorrect": false, "rationale": "Vasospasm is predicted by the amount of subarachnoid blood on CT (Fisher Scale), not by contrast extravasation in ICH."},
+        {"text": "Successful surgical evacuation", "isCorrect": false, "rationale": "While it might influence the decision to operate, the sign itself is a marker of instability and ongoing bleeding, not a predictor of surgical success."},
+        {"text": "Response to Nimodipine", "isCorrect": false, "rationale": "Nimodipine is used in SAH for neuroprotection; its use is not guided by the presence of a spot sign in ICH."}
+      ],
+      "hint": "This sign represents active leakage of contrast into the brain parenchyma.",
+      "boardReadiness": "BOARD-LIKELY"
+    }
+  ]
+}

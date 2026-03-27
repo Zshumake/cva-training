@@ -1,0 +1,410 @@
+{
+  "title": "Stroke Quiz",
+  "questions": [
+    {
+      "question": "A patient presents 4 hours after sudden-onset right-sided weakness. A non-contrast CT (NCCT) of the head is performed and appears entirely normal. What is the most likely explanation based on the sensitivity of NCCT?",
+      "answerOptions": [
+        {
+          "text": "The patient has not had a stroke and the symptoms are likely a conversion disorder.",
+          "isCorrect": false,
+          "rationale": "While conversion disorder is a mimic, a normal CT within the first 6 hours is common in ischemic stroke and does not rule it out."
+        },
+        {
+          "text": "Ischemic changes often take 6-12 hours to become hypodense on CT, resulting in low early sensitivity.",
+          "isCorrect": true,
+          "rationale": "NCCT sensitivity for ischemic stroke in the first 6 hours is only approximately 60%, as it takes time for cytotoxic edema to manifest as hypodensity."
+        },
+        {
+          "text": "The CT was likely performed with contrast, which masked the early ischemic changes.",
+          "isCorrect": false,
+          "rationale": "NCCT is the gold standard for initial evaluation specifically to avoid contrast obscuring blood, and contrast would not mask ischemia."
+        },
+        {
+          "text": "The normal CT definitively rules out a large vessel occlusion (LVO).",
+          "isCorrect": false,
+          "rationale": "LVOs may show subtle signs like the hyperdense MCA sign, but a normal CT cannot definitively exclude an occlusion early on."
+        }
+      ],
+      "hint": "Consider the typical timeframe required for ischemic damage to appear 'dark' on imaging.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which MRI sequence finding is diagnostic of 'true' restricted diffusion in the setting of acute ischemic stroke?",
+      "answerOptions": [
+        {
+          "text": "Bright signal on both DWI and ADC map.",
+          "isCorrect": false,
+          "rationale": "Bright signal on both often indicates 'T2 shine-through' rather than true restricted water movement."
+        },
+        {
+          "text": "Dark signal on DWI and bright signal on ADC map.",
+          "isCorrect": false,
+          "rationale": "This pattern is generally inconsistent with acute ischemia, where DWI should be bright."
+        },
+        {
+          "text": "Bright signal on DWI and dark signal on ADC map.",
+          "isCorrect": true,
+          "rationale": "True restricted diffusion (cytotoxic edema) presents as high signal on DWI with a corresponding low signal on the ADC map."
+        },
+        {
+          "text": "Bright signal on FLAIR with dark signal on GRE.",
+          "isCorrect": false,
+          "rationale": "Bright FLAIR suggests subacute changes or edema, while dark GRE indicates blood products, not restricted diffusion."
+        }
+      ],
+      "hint": "One sequence identifies high signal while the corresponding map confirms it is not an artifact.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "In the context of CT Perfusion (CTP), how is the 'ischemic penumbra' defined?",
+      "answerOptions": [
+        {
+          "text": "Tissue with decreased Cerebral Blood Flow (CBF) and decreased Cerebral Blood Volume (CBV).",
+          "isCorrect": false,
+          "rationale": "Decreased CBF combined with decreased CBV identifies the irreversibly infarcted core."
+        },
+        {
+          "text": "Tissue with maintained Cerebral Blood Flow (CBF) despite clinical deficits.",
+          "isCorrect": false,
+          "rationale": "Ischemic tissue by definition requires a reduction in blood flow; maintained flow suggests a different etiology."
+        },
+        {
+          "text": "Tissue with decreased Cerebral Blood Flow (CBF) but maintained Cerebral Blood Volume (CBV).",
+          "isCorrect": true,
+          "rationale": "Autoregulatory vasodilation maintains CBV in the penumbra, marking it as salvageable tissue despite reduced flow."
+        },
+        {
+          "text": "Tissue that appears bright on both NCCT and CTP maps.",
+          "isCorrect": false,
+          "rationale": "Brightness on NCCT signifies hemorrhage, whereas CTP measures dynamic flow parameters in ischemic tissue."
+        }
+      ],
+      "hint": "Think about the compensatory mechanism (vasodilation) that keeps brain tissue alive despite low flow.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient with an MCA territory stroke has an ASPECTS score of 5. According to standard board guidelines, how should this score be interpreted regarding mechanical thrombectomy?",
+      "answerOptions": [
+        {
+          "text": "The CT is normal, making them an ideal candidate for reperfusion.",
+          "isCorrect": false,
+          "rationale": "A score of 10 represents a normal CT; lower scores indicate progressively more ischemic involvement."
+        },
+        {
+          "text": "The patient has moderate ischemic changes and predicts a poor outcome, generally falling below the standard threshold for benefit.",
+          "isCorrect": true,
+          "rationale": "An ASPECTS >=6 is the typical threshold for thrombectomy eligibility, as scores <6 predict higher hemorrhage risk and poor functional outcomes."
+        },
+        {
+          "text": "The score is exceptionally high, indicating that only a very small area is affected.",
+          "isCorrect": false,
+          "rationale": "ASPECTS is a subtractive score from 10; a 5 means half of the MCA territory regions already show ischemic changes."
+        },
+        {
+          "text": "The score indicates a posterior fossa stroke, which is not eligible for thrombectomy.",
+          "isCorrect": false,
+          "rationale": "ASPECTS specifically evaluates the MCA territory in the anterior circulation, not the posterior fossa."
+        }
+      ],
+      "hint": "Recall the 10-point scale where points are subtracted for every affected region.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "What is the clinical significance of a 'DWI-FLAIR mismatch' in a patient who presents with a wake-up stroke?",
+      "answerOptions": [
+        {
+          "text": "It suggests the stroke onset was likely more than 6 hours ago.",
+          "isCorrect": false,
+          "rationale": "A mismatch (DWI positive/FLAIR negative) actually suggests a very recent onset because FLAIR changes take hours to develop."
+        },
+        {
+          "text": "It indicates a high likelihood of hemorrhagic transformation if tPA is given.",
+          "isCorrect": false,
+          "rationale": "While all tPA carries risk, a mismatch is used to identify patients who are likely *within* the safe window for thrombolysis."
+        },
+        {
+          "text": "It suggests the stroke occurred within the last 4.5 hours, potentially allowing for thrombolysis treatment.",
+          "isCorrect": true,
+          "rationale": "Because FLAIR signal lags behind DWI, a positive DWI with a negative FLAIR implies the tissue has been ischemic for less than 4.5 hours."
+        },
+        {
+          "text": "It proves the patient has a chronic lacunar infarct rather than an acute event.",
+          "isCorrect": false,
+          "rationale": "Chronic infarcts are typically bright on both FLAIR and T2, and dark on DWI/ADC (unless there is T2 shine-through)."
+        }
+      ],
+      "hint": "Think about which imaging sequence takes longer to show changes after the blood supply is cut off.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "question": "During a CT Angiogram (CTA) of a patient with an intracerebral hemorrhage, the radiologist notes a 'Spot Sign.' What does this finding signify?",
+      "answerOptions": [
+        {
+          "text": "An area of old, calcified plaque that is unrelated to the current bleed.",
+          "isCorrect": false,
+          "rationale": "Calcifications are typically stable and do not appear as active extravasation within the hematoma."
+        },
+        {
+          "text": "Active contrast extravasation, predicting hematoma expansion and worse outcomes.",
+          "isCorrect": true,
+          "rationale": "The CTA 'Spot Sign' represents contrast leaking into the bleed, indicating active hemorrhage and a high risk of the hematoma getting larger."
+        },
+        {
+          "text": "A successfully treated aneurysm that is no longer at risk for rupture.",
+          "isCorrect": false,
+          "rationale": "A 'spot' of contrast within a bleed is a sign of active failure/leakage, not successful treatment or stability."
+        },
+        {
+          "text": "The presence of a fat embolus within the intracranial circulation.",
+          "isCorrect": false,
+          "rationale": "Fat emboli would not typically appear as a focal 'spot' of contrast enhancement within a parenchymal hemorrhage."
+        }
+      ],
+      "hint": "Consider what happens to contrast if a blood vessel is currently leaking.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to current board-relevant criteria for Carotid Doppler Ultrasound, which Peak Systolic Velocity (PSV) threshold is most suggestive of >70% stenosis?",
+      "answerOptions": [
+        {
+          "text": "PSV >125 cm/s",
+          "isCorrect": false,
+          "rationale": "A PSV >125 cm/s is the standard threshold for >50% stenosis, not >70%."
+        },
+        {
+          "text": "PSV >230 cm/s",
+          "isCorrect": true,
+          "rationale": "PSV exceeding 230 cm/s is the widely accepted Doppler threshold for high-grade (>70%) carotid artery stenosis."
+        },
+        {
+          "text": "PSV <40 cm/s",
+          "isCorrect": false,
+          "rationale": "Low velocities are typically seen in normal vessels or distal to a high-grade occlusion, not at the point of stenosis."
+        },
+        {
+          "text": "PSV >400 cm/s",
+          "isCorrect": false,
+          "rationale": "While this would be very high, 230 cm/s is the specific validated threshold used for grading."
+        }
+      ],
+      "hint": "Recall the specific two-step velocity grading system for carotid stenosis (50% vs 70%).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A 45-year-old with a cryptogenic stroke undergoes a Transesophageal Echocardiogram (TEE) despite a negative Transthoracic Echocardiogram (TTE). What is the primary advantage of TEE in this clinical scenario?",
+      "answerOptions": [
+        {
+          "text": "It is less invasive and does not require patient sedation.",
+          "isCorrect": false,
+          "rationale": "TEE is more invasive than TTE and typically requires sedation as the probe enters the esophagus."
+        },
+        {
+          "text": "It provides better visualization of the Left Ventricular (LV) apex for thrombus.",
+          "isCorrect": false,
+          "rationale": "TTE is actually quite good at visualizing the LV apex; TEE's strength lies in posterior structures."
+        },
+        {
+          "text": "It is the gold standard for detecting Left Atrial Appendage (LAA) thrombi and aortic arch atheromas.",
+          "isCorrect": true,
+          "rationale": "Because the esophagus sits directly behind the heart, TEE provides superior resolution for the LAA and the aorta, which are often missed by TTE."
+        },
+        {
+          "text": "It allows for the measurement of carotid intima-media thickness.",
+          "isCorrect": false,
+          "rationale": "Carotid measurements are performed via external ultrasound of the neck, not via an esophageal probe."
+        }
+      ],
+      "hint": "Focus on the anatomical proximity of the esophagus to the posterior structures of the heart.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "The CRYSTAL-AF trial compared Implantable Loop Recorders (ILR) to conventional monitoring in cryptogenic stroke. What was a key finding regarding Atrial Fibrillation (AF) detection at 3 years?",
+      "answerOptions": [
+        {
+          "text": "AF detection was equivalent between ILR and 24-hour Holter monitoring.",
+          "isCorrect": false,
+          "rationale": "ILR significantly outperformed short-term monitoring in every longitudinal study of cryptogenic stroke."
+        },
+        {
+          "text": "ILR detected AF in approximately 30% of patients, significantly higher than conventional methods.",
+          "isCorrect": true,
+          "rationale": "Long-term monitoring with ILR identifies paroxysmal AF in nearly one-third of cryptogenic stroke patients over a 3-year period."
+        },
+        {
+          "text": "ILR was found to be less effective than 30-day event recorders (EMBRACE trial findings).",
+          "isCorrect": false,
+          "rationale": "While 30-day recorders are better than Holters, the 3-year duration of ILRs provides a much higher diagnostic yield for paroxysmal AF."
+        },
+        {
+          "text": "The trial showed that ILRs should be used for primary prevention in all patients with hypertension.",
+          "isCorrect": false,
+          "rationale": "The trial focused on secondary prevention in patients who already had a cryptogenic stroke, not primary screening for the general population."
+        }
+      ],
+      "hint": "Consider the benefit of monitoring for years rather than days or weeks.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "When performing a hypercoagulable workup after a stroke, why is it recommended to wait until the acute phase has passed to test for Protein C and Protein S levels?",
+      "answerOptions": [
+        {
+          "text": "The tests are too expensive to perform during the initial hospitalization.",
+          "isCorrect": false,
+          "rationale": "Cost is not the primary clinical reason for delaying these specific functional assays."
+        },
+        {
+          "text": "Levels of these proteins can be transiently decreased during acute thrombosis or inflammation, leading to false-positive results.",
+          "isCorrect": true,
+          "rationale": "Protein C, S, and Antithrombin are 'consumed' or altered during acute illness, making results unreliable until the patient is stable."
+        },
+        {
+          "text": "These proteins are only produced 2-3 weeks after a stroke occurs.",
+          "isCorrect": false,
+          "rationale": "These are constitutive proteins present in the blood at all times; they are not produced in response to a stroke."
+        },
+        {
+          "text": "Waiting is necessary because aspirin therapy interferes with the lab's ability to measure protein concentrations.",
+          "isCorrect": false,
+          "rationale": "Aspirin does not typically interfere with these assays, though anticoagulants like warfarin certainly do."
+        }
+      ],
+      "hint": "Think about how 'consumption' of clotting factors during an actual clot might skew the results.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A 35-year-old patient with recurrent subcortical strokes and a history of migraines shows characteristic white matter lesions in the anterior temporal poles on MRI. Which genetic condition should be suspected?",
+      "answerOptions": [
+        {
+          "text": "Fabry Disease",
+          "isCorrect": false,
+          "rationale": "Fabry disease is a lysosomal storage disorder that often involves the heart and kidneys, but anterior temporal pole lesions are classic for CADASIL."
+        },
+        {
+          "text": "MELAS",
+          "isCorrect": false,
+          "rationale": "MELAS typically presents with stroke-like episodes that cross vascular territories and involves elevated lactate, not specific temporal pole lesions."
+        },
+        {
+          "text": "CADASIL",
+          "isCorrect": true,
+          "rationale": "CADASIL is caused by NOTCH3 mutations and has a high predilection for white matter changes in the external capsule and anterior temporal poles."
+        },
+        {
+          "text": "Factor V Leiden",
+          "isCorrect": false,
+          "rationale": "Factor V Leiden is a common thrombophilia but does not cause the specific neuroimaging signature seen in monogenic small vessel diseases."
+        }
+      ],
+      "hint": "Focus on the specific anatomical location of the white matter disease mentioned.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient is suspected of having a subarachnoid hemorrhage (SAH). The head CT is negative. What is the most appropriate next step, and what finding would confirm the diagnosis?",
+      "answerOptions": [
+        {
+          "text": "Repeat CT in 24 hours; looking for hypodensity.",
+          "isCorrect": false,
+          "rationale": "CT sensitivity for blood actually *decreases* over time; repeating a negative CT is not the standard of care for SAH."
+        },
+        {
+          "text": "Lumbar puncture; looking for xanthochromia.",
+          "isCorrect": true,
+          "rationale": "If CT is negative but suspicion remains high, LP is required to check for xanthochromia, which takes 6-12 hours to develop."
+        },
+        {
+          "text": "Carotid Doppler; looking for vasospasm.",
+          "isCorrect": false,
+          "rationale": "Vasospasm is a complication of SAH, not a method for initial diagnosis, and is better monitored with TCD."
+        },
+        {
+          "text": "EEG; looking for post-stroke seizures.",
+          "isCorrect": false,
+          "rationale": "EEG is used to evaluate for seizures or consciousness levels but cannot diagnose the presence of subarachnoid blood."
+        }
+      ],
+      "hint": "Remember the 'gold standard' procedure for when imaging fails to detect blood in the CSF spaces.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Why might a patient with a large right-hemisphere MCA stroke score lower on the NIH Stroke Scale (NIHSS) than a patient with a smaller left-hemisphere MCA stroke?",
+      "answerOptions": [
+        {
+          "text": "The NIHSS does not include items for motor weakness or leg drift.",
+          "isCorrect": false,
+          "rationale": "The NIHSS includes several items for motor function in all four extremities."
+        },
+        {
+          "text": "The scale is heavily weighted toward aphasia, which is typically a left-hemisphere function.",
+          "isCorrect": true,
+          "rationale": "Aphasia (language) can score up to 3 points, while neglect (common in right-hemisphere strokes) maxes out at 2, biasing the scale toward left-sided deficits."
+        },
+        {
+          "text": "Right-hemisphere strokes never cause neglect or extinction.",
+          "isCorrect": false,
+          "rationale": "Right-hemisphere strokes are actually the primary cause of significant hemispatial neglect."
+        },
+        {
+          "text": "The NIHSS is only designed to evaluate the posterior circulation.",
+          "isCorrect": false,
+          "rationale": "The NIHSS is actually criticized for *under-representing* the posterior circulation and being weighted toward the anterior circulation."
+        }
+      ],
+      "hint": "Consider which neurological domain (language vs. attention) is given more 'points' in the 15-item scale.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to the 2023 ESO Guidelines for Primary Angiitis of the Central Nervous System (PACNS), what remains the gold standard for diagnosis?",
+      "answerOptions": [
+        {
+          "text": "CSF analysis showing pleocytosis and high protein.",
+          "isCorrect": false,
+          "rationale": "CSF findings in PACNS are non-specific and lack sufficient evidence to serve as a standalone diagnostic tool."
+        },
+        {
+          "text": "CTA showing a 'string of beads' appearance.",
+          "isCorrect": false,
+          "rationale": "While 'string of beads' is suggestive, CTA has lower sensitivity than DSA, and neither is the absolute gold standard."
+        },
+        {
+          "text": "Brain and meningeal biopsy showing vessel wall inflammation.",
+          "isCorrect": true,
+          "rationale": "Neuropathological examination (biopsy) remains the gold standard, as it provides definitive evidence of vasculitis and rules out mimics."
+        },
+        {
+          "text": "Response to a trial of high-dose steroids.",
+          "isCorrect": false,
+          "rationale": "Diagnosis should be established before long-term immunosuppression, as many other conditions (like infections) can improve or worsen with steroids."
+        }
+      ],
+      "hint": "Identify the most definitive way to confirm tissue-level inflammation.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "question": "FDA-cleared AI tools for Large Vessel Occlusion (LVO) detection on CTA have shown which of the following impacts on clinical workflow?",
+      "answerOptions": [
+        {
+          "text": "They have increased the time to treatment due to software processing delays.",
+          "isCorrect": false,
+          "rationale": "AI tools are designed for speed, typically processing images and alerting teams in under 5 minutes."
+        },
+        {
+          "text": "They have reduced the average CTA-to-door-in transfer intervals at primary stroke centers by over 20 minutes.",
+          "isCorrect": true,
+          "rationale": "By providing automated, real-time alerts to the stroke team, AI can significantly accelerate triage and transfer for thrombectomy."
+        },
+        {
+          "text": "They have replaced the need for neuroradiologists in the acute setting.",
+          "isCorrect": false,
+          "rationale": "AI is a decision-support tool meant to assist and speed up the process, not replace the final expert clinical review."
+        },
+        {
+          "text": "They are only accurate for posterior circulation (basilar) occlusions.",
+          "isCorrect": false,
+          "rationale": "AI tools are highly sensitive for detecting occlusions in the major anterior vessels (ICA, M1, M2) as well."
+        }
+      ],
+      "hint": "Look for a benefit related to speed and efficiency in patient transfer.",
+      "boardReadiness": "BOARD-EMERGING"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" font-family="Inter, Helvetica, Arial, sans-serif">
+  <rect width="600" height="800" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="300" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#0F172A">Corticospinal Tract</text>
+  <text x="300" y="52" text-anchor="middle" font-size="12" fill="#64748B">Motor Pathway from Cortex to Spinal Cord</text>
+
+  <!-- ═══ MOTOR CORTEX ═══ -->
+  <path d="M180,90 Q300,70 420,90 Q440,100 440,120 Q440,140 420,150 Q300,170 180,150 Q160,140 160,120 Q160,100 180,90Z"
+        fill="#DC2626" fill-opacity="0.15" stroke="#DC2626" stroke-width="2"/>
+  <text x="300" y="118" text-anchor="middle" font-size="13" font-weight="700" fill="#DC2626">Primary Motor Cortex</text>
+  <text x="300" y="134" text-anchor="middle" font-size="10" fill="#DC2626">Precentral Gyrus (Area 4)</text>
+
+  <!-- Upper motor neurons descending -->
+  <path d="M270,150 Q270,180 275,200" stroke="#DC2626" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M330,150 Q330,180 325,200" stroke="#DC2626" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- ═══ CORONA RADIATA ═══ -->
+  <path d="M240,200 Q300,195 360,200 Q370,210 370,230 Q370,250 350,260 Q300,270 250,260 Q230,250 230,230 Q230,210 240,200Z"
+        fill="#0284C7" fill-opacity="0.12" stroke="#0284C7" stroke-width="1.5"/>
+  <text x="300" y="235" text-anchor="middle" font-size="12" font-weight="600" fill="#0284C7">Corona Radiata</text>
+
+  <!-- Annotation -->
+  <line x1="370" y1="230" x2="460" y2="220" stroke="#0284C7" stroke-width="1"/>
+  <rect x="462" y="205" width="130" height="35" rx="6" fill="#EFF6FF" stroke="#0284C7" stroke-opacity="0.3"/>
+  <text x="472" y="220" font-size="9" fill="#0284C7" font-weight="600">Fan-shaped fibers</text>
+  <text x="472" y="232" font-size="8" fill="#0F172A">converging downward</text>
+
+  <!-- Fibers converging -->
+  <path d="M260,260 Q280,290 290,310" stroke="#DC2626" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M340,260 Q320,290 310,310" stroke="#DC2626" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- ═══ INTERNAL CAPSULE (PLIC) ═══ -->
+  <rect x="265" y="310" width="70" height="55" rx="8" fill="#D97706" fill-opacity="0.2" stroke="#D97706" stroke-width="2.5"/>
+  <text x="300" y="332" text-anchor="middle" font-size="11" font-weight="700" fill="#D97706">Internal</text>
+  <text x="300" y="346" text-anchor="middle" font-size="11" font-weight="700" fill="#D97706">Capsule</text>
+  <text x="300" y="360" text-anchor="middle" font-size="9" font-weight="600" fill="#D97706">(PLIC)</text>
+
+  <!-- PLIC annotation - key clinical point -->
+  <line x1="335" y1="335" x2="460" y2="320" stroke="#D97706" stroke-width="1"/>
+  <rect x="462" y="295" width="130" height="55" rx="6" fill="#FFF7ED" stroke="#D97706" stroke-opacity="0.3"/>
+  <text x="472" y="310" font-size="9" font-weight="700" fill="#D97706">CRITICAL SITE</text>
+  <text x="472" y="324" font-size="8" fill="#0F172A">Dense packing of motor</text>
+  <text x="472" y="336" font-size="8" fill="#0F172A">fibers. Small lacune here</text>
+  <text x="472" y="348" font-size="8" fill="#DC2626" font-weight="600">= dense contralateral</text>
+  <text x="472" y="348" font-size="8" fill="#DC2626" font-weight="600">= dense hemiplegia</text>
+
+  <!-- Fibers continuing down -->
+  <path d="M290,365 Q295,390 298,410" stroke="#DC2626" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M310,365 Q305,390 302,410" stroke="#DC2626" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- ═══ CEREBRAL PEDUNCLE ═══ -->
+  <ellipse cx="300" cy="435" rx="30" ry="20" fill="#4F46E5" fill-opacity="0.15" stroke="#4F46E5" stroke-width="1.5"/>
+  <text x="300" y="433" text-anchor="middle" font-size="10" font-weight="600" fill="#4F46E5">Cerebral</text>
+  <text x="300" y="445" text-anchor="middle" font-size="10" font-weight="600" fill="#4F46E5">Peduncle</text>
+
+  <line x1="330" y1="435" x2="460" y2="430" stroke="#4F46E5" stroke-width="1"/>
+  <text x="465" y="434" font-size="9" fill="#4F46E5" font-weight="600">Midbrain (Weber syndrome site)</text>
+
+  <!-- Continue down -->
+  <line x1="300" y1="455" x2="300" y2="500" stroke="#DC2626" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- ═══ BASIS PONTIS ═══ -->
+  <ellipse cx="300" cy="520" rx="35" ry="18" fill="#0284C7" fill-opacity="0.12" stroke="#0284C7" stroke-width="1.5"/>
+  <text x="300" y="524" text-anchor="middle" font-size="10" font-weight="600" fill="#0284C7">Basis Pontis</text>
+
+  <!-- Continue down -->
+  <line x1="300" y1="538" x2="300" y2="570" stroke="#DC2626" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- ═══ MEDULLARY PYRAMIDS ═══ -->
+  <path d="M280,570 Q300,600 300,620 Q300,600 320,570"
+        fill="#059669" fill-opacity="0.15" stroke="#059669" stroke-width="1.5"/>
+  <text x="300" y="590" text-anchor="middle" font-size="10" font-weight="600" fill="#059669">Pyramid</text>
+
+  <!-- ═══ PYRAMIDAL DECUSSATION ═══ -->
+  <path d="M290,620 Q280,640 260,660" stroke="#DC2626" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M310,620 Q320,640 340,660" stroke="#0284C7" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Crossing -->
+  <path d="M290,620 Q320,640 340,660" stroke="#DC2626" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="4,2"/>
+  <path d="M310,620 Q280,640 260,660" stroke="#0284C7" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="4,2"/>
+
+  <!-- X mark -->
+  <text x="300" y="648" text-anchor="middle" font-size="14" font-weight="700" fill="#DC2626">X</text>
+
+  <line x1="340" y1="640" x2="460" y2="635" stroke="#059669" stroke-width="1"/>
+  <rect x="462" y="618" width="130" height="40" rx="6" fill="#ECFDF5" stroke="#059669" stroke-opacity="0.3"/>
+  <text x="472" y="633" font-size="9" font-weight="700" fill="#059669">Decussation</text>
+  <text x="472" y="646" font-size="8" fill="#0F172A">85-90% fibers cross here</text>
+  <text x="472" y="656" font-size="8" fill="#0F172A">= contralateral control</text>
+
+  <!-- ═══ SPINAL CORD ═══ -->
+  <!-- Lateral CST (crossed - 85-90%) -->
+  <line x1="260" y1="660" x2="250" y2="730" stroke="#DC2626" stroke-width="3" stroke-linecap="round"/>
+  <line x1="340" y1="660" x2="350" y2="730" stroke="#0284C7" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Spinal cord outline -->
+  <rect x="225" y="700" width="150" height="50" rx="20" fill="#F1F5F9" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="300" y="720" text-anchor="middle" font-size="10" font-weight="600" fill="#475569">Spinal Cord</text>
+  <text x="300" y="735" text-anchor="middle" font-size="9" fill="#64748B">Lateral CST</text>
+
+  <!-- Left side annotation panel -->
+  <rect x="10" y="90" width="130" height="110" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="75" y="110" text-anchor="middle" font-size="10" font-weight="700" fill="#0F172A">Key Levels</text>
+  <circle cx="30" cy="130" r="4" fill="#DC2626"/>
+  <text x="40" y="134" font-size="9" fill="#0F172A">Motor cortex</text>
+  <circle cx="30" cy="150" r="4" fill="#D97706"/>
+  <text x="40" y="154" font-size="9" fill="#0F172A">Internal capsule</text>
+  <circle cx="30" cy="170" r="4" fill="#4F46E5"/>
+  <text x="40" y="174" font-size="9" fill="#0F172A">Cerebral peduncle</text>
+  <circle cx="30" cy="190" r="4" fill="#059669"/>
+  <text x="40" y="194" font-size="9" fill="#0F172A">Decussation</text>
+
+  <!-- Board Pearl -->
+  <rect x="10" y="760" width="580" height="30" rx="8" fill="#FFF7ED" stroke="#D97706" stroke-opacity="0.3"/>
+  <text x="20" y="780" font-size="10" font-weight="700" fill="#D97706">Board Pearl:</text>
+  <text x="100" y="780" font-size="10" fill="#0F172A">PLIC lacune = pure motor hemiparesis (most common lacunar syndrome). Small lesion, dense deficit due to fiber packing.</text>
+</svg>

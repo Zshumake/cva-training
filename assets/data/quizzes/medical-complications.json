@@ -1,0 +1,276 @@
+{
+  "module": "medical-complications",
+  "title": "Stroke Quiz",
+  "questions": [
+    {
+      "question": "According to board-core literature, what is the most common cause of death in stroke patients between 2 and 4 weeks post-insult?",
+      "answerOptions": [
+        {
+          "text": "Recurrent ischemic stroke",
+          "isCorrect": false,
+          "rationale": "While recurrent stroke is a significant risk, it is not cited as the primary cause of mortality specifically during the 2-to-4-week window."
+        },
+        {
+          "text": "Pulmonary embolism (PE)",
+          "isCorrect": true,
+          "rationale": "PE is identified as the leading cause of death during the subacute phase, typically occurring between 2 and 4 weeks post-stroke."
+        },
+        {
+          "text": "Aspiration pneumonia",
+          "isCorrect": false,
+          "rationale": "Pneumonia is a very frequent complication (40%), but it is not the single most common cause of death in the specific 2-to-4-week timeframe."
+        },
+        {
+          "text": "Acute myocardial infarction",
+          "isCorrect": false,
+          "rationale": "Cardiac events are the leading cause of long-term mortality, but PE takes precedence in the immediate weeks following the stroke."
+        }
+      ],
+      "hint": "This condition is a secondary complication of venous stasis in the paretic limbs.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Based on the results of the CLOTS 1 and CLOTS 3 trials, which strategy is recommended for DVT prophylaxis in immobile stroke patients?",
+      "answerOptions": [
+        {
+          "text": "Thigh-length graduated compression stockings (GCS)",
+          "isCorrect": false,
+          "rationale": "The CLOTS 1 trial demonstrated that GCS did not reduce DVT risk and actually increased skin complications."
+        },
+        {
+          "text": "Below-knee graduated compression stockings (GCS)",
+          "isCorrect": false,
+          "rationale": "The CLOTS 2 trial found that neither thigh-length nor below-knee stockings were effective for DVT prevention."
+        },
+        {
+          "text": "Intermittent pneumatic compression (IPC) devices",
+          "isCorrect": true,
+          "rationale": "The CLOTS 3 trial showed a significant reduction in DVT incidence with the use of IPC, with an absolute risk reduction of approximately 3.6\\%."
+        },
+        {
+          "text": "Bed rest until the paretic limb regains Trace strength",
+          "isCorrect": false,
+          "rationale": "Early mobilization is actually the most important nonpharmacologic intervention for preventing DVT."
+        }
+      ],
+      "hint": "Consider which physical modality was found to have a significant Number Needed to Treat (NNT) of 28.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient with a right-sided middle cerebral artery (MCA) stroke presents with urinary frequency and urgency. What is the most likely neurogenic bladder classification?",
+      "answerOptions": [
+        {
+          "text": "Areflexic (flaccid) bladder",
+          "isCorrect": false,
+          "rationale": "This type is more typical of the acute spinal shock phase rather than the established upper motor neuron lesion resulting from a stroke."
+        },
+        {
+          "text": "Uninhibited neurogenic (spastic) bladder",
+          "isCorrect": true,
+          "rationale": "Stroke is an upper motor neuron lesion that causes a loss of cortical inhibition, leading to detrusor hyperreflexia."
+        },
+        {
+          "text": "Detrusor-sphincter dyssynergia",
+          "isCorrect": false,
+          "rationale": "While it involves incoordination, the primary mechanism in cortical strokes is the loss of inhibitory control over the pontine micturition center."
+        },
+        {
+          "text": "Autonomous bladder",
+          "isCorrect": false,
+          "rationale": "This term is not standard for post-stroke bladder dysfunction, which typically presents as hyperreflexia."
+        }
+      ],
+      "hint": "This condition involves detrusor hyperreflexia due to the loss of cortical control.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Lesions in which specific area of the brain are most strongly associated with sympathetic overactivity, leading to a higher risk of arrhythmias and myocardial injury?",
+      "answerOptions": [
+        {
+          "text": "Left insular cortex",
+          "isCorrect": false,
+          "rationale": "Left-sided insular lesions are generally associated with parasympathetic overactivity, which causes bradycardia and hypotension."
+        },
+        {
+          "text": "Right insular cortex",
+          "isCorrect": true,
+          "rationale": "The right insula is the primary center for sympathetic cardiovascular regulation; damage here leads to a catecholamine surge and cardiac damage."
+        },
+        {
+          "text": "Bilateral occipital lobes",
+          "isCorrect": false,
+          "rationale": "The occipital lobes are primarily involved in visual processing and do not have a direct role in autonomic cardiac regulation."
+        },
+        {
+          "text": "Cerebellar vermis",
+          "isCorrect": false,
+          "rationale": "While the cerebellum assists with coordination, the insular cortex is the cortical hub for the 'Stroke-Heart Syndrome' pathology."
+        }
+      ],
+      "hint": "Damage to the right side of this specific cortical center causes an 'autonomic storm'.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which of the following statements regarding post-stroke seizures is correct according to current clinical guidelines?",
+      "answerOptions": [
+        {
+          "text": "Prophylactic anticonvulsants are recommended for all cortical strokes",
+          "isCorrect": false,
+          "rationale": "Current guidelines do not recommend the use of prophylactic anti-seizure medications (ASMs) in stroke patients."
+        },
+        {
+          "text": "Early seizures (<7 days) have a high recurrence risk (>70\\%)",
+          "isCorrect": false,
+          "rationale": "Early seizures are often considered provoked and have a lower recurrence risk of approximately 30\\%."
+        },
+        {
+          "text": "Late seizures (>7 days) represent true epilepsy with a high recurrence risk",
+          "isCorrect": true,
+          "rationale": "Late-onset seizures are caused by permanent structural changes like gliosis and carry a 50\\%-70\\% risk of recurrence."
+        },
+        {
+          "text": "Phenytoin is the preferred first-line agent for long-term management",
+          "isCorrect": false,
+          "rationale": "Levetiracetam or lamotrigine are preferred over phenytoin due to better tolerability and fewer drug interactions."
+        }
+      ],
+      "hint": "Differentiate between 'provoked' acute events and 'epileptogenesis' from scar formation.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient experiences burning, contralateral pain and allodynia several months after a stroke. Which medication is considered to have the most robust evidence for this condition?",
+      "answerOptions": [
+        {
+          "text": "Oxycodone",
+          "isCorrect": false,
+          "rationale": "Opioids are generally considered ineffective for the treatment of Central Post-Stroke Pain (CPSP)."
+        },
+        {
+          "text": "Amitriptyline",
+          "isCorrect": true,
+          "rationale": "Tricyclic antidepressants like amitriptyline are the first-line treatment with the most robust evidence for central neuropathic pain."
+        },
+        {
+          "text": "Naproxen",
+          "isCorrect": false,
+          "rationale": "NSAIDs are useful for musculoskeletal pain but do not address the central sensitization mechanism of CPSP."
+        },
+        {
+          "text": "Baclofen",
+          "isCorrect": false,
+          "rationale": "Baclofen targets spasticity-related pain but is not the primary treatment for thalamic or spinothalamocortical pathway lesions."
+        }
+      ],
+      "hint": "The condition is Central Post-Stroke Pain, and the treatment is a traditional tricyclic antidepressant.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "For a patient with suspected Complex Regional Pain Syndrome (CRPS) in the hemiplegic upper extremity, which diagnostic test is considered most sensitive in the early stages?",
+      "answerOptions": [
+        {
+          "text": "Plain X-ray of the hand",
+          "isCorrect": false,
+          "rationale": "X-rays may only show patchy demineralization in later stages and are not sensitive for early diagnosis."
+        },
+        {
+          "text": "Electromyography (EMG)",
+          "isCorrect": false,
+          "rationale": "EMG is useful for ruling out peripheral nerve entrapment but does not diagnose the autonomic changes of CRPS."
+        },
+        {
+          "text": "Triple-phase bone scan",
+          "isCorrect": true,
+          "rationale": "The triple-phase bone scan is highly sensitive (92\\%) for detecting early vasomotor and metabolic changes in CRPS Stage 1."
+        },
+        {
+          "text": "Serum alkaline phosphatase",
+          "isCorrect": false,
+          "rationale": "This marker is useful for monitoring Heterotopic Ossification but is not a diagnostic standard for CRPS."
+        }
+      ],
+      "hint": "This nuclear medicine study can detect increased periarticular uptake before structural changes appear on X-ray.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A stroke patient is assessed using the Braden Scale and receives a score of 11. How should this score be interpreted regarding pressure injury risk?",
+      "answerOptions": [
+        {
+          "text": "Low risk; standard care is sufficient",
+          "isCorrect": false,
+          "rationale": "A score of 11 is well below the threshold for being 'at risk' and indicates a much higher level of concern."
+        },
+        {
+          "text": "Moderate risk; initiate turning schedule every 4 hours",
+          "isCorrect": false,
+          "rationale": "While a score of 11 requires action, the 2-hour turning standard is the minimum for high-risk individuals."
+        },
+        {
+          "text": "High risk; require aggressive prevention strategies",
+          "isCorrect": true,
+          "rationale": "On the Braden Scale, lower scores indicate higher risk; a score of 12 or less is classified as high risk."
+        },
+        {
+          "text": "The score is invalid because the patient is hemiplegic",
+          "isCorrect": false,
+          "rationale": "The Braden Scale remains the most widely used and validated tool for stroke patients, despite their inherent risk factors."
+        }
+      ],
+      "hint": "Remember that on this scale, a lower number signifies a greater threat to skin integrity.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which new recommendation was included in the 2024 VA/DoD Clinical Practice Guideline for the management of hemiplegic shoulder pain?",
+      "answerOptions": [
+        {
+          "text": "Routine use of slings for all patients",
+          "isCorrect": false,
+          "rationale": "Guidelines typically focus on functional orthoses for subluxation rather than universal sling use for all stroke patients."
+        },
+        {
+          "text": "Extracorporeal shock wave therapy (ESWT)",
+          "isCorrect": true,
+          "rationale": "The 2024 update specifically added ESWT as a recommended intervention for hemiplegic shoulder pain."
+        },
+        {
+          "text": "Aggressive high-intensity stretching",
+          "isCorrect": false,
+          "rationale": "Aggressive stretching can cause microtrauma to the shoulder joint; ROM should be gentle and controlled."
+        },
+        {
+          "text": "Surgical rotator cuff repair in the acute phase",
+          "isCorrect": false,
+          "rationale": "Surgical interventions are generally not the first-line recommendation in the guidelines for post-stroke shoulder pain."
+        }
+      ],
+      "hint": "This non-invasive modality uses acoustic waves to treat musculoskeletal conditions.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "question": "Regarding osteoporosis after stroke, where is the decrease in bone mineral density (BMD) most significant and what is the resulting fracture risk?",
+      "answerOptions": [
+        {
+          "text": "Bilateral hips; 2\\times fracture risk",
+          "isCorrect": false,
+          "rationale": "Bone loss is primarily unilateral, affecting the paretic side much more than the non-paretic side."
+        },
+        {
+          "text": "Paretic side; 4\\times fracture risk",
+          "isCorrect": true,
+          "rationale": "BMD decreases significantly on the hemiplegic side due to lack of weight-bearing, leading to a four-fold increase in fracture risk."
+        },
+        {
+          "text": "Non-paretic side; 4\\times fracture risk",
+          "isCorrect": false,
+          "rationale": "The non-paretic side usually maintains better BMD due to compensatory overuse and weight-bearing."
+        },
+        {
+          "text": "Axial skeleton (spine); 10\\times fracture risk",
+          "isCorrect": false,
+          "rationale": "While the spine can be affected, the most vulnerable areas cited are the hemiplegic hip and proximal humerus."
+        }
+      ],
+      "hint": "Immobility leads to rapid bone resorption specifically in the limbs that are not being used.",
+      "boardReadiness": "BOARD-CORE"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "module": "dysphagia",
+  "title": "Dysphagia Quiz",
+  "questions": [
+    {
+      "question": "Which of the following is considered the most common cause of dysphagia in the acute phase following a stroke?",
+      "answerOptions": [
+        {
+          "text": "Delayed pharyngeal swallow trigger",
+          "isCorrect": true,
+          "rationale": "Research identifies the delay in initiating the pharyngeal reflex as the primary physiological deficit in post-stroke swallowing dysfunction."
+        },
+        {
+          "text": "Cricopharyngeal achalasia",
+          "isCorrect": false,
+          "rationale": "While this involves the upper esophageal sphincter, it is a specific motility issue rather than the most frequent general post-stroke deficit."
+        },
+        {
+          "text": "Reduced tongue base retraction",
+          "isCorrect": false,
+          "rationale": "This is a common deficit that leads to vallecular residue, but it is statistically less frequent than the initiation delay of the pharyngeal phase."
+        },
+        {
+          "text": "Inadequate lip closure",
+          "isCorrect": false,
+          "rationale": "This affects the oral preparatory phase and causes anterior spillage, but it is not the most common cause of significant dysphagia."
+        }
+      ],
+      "hint": "Focus on the transition between the voluntary oral phase and the involuntary pharyngeal phase.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Damage to the lateral medulla, such as in Wallenberg syndrome, typically results in severe dysphagia due to the involvement of which structure?",
+      "answerOptions": [
+        {
+          "text": "Nucleus ambiguus",
+          "isCorrect": true,
+          "rationale": "This brainstem center contains motor neurons for the vagus and glossopharyngeal nerves that are critical for the pharyngeal swallow reflex."
+        },
+        {
+          "text": "Nucleus tractus solitarius",
+          "isCorrect": false,
+          "rationale": "While this nucleus handles sensory input for taste and visceral sensation, it is not the primary motor center for pharyngeal contraction."
+        },
+        {
+          "text": "Edinger-Westphal nucleus",
+          "isCorrect": false,
+          "rationale": "This nucleus is involved in parasympathetic eye functions and does not play a role in the swallowing mechanism."
+        },
+        {
+          "text": "Hypoglossal nucleus",
+          "isCorrect": false,
+          "rationale": "This nucleus is located more medially in the medulla and controls tongue movements rather than the pharyngeal reflex centers."
+        }
+      ],
+      "hint": "Identify the critical motor center for the pharyngeal and laryngeal muscles located in the lateral medulla.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "During a Videofluoroscopic Swallow Study (VFSS), a patient is observed to have material enter the airway, pass below the vocal folds, but no cough or effort is made to eject the material. What is the correct score on the Rosenbek Penetration-Aspiration Scale (PAS)?",
+      "answerOptions": [
+        {
+          "text": "PAS 8",
+          "isCorrect": true,
+          "rationale": "A score of 8 specifically denotes silent aspiration, where material passes the vocal folds without a reflexive response."
+        },
+        {
+          "text": "PAS 5",
+          "isCorrect": false,
+          "rationale": "A score of 5 indicates that material contacts the vocal folds but stays above them and is not ejected."
+        },
+        {
+          "text": "PAS 6",
+          "isCorrect": false,
+          "rationale": "A score of 6 indicates that material passes below the vocal folds but is successfully ejected by the patient."
+        },
+        {
+          "text": "PAS 7",
+          "isCorrect": false,
+          "rationale": "A score of 7 indicates material passes below the vocal folds and the patient makes an effort to eject it, but remains unsuccessful."
+        }
+      ],
+      "hint": "This score represents the most dangerous form of aspiration due to the absence of a cough reflex.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient exhibits significant residue in the right pyriform sinus after swallowing. Which compensatory strategy is most appropriate to test during the instrumental evaluation?",
+      "answerOptions": [
+        {
+          "text": "Head rotation toward the right side",
+          "isCorrect": true,
+          "rationale": "Rotating the head toward the weak side closes off that side's pyriform sinus, directing the bolus through the stronger, more functional side."
+        },
+        {
+          "text": "Chin tuck maneuver",
+          "isCorrect": false,
+          "rationale": "The chin tuck is primarily used for delayed triggers and airway protection rather than clearing unilateral pharyngeal residue."
+        },
+        {
+          "text": "Head tilt toward the right side",
+          "isCorrect": false,
+          "rationale": "Tilting toward the weak side would use gravity to pull the bolus into the weaker area, potentially worsening the residue and risk."
+        },
+        {
+          "text": "Supraglottic swallow",
+          "isCorrect": false,
+          "rationale": "This technique is designed to improve vocal fold closure and airway protection rather than clearing pharyngeal residue."
+        }
+      ],
+      "hint": "Consider a technique that physically alters the pharyngeal space to bypass the side of weakness.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Under the International Dysphagia Diet Standardisation Initiative (IDDSI) framework, which level corresponds to 'Minced & Moist' food, characterized by 4 mm pieces that can be easily mashed with a fork?",
+      "answerOptions": [
+        {
+          "text": "Level 5",
+          "isCorrect": true,
+          "rationale": "Level 5 defines food that is minced and moist, requiring minimal chewing and fitting specific particle size requirements for safety."
+        },
+        {
+          "text": "Level 4",
+          "isCorrect": false,
+          "rationale": "Level 4 represents pureed food which should be smooth with no lumps, rather than minced pieces."
+        },
+        {
+          "text": "Level 6",
+          "isCorrect": false,
+          "rationale": "Level 6 corresponds to 'Soft & Bite-Sized' food, which allows for larger 1.5 cm pieces compared to the minced level."
+        },
+        {
+          "text": "Level 3",
+          "isCorrect": false,
+          "rationale": "Level 3 is 'Liquidized' food, which is thinner and more fluid than minced or moist solids."
+        }
+      ],
+      "hint": "This level sits between pureed and soft/bite-sized textures.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which rehabilitative exercise is specifically designed to strengthen the suprahyoid muscles to improve the duration and width of Upper Esophageal Sphincter (UES) opening?",
+      "answerOptions": [
+        {
+          "text": "Shaker exercise (Head Lift)",
+          "isCorrect": true,
+          "rationale": "This isometric and isotonic head-lifting exercise targets the muscles responsible for hyolaryngeal excursion, which mechanically pulls the UES open."
+        },
+        {
+          "text": "Masako maneuver",
+          "isCorrect": false,
+          "rationale": "The tongue-hold maneuver targets posterior pharyngeal wall compensation rather than the suprahyoid muscles for UES opening."
+        },
+        {
+          "text": "Effortful swallow",
+          "isCorrect": false,
+          "rationale": "This technique focuses on increasing tongue base pressure against the pharyngeal wall to clear vallecular residue."
+        },
+        {
+          "text": "Thermal-tactile stimulation",
+          "isCorrect": false,
+          "rationale": "This is a sensory treatment designed to improve the speed of the swallow trigger rather than muscle strength."
+        }
+      ],
+      "hint": "This exercise is performed while lying supine on a flat surface.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to the 'NPO Paradox' highlighted in 2025 research, why does strictly withholding oral intake (NPO) often fail to prevent stroke-associated pneumonia (SAP)?",
+      "answerOptions": [
+        {
+          "text": "Aspiration of colonized oral secretions is the primary driver of SAP",
+          "isCorrect": true,
+          "rationale": "Most SAP occurs before oral intake begins, suggesting that bacteria from the mouth, not food or drink, are the main cause of infection."
+        },
+        {
+          "text": "NG tubes provide a direct route for stomach bacteria to the lungs",
+          "isCorrect": false,
+          "rationale": "While NG tubes carry risks, the research emphasizes that oral secretion aspiration is a more fundamental driver than tube-related infection."
+        },
+        {
+          "text": "NPO status causes rapid atrophy of the pharyngeal constrictors",
+          "isCorrect": false,
+          "rationale": "While disuse atrophy is a concern, it is not the immediate reason that NPO fails to prevent pneumonia in the acute phase."
+        },
+        {
+          "text": "The lack of hydration thickens lung mucus, preventing clearance",
+          "isCorrect": false,
+          "rationale": "Systemic hydration can be maintained via IV or tube, so this is not the primary mechanism behind the failure of NPO to prevent SAP."
+        }
+      ],
+      "hint": "Consider the role of oral hygiene and the substances a patient might swallow even without eating.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "question": "A patient with a tracheostomy is being considered for a Passy-Muir Speaking Valve (PMV). What is the most critical safety step that must be taken prior to placing the valve?",
+      "answerOptions": [
+        {
+          "text": "The tracheostomy cuff must be fully deflated",
+          "isCorrect": true,
+          "rationale": "Because the PMV is a one-way valve that allows air in but not out, a deflated cuff is required to allow air to escape around the tube and through the upper airway."
+        },
+        {
+          "text": "The tracheostomy cuff must be fully inflated",
+          "isCorrect": false,
+          "rationale": "Placing a PMV with an inflated cuff would trap air in the lungs, creating a closed system and causing immediate respiratory distress."
+        },
+        {
+          "text": "The patient must be able to tolerate a fenestrated tube first",
+          "isCorrect": false,
+          "rationale": "While fenestrated tubes assist with voicing, they are not a prerequisite for using a PMV if the cuff can be deflated."
+        },
+        {
+          "text": "Suctioning must be performed every 5 minutes while the valve is on",
+          "isCorrect": false,
+          "rationale": "While suctioning is important for secretion management, it is not the primary safety requirement for the mechanical operation of the valve."
+        }
+      ],
+      "hint": "Consider how air must exit the body when a one-way valve is placed over the only external airway opening.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "When comparing enteral feeding options in a stroke patient who is expected to be unable to meet nutritional needs for more than 4 weeks, what does the evidence suggest regarding PEG placement?",
+      "answerOptions": [
+        {
+          "text": "PEG does not eliminate the risk of aspiration pneumonia",
+          "isCorrect": true,
+          "rationale": "Patients can still aspirate their own oral secretions or refluxed gastric contents regardless of the presence of a feeding tube."
+        },
+        {
+          "text": "PEG significantly reduces the risk of aspiration compared to NG tubes",
+          "isCorrect": false,
+          "rationale": "Evidence, including the FOOD trial, suggests that PEG does not provide a protective benefit against pneumonia compared to NG tubes."
+        },
+        {
+          "text": "PEG should be placed within the first 7 days for all dysphagic patients",
+          "isCorrect": false,
+          "rationale": "Guidelines usually recommend NG tubes for the first 2-4 weeks as many patients recover swallowing function during this window."
+        },
+        {
+          "text": "PEG tubes are associated with higher rates of long-term survival in stroke",
+          "isCorrect": false,
+          "rationale": "Clinical trials have not consistently demonstrated a survival advantage for early PEG placement in the acute stroke population."
+        }
+      ],
+      "hint": "Think about the source of the material being aspirated and whether a tube changes that source.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which neurostimulation approach is suggested by the ESO-ESSD 2021 guidelines specifically to help accelerate decannulation in tracheotomized stroke patients with severe dysphagia?",
+      "answerOptions": [
+        {
+          "text": "Pharyngeal Electrical Stimulation (PES)",
+          "isCorrect": true,
+          "rationale": "The PHAST-TRAC trial showed that PES delivered via an intraluminal catheter significantly improved decannulation rates compared to sham treatment."
+        },
+        {
+          "text": "Repetitive Transcranial Magnetic Stimulation (rTMS)",
+          "isCorrect": false,
+          "rationale": "While rTMS is emerging for general dysphagia, it is not the specific modality highlighted for the acceleration of decannulation in tracheostomy."
+        },
+        {
+          "text": "Transcranial Direct Current Stimulation (tDCS)",
+          "isCorrect": false,
+          "rationale": "Similar to rTMS, tDCS is an adjunct for swallowing therapy but lacks the specific targeted evidence for decannulation found with PES."
+        },
+        {
+          "text": "VitalStim (Neuromuscular Electrical Stimulation)",
+          "isCorrect": false,
+          "rationale": "VitalStim is a surface-level stimulation used as a therapy adjunct; it is not the intraluminal method associated with decannulation protocols."
+        }
+      ],
+      "hint": "This method involves a catheter that delivers stimulation directly to the pharyngeal mucosa.",
+      "boardReadiness": "BOARD-EMERGING"
+    }
+  ]
+}

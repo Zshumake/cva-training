@@ -1,0 +1,411 @@
+{
+  "module": "spasticity-shoulder",
+  "title": "Spasticity Quiz",
+  "questions": [
+    {
+      "question": "Which pathophysiological mechanism is primarily responsible for the development of spasticity following an upper motor neuron lesion such as a stroke?",
+      "answerOptions": [
+        {
+          "text": "Loss of alpha motor neuron excitability within the spinal cord",
+          "isCorrect": false,
+          "rationale": "Spasticity involves increased, rather than decreased, excitability of alpha motor neurons due to a loss of inhibitory control."
+        },
+        {
+          "text": "Imbalance between excitatory medial reticulospinal and inhibitory dorsal reticulospinal pathways",
+          "isCorrect": true,
+          "rationale": "Spasticity results from the loss of descending inhibition, leading to an imbalance where excitatory inputs like the medial reticulospinal tract predominate."
+        },
+        {
+          "text": "Primary transformation of type II muscle fibers into type I fibers",
+          "isCorrect": false,
+          "rationale": "The document notes a transformation from type I to type II muscle fibers as a secondary change, not the primary neural mechanism."
+        },
+        {
+          "text": "Immediate hypersensitivity of the Golgi tendon organ reflex arc",
+          "isCorrect": false,
+          "rationale": "Spasticity is specifically defined by the hyperexcitability of the stretch reflex, which involves the muscle spindle, not primarily the Golgi tendon organ."
+        }
+      ],
+      "hint": "Consider the balance of descending inputs to the spinal motor neurons.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient presents with an upper extremity flexor synergy pattern. Which of the following clinical findings is characteristic of this posture?",
+      "answerOptions": [
+        {
+          "text": "Forearm supination",
+          "isCorrect": false,
+          "rationale": "The classic upper extremity flexor synergy includes forearm pronation, not supination."
+        },
+        {
+          "text": "Shoulder abduction and external rotation",
+          "isCorrect": false,
+          "rationale": "The synergy pattern typically involves shoulder adduction and internal rotation."
+        },
+        {
+          "text": "Wrist flexion and ulnar deviation",
+          "isCorrect": true,
+          "rationale": "The upper extremity flexor synergy is defined by a combination of wrist flexion and ulnar deviation along with elbow flexion."
+        },
+        {
+          "text": "Thumb abduction",
+          "isCorrect": false,
+          "rationale": "The 'thumb-in-palm' deformity is a hallmark of this pattern, which involves thumb adduction."
+        }
+      ],
+      "hint": "Think about the typical 'hemiplegic posture' involving the wrist and forearm.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to the 2025 clinical outcomes review by Gal et al., which assessment tool is currently the ONLY clinician-reported outcome recommended for assessing true velocity-dependent spasticity?",
+      "answerOptions": [
+        {
+          "text": "Modified Ashworth Scale (MAS)",
+          "isCorrect": false,
+          "rationale": "The 2025 update explicitly excluded Ashworth-derived scales because they do not align with contemporary definitions of velocity-dependent spasticity."
+        },
+        {
+          "text": "Modified Tardieu Scale",
+          "isCorrect": true,
+          "rationale": "The Tardieu Scale is now the only recommended tool as it specifically measures the velocity-dependent 'catch' angle (R1)."
+        },
+        {
+          "text": "Fugl-Meyer Assessment (FMA)",
+          "isCorrect": false,
+          "rationale": "The FMA is used to assess motor recovery and function rather than quantifying spasticity itself."
+        },
+        {
+          "text": "Visual Analog Scale (VAS) for Tone",
+          "isCorrect": false,
+          "rationale": "The VAS is a subjective patient-reported measure of intensity, not a standardized clinician-reported tool for quantifying the neural component of spasticity."
+        }
+      ],
+      "hint": "Focus on the tool that differentiates the neural component from muscle contracture.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "question": "When using the Tardieu Scale, what does a small gap between the R2 and R1 angles (e.g., R2 - R1 \\approx 5^{\\circ}) typically signify?",
+      "answerOptions": [
+        {
+          "text": "High dynamic spasticity amenable to botulinum toxin",
+          "isCorrect": false,
+          "rationale": "A large gap indicates significant dynamic spasticity; a small gap suggests the limitation is due to structural changes."
+        },
+        {
+          "text": "Fixed contracture requiring serial casting or surgery",
+          "isCorrect": true,
+          "rationale": "A small gap with limited range of motion (R2) indicates that the resistance is likely due to non-neural components like contracture."
+        },
+        {
+          "text": "Normal muscle tone with no spasticity",
+          "isCorrect": false,
+          "rationale": "While the gap is small, the overall R2 would still be significantly limited compared to normal range in a contracture."
+        },
+        {
+          "text": "Isolated alpha motor neuron hyperexcitability",
+          "isCorrect": false,
+          "rationale": "Neural hyperexcitability would manifest as a larger 'catch' angle discrepancy (R1) compared to the full slow range (R2)."
+        }
+      ],
+      "hint": "Consider what it means when the 'catch' angle is nearly the same as the full passive range.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which oral antispasticity agent is unique because its mechanism of action is peripheral, targeting the ryanodine receptor at the muscle level?",
+      "answerOptions": [
+        {
+          "text": "Baclofen",
+          "isCorrect": false,
+          "rationale": "Baclofen is a central GABA-B receptor agonist that acts at the spinal cord level."
+        },
+        {
+          "text": "Tizanidine",
+          "isCorrect": false,
+          "rationale": "Tizanidine acts centrally as an alpha-2 adrenergic agonist."
+        },
+        {
+          "text": "Dantrolene",
+          "isCorrect": true,
+          "rationale": "Dantrolene is the only oral agent that acts directly on the muscle by inhibiting calcium release from the sarcoplasmic reticulum."
+        },
+        {
+          "text": "Diazepam",
+          "isCorrect": false,
+          "rationale": "Diazepam is a central GABA-A agonist that increases presynaptic inhibition."
+        }
+      ],
+      "hint": "This medication is often chosen when central side effects like sedation must be minimized, though it carries risks of hepatotoxicity.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to the 2023 Bayesian Network Meta-analysis, which guidance method is ranked BEST for the injection of botulinum toxin in spasticity management?",
+      "answerOptions": [
+        {
+          "text": "Anatomic localization via surface landmarks",
+          "isCorrect": false,
+          "rationale": "Anatomic localization is significantly less accurate and is ranked lower than all guided methods."
+        },
+        {
+          "text": "Electromyography (EMG)",
+          "isCorrect": false,
+          "rationale": "While effective, EMG is ranked lower than ultrasound guidance in the 2023 evidence review."
+        },
+        {
+          "text": "Ultrasound (US)",
+          "isCorrect": true,
+          "rationale": "Ultrasound allows for real-time visualization of the target muscle and nearby neurovascular structures, making it the highest-ranked guidance method."
+        },
+        {
+          "text": "Electrical stimulation (e-stim)",
+          "isCorrect": false,
+          "rationale": "E-stim is effective but ranks behind ultrasound in the meta-analysis of injection accuracy and outcomes."
+        }
+      ],
+      "hint": "Identify the technique that allows for real-time visual confirmation of needle placement.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Why is phenol neurolysis often preferred for the obturator nerve compared to the tibial nerve in stroke patients with lower extremity spasticity?",
+      "answerOptions": [
+        {
+          "text": "The obturator nerve is easier to localize with surface palpation",
+          "isCorrect": false,
+          "rationale": "Localization of both nerves usually requires e-stim or ultrasound; ease of access is not the primary reason for the preference."
+        },
+        {
+          "text": "The obturator nerve is a pure motor nerve, minimizing the risk of dysesthesia",
+          "isCorrect": true,
+          "rationale": "Phenol injections into mixed motor/sensory nerves like the tibial nerve carry a high risk of painful dysesthesia, which is avoided in pure motor nerves."
+        },
+        {
+          "text": "Phenol has a longer duration of action in the hip adductors than in the gastroc-soleus",
+          "isCorrect": false,
+          "rationale": "The duration of chemical neurolysis depends on the technique and concentration, not the specific muscle group injected."
+        },
+        {
+          "text": "Botulinum toxin is ineffective for hip adductor spasticity",
+          "isCorrect": false,
+          "rationale": "Botulinum toxin is effective for the adductors, but phenol is often used as a cost-effective alternative for these large muscle groups."
+        }
+      ],
+      "hint": "Think about the sensory versus motor fiber composition of these nerves.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which constellation of symptoms most likely indicates a life-threatening Intrathecal Baclofen (ITB) withdrawal emergency?",
+      "answerOptions": [
+        {
+          "text": "Hypothermia, bradycardia, and flaccid paralysis",
+          "isCorrect": false,
+          "rationale": "Withdrawal causes sympathetic overactivity and rebound spasticity, the opposite of these symptoms."
+        },
+        {
+          "text": "High fever, altered mental status, and rebound spasticity",
+          "isCorrect": true,
+          "rationale": "ITB withdrawal presents with hyperthermia, CNS agitation, and severe spasticity, which can lead to rhabdomyolysis and organ failure."
+        },
+        {
+          "text": "Severe hypotension and respiratory depression",
+          "isCorrect": false,
+          "rationale": "These symptoms are more characteristic of a baclofen overdose rather than withdrawal."
+        },
+        {
+          "text": "Nausea, vomiting, and dry mouth",
+          "isCorrect": false,
+          "rationale": "While these can occur, they are non-specific and do not represent the classic life-threatening withdrawal syndrome."
+        }
+      ],
+      "hint": "This condition mimics malignant hyperthermia or autonomic dysreflexia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "In the management of hemiplegic shoulder pain, why does the American Heart Association (AHA) specifically recommend AGAINST the use of overhead pulleys?",
+      "answerOptions": [
+        {
+          "text": "They increase the risk of glenohumeral subluxation",
+          "isCorrect": false,
+          "rationale": "Pulleys are usually used when the arm is already subluxated; the risk is more related to soft tissue trauma."
+        },
+        {
+          "text": "They can cause impingement and labral injury",
+          "isCorrect": true,
+          "rationale": "Passive overhead movement without proper scapular rhythm often leads to humeral head impingement against the acromion."
+        },
+        {
+          "text": "They promote learned non-use of the affected extremity",
+          "isCorrect": false,
+          "rationale": "Learned non-use is related to the lack of active movement, but pulleys are avoided specifically for their high risk of physical injury."
+        },
+        {
+          "text": "They prevent the development of beneficial flexor synergy",
+          "isCorrect": false,
+          "rationale": "Flexor synergy is generally something clinicians try to manage, not promote through pulleys."
+        }
+      ],
+      "hint": "Consider the lack of coordinated scapulohumeral rhythm during passive pulley exercises.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to the 'Basmajian Principle,' which muscles act as the primary vertical stabilizers ('locking mechanism') to prevent inferior glenohumeral subluxation?",
+      "answerOptions": [
+        {
+          "text": "Pectoralis major and Latissimus dorsi",
+          "isCorrect": false,
+          "rationale": "These muscles are primarily adductors and internal rotators, and their overactivity can actually worsen shoulder mechanics."
+        },
+        {
+          "text": "Supraspinatus and Posterior deltoid",
+          "isCorrect": true,
+          "rationale": "These muscles provide the necessary vertical force vector to keep the humeral head seated in the glenoid fossa."
+        },
+        {
+          "text": "Biceps brachii and Brachialis",
+          "isCorrect": false,
+          "rationale": "While the long head of the biceps provides some stability, it is not the primary vertical stabilizer described by Basmajian."
+        },
+        {
+          "text": "Serratus anterior and Trapezius",
+          "isCorrect": false,
+          "rationale": "These muscles stabilize the scapula rather than providing the primary vertical 'lock' for the glenohumeral joint."
+        }
+      ],
+      "hint": "Focus on the muscles that directly resist gravity at the shoulder joint.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient with post-stroke shoulder pain presents with dorsal hand edema, warmth, and exquisite tenderness to compression of the metacarpophalangeal (MCP) joints. What is the most likely diagnosis?",
+      "answerOptions": [
+        {
+          "text": "Central Post-Stroke Pain (Dejerine-Roussy)",
+          "isCorrect": false,
+          "rationale": "Central pain involves hemibody sensory changes but lacks the localized edema and vasomotor signs seen here."
+        },
+        {
+          "text": "Complex Regional Pain Syndrome (CRPS) Type I",
+          "isCorrect": true,
+          "rationale": "The combination of vasomotor changes (edema, warmth) and MCP tenderness (the Wang test) is highly suggestive of early-stage CRPS."
+        },
+        {
+          "text": "Adhesive Capsulitis",
+          "isCorrect": false,
+          "rationale": "Adhesive capsulitis presents with restricted glenohumeral range of motion but typically does not involve distal hand edema."
+        },
+        {
+          "text": "Brachial Plexopathy",
+          "isCorrect": false,
+          "rationale": "While it causes pain and weakness, plexopathy does not typically cause the localized inflammatory-like changes of the distal hand."
+        }
+      ],
+      "hint": "Look for the diagnosis formerly known as 'shoulder-hand syndrome'.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "What is considered the 'gold standard' for the diagnosis of sympathetically mediated pain in Complex Regional Pain Syndrome (CRPS)?",
+      "answerOptions": [
+        {
+          "text": "Triple phase bone scan",
+          "isCorrect": false,
+          "rationale": "Bone scans are highly sensitive for diagnosis, but they do not confirm if the pain is sympathetically mediated."
+        },
+        {
+          "text": "Stellate ganglion block",
+          "isCorrect": true,
+          "rationale": "If the block (evidenced by Horner syndrome) alleviates the pain, it confirms the sympathetic nervous system's involvement."
+        },
+        {
+          "text": "Budapest Criteria clinical evaluation",
+          "isCorrect": false,
+          "rationale": "The Budapest criteria are used for clinical diagnosis but are not a functional test for sympathetic mediation."
+        },
+        {
+          "text": "Electromyography (EMG)",
+          "isCorrect": false,
+          "rationale": "EMG is used to rule out peripheral nerve injury (differentiating Type I from Type II) but does not diagnose sympathetic mediation."
+        }
+      ],
+      "hint": "Identify the procedure that temporarily interrupts the sympathetic supply to the upper extremity.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Regarding heterotopic ossification (HO) in stroke survivors, which of the following is true?",
+      "answerOptions": [
+        {
+          "text": "The most common location is the medial aspect of the hip",
+          "isCorrect": false,
+          "rationale": "Hip HO is more common in SCI; in stroke, the elbow is the most frequent site."
+        },
+        {
+          "text": "The most common location is the extensor (lateral) side of the elbow",
+          "isCorrect": true,
+          "rationale": "Stroke-related HO uniquely tends to involve the lateral elbow, distinguishing it from other neurogenic HO."
+        },
+        {
+          "text": "Surgical excision should be performed as soon as HO is identified on X-ray",
+          "isCorrect": false,
+          "rationale": "Surgery must be delayed until the HO is mature (usually 12\u201318 months) to prevent high recurrence rates."
+        },
+        {
+          "text": "Aggressive, forceful passive range of motion is the treatment of choice",
+          "isCorrect": false,
+          "rationale": "Forceful ROM can actually exacerbate HO; treatment involves gentle ROM within pain-free limits."
+        }
+      ],
+      "hint": "Contrast the typical location of HO in stroke patients with that of patients with spinal cord injuries.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which clinical feature most reliably distinguishes CRPS Type I from Central Post-Stroke Pain (CPSP)?",
+      "answerOptions": [
+        {
+          "text": "The presence of burning pain",
+          "isCorrect": false,
+          "rationale": "Both CRPS and CPSP commonly present with burning sensations."
+        },
+        {
+          "text": "The presence of edema and vasomotor changes",
+          "isCorrect": true,
+          "rationale": "Vascular and trophic changes are hallmarks of CRPS and are generally absent in central thalamic pain."
+        },
+        {
+          "text": "Response to opioid medications",
+          "isCorrect": false,
+          "rationale": "Opioids are generally ineffective for both conditions, so this does not serve as a reliable differentiator."
+        },
+        {
+          "text": "The location of the pain being contralateral to the stroke",
+          "isCorrect": false,
+          "rationale": "Pain in both conditions occurs on the hemiplegic side, which is contralateral to the brain lesion."
+        }
+      ],
+      "hint": "Look for autonomic and trophic signs that are visible on the distal extremity.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which intervention is supported by a 2025 network meta-analysis as the most effective for enhancing functional recovery and reducing shoulder pain during activity specifically?",
+      "answerOptions": [
+        {
+          "text": "Single strap slings",
+          "isCorrect": false,
+          "rationale": "Slings are controversial and often restricted to upright mobility, without strong evidence for functional recovery."
+        },
+        {
+          "text": "Kinesiotaping",
+          "isCorrect": true,
+          "rationale": "Recent evidence highlights kinesiotaping as highly effective for reducing pain during activity and enhancing joint stability/proprioception."
+        },
+        {
+          "text": "Intra-articular hyaluronic acid injections",
+          "isCorrect": false,
+          "rationale": "This is not listed as a primary evidence-based treatment for hemiplegic shoulder pain in the provided source material."
+        },
+        {
+          "text": "Aggressive stretching of the internal rotators",
+          "isCorrect": false,
+          "rationale": "While stretching is part of ROM, it is not cited as the *most* effective intervention for functional recovery in the 2025 analysis."
+        }
+      ],
+      "hint": "This technique provides proprioceptive feedback and joint stability without restricting movement like a sling.",
+      "boardReadiness": "BOARD-LIKELY"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "title": "Vascular Anatomy Quiz",
+  "module": "vascular-anatomy",
+  "questions": [
+    {
+      "question": "In the pathophysiology of ischemic stroke, which cerebral blood flow (CBF) range defines the 'ischemic penumbra', a region of electrically silent but potentially salvageable tissue?",
+      "answerOptions": [
+        {
+          "text": "50-60 mL/100g/min",
+          "isCorrect": false,
+          "rationale": "This range represents normal cerebral blood flow where tissue remains healthy and functional."
+        },
+        {
+          "text": "25-40 mL/100g/min",
+          "isCorrect": false,
+          "rationale": "While this represents a reduction in flow, it is generally above the threshold for electrical failure and the definition of the penumbra."
+        },
+        {
+          "text": "10-20 mL/100g/min",
+          "isCorrect": true,
+          "rationale": "The penumbra is characterized by this specific flow range where neurons are viable but lack the energy to maintain electrical activity."
+        },
+        {
+          "text": "< 10 mL/100g/min",
+          "isCorrect": false,
+          "rationale": "This range defines the infarct core, where irreversible injury occurs within minutes due to profound energy failure."
+        }
+      ],
+      "hint": "Consider the range that sits between normal physiological flow and the threshold for immediate cell death.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A 68-year-old patient presents with a 'stuttering' progression of right-sided weakness that began while they were asleep. Which stroke etiology is most consistent with this presentation?",
+      "answerOptions": [
+        {
+          "text": "Cardioembolism",
+          "isCorrect": false,
+          "rationale": "Embolic events typically present with maximal deficits at onset and often occur during activity."
+        },
+        {
+          "text": "Large artery thrombosis",
+          "isCorrect": true,
+          "rationale": "Thrombotic strokes often occur during sleep and are characterized by a 'stepwise' or stuttering progression over hours or days."
+        },
+        {
+          "text": "Small vessel lacunar infarct",
+          "isCorrect": false,
+          "rationale": "While these can have varying presentations, the 'stroke-in-evolution' pattern and onset during sleep are classic hallmarks of thrombotic disease."
+        },
+        {
+          "text": "Arterial dissection",
+          "isCorrect": false,
+          "rationale": "Dissections are frequently associated with trauma or specific pain syndromes and are more common in younger populations."
+        }
+      ],
+      "hint": "Think about the mechanism that involves progressive luminal narrowing rather than a sudden blockage from a distant source.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to the TOAST classification, which criteria must be met to categorize a stroke as 'Small vessel occlusion' (Lacunar)?",
+      "answerOptions": [
+        {
+          "text": "Infarct size < 15 mm and absence of cortical signs",
+          "isCorrect": true,
+          "rationale": "Lacunar strokes are defined by their small size and the lack of cortical features like aphasia, neglect, or visual field cuts."
+        },
+        {
+          "text": "Stenosis > 50% of a major cerebral artery",
+          "isCorrect": false,
+          "rationale": "Significant stenosis in a major artery points toward large artery atherosclerosis rather than small vessel disease."
+        },
+        {
+          "text": "Presence of a cardiac source such as Atrial Fibrillation",
+          "isCorrect": false,
+          "rationale": "A cardiac source would categorize the stroke as cardioembolic under the TOAST system."
+        },
+        {
+          "text": "Multiple infarcts in different vascular territories",
+          "isCorrect": false,
+          "rationale": "Multiple territories usually suggest an embolic source, such as an embolic shower from the heart or aorta."
+        }
+      ],
+      "hint": "This subtype involves single penetrating arterioles and typically spares high-level cortical functions.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which lacunar syndrome is characterized by weakness involving the face, arm, and leg equally, without any associated sensory loss or cortical signs?",
+      "answerOptions": [
+        {
+          "text": "Pure sensory stroke",
+          "isCorrect": false,
+          "rationale": "This syndrome involves sensory deficits (numbness or paresthesia) without motor weakness, typically localized to the thalamus."
+        },
+        {
+          "text": "Ataxic hemiparesis",
+          "isCorrect": false,
+          "rationale": "This presentation combines cerebellar ataxia and weakness on the same side, usually due to a lesion in the pons or internal capsule."
+        },
+        {
+          "text": "Pure motor hemiparesis",
+          "isCorrect": true,
+          "rationale": "This is the most common lacunar syndrome and typically involves the posterior limb of the internal capsule or basis pontis."
+        },
+        {
+          "text": "Dysarthria-clumsy hand",
+          "isCorrect": false,
+          "rationale": "This syndrome presents with hand weakness and dysphagia/dysarthria, but not full hemiparesis of the face, arm, and leg."
+        }
+      ],
+      "hint": "This is the most frequently tested lacunar syndrome and typically affects the posterior limb of the internal capsule.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A 42-year-old patient presents with neck pain and a partial Horner syndrome (miosis and ptosis without anhidrosis). What is the most likely diagnosis?",
+      "answerOptions": [
+        {
+          "text": "Wallenberg syndrome",
+          "isCorrect": false,
+          "rationale": "While Wallenberg includes Horner syndrome, it typically presents with anhidrosis and significant brainstem signs like vertigo and dysphagia."
+        },
+        {
+          "text": "Vertebrobasilar insufficiency",
+          "isCorrect": false,
+          "rationale": "This generally presents with 'D' symptoms (diplopia, dizziness, dysphagia) rather than a focal painful Horner syndrome."
+        },
+        {
+          "text": "Carotid artery dissection",
+          "isCorrect": true,
+          "rationale": "The triad of ipsilateral pain, partial Horner syndrome, and contralateral hemiparesis is classic for this condition, especially in younger patients."
+        },
+        {
+          "text": "Middle cerebral artery (MCA) occlusion",
+          "isCorrect": false,
+          "rationale": "MCA strokes present with hemiparesis and aphasia/neglect, but do not typically cause a painful Horner syndrome."
+        }
+      ],
+      "hint": "This condition is a common cause of stroke in young adults and often follows minor neck trauma.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient exhibits contralateral leg weakness and sensory loss that is significantly more severe than the arm or face. They also demonstrate urinary incontinence and a grasp reflex. Which vascular territory is involved?",
+      "answerOptions": [
+        {
+          "text": "Superior division of the MCA",
+          "isCorrect": false,
+          "rationale": "MCA superior division strokes typically involve the face and arm more than the leg."
+        },
+        {
+          "text": "Posterior Cerebral Artery (PCA)",
+          "isCorrect": false,
+          "rationale": "PCA strokes primarily cause visual field deficits and sensory loss, rather than prominent leg weakness."
+        },
+        {
+          "text": "Anterior Cerebral Artery (ACA)",
+          "isCorrect": true,
+          "rationale": "The ACA supplies the medial aspect of the frontal and parietal lobes, leading to leg-predominant deficits and frontal release signs."
+        },
+        {
+          "text": "Basilar artery",
+          "isCorrect": false,
+          "rationale": "Basilar artery occlusion usually leads to bilateral deficits, cranial nerve palsies, or consciousness changes."
+        }
+      ],
+      "hint": "Focus on the homunculus; the area supplying the lower extremity is located on the medial surface of the hemisphere.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which brainstem syndrome involves an ipsilateral CN III palsy and contralateral hyperkinesia (ataxia, tremor, or chorea) due to a lesion in the red nucleus?",
+      "answerOptions": [
+        {
+          "text": "Weber syndrome",
+          "isCorrect": false,
+          "rationale": "Weber syndrome involves an ipsilateral CN III palsy and contralateral hemiplegia, rather than hyperkinetic movements."
+        },
+        {
+          "text": "Millard-Gubler syndrome",
+          "isCorrect": false,
+          "rationale": "This syndrome involves CN VI and VII palsies and is located in the base of the pons, not the midbrain."
+        },
+        {
+          "text": "Wallenberg syndrome",
+          "isCorrect": false,
+          "rationale": "This is a medullary syndrome involving the PICA territory and does not affect the midbrain or CN III."
+        },
+        {
+          "text": "Benedikt syndrome",
+          "isCorrect": true,
+          "rationale": "Benedikt syndrome specifically affects the midbrain tegmentum and red nucleus, resulting in CN III palsy and movement disorders."
+        }
+      ],
+      "hint": "This syndrome is located in the tegmentum of the midbrain and is distinguished by involuntary movements.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Based on the 2026 AHA/ASA Acute Ischemic Stroke Guideline updates, which thrombolytic agent is now recommended alongside alteplase due to its ease of administration as a single bolus?",
+      "answerOptions": [
+        {
+          "text": "Urokinase",
+          "isCorrect": false,
+          "rationale": "Urokinase is not a standard first-line thrombolytic for acute ischemic stroke in current clinical guidelines."
+        },
+        {
+          "text": "Tenecteplase",
+          "isCorrect": true,
+          "rationale": "Tenecteplase was recently approved (March 2025) for stroke and is favored for its single 5-second bolus administration and high fibrin specificity."
+        },
+        {
+          "text": "Streptokinase",
+          "isCorrect": false,
+          "rationale": "Streptokinase is an older agent that is no longer recommended for acute stroke due to a high risk of hemorrhage."
+        },
+        {
+          "text": "Reteplase",
+          "isCorrect": false,
+          "rationale": "While related, reteplase is not the specific agent highlighted in recent guideline updates as a direct alternative to alteplase for AIS."
+        }
+      ],
+      "hint": "Consider the drug that simplifies prehospital and emergency treatment by avoiding a one-hour infusion.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "question": "A patient with a minor non-cardioembolic stroke (NIHSS <= 3) presents within 24 hours of symptom onset. According to the CHANCE and POINT trials, what is the recommended antiplatelet strategy?",
+      "answerOptions": [
+        {
+          "text": "Aspirin monotherapy long-term",
+          "isCorrect": false,
+          "rationale": "While aspirin is used long-term, current evidence supports more aggressive early therapy for minor stroke/TIA."
+        },
+        {
+          "text": "Dual antiplatelet therapy (DAPT) for 21 days, followed by monotherapy",
+          "isCorrect": true,
+          "rationale": "Short-term DAPT (aspirin + clopidogrel) significantly reduces recurrent stroke risk in minor AIS or high-risk TIA without excessive long-term bleeding risk."
+        },
+        {
+          "text": "Aspirin plus clopidogrel for 90 days",
+          "isCorrect": false,
+          "rationale": "Extending DAPT to 90 days (as in the POINT trial) was associated with a higher risk of major hemorrhage compared to 21 days."
+        },
+        {
+          "text": "Warfarin for 3 months",
+          "isCorrect": false,
+          "rationale": "Anticoagulation is generally reserved for cardioembolic sources (like AFib) and is not the standard for minor non-cardioembolic stroke."
+        }
+      ],
+      "hint": "The recommendation involves a short course of combined therapy to prevent early recurrence followed by a transition to minimize bleeding.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which of the following is considered the 'most important modifiable risk factor' for both ischemic and hemorrhagic stroke, with a target SBP < 130 mmHg for risk reduction?",
+      "answerOptions": [
+        {
+          "text": "Hyperlipidemia",
+          "isCorrect": false,
+          "rationale": "While important, statins reduce stroke risk by approximately 30%, which is less impactful than blood pressure control."
+        },
+        {
+          "text": "Diabetes Mellitus",
+          "isCorrect": false,
+          "rationale": "Diabetes increases stroke rate significantly but is not ranked as the single most critical modifiable factor."
+        },
+        {
+          "text": "Cigarette smoking",
+          "isCorrect": false,
+          "rationale": "Smoking increases risk 2-4x, but hypertension remains the primary driver across both stroke types."
+        },
+        {
+          "text": "Hypertension (HTN)",
+          "isCorrect": true,
+          "rationale": "HTN is the leading modifiable risk factor, increasing stroke risk 7-fold; tight control can reduce ICH risk by up to two-thirds."
+        }
+      ],
+      "hint": "This condition has a profound effect on vessel wall integrity and is often cited as the primary target for primary and secondary prevention.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "In a patient with cryptogenic stroke, an Implantable Loop Recorder (ILR) is often used for extended monitoring. What is the approximate detection rate of occult Atrial Fibrillation after 12 months of monitoring?",
+      "answerOptions": [
+        {
+          "text": "5.0%",
+          "isCorrect": false,
+          "rationale": "This rate is too low; initial monitoring catches some cases, but detection increases significantly over time."
+        },
+        {
+          "text": "12.2%",
+          "isCorrect": false,
+          "rationale": "This rate is more typical for detection at 3 months of monitoring."
+        },
+        {
+          "text": "18.7%",
+          "isCorrect": true,
+          "rationale": "By 12 months, nearly one in five patients with cryptogenic stroke will have detected AFib via ILR."
+        },
+        {
+          "text": "45.0%",
+          "isCorrect": false,
+          "rationale": "Even at 36 months, the detection rate is approximately 28-30%, making 45% an overestimation."
+        }
+      ],
+      "hint": "Detection rates rise steadily from 12% at 3 months to nearly 30% at three years.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "The CREST-2 trial (2025 update) provided significant new data regarding the management of asymptomatic carotid stenosis. What was a key finding of this study?",
+      "answerOptions": [
+        {
+          "text": "CEA was significantly superior to medical therapy alone.",
+          "isCorrect": false,
+          "rationale": "In CREST-2, Carotid Endarterectomy (CEA) did not reach statistical significance when compared to medical management in asymptomatic patients."
+        },
+        {
+          "text": "Carotid Artery Stenting (CAS) plus medical therapy was superior to medical therapy alone.",
+          "isCorrect": true,
+          "rationale": "This was the first RCT to demonstrate the superiority of stenting over intensive medical management for asymptomatic disease."
+        },
+        {
+          "text": "Medical therapy alone is superior to any intervention.",
+          "isCorrect": false,
+          "rationale": "While medical therapy is very effective, CAS showed a statistically significant additional benefit in the primary outcome."
+        },
+        {
+          "text": "Intervention is only beneficial if stenosis is > 99%.",
+          "isCorrect": false,
+          "rationale": "Benefit is typically evaluated in the 60-99% range; total occlusion (100%) usually precludes surgical intervention."
+        }
+      ],
+      "hint": "Look for the outcome that challenged the traditional preference for endarterectomy in asymptomatic patients.",
+      "boardReadiness": "BOARD-LIKELY"
+    }
+  ]
+}

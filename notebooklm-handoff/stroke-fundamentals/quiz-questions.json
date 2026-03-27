@@ -1,0 +1,411 @@
+{
+  "module": "stroke-fundamentals",
+  "title": "Stroke Fundamentals Quiz",
+  "questions": [
+    {
+      "question": "Under the modern tissue-based definition, what finding distinguishes a stroke from a transient ischemic attack (TIA) even if clinical symptoms resolve within minutes?",
+      "answerOptions": [
+        {
+          "text": "The persistence of focal neurological deficits for at least 24 hours.",
+          "isCorrect": false,
+          "rationale": "This describes the historical time-based definition which has been superseded by imaging-based criteria."
+        },
+        {
+          "text": "Evidence of restricted diffusion on MRI diffusion-weighted imaging (DWI).",
+          "isCorrect": true,
+          "rationale": "In the modern definition, any evidence of infarction on MRI signifies a stroke regardless of the duration of clinical symptoms."
+        },
+        {
+          "text": "The presence of a dark, hypodense area on a non-contrast CT scan.",
+          "isCorrect": false,
+          "rationale": "CT scans often remain normal in the early stages of an ischemic event and are less sensitive than MRI for identifying acute infarction."
+        },
+        {
+          "text": "The absence of cortical signs such as aphasia or hemineglect.",
+          "isCorrect": false,
+          "rationale": "The presence or absence of cortical signs helps localize the lesion but does not define the difference between a TIA and a stroke."
+        }
+      ],
+      "hint": "Consider the diagnostic tool that provides the most sensitive look at cellular-level brain injury.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which characteristic is most suggestive of an ischemic stroke caused by large artery atherosclerosis according to the TOAST criteria?",
+      "answerOptions": [
+        {
+          "text": "Immediate onset of symptoms while the patient is physically active.",
+          "isCorrect": false,
+          "rationale": "This pattern is more typical of cardioembolic strokes or hemorrhagic events rather than thrombotic ones."
+        },
+        {
+          "text": "A \"stuttering\" onset of symptoms occurring over 24 to 48 hours.",
+          "isCorrect": true,
+          "rationale": "Thrombotic strokes often present with fluctuating or progressive symptoms as the clot forms in-situ on an atherosclerotic plaque."
+        },
+        {
+          "text": "The presence of associated seizures at the time of onset.",
+          "isCorrect": false,
+          "rationale": "Seizures are frequently associated with cardioembolic sources rather than large artery atherosclerosis."
+        },
+        {
+          "text": "A small infarct size measuring less than 15 mm on imaging.",
+          "isCorrect": false,
+          "rationale": "This description identifies lacunar strokes, which involve small penetrating arteries rather than large arteries."
+        }
+      ],
+      "hint": "Think about the temporal pattern of symptom development associated with in-situ clot formation.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "In the context of acute stroke management, why is the ischemic penumbra considered the primary target for reperfusion therapy?",
+      "answerOptions": [
+        {
+          "text": "It consists of irreversibly damaged tissue that needs to be cleared to reduce edema.",
+          "isCorrect": false,
+          "rationale": "The irreversibly damaged tissue is known as the infarct core, not the penumbra."
+        },
+        {
+          "text": "It is the region where cerebral blood flow has dropped below 10 mL/100g/min.",
+          "isCorrect": false,
+          "rationale": "This specific blood flow threshold defines the infarct core where structural integrity is lost."
+        },
+        {
+          "text": "It contains electrically silent but structurally intact tissue that is potentially salvageable.",
+          "isCorrect": true,
+          "rationale": "The penumbra is the marginal zone where cells are struggling but still alive, making them the focus of emergency intervention."
+        },
+        {
+          "text": "It is the site where cerebral autoregulation remains fully intact despite the infarct.",
+          "isCorrect": false,
+          "rationale": "Autoregulation is typically lost in the acute setting surrounding the infarct zone."
+        }
+      ],
+      "hint": "Focus on the functional status and the possibility of recovery for this specific area of brain tissue.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient presents with weakness and sensory loss primarily in the contralateral leg, accompanied by urinary incontinence and a grasp reflex. Which vascular territory is most likely involved?",
+      "answerOptions": [
+        {
+          "text": "Superior division of the Middle Cerebral Artery (MCA).",
+          "isCorrect": false,
+          "rationale": "MCA strokes typically involve the face and arm more significantly than the leg."
+        },
+        {
+          "text": "Posterior Cerebral Artery (PCA).",
+          "isCorrect": false,
+          "rationale": "PCA involvement usually manifests as visual field cuts rather than primary motor deficits in the leg."
+        },
+        {
+          "text": "Anterior Cerebral Artery (ACA).",
+          "isCorrect": true,
+          "rationale": "The ACA supplies the medial aspect of the hemisphere, which corresponds to the motor and sensory strips for the lower extremity."
+        },
+        {
+          "text": "Internal Carotid Artery (ICA).",
+          "isCorrect": false,
+          "rationale": "While an ICA occlusion can cause these symptoms, it typically presents with more extensive MCA and ACA territory involvement."
+        }
+      ],
+      "hint": "Think about which artery supplies the medial aspect of the cerebral hemisphere.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which feature distinguishes Wallenberg syndrome (lateral medullary syndrome) from other common brainstem stroke syndromes like Weber or Millard-Gubler?",
+      "answerOptions": [
+        {
+          "text": "The presence of contralateral hemiplegia.",
+          "isCorrect": false,
+          "rationale": "Most brainstem syndromes involve the corticospinal tract, but Wallenberg syndrome characteristically lacks motor weakness."
+        },
+        {
+          "text": "The absence of any motor weakness in the extremities.",
+          "isCorrect": true,
+          "rationale": "Because the lesion in the lateral medulla does not involve the pyramid or corticospinal tract, patients maintain limb strength."
+        },
+        {
+          "text": "The loss of ipsilateral proprioception and vibration sense.",
+          "isCorrect": false,
+          "rationale": "Wallenberg syndrome involves the spinothalamic tract (pain and temperature), not the medial lemniscus."
+        },
+        {
+          "text": "The occurrence of isolated vertical eye movements.",
+          "isCorrect": false,
+          "rationale": "Vertical eye movement preservation is the hallmark of Locked-in syndrome, not Wallenberg."
+        }
+      ],
+      "hint": "Focus on what is uniquely missing from the clinical presentation of this medullary infarct.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A major limitation of the NIH Stroke Scale (NIHSS) is that it may underestimate the severity of which type of stroke?",
+      "answerOptions": [
+        {
+          "text": "Dominant hemisphere strokes involving Broca's area.",
+          "isCorrect": false,
+          "rationale": "The NIHSS is actually weighted toward dominant hemisphere deficits because it includes multiple language components."
+        },
+        {
+          "text": "Posterior circulation strokes, such as a basilar artery occlusion.",
+          "isCorrect": true,
+          "rationale": "The scale focuses heavily on signs like aphasia and motor drift, which may be absent in devastating posterior strokes presenting with vertigo or ataxia."
+        },
+        {
+          "text": "Large territory Anterior Cerebral Artery (ACA) infarcts.",
+          "isCorrect": false,
+          "rationale": "While leg weakness is only one item, the NIHSS still captures the motor and sensory deficits of ACA strokes reasonably well."
+        },
+        {
+          "text": "Strokes causing significant weakness in the arm and face.",
+          "isCorrect": false,
+          "rationale": "These are classic anterior circulation signs that the NIHSS is specifically designed to measure."
+        }
+      ],
+      "hint": "Consider the parts of the brain that control balance and coordination versus those that control speech.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Based on the Copenhagen Stroke Study, what is the typical timeline within which 95% of stroke survivors reach their best neurological level of motor recovery?",
+      "answerOptions": [
+        {
+          "text": "Within 4 weeks of stroke onset.",
+          "isCorrect": false,
+          "rationale": "Initial gains are rapid, but most patients continue to show measurable neurological improvement beyond the first month."
+        },
+        {
+          "text": "Within 11 weeks of stroke onset.",
+          "isCorrect": true,
+          "rationale": "The study found that the vast majority of neurological recovery is completed by approximately three months."
+        },
+        {
+          "text": "Between 6 and 9 months after the stroke.",
+          "isCorrect": false,
+          "rationale": "While functional improvements via motor learning can continue, neurological recovery typically plateaus earlier."
+        },
+        {
+          "text": "Up to one year following the event for motor skills.",
+          "isCorrect": false,
+          "rationale": "Language recovery often continues for over a year, but motor recovery usually reaches a plateau much sooner."
+        }
+      ],
+      "hint": "The plateau for motor recovery is generally reached within the first fiscal quarter after the event.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Regarding modifiable risk factors, for every 10 mmHg reduction in systolic blood pressure, what is the approximate decrease in stroke risk?",
+      "answerOptions": [
+        {
+          "text": "A reduction of approximately 10%.",
+          "isCorrect": false,
+          "rationale": "While beneficial, a 10% reduction underestimates the powerful impact blood pressure control has on stroke prevention."
+        },
+        {
+          "text": "A reduction of approximately 33%.",
+          "isCorrect": true,
+          "rationale": "Controlling hypertension is the single most effective modifiable intervention, providing roughly a one-third risk reduction per 10 mmHg drop."
+        },
+        {
+          "text": "A reduction of approximately 50%.",
+          "isCorrect": false,
+          "rationale": "While the population attributable risk of hypertension is high, the relative risk reduction from 10 mmHg is not quite half."
+        },
+        {
+          "text": "A reduction of approximately 70%.",
+          "isCorrect": false,
+          "rationale": "This figure more closely matches the prevalence of hypertension among stroke patients rather than the risk reduction per increment."
+        }
+      ],
+      "hint": "Think about the significant percentage impact that even modest blood pressure control provides.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which new class of medication received a Class 1A recommendation in the 2024 AHA/ASA guidelines for reducing stroke risk in patients with type 2 diabetes and high cardiovascular risk?",
+      "answerOptions": [
+        {
+          "text": "SGLT2 inhibitors.",
+          "isCorrect": false,
+          "rationale": "These medications are beneficial for heart failure and renal protection, but they did not receive the specific Class 1A stroke prevention recommendation mentioned."
+        },
+        {
+          "text": "GLP-1 receptor agonists.",
+          "isCorrect": true,
+          "rationale": "Trials like SUSTAIN-6 and REWIND demonstrated significant reductions in stroke risk, leading to this high-level recommendation."
+        },
+        {
+          "text": "Low-dose Colchicine.",
+          "isCorrect": false,
+          "rationale": "Colchicine is recommended for anti-inflammatory effects in ASCVD, but it is not primarily used for diabetic glycemic control."
+        },
+        {
+          "text": "PCSK9 inhibitors.",
+          "isCorrect": false,
+          "rationale": "These are potent lipid-lowering agents but are not the class specified for the updated diabetic stroke prevention guideline."
+        }
+      ],
+      "hint": "Consider the injectable metabolic medications that have recently shown significant cardiovascular and neuro-protective benefits.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "question": "What is the primary clinical reason for utilizing low-dose colchicine (0.5 mg daily) in the context of stroke prevention as of 2023?",
+      "answerOptions": [
+        {
+          "text": "To provide a novel anticoagulant effect for patients with occult atrial fibrillation.",
+          "isCorrect": false,
+          "rationale": "Colchicine does not affect the coagulation cascade; it is used for its anti-inflammatory properties."
+        },
+        {
+          "text": "To reduce cardiovascular events and stroke via its anti-inflammatory properties in patients with established ASCVD.",
+          "isCorrect": true,
+          "rationale": "Following the COLCOT trial, the FDA approved this use to address residual inflammatory risk in patients with atherosclerotic disease."
+        },
+        {
+          "text": "To treat acute gouty flares that commonly occur following a stroke.",
+          "isCorrect": false,
+          "rationale": "While colchicine treats gout, its new indication in stroke care is for long-term prevention of vascular events."
+        },
+        {
+          "text": "To prevent the development of cerebral amyloid angiopathy in the elderly.",
+          "isCorrect": false,
+          "rationale": "There is currently no specific treatment, including colchicine, proven to prevent amyloid angiopathy."
+        }
+      ],
+      "hint": "Consider the role of inflammation in the progression of atherosclerosis.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "question": "A patient arrives with a suspected TIA and receives an ABCD2 score of 6. What is the appropriate management according to clinical standards?",
+      "answerOptions": [
+        {
+          "text": "Discharge home with instructions to follow up with a primary care physician within one week.",
+          "isCorrect": false,
+          "rationale": "A high score indicates a significant short-term stroke risk that requires immediate evaluation."
+        },
+        {
+          "text": "Initiation of high-dose aspirin and outpatient carotid ultrasound within 48 hours.",
+          "isCorrect": false,
+          "rationale": "Outpatient management is insufficient for high-risk TIA patients due to the high risk of imminent stroke."
+        },
+        {
+          "text": "Admission for observation and urgent workup because of an 8% stroke risk within 2 days.",
+          "isCorrect": true,
+          "rationale": "A score of 6 or 7 is classified as high risk, necessitating inpatient monitoring and rapid diagnostic imaging."
+        },
+        {
+          "text": "Referral to a neurologist for an elective MRI to be completed within 30 days.",
+          "isCorrect": false,
+          "rationale": "Waiting 30 days is dangerous, as the highest risk of a subsequent stroke occurs within the first 48 hours after a TIA."
+        }
+      ],
+      "hint": "Think about the immediate stroke risk associated with high scores on this stratification tool.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which neuroanatomical site is the most common location for a hypertensive intracerebral hemorrhage (ICH)?",
+      "answerOptions": [
+        {
+          "text": "Thalamus.",
+          "isCorrect": false,
+          "rationale": "The thalamus is a common site, but it is not as frequently involved as the putamen in hypertensive cases."
+        },
+        {
+          "text": "Cerebellum.",
+          "isCorrect": false,
+          "rationale": "Cerebellar hemorrhages are critical to identify but represent a smaller percentage of all ICH cases."
+        },
+        {
+          "text": "Putamen.",
+          "isCorrect": true,
+          "rationale": "The putamen is the most common site for hypertensive ICH, often involving the rupture of small penetrating arteries."
+        },
+        {
+          "text": "Pons.",
+          "isCorrect": false,
+          "rationale": "Pontine hemorrhages are often devastating and lead to rapid coma, but they are less common than putaminal bleeds."
+        }
+      ],
+      "hint": "Consider the deep gray matter structure that is most susceptible to the effects of chronic high blood pressure.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "In the management of a subarachnoid hemorrhage (SAH), during which time window is the risk of arterial vasospasm at its peak?",
+      "answerOptions": [
+        {
+          "text": "Within the first 24 hours following the initial rupture.",
+          "isCorrect": false,
+          "rationale": "Initial mortality is high due to the bleed itself, but vasospasm is a delayed complication."
+        },
+        {
+          "text": "Between days 3 and 12 post-rupture.",
+          "isCorrect": true,
+          "rationale": "Vasospasm typically begins a few days after the event and peaks around day 7, requiring close monitoring."
+        },
+        {
+          "text": "Approximately 21 to 30 days after the event.",
+          "isCorrect": false,
+          "rationale": "By this time, the risk of vasospasm has generally resolved, and the focus shifts to preventing rebleeding or hydrocephalus."
+        },
+        {
+          "text": "Only during the first 48 hours, after which the risk drops significantly.",
+          "isCorrect": false,
+          "rationale": "Vasospasm is a subacute phenomenon that does not even begin in earnest until after the first 48 hours."
+        }
+      ],
+      "hint": "Think about the window of time starting a few days after the bleed where nimodipine is most crucial.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "What is the primary reason that a non-contrast CT scan is the initial imaging study of choice in the emergency department for a suspected stroke?",
+      "answerOptions": [
+        {
+          "text": "To definitively identify the location of an acute ischemic infarct.",
+          "isCorrect": false,
+          "rationale": "CT is notoriously poor at identifying acute ischemic changes within the first several hours."
+        },
+        {
+          "text": "To rule out the presence of hemorrhage before considering thrombolytic therapy.",
+          "isCorrect": true,
+          "rationale": "A non-contrast scan is essential to quickly exclude bleeding before administering clot-busting medications."
+        },
+        {
+          "text": "To assess for the presence of the ischemic penumbra.",
+          "isCorrect": false,
+          "rationale": "A standard non-contrast CT cannot visualize the penumbra; advanced perfusion imaging is required for that."
+        },
+        {
+          "text": "Because it is more sensitive than MRI for detecting lacunar strokes.",
+          "isCorrect": false,
+          "rationale": "MRI is significantly more sensitive than CT for detecting small lacunar or infratentorial infarcts."
+        }
+      ],
+      "hint": "Consider the safety requirements for administering clot-busting medications.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to the Modified Rankin Scale (mRS), which score corresponds to a patient who has a \"slight disability,\" being unable to carry out all previous activities but remaining independent in activities of daily living (ADLs)?",
+      "answerOptions": [
+        {
+          "text": "Grade 1.",
+          "isCorrect": false,
+          "rationale": "Grade 1 signifies no significant disability and the ability to carry out all usual duties despite minor symptoms."
+        },
+        {
+          "text": "Grade 2.",
+          "isCorrect": true,
+          "rationale": "Grade 2 is the threshold for independence in ADLs, which is often considered a good outcome in clinical trials."
+        },
+        {
+          "text": "Grade 3.",
+          "isCorrect": false,
+          "rationale": "Grade 3 involves moderate disability where the patient requires some help but can walk without assistance."
+        },
+        {
+          "text": "Grade 4.",
+          "isCorrect": false,
+          "rationale": "Grade 4 represents moderately severe disability where the patient cannot walk or attend to bodily needs unassisted."
+        }
+      ],
+      "hint": "This is the highest score a patient can receive and still be considered functionally independent.",
+      "boardReadiness": "BOARD-CORE"
+    }
+  ]
+}

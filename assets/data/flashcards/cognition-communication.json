@@ -1,0 +1,386 @@
+{
+  "module": "cognition-communication",
+  "title": "Stroke Flashcards",
+  "cards": [
+    {
+      "front": "Approximately what percentage of acute stroke patients are affected by aphasia?",
+      "back": "21-38%.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What three key parameters are used to classify classical aphasia types?",
+      "back": "Fluency, comprehension, and repetition.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Aphasia type characterized by nonfluent speech, impaired comprehension, and impaired repetition?",
+      "back": "Global aphasia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Where is the typical lesion site for global aphasia?",
+      "back": "Large left MCA territory involving frontal, temporal, and parietal lobes.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Aphasia type characterized by nonfluent speech, intact comprehension, and impaired repetition?",
+      "back": "Broca aphasia (Expressive).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Where is the specific lesion site for Broca aphasia?",
+      "back": "Left inferior frontal gyrus (Brodmann areas 44 and 45).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Aphasia type characterized by fluent speech, impaired comprehension, and impaired repetition?",
+      "back": "Wernicke aphasia (Receptive).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Where is the specific lesion site for Wernicke aphasia?",
+      "back": "Left superior temporal gyrus (Brodmann area 22).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Aphasia type characterized by fluent speech, intact comprehension, and disproportionately impaired repetition?",
+      "back": "Conduction aphasia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What anatomical structure is damaged in conduction aphasia?",
+      "back": "Arcuate fasciculus.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Term for the repeated self-correction attempts seen in conduction aphasia that progressively approach the target word?",
+      "back": "Conduit d'approche.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Aphasia type characterized by nonfluent speech, intact comprehension, and intact repetition?",
+      "back": "Transcortical motor aphasia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Aphasia type characterized by fluent speech, impaired comprehension, and intact repetition?",
+      "back": "Transcortical sensory aphasia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Aphasia type characterized by nonfluent speech, impaired comprehension, and intact repetition?",
+      "back": "Transcortical mixed aphasia (Isolation of speech area).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the discriminatory rule regarding repetition in transcortical aphasias?",
+      "back": "Repetition is intact because the lesion is outside the perisylvian language zone in watershed territories.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Aphasia type characterized by fluent speech, intact comprehension, intact repetition, and impaired naming?",
+      "back": "Anomic aphasia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "In the dual-stream language model, what is the primary function of the dorsal stream?",
+      "back": "Verbal production, phonological processing, and repetition.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "In the dual-stream language model, what is the primary function of the ventral stream?",
+      "back": "Semantic processing and comprehension.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Term for substituting similar sounds within a word, such as saying 'sound' for 'found'?",
+      "back": "Phonemic (literal) paraphasia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Term for substituting a word for another from the same semantic class, such as saying 'fork' for 'spoon'?",
+      "back": "Verbal (semantic) paraphasia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "The absence of grammatical structure in sentences is known as _____.",
+      "back": "Agrammatism.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "The echoing of words or phrases spoken by another person is called _____.",
+      "back": "Echolalia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "A fabricated word that has meaning only to the speaker is called a _____.",
+      "back": "Neologism.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "The repetition of nonsensical syllables, such as 'no, no, no,' during communication attempts is called a _____.",
+      "back": "Stereotype.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the clinical distinction between dysarthria and aphasia?",
+      "back": "Dysarthria is a motor speech disorder (articulation), while aphasia is a symbolic language disorder (comprehension/expression).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Motor programming disorder characterized by inconsistent speech errors and groping for articulatory positions?",
+      "back": "Apraxia of speech.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Aphasia occurring from a right hemisphere lesion in a right-handed person is called _____.",
+      "back": "Crossed aphasia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Which aphasia assessment tool produces an Aphasia Quotient (AQ) score?",
+      "back": "Western Aphasia Battery (WAB).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Aphasia assessment that evaluates verbal, gestural, and graphic responses and provides outcome prediction?",
+      "back": "Porch Index of Communicative Ability (PICA).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Which aphasia type is associated with the best recovery prognosis?",
+      "back": "Anomic aphasia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "When does the greatest rate of improvement typically occur after the onset of aphasia?",
+      "back": "In the first 2-3 months.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Aphasia therapy that forces verbal output by restricting the use of compensatory strategies like gesturing?",
+      "back": "Constraint-Induced Language Therapy (CILT/CIAT).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the proposed 'potent factor' driving the effectiveness of CILT?",
+      "back": "Training intensity.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Therapy that uses singing or melodic patterns to access right hemisphere language networks for nonfluent patients?",
+      "back": "Melodic Intonation Therapy (MIT).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Melodic Intonation Therapy is most effective for patients with which specific aphasia profile?",
+      "back": "Nonfluent output with intact comprehension (Broca aphasia).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Which specific linguistic skill shows consistent improvement with the use of tDCS as an adjunct in chronic aphasia?",
+      "back": "Naming.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Hemispatial neglect most commonly occurs following damage to which brain lobe?",
+      "back": "Right parietal lobe.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Why is left neglect (from right hemisphere damage) typically more severe than right neglect?",
+      "back": "The right hemisphere attends to both sides of space, whereas the left hemisphere primarily attends only to the right.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Neglect type involving a failure to attend to the left side of one's own body?",
+      "back": "Personal neglect.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Failure to detect a contralesional stimulus only when presented simultaneously with an ipsilesional stimulus is called _____.",
+      "back": "Sensory neglect (extinction).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Standardized assessment tool used to evaluate functional neglect in daily activities?",
+      "back": "Catherine Bergego Scale (CBS).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Neglect treatment that uses Fresnel prisms to shift visual images rightward to induce a leftward aftereffect?",
+      "back": "Prism adaptation.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Brain stimulation technique applied to the contralesional (left) posterior parietal cortex to treat neglect?",
+      "back": "Continuous theta-burst stimulation (cTBS).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "The unawareness or denial of a neurological deficit is known as _____.",
+      "back": "Anosognosia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "The awareness of a neurological deficit but with a distinct lack of concern about it is called _____.",
+      "back": "Anosodiaphoria.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Apraxia type where a patient cannot perform a learned motor act on command but can perform it spontaneously?",
+      "back": "Ideomotor apraxia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "In ideomotor apraxia, the patient's motor performance typically improves when they are allowed to use _____.",
+      "back": "Actual tools.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Apraxia type where the patient is unable to sequence multi-step tasks, such as making a cup of coffee?",
+      "back": "Ideational apraxia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Apraxia type involving the inability to orient clothing correctly to the body, associated with right parietal lesions?",
+      "back": "Dressing apraxia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Visual agnosia type characterized by the inability to recognize familiar faces?",
+      "back": "Prosopagnosia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What brain region is associated with prosopagnosia?",
+      "back": "Fusiform face area (fusiform gyrus).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Condition where a patient can write but cannot read, typically from a left occipital and corpus callosum lesion?",
+      "back": "Pure alexia (alexia without agraphia).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Inability to recognize objects by touch despite intact primary sensation?",
+      "back": "Astereognosis (tactile agnosia).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What percentage of stroke survivors are affected by post-stroke cognitive impairment (PSCI)?",
+      "back": "Up to 70-77%.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Why is the MoCA considered superior to the MMSE for screening post-stroke cognitive impairment?",
+      "back": "The MoCA more effectively tests executive function and visuospatial skills, which the MMSE underrepresents.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What MoCA score is the standard cutoff suggesting cognitive impairment?",
+      "back": "less than or equal to 25.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "List the four primary deficits that constitute Gerstmann syndrome.",
+      "back": "Finger agnosia, right-left confusion, agraphia, and acalculia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the classic lesion site for Gerstmann syndrome?",
+      "back": "Left (dominant) angular gyrus.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Which dementia subtype is characterized by diffuse white matter disease and executive dysfunction?",
+      "back": "Subcortical ischemic vascular dementia (Binswanger disease).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Clinical tool used to help differentiate vascular dementia from Alzheimer disease?",
+      "back": "Hachinski Ischemic Score.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Rehabilitation approach for mild-moderate executive dysfunction that teaches a 'top-down' evaluation of daily performance?",
+      "back": "Metacognitive strategy training.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the peak onset period for post-stroke depression (PSD)?",
+      "back": "3-6 months post-stroke.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Which depression screening tool is specifically validated for use in stroke patients with aphasia?",
+      "back": "Stroke Aphasic Depression Questionnaire (SADQ).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "First-line pharmacologic class for treating post-stroke depression?",
+      "back": "SSRIs (Selective Serotonin Reuptake Inhibitors).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Which medication is often used in stroke rehab for rapid treatment of apathy and psychomotor retardation?",
+      "back": "Methylphenidate (stimulants).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Condition characterized by involuntary, brief emotional displays that may not match the patient's internal state?",
+      "back": "Pseudobulbar affect (PBA).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the underlying neurological mechanism of pseudobulbar affect?",
+      "back": "Bilateral disruption of the corticobulbar tracts.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the only FDA-approved medication specifically for pseudobulbar affect?",
+      "back": "Dextromethorphan/quinidine (Nuedexta).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "The impairment of emotional tone and inflection in speech is called _____.",
+      "back": "Aprosodia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Right frontal/antero-superior lesions are most closely associated with which type of aprosodia?",
+      "back": "Expressive aprosodia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "How is post-stroke fatigue primarily distinguished from post-stroke depression?",
+      "back": "Fatigue can occur in the absence of a depressed mood.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the strongest predictor for a working-age stroke survivor returning to work?",
+      "back": "Younger age (<55).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What professional certification is held by specialists who conduct Comprehensive Driving Evaluations (CDE)?",
+      "back": "Certified Driver Rehabilitation Specialist (CDRS).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the typical minimum horizontal visual field requirement for driving in most states?",
+      "back": "120 degrees.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "According to updated evidence, what is the recommended use of SSRIs for the prevention of post-stroke depression?",
+      "back": "Current evidence does not support the preemptive use of antidepressants to prevent PSD.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "front": "The inability to perceive basic visual features or copy shapes is known as _____ agnosia.",
+      "back": "Apperceptive visual agnosia.",
+      "boardReadiness": "BOARD-CORE"
+    }
+  ]
+}

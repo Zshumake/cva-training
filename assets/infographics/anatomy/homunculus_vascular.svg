@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Inter, Helvetica, Arial, sans-serif">
+  <rect width="800" height="600" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#0F172A">Motor Homunculus &amp; Vascular Territories</text>
+  <text x="400" y="52" text-anchor="middle" font-size="12" fill="#64748B">Why MCA Stroke = Face/Arm > Leg Weakness</text>
+
+  <!-- Coronal brain outline -->
+  <path d="M120,450 Q120,200 400,100 Q680,200 680,450"
+        fill="#F1F5F9" stroke="#94A3B8" stroke-width="2" fill-opacity="0.5"/>
+
+  <!-- Interhemispheric fissure -->
+  <line x1="400" y1="100" x2="400" y2="460" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="403" y="95" font-size="9" fill="#94A3B8">Midline</text>
+
+  <!-- ACA territory (medial - leg/foot) - blue -->
+  <path d="M400,130 Q370,200 360,280 Q355,350 360,420 L400,460 L400,130Z"
+        fill="#2563EB" fill-opacity="0.15" stroke="#2563EB" stroke-width="2" stroke-opacity="0.5"/>
+  <text x="378" y="300" text-anchor="middle" font-size="12" font-weight="700" fill="#2563EB" transform="rotate(-90,378,300)">ACA Territory</text>
+
+  <!-- MCA territory (lateral - face/arm/hand) - red -->
+  <path d="M360,420 Q355,350 360,280 Q370,200 400,130 Q450,150 520,200 Q600,270 630,380 Q640,430 620,450 L360,450Z"
+        fill="#DC2626" fill-opacity="0.12" stroke="#DC2626" stroke-width="2" stroke-opacity="0.5"/>
+  <text x="500" y="350" text-anchor="middle" font-size="14" font-weight="700" fill="#DC2626">MCA Territory</text>
+
+  <!-- Homunculus body parts along motor strip -->
+  <!-- The strip runs from medial (top of fissure) to lateral -->
+
+  <!-- Foot/toes (medial - ACA) -->
+  <circle cx="395" cy="160" r="14" fill="#2563EB" fill-opacity="0.3" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="395" y="164" text-anchor="middle" font-size="9" font-weight="700" fill="#2563EB">Toes</text>
+
+  <!-- Ankle/Leg (medial - ACA) -->
+  <circle cx="390" cy="200" r="18" fill="#2563EB" fill-opacity="0.25" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="390" y="204" text-anchor="middle" font-size="9" font-weight="700" fill="#2563EB">Leg</text>
+
+  <!-- Hip (ACA/MCA border) -->
+  <circle cx="395" cy="248" r="16" fill="#7C3AED" fill-opacity="0.2" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="395" y="252" text-anchor="middle" font-size="9" font-weight="700" fill="#7C3AED">Hip</text>
+
+  <!-- Trunk (MCA) -->
+  <circle cx="410" cy="290" r="16" fill="#DC2626" fill-opacity="0.2" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="410" y="294" text-anchor="middle" font-size="9" font-weight="700" fill="#DC2626">Trunk</text>
+
+  <!-- Shoulder/Arm (MCA) -->
+  <circle cx="430" cy="325" r="20" fill="#DC2626" fill-opacity="0.25" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="430" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#DC2626">Arm</text>
+
+  <!-- Hand (MCA - large representation) -->
+  <circle cx="465" cy="362" r="28" fill="#DC2626" fill-opacity="0.3" stroke="#DC2626" stroke-width="2"/>
+  <text x="465" y="358" text-anchor="middle" font-size="10" font-weight="700" fill="#DC2626">HAND</text>
+  <text x="465" y="372" text-anchor="middle" font-size="8" fill="#DC2626">(large area)</text>
+
+  <!-- Face (MCA - large representation) -->
+  <circle cx="520" cy="400" r="30" fill="#DC2626" fill-opacity="0.3" stroke="#DC2626" stroke-width="2"/>
+  <text x="520" y="396" text-anchor="middle" font-size="11" font-weight="700" fill="#DC2626">FACE</text>
+  <text x="520" y="410" text-anchor="middle" font-size="8" fill="#DC2626">(large area)</text>
+
+  <!-- Tongue/Pharynx -->
+  <circle cx="575" cy="430" r="18" fill="#DC2626" fill-opacity="0.2" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="575" y="434" text-anchor="middle" font-size="8" font-weight="600" fill="#DC2626">Tongue</text>
+
+  <!-- Right side: Clinical correlation boxes -->
+  <rect x="30" y="485" width="355" height="100" rx="10" fill="#DC2626" fill-opacity="0.05" stroke="#DC2626" stroke-opacity="0.2"/>
+  <text x="50" y="508" font-size="13" font-weight="700" fill="#DC2626">MCA Stroke Pattern</text>
+  <text x="50" y="526" font-size="11" fill="#0F172A">Contralateral face and arm weakness &gt;&gt; leg</text>
+  <text x="50" y="542" font-size="11" fill="#0F172A">Upper extremity &gt; lower extremity involvement</text>
+  <text x="50" y="558" font-size="11" fill="#0F172A">Hand/face have largest cortical representation</text>
+  <text x="50" y="574" font-size="10" fill="#64748B" font-style="italic">Most common stroke presentation on boards</text>
+
+  <rect x="415" y="485" width="355" height="100" rx="10" fill="#2563EB" fill-opacity="0.05" stroke="#2563EB" stroke-opacity="0.2"/>
+  <text x="435" y="508" font-size="13" font-weight="700" fill="#2563EB">ACA Stroke Pattern</text>
+  <text x="435" y="526" font-size="11" fill="#0F172A">Contralateral leg weakness &gt;&gt; arm/face</text>
+  <text x="435" y="542" font-size="11" fill="#0F172A">May have urinary incontinence</text>
+  <text x="435" y="558" font-size="11" fill="#0F172A">Personality changes, abulia (bilateral)</text>
+  <text x="435" y="574" font-size="10" fill="#64748B" font-style="italic">Alien hand syndrome (contralateral)</text>
+
+  <!-- Annotation: motor strip -->
+  <text x="290" y="165" font-size="10" font-weight="600" fill="#475569">Motor Strip</text>
+  <path d="M325,168 Q370,170 388,162" stroke="#475569" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0 0, 6 2, 0 4" fill="#475569"/>
+    </marker>
+  </defs>
+</svg>

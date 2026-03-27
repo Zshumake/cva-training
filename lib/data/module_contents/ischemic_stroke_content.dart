@@ -71,6 +71,43 @@ final TopicData ischemicStrokeContent = TopicData(
           'control; cryptogenic stroke requires extended cardiac monitoring (often '
           'reveals occult AF).',
         ),
+        KnowledgeCheckBlock(
+          question: 'Approximately how many neurons die per minute during an untreated large vessel occlusion?',
+          options: ['100,000', '500,000', '1.9 million', '10 million'],
+          correctIndex: 2,
+          explanation: 'An estimated 1.9 million neurons die every minute during an untreated large vessel occlusion, forming the basis for the "time is brain" concept and the urgency of reperfusion therapy.',
+          boardRelevance: 'BOARD-CORE',
+        ),
+        TimelineBlock(
+          title: 'Ischemic Stroke Evolution Timeline',
+          milestones: [
+            TimelineMilestone(
+              label: '0-6 hours',
+              title: 'Hyperacute Phase',
+              details: ['Cytotoxic edema begins (DWI+, CT often normal)', 'Penumbra is maximal and salvageable', 'Window for IV tPA (0-4.5h) and thrombectomy (0-6h standard)'],
+            ),
+            TimelineMilestone(
+              label: '6-24 hours',
+              title: 'Acute Phase',
+              details: ['CT begins showing hypodensity', 'Extended thrombectomy window with perfusion imaging (DAWN/DEFUSE-3)', 'Infarct core expanding into penumbra'],
+            ),
+            TimelineMilestone(
+              label: '1-5 days',
+              title: 'Early Subacute Phase',
+              details: ['Vasogenic edema peaks at days 3-5', 'Risk of herniation in large MCA infarcts', 'Hemorrhagic transformation risk peaks', 'CT shows clear hypodensity with mass effect'],
+            ),
+            TimelineMilestone(
+              label: '5-30 days',
+              title: 'Late Subacute Phase',
+              details: ['Edema resolving, mass effect decreasing', 'MRI FLAIR becomes hyperintense', '"Fogging effect" on CT (transient normalization around day 14)'],
+            ),
+            TimelineMilestone(
+              label: '>30 days',
+              title: 'Chronic Phase',
+              details: ['Encephalomalacia and gliosis replace infarcted tissue', 'CSF-filled cavity (porencephaly) may form', 'Ex-vacuo dilation of adjacent ventricle', 'Wallerian degeneration of descending tracts'],
+            ),
+          ],
+        ),
         BulletCardBlock(
           title: 'Cryptogenic Stroke Workup',
           themeColor: Color(0xFF0EA5E9),
@@ -266,6 +303,13 @@ final TopicData ischemicStrokeContent = TopicData(
           'TIA. This pattern recognition is one of the most frequently tested '
           'concepts.',
         ),
+        KnowledgeCheckBlock(
+          question: 'A 68-year-old patient with atrial fibrillation presents with sudden-onset maximal deficit during activity. Which type of ischemic stroke is most likely?',
+          options: ['Thrombotic', 'Embolic', 'Lacunar', 'Watershed'],
+          correctIndex: 1,
+          explanation: 'Embolic stroke is characterized by sudden onset with maximal deficit at presentation, occurring during activity, often from a cardiac source such as atrial fibrillation. Thrombotic strokes typically have a stuttering onset during sleep.',
+          boardRelevance: 'BOARD-CORE',
+        ),
         BulletCardBlock(
           title: 'Paradoxical Embolism via PFO',
           themeColor: Color(0xFF0EA5E9),
@@ -394,6 +438,13 @@ final TopicData ischemicStrokeContent = TopicData(
           'dysarthria), vascular dementia, and urinary incontinence. This is '
           'distinct from a single lacunar event and represents chronic small vessel '
           'disease.',
+        ),
+        KnowledgeCheckBlock(
+          question: 'A hypertensive patient presents with contralateral face, arm, and leg weakness equally, with no sensory loss, aphasia, or neglect. What is the most likely location of the infarct?',
+          options: ['MCA cortical territory', 'Posterior limb of internal capsule', 'VPL thalamus', 'Occipital cortex'],
+          correctIndex: 1,
+          explanation: 'Pure motor hemiparesis is the most common lacunar syndrome and typically localizes to the posterior limb of the internal capsule. It affects face, arm, and leg equally (unlike MCA stroke) with NO cortical signs (no aphasia, neglect, or visual field cuts).',
+          boardRelevance: 'BOARD-CORE',
         ),
         MnemonicBlock(
           'Lacunar Syndromes -- Location Memory Aid',

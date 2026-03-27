@@ -100,6 +100,13 @@ final TopicData strokeSyndromesContent = TopicData(
           'question lists any 3-4 of these deficits, choose "left angular gyrus" '
           'or "dominant parietal lobe."',
         ),
+        KnowledgeCheckBlock(
+          question: 'A patient with a right MCA stroke is most likely to present with which of the following?',
+          options: ['Broca\'s aphasia', 'Left hemispatial neglect', 'Leg-predominant weakness', 'Cortical blindness'],
+          correctIndex: 1,
+          explanation: 'Right (non-dominant) MCA strokes produce left hemispatial neglect and anosognosia. Left (dominant) MCA strokes produce aphasia. Left neglect from right hemisphere damage is more common, more severe, and more persistent than right neglect.',
+          boardRelevance: 'BOARD-CORE',
+        ),
       ],
     ),
 
@@ -364,6 +371,13 @@ final TopicData strokeSyndromesContent = TopicData(
           'ipsilateral face + contralateral body pain/temp loss, Horner '
           'syndrome, dysphagia, cerebellar ataxia, vertigo.',
         ),
+        KnowledgeCheckBlock(
+          question: 'A patient presents with ipsilateral facial pain/temperature loss, contralateral body pain/temperature loss, Horner syndrome, ataxia, and dysphagia but NO motor weakness. Which syndrome is this?',
+          options: ['Weber syndrome', 'Medial medullary syndrome', 'Wallenberg syndrome', 'Locked-in syndrome'],
+          correctIndex: 2,
+          explanation: 'Wallenberg (lateral medullary) syndrome is caused by PICA or vertebral artery occlusion. The hallmark is the absence of motor weakness because the corticospinal tract runs medially and is spared in lateral medullary lesions.',
+          boardRelevance: 'BOARD-CORE',
+        ),
         ComparisonCardBlock(
           title: 'Locked-In Syndrome',
           themeColor: Color(0xFFDC2626),
@@ -480,6 +494,13 @@ final TopicData strokeSyndromesContent = TopicData(
           'described in the question stem, the answer is NOT a lacunar '
           'syndrome. Pure motor hemiparesis is the most commonly tested '
           'lacunar syndrome.',
+        ),
+        KnowledgeCheckBlock(
+          question: 'Which lacunar syndrome localizes to the VPL nucleus of the thalamus?',
+          options: ['Pure motor hemiparesis', 'Pure sensory stroke', 'Ataxic hemiparesis', 'Dysarthria-clumsy hand'],
+          correctIndex: 1,
+          explanation: 'Pure sensory stroke localizes to the ventral posterolateral (VPL) nucleus of the thalamus, supplied by thalamogeniculate arteries from the PCA. It presents as contralateral numbness/paresthesias of face, arm, and leg with no motor deficit.',
+          boardRelevance: 'BOARD-CORE',
         ),
         BulletCardBlock(
           title: 'Lacunar Syndrome Quick Reference',

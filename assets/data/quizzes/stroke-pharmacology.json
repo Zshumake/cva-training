@@ -1,0 +1,411 @@
+{
+  "module": "stroke-pharmacology",
+  "title": "Stroke Quiz",
+  "questions": [
+    {
+      "question": "A patient is prescribed aspirin for secondary prevention of a noncardioembolic ischemic stroke. According to the guidelines, which statement regarding the dosage is correct?",
+      "answerOptions": [
+        {
+          "text": "Doses of 325 mg are significantly more effective than 50 mg.",
+          "isCorrect": false,
+          "rationale": "Evidence shows that efficacy for secondary prevention is equivalent across the 50-325 mg range."
+        },
+        {
+          "text": "Aspirin 50-325 mg daily is equally effective for secondary stroke prevention.",
+          "isCorrect": true,
+          "rationale": "AHA/ASA Class I guidelines state that lower doses are as effective as higher doses within this range, with lower bleeding risk."
+        },
+        {
+          "text": "Doses should be titrated up to 650 mg daily to maximize anti-inflammatory effects.",
+          "isCorrect": false,
+          "rationale": "Higher doses increase the risk of gastrointestinal bleeding without providing additional stroke prevention benefits."
+        },
+        {
+          "text": "Aspirin should only be used if clopidogrel is contraindicated due to cost.",
+          "isCorrect": false,
+          "rationale": "Aspirin remains a first-line agent, not just a secondary alternative based on cost."
+        }
+      ],
+      "hint": "Consider the balance between efficacy and bleeding risk across different dose ranges.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Following the results of the CHANCE and POINT trials, what is the current recommendation for Dual Antiplatelet Therapy (DAPT) in a patient with a minor ischemic stroke (NIHSS less than or equal to 3)?",
+      "answerOptions": [
+        {
+          "text": "DAPT for 90 days to maximize the reduction of ischemic events.",
+          "isCorrect": false,
+          "rationale": "The POINT trial showed that extending DAPT to 90 days significantly increases the risk of major hemorrhage compared to a shorter course."
+        },
+        {
+          "text": "Short-term DAPT (aspirin + clopidogrel) for 21 days started within 24 hours.",
+          "isCorrect": true,
+          "rationale": "The CHANCE trial and post-hoc analysis of POINT established that the benefit of DAPT is concentrated in the first 21 days, with rising bleeding risk thereafter."
+        },
+        {
+          "text": "DAPT should be avoided entirely in minor stroke due to the risk of hemorrhagic transformation.",
+          "isCorrect": false,
+          "rationale": "Both trials demonstrated a significant relative risk reduction in stroke recurrence that outweighs the risk in the acute phase."
+        },
+        {
+          "text": "Long-term DAPT (clopidogrel + aspirin) for life to prevent vascular remodeling.",
+          "isCorrect": false,
+          "rationale": "The SPS3 and MATCH trials demonstrated that long-term DAPT is not recommended due to increased mortality and bleeding risks."
+        }
+      ],
+      "hint": "Think about the specific timeframe where the benefit of recurrence prevention outweighs the cumulative risk of major bleeding.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "In the management of Embolic Stroke of Undetermined Source (ESUS), which approach was supported by the NAVIGATE ESUS and RE-SPECT ESUS trials?",
+      "answerOptions": [
+        {
+          "text": "Rivaroxaban 15 mg is superior to aspirin for preventing recurrent embolic events.",
+          "isCorrect": false,
+          "rationale": "The NAVIGATE ESUS trial found no benefit of rivaroxaban over aspirin and noted an increase in bleeding."
+        },
+        {
+          "text": "Dabigatran should be used as the primary prevention agent for ESUS.",
+          "isCorrect": false,
+          "rationale": "The RE-SPECT ESUS trial similarly failed to show a benefit of dabigatran over aspirin for this specific patient population."
+        },
+        {
+          "text": "Anticoagulation is NOT indicated for ESUS unless a specific source like atrial fibrillation is found.",
+          "isCorrect": true,
+          "rationale": "data indicates that antiplatelet therapy remains the standard as anticoagulation has not shown superior efficacy and increases bleeding in ESUS."
+        },
+        {
+          "text": "Low-dose warfarin (INR 1.5-2.0) is the preferred treatment.",
+          "isCorrect": false,
+          "rationale": "Aspirin is the preferred agent; warfarin titration is not indicated for undetermined sources without a clear cardioembolic indication."
+        }
+      ],
+      "hint": "Recall the outcomes of trials comparing DOACs to aspirin in patients without a confirmed cardioembolic source.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which anticoagulant is the ONLY approved agent for patients with mechanical heart valves or antiphospholipid syndrome?",
+      "answerOptions": [
+        {
+          "text": "Apixaban",
+          "isCorrect": false,
+          "rationale": "DOACs like apixaban are currently contraindicated for use with mechanical heart valves."
+        },
+        {
+          "text": "Dabigatran",
+          "isCorrect": false,
+          "rationale": "Direct thrombin inhibitors have not shown safety or efficacy for mechanical valves compared to traditional therapy."
+        },
+        {
+          "text": "Warfarin",
+          "isCorrect": true,
+          "rationale": "Warfarin remains the gold standard and only approved anticoagulant for mechanical valves and antiphospholipid syndrome."
+        },
+        {
+          "text": "Rivaroxaban",
+          "isCorrect": false,
+          "rationale": "Factor Xa inhibitors are not recommended for these high-risk valvular or specific hypercoagulable conditions."
+        }
+      ],
+      "hint": "This medication requires INR monitoring and acts as a Vitamin K antagonist.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A 75-year-old patient with atrial fibrillation weighs 55 kg and has a serum creatinine of 1.6 mg/dL. According to the ARISTOTLE trial criteria, what is the appropriate dose of apixaban?",
+      "answerOptions": [
+        {
+          "text": "5 mg BID",
+          "isCorrect": false,
+          "rationale": "The patient meets at least two dose-reduction criteria (weight less than or equal to 60 kg and Creatinine greater than or equal to 1.5 mg/dL)."
+        },
+        {
+          "text": "2.5 mg BID",
+          "isCorrect": true,
+          "rationale": "Apixaban should be reduced to 2.5 mg BID if the patient meets two or more of: age greater than or equal to 80, weight less than or equal to 60 kg, or Creatinine greater than or equal to 1.5 mg/dL."
+        },
+        {
+          "text": "2.5 mg daily",
+          "isCorrect": false,
+          "rationale": "Apixaban is consistently dosed twice daily, not once daily."
+        },
+        {
+          "text": "10 mg daily",
+          "isCorrect": false,
+          "rationale": "This dose is not standard for stroke prevention in atrial fibrillation."
+        }
+      ],
+      "hint": "Consider the three specific patient characteristics that necessitate a dose reduction for this Factor Xa inhibitor.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Based on the 2023 ELAN trial, how has the perspective on the traditional '1-3-6-12 Day Rule' for initiating anticoagulation after stroke changed?",
+      "answerOptions": [
+        {
+          "text": "The rule must be strictly followed to prevent any risk of hemorrhagic transformation.",
+          "isCorrect": false,
+          "rationale": "The ELAN trial suggests that earlier initiation may be as safe as the traditional delayed approach."
+        },
+        {
+          "text": "Early DOAC initiation was found to be safe and may be shifted earlier than the traditional rule.",
+          "isCorrect": true,
+          "rationale": "ELAN and OPTIMAS data support earlier anticoagulation, showing similar safety profiles to the traditional staggered timing."
+        },
+        {
+          "text": "Anticoagulation should now always be started within 24 hours regardless of infarct size.",
+          "isCorrect": false,
+          "rationale": "While timing is shifting earlier, the trial still used a stratified approach based on stroke severity, rather than a universal 24-hour rule."
+        },
+        {
+          "text": "Early initiation was found to significantly increase the risk of major symptomatic hemorrhage.",
+          "isCorrect": false,
+          "rationale": "The trial actually showed early initiation resulted in a composite endpoint that was often lower than or similar to later initiation."
+        }
+      ],
+      "hint": "Look for the trend regarding 'safety and efficacy' in the timing of DOAC initiation in recent clinical trials.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which reversal agent is specifically indicated for dabigatran and works as a monoclonal antibody fragment with extremely high affinity?",
+      "answerOptions": [
+        {
+          "text": "Andexanet alfa",
+          "isCorrect": false,
+          "rationale": "Andexanet alfa is a decoy factor Xa used for reversing Factor Xa inhibitors, not direct thrombin inhibitors."
+        },
+        {
+          "text": "Idarucizumab",
+          "isCorrect": true,
+          "rationale": "Idarucizumab is specific to dabigatran, binding it with 350x greater affinity than thrombin."
+        },
+        {
+          "text": "Protamine sulfate",
+          "isCorrect": false,
+          "rationale": "Protamine sulfate is used for the reversal of heparin and partially for low-molecular-weight heparin."
+        },
+        {
+          "text": "4-factor Prothrombin Complex Concentrate (PCC)",
+          "isCorrect": false,
+          "rationale": "While PCC can be used as a backup, it is not a specific monoclonal antibody designed for dabigatran."
+        }
+      ],
+      "hint": "The name of this agent is Praxbind.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "What was the primary conclusion of the Treat Stroke to Target (TST) trial regarding LDL management in atherosclerotic stroke patients?",
+      "answerOptions": [
+        {
+          "text": "An LDL target of 90-110 mg/dL is optimal for minimizing statin side effects.",
+          "isCorrect": false,
+          "rationale": "The trial found that the lower target group had better cardiovascular outcomes than the 90-110 mg/dL group."
+        },
+        {
+          "text": "Achieving an LDL target of < 70 mg/dL reduced the risk of recurrent cardiovascular events compared to higher targets.",
+          "isCorrect": true,
+          "rationale": "The TST trial demonstrated that targeting an LDL below 70 mg/dL resulted in a significantly lower rate of primary composite endpoints."
+        },
+        {
+          "text": "Targets below 70 mg/dL significantly increased the risk of intracranial hemorrhage.",
+          "isCorrect": false,
+          "rationale": "The trial found no significant increase in ICH or new-onset diabetes with the lower LDL target."
+        },
+        {
+          "text": "Statin therapy should only be initiated if the baseline LDL is greater than 130 mg/dL.",
+          "isCorrect": false,
+          "rationale": "High-intensity statins are recommended for all atherosclerotic stroke patients regardless of baseline LDL levels."
+        }
+      ],
+      "hint": "The trial compared a more intensive LDL reduction goal to a standard goal.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Why is it critically important NOT to discontinue statins during acute stroke hospitalization according to principles?",
+      "answerOptions": [
+        {
+          "text": "Discontinuation is associated with a 4.7-fold increased risk of death or dependency at 90 days.",
+          "isCorrect": true,
+          "rationale": "Acute withdrawal leads to a loss of pleiotropic effects (like endothelial protection) and rebound inflammation, significantly worsening outcomes."
+        },
+        {
+          "text": "Discontinuation causes an immediate 50\\% spike in LDL levels within 24 hours.",
+          "isCorrect": false,
+          "rationale": "While LDL will rise, the primary clinical danger is the loss of rapid-acting pleiotropic effects rather than the absolute LDL value change in 24 hours."
+        },
+        {
+          "text": "Statins are the primary treatment for reducing blood pressure in the acute phase.",
+          "isCorrect": false,
+          "rationale": "Statins are for lipid management and plaque stabilization, not primary acute blood pressure control."
+        },
+        {
+          "text": "Stopping statins triggers immediate rhabdomyolysis in stroke patients.",
+          "isCorrect": false,
+          "rationale": "Rhabdomyolysis is a rare side effect of taking statins, not an effect of stopping them."
+        }
+      ],
+      "hint": "Consider the impact of the 'pleiotropic effects' and the statistical risk associated with stopping this medication.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to the PROGRESS trial, which combination therapy showed the best evidence for reducing recurrent stroke?",
+      "answerOptions": [
+        {
+          "text": "Aspirin and Lisinopril",
+          "isCorrect": false,
+          "rationale": "While Lisinopril is an ACE inhibitor, the specific combination validated in PROGRESS involved different agents."
+        },
+        {
+          "text": "Perindopril and Indapamide",
+          "isCorrect": true,
+          "rationale": "The PROGRESS trial showed that this specific combination of an ACE inhibitor and a thiazide-like diuretic reduced recurrent stroke by 43\\%."
+        },
+        {
+          "text": "Amlodipine and Hydrochlorothiazide",
+          "isCorrect": false,
+          "rationale": "This combination was not the primary focus of the landmark PROGRESS trial evidence for stroke."
+        },
+        {
+          "text": "Losartan and Atenolol",
+          "isCorrect": false,
+          "rationale": "These agents were studied in other trials like LIFE, but not the stroke-specific PROGRESS trial combination."
+        }
+      ],
+      "hint": "This combination consists of an ACE inhibitor and a diuretic.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Based on the FOCUS, AFFINITY, and EFFECTS trials, what is the current recommendation for using SSRIs like fluoxetine to improve motor recovery after stroke?",
+      "answerOptions": [
+        {
+          "text": "They should be routinely prescribed for 6 months to all patients to enhance neuroplasticity.",
+          "isCorrect": false,
+          "rationale": "These large trials (FOCUS, AFFINITY, EFFECTS) found no functional benefit from routine SSRI use for motor recovery."
+        },
+        {
+          "text": "They are recommended only if started within the first 48 hours of stroke onset.",
+          "isCorrect": false,
+          "rationale": "The trials studied use over 6 months starting early, but still found no benefit in functional independence."
+        },
+        {
+          "text": "SSRIs should NOT be prescribed routinely for motor recovery as they are ineffective and increase fracture risk.",
+          "isCorrect": true,
+          "rationale": "evidence across multiple meta-analyses shows no effect on motor outcome and an increased risk of bone fractures and falls."
+        },
+        {
+          "text": "They are superior to physical therapy for achieving functional independence.",
+          "isCorrect": false,
+          "rationale": "There is no evidence suggesting pharmacotherapy replaces the standard of care for physical rehabilitation."
+        }
+      ],
+      "hint": "Reflect on whether the excitement from the earlier FLAME trial was validated by larger, subsequent RCTs.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which medication is considered first-line focal treatment for spasticity affecting the wrist and finger flexors after a stroke?",
+      "answerOptions": [
+        {
+          "text": "Oral Baclofen",
+          "isCorrect": false,
+          "rationale": "Oral baclofen has limited efficacy for focal spasticity and is often limited by systemic side effects like sedation."
+        },
+        {
+          "text": "Botulinum toxin type A (BoNT-A)",
+          "isCorrect": true,
+          "rationale": "Guidelines recommend BoNT-A as the first-line treatment for focal spasticity due to its targeted efficacy and lower systemic side effect profile."
+        },
+        {
+          "text": "Dantrolene",
+          "isCorrect": false,
+          "rationale": "Dantrolene is a peripherally acting agent but is not the first-line choice for focal upper extremity spasticity due to hepatotoxicity risks."
+        },
+        {
+          "text": "Diazepam",
+          "isCorrect": false,
+          "rationale": "Benzodiazepines are generally avoided in stroke rehab as they may impair neuroplasticity and cause significant cognitive impairment."
+        }
+      ],
+      "hint": "This is a form of chemodenervation injected directly into the affected muscles every 3-4 months.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which of the following medications should be AVOIDED or used with extreme caution during stroke rehabilitation because they may impair neuroplasticity?",
+      "answerOptions": [
+        {
+          "text": "Levetiracetam",
+          "isCorrect": false,
+          "rationale": "Levetiracetam is generally considered safe if an anticonvulsant is needed during stroke recovery."
+        },
+        {
+          "text": "Haloperidol",
+          "isCorrect": true,
+          "rationale": "Neuroleptics and dopamine receptor antagonists like haloperidol have been shown in animal and clinical data to negatively affect motor recovery."
+        },
+        {
+          "text": "Sertraline",
+          "isCorrect": false,
+          "rationale": "SSRIs are considered safe for treating post-stroke depression, even if not useful for motor recovery."
+        },
+        {
+          "text": "Modafinil",
+          "isCorrect": false,
+          "rationale": "Modafinil is sometimes used safely to manage post-stroke fatigue or arousal issues."
+        }
+      ],
+      "hint": "This class of drugs includes certain antipsychotics and central alpha-2 agonists like clonidine.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Regarding DVT prophylaxis in a patient with Intracerebral Hemorrhage (ICH), when should low-molecular-weight heparin (LMWH) typically be initiated?",
+      "answerOptions": [
+        {
+          "text": "Within 12 hours of admission.",
+          "isCorrect": false,
+          "rationale": "Initiating anticoagulants too early in ICH increases the risk of hematoma expansion."
+        },
+        {
+          "text": "Between days 2 and 4 post-onset.",
+          "isCorrect": true,
+          "rationale": "guidance suggests starting prophylactic LMWH between days 2-4 for ICH patients who are not mobilized."
+        },
+        {
+          "text": "Only after the patient has been hospitalized for at least 14 days.",
+          "isCorrect": false,
+          "rationale": "Waiting 14 days significantly increases the risk of DVT, which occurs in up to 75\\% of untreated survivors."
+        },
+        {
+          "text": "LMWH is contraindicated in all ICH patients; only mechanical prophylaxis is used.",
+          "isCorrect": false,
+          "rationale": "Mechanical prophylaxis is used acutely, but chemical prophylaxis is indicated after the initial period of stability."
+        }
+      ],
+      "hint": "Consider the balance between the risk of hematoma expansion and the high incidence of DVT in immobile stroke patients.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "What is the recommended dosing and duration for nimodipine in the management of subarachnoid hemorrhage (SAH)?",
+      "answerOptions": [
+        {
+          "text": "60 mg PO every 4 hours for 21 days.",
+          "isCorrect": true,
+          "rationale": "This protocol reduces the incidence of permanent neurologic damage and death by decreasing cerebral vasospasm."
+        },
+        {
+          "text": "30 mg PO daily for 7 days.",
+          "isCorrect": false,
+          "rationale": "This dose and duration are insufficient to provide the neuroprotective benefits demonstrated in SAH trials."
+        },
+        {
+          "text": "120 mg IV bolus followed by a 24-hour infusion.",
+          "isCorrect": false,
+          "rationale": "Nimodipine is administered orally/via gastric tube, and the standard duration is 3 weeks."
+        },
+        {
+          "text": "60 mg PO once daily for the duration of the hospital stay.",
+          "isCorrect": false,
+          "rationale": "The medication must be given more frequently (every 4 hours) to maintain therapeutic levels."
+        }
+      ],
+      "hint": "The treatment is initiated within 96 hours of onset and lasts for three weeks.",
+      "boardReadiness": "BOARD-CORE"
+    }
+  ]
+}

@@ -71,6 +71,13 @@ final TopicData motorRecoveryContent = TopicData(
             'Toe flexion',
           ],
         ),
+        KnowledgeCheckBlock(
+          question: 'According to the Copenhagen Stroke Study, by what time do 95% of patients reach their best neurological recovery level?',
+          options: ['4 weeks', '8 weeks', '11 weeks', '6 months'],
+          correctIndex: 2,
+          explanation: 'The Copenhagen Stroke Study (1995) demonstrated that 95% of stroke patients reach their best neurological recovery level by 11 weeks. Functional recovery through compensation may continue beyond this point.',
+          boardRelevance: 'BOARD-CORE',
+        ),
         PearlBlock(
           'Recovery Predictors',
           'Presence of voluntary finger extension and shoulder abduction '
@@ -248,6 +255,53 @@ final TopicData motorRecoveryContent = TopicData(
               'The transition from Stage 3 to Stage 4 (out-of-synergy movement) '
               'marks the critical turning point in recovery. '
               'Most patients plateau at Stage 3-4.',
+        ),
+        TimelineBlock(
+          title: 'Brunnstrom Stages & Motor Recovery Timeline',
+          milestones: [
+            TimelineMilestone(
+              label: 'Days 1-14',
+              title: 'Stage 1: Flaccidity',
+              details: ['No voluntary movement', 'Absent reflexes', 'Monitor for DVT and skin breakdown'],
+            ),
+            TimelineMilestone(
+              label: 'Weeks 1-4',
+              title: 'Stage 2: Spasticity Developing',
+              details: ['Minimal voluntary movement', 'Basic synergies begin', 'Reflexes return and become hyperactive'],
+            ),
+            TimelineMilestone(
+              label: 'Weeks 2-8',
+              title: 'Stage 3: Peak Spasticity',
+              details: ['Movement ONLY within synergy patterns', 'UE flexor synergy, LE extensor synergy', 'Most commonly tested stage on boards'],
+            ),
+            TimelineMilestone(
+              label: 'Months 2-4',
+              title: 'Stage 4: Out-of-Synergy Begins',
+              details: ['Critical turning point in recovery', 'Isolated movements emerge', 'Spasticity begins to decline'],
+            ),
+            TimelineMilestone(
+              label: 'Months 3-6',
+              title: 'Stages 5-6: Selective Motor Control',
+              details: ['Synergies no longer dominate', 'Isolated joint movements freely performed', 'Coordination approaches normal'],
+            ),
+            TimelineMilestone(
+              label: 'Months 6-12+',
+              title: 'Stage 7: Normal (if achieved)',
+              details: ['Full speed, coordination, dexterity', 'Most patients plateau at Stage 3-4', 'Functional gains continue via compensation'],
+            ),
+          ],
+        ),
+        KnowledgeCheckBlock(
+          question: 'At Brunnstrom Stage 3, a patient asked to flex the elbow will demonstrate which pattern?',
+          options: [
+            'Isolated elbow flexion only',
+            'The entire UE flexor synergy (shoulder abduction, elbow flexion, forearm supination, wrist flexion)',
+            'Random movement in all directions',
+            'No voluntary movement at all',
+          ],
+          correctIndex: 1,
+          explanation: 'At Stage 3, voluntary movement occurs ONLY within synergy patterns. Attempting elbow flexion triggers the entire flexor synergy because isolated joint movements are not yet possible.',
+          boardRelevance: 'BOARD-CORE',
         ),
         PearlBlock(
           'Stage 3 Board Pearl',
@@ -513,6 +567,18 @@ final TopicData motorRecoveryContent = TopicData(
             'Overcomes learned nonuse — reversal of cortical reorganization',
             'Modified versions more practical and similarly effective',
           ],
+        ),
+        KnowledgeCheckBlock(
+          question: 'What are the minimum motor criteria for eligibility for Constraint-Induced Movement Therapy (CIMT)?',
+          options: [
+            'Any trace movement in the affected hand',
+            '10 degrees active wrist extension and 10 degrees active finger extension',
+            'Full antigravity strength in the affected arm',
+            'Ability to grasp and release a tennis ball',
+          ],
+          correctIndex: 1,
+          explanation: 'CIMT requires at least 10 degrees of active wrist extension and 10 degrees of active finger extension. Only about 20-25% of stroke patients meet these criteria. This is a very commonly tested board fact.',
+          boardRelevance: 'BOARD-CORE',
         ),
         PearlBlock(
           'CIMT Eligibility Criteria',

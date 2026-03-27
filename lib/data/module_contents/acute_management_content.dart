@@ -51,6 +51,43 @@ final TopicData acuteManagementContent = TopicData(
             'These benchmarks reflect the critical importance of rapid treatment -- each 15-minute reduction in door-to-needle time is associated with improved outcomes',
           ],
         ),
+        TimelineBlock(
+          title: 'Acute Stroke Protocol Timeline',
+          milestones: [
+            TimelineMilestone(
+              label: '0-10 min',
+              title: 'Door-to-Physician',
+              details: ['ABCs and vital signs', 'Establish IV access, draw labs', 'Finger-stick glucose immediately', 'Activate stroke team'],
+            ),
+            TimelineMilestone(
+              label: '10-25 min',
+              title: 'Door-to-CT Completion',
+              details: ['Emergent non-contrast CT', 'NIHSS assessment (can occur during transport)', 'Rule out hemorrhage before any thrombolytic'],
+            ),
+            TimelineMilestone(
+              label: '25-45 min',
+              title: 'Door-to-CT Interpretation',
+              details: ['CT read by radiologist or stroke physician', 'CTA if LVO suspected (thrombectomy triage)', 'Review tPA inclusion/exclusion criteria'],
+            ),
+            TimelineMilestone(
+              label: '<60 min',
+              title: 'Door-to-Needle (tPA)',
+              details: ['IV alteplase 0.9 mg/kg (max 90 mg)', '10% bolus over 1 minute, 90% over 60 minutes', 'BP must be <185/110 before administration'],
+            ),
+            TimelineMilestone(
+              label: '<90 min',
+              title: 'Door-to-Groin Puncture',
+              details: ['Mechanical thrombectomy for LVO', 'Standard window 0-6 hours; extended to 24 hours with imaging selection', 'tPA should NOT be delayed for thrombectomy -- give during transfer'],
+            ),
+          ],
+        ),
+        KnowledgeCheckBlock(
+          question: 'What is the AHA/ASA target for door-to-needle time for IV tPA administration?',
+          options: ['<30 minutes', '<45 minutes', '<60 minutes', '<90 minutes'],
+          correctIndex: 2,
+          explanation: 'The AHA/ASA guideline target for door-to-needle time is <60 minutes. Each 15-minute reduction in door-to-needle time is associated with improved outcomes. Door-to-groin puncture for thrombectomy should be <90 minutes.',
+          boardRelevance: 'BOARD-CORE',
+        ),
         BulletCardBlock(
           title: 'Initial Orders and Supportive Care',
           themeColor: Color(0xFFEA580C),
@@ -369,6 +406,13 @@ final TopicData acuteManagementContent = TopicData(
           '<1.7. Hemorrhagic transformation risk: ~6%. These numbers are '
           'tested on virtually every stroke exam. The most common reason for '
           'tPA exclusion is arriving outside the time window.',
+        ),
+        KnowledgeCheckBlock(
+          question: 'What is the maximum blood pressure allowed BEFORE administering IV tPA for acute ischemic stroke?',
+          options: ['<160/90 mmHg', '<180/105 mmHg', '<185/110 mmHg', '<220/120 mmHg'],
+          correctIndex: 2,
+          explanation: 'Blood pressure must be <185/110 mmHg before tPA administration and maintained <180/105 mmHg for 24 hours after. If BP cannot be brought below these thresholds with IV antihypertensives, tPA is contraindicated.',
+          boardRelevance: 'BOARD-CORE',
         ),
         BulletCardBlock(
           title: 'Post-tPA Management',

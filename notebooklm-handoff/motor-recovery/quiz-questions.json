@@ -1,0 +1,438 @@
+{
+  "title": "Motor Recovery After Stroke",
+  "module": "motor_recovery",
+  "questions": [
+    {
+      "question": "According to Twitchell's classic recovery pattern, which feature characterizes the phase immediately following the period of flaccidity?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "Emergence of spasticity and return of deep tendon reflexes",
+          "isCorrect": true,
+          "rationale": "Following the flaccid stage, muscle tone begins to increase and reflexes typically return within the first 48 hours to 4 weeks."
+        },
+        {
+          "text": "Voluntary movement restricted to synergy patterns",
+          "isCorrect": false,
+          "rationale": "While this is a step in recovery, it typically follows the initial emergence of spasticity and reflex return rather than occurring immediately after flaccidity."
+        },
+        {
+          "text": "Ability to perform isolated voluntary movements",
+          "isCorrect": false,
+          "rationale": "Isolated movement represents a later stage of recovery, usually occurring months after the initial stroke."
+        },
+        {
+          "text": "Complete resolution of spasticity",
+          "isCorrect": false,
+          "rationale": "Spasticity typically peaks before it declines, making its resolution one of the final phases of motor recovery."
+        }
+      ],
+      "hint": "Consider the physiological changes that occur within the first month post-stroke as the nervous system begins to exit the shock phase."
+    },
+    {
+      "question": "A patient is observed attempting to flex their elbow but demonstrates simultaneous shoulder abduction, forearm supination, and wrist flexion. According to the Brunnstrom Stages of Motor Recovery, which stage does this represent?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "Stage 2",
+          "isCorrect": false,
+          "rationale": "In this stage, spasticity begins to develop and basic synergies may appear, but the movements are usually minimal rather than full synergy patterns."
+        },
+        {
+          "text": "Stage 3",
+          "isCorrect": true,
+          "rationale": "This stage is defined by the peak of spasticity where voluntary movement is only possible within the rigid constraints of a stereotyped synergy pattern."
+        },
+        {
+          "text": "Stage 4",
+          "isCorrect": false,
+          "rationale": "At this level, the patient begins to break out of synergies and perform movements that deviate from the stereotyped patterns."
+        },
+        {
+          "text": "Stage 5",
+          "isCorrect": false,
+          "rationale": "Synergies lose their dominance here, and the patient can perform more complex, independent joint movements."
+        }
+      ],
+      "hint": "Identify the stage where spasticity is at its maximum and movements are strictly bound to 'all-or-nothing' patterns."
+    },
+    {
+      "question": "Which specific movement identifies a transition into Brunnstrom Stage 4 for the upper extremity?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "Placing the hand behind the back",
+          "isCorrect": true,
+          "rationale": "This requires shoulder extension and internal rotation, which moves the limb out of the dominant flexor synergy pattern."
+        },
+        {
+          "text": "Flexing the elbow while in a supinated position",
+          "isCorrect": false,
+          "rationale": "Elbow flexion and supination are both components of the Stage 3 flexor synergy and do not represent 'out-of-synergy' movement."
+        },
+        {
+          "text": "Total arm flaccidity with no reflex response",
+          "isCorrect": false,
+          "rationale": "This is characteristic of Stage 1, representing the immediate post-stroke period."
+        },
+        {
+          "text": "Full finger extension in all ranges",
+          "isCorrect": false,
+          "rationale": "This high level of distal control is typically associated with the later stages of recovery, such as Stage 5 or 6."
+        }
+      ],
+      "hint": "Look for a movement that combines joint actions from different synergy groups, specifically involving shoulder extension."
+    },
+    {
+      "question": "According to the Copenhagen Stroke Study, by which week do 95% of stroke patients reach their best level of neurological recovery?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "11 weeks",
+          "isCorrect": true,
+          "rationale": "This landmark study established that the vast majority of neurological plateauing occurs within approximately three months post-stroke."
+        },
+        {
+          "text": "6 weeks",
+          "isCorrect": false,
+          "rationale": "While many functional gains for mild strokes occur by this time, it does not represent the 95% threshold for the entire study population."
+        },
+        {
+          "text": "24 weeks",
+          "isCorrect": false,
+          "rationale": "This exceeds the timeframe identified for neurological recovery, though some functional compensation may continue."
+        },
+        {
+          "text": "2 weeks",
+          "isCorrect": false,
+          "rationale": "This is too early for even mild strokes to reach their full neurological recovery potential according to the study data."
+        }
+      ],
+      "hint": "Consider the timeframe that aligns with the typical end of the subacute phase of stroke recovery."
+    },
+    {
+      "question": "The Proportional Recovery Rule (70% rule) suggests that most 'fitter' patients will recover a set percentage of their potential. Which assessment tool is primarily used to apply this rule to upper extremity recovery?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "Wolf Motor Function Test (WMFT)",
+          "isCorrect": false,
+          "rationale": "The WMFT is used to measure functional tasks and time, but it is not the standard metric for the proportional recovery calculations."
+        },
+        {
+          "text": "Action Research Arm Test (ARAT)",
+          "isCorrect": false,
+          "rationale": "While the ARAT is a valid observational assessment, the specific mathematical rule for proportional recovery was validated using a different impairment scale."
+        },
+        {
+          "text": "Fugl-Meyer Assessment (FMA)",
+          "isCorrect": true,
+          "rationale": "The proportional recovery rule specifically calculates expected improvement based on the initial deficit measured by the Fugl-Meyer upper extremity motor score."
+        },
+        {
+          "text": "Modified Ashworth Scale",
+          "isCorrect": false,
+          "rationale": "This scale measures spasticity rather than motor impairment or voluntary control, which the recovery rule aims to predict."
+        }
+      ],
+      "hint": "Think of the most widely used quantitative research scale that divides the upper extremity into a 66-point motor domain."
+    },
+    {
+      "question": "The Proportional Recovery Rule for upper extremity motor function is most accurately applied to which group of patients?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "Patients who are MEP-positive (presence of motor evoked potentials)",
+          "isCorrect": true,
+          "rationale": "Physiological studies show that patients with intact corticospinal tract conduction follow the 70% recovery trajectory, whereas MEP-negative patients do not."
+        },
+        {
+          "text": "All stroke patients regardless of initial severity",
+          "isCorrect": false,
+          "rationale": "Approximately 30% of patients are 'non-fitters' who do not follow this rule, usually due to severe corticospinal tract damage."
+        },
+        {
+          "text": "Patients with ACA territory infarctions",
+          "isCorrect": false,
+          "rationale": "The rule was primarily established and validated for upper extremity recovery in MCA territory strokes."
+        },
+        {
+          "text": "Only patients who receive Constraint-Induced Movement Therapy",
+          "isCorrect": false,
+          "rationale": "The rule describes a 'natural history' of recovery that is observed across standard rehabilitation settings for 'fitters'."
+        }
+      ],
+      "hint": "Think about the neurophysiological requirement for the corticospinal tract to transmit signals from the brain to the limb."
+    },
+    {
+      "question": "A patient is being assessed using the SAFE score at 72 hours post-stroke. Which two clinical measurements are required for this calculation?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "Shoulder Abduction and Finger Extension",
+          "isCorrect": true,
+          "rationale": "The SAFE score specifically combines the MRC grades of these two movements to predict upper extremity functional outcomes."
+        },
+        {
+          "text": "Shoulder Flexion and Grip Strength",
+          "isCorrect": false,
+          "rationale": "While important for general assessment, these are not the specific components of the validated SAFE predictive tool."
+        },
+        {
+          "text": "Elbow Flexion and Wrist Extension",
+          "isCorrect": false,
+          "rationale": "These movements are part of the Fugl-Meyer assessment but are not used in the initial 72-hour SAFE screening."
+        },
+        {
+          "text": "Scapular Elevation and Thumb Abduction",
+          "isCorrect": false,
+          "rationale": "These motions do not form the basis of the primary algorithm used to categorize recovery potential in the PREP2 model."
+        }
+      ],
+      "hint": "The acronym itself provides a clue to the two specific muscle groups involved."
+    },
+    {
+      "question": "When using the PREP2 algorithm to predict upper extremity motor recovery, what is the next diagnostic step for a patient with a SAFE score of less than 5 at 72 hours?",
+      "boardReadiness": "BOARD-LIKELY",
+      "answerOptions": [
+        {
+          "text": "MRI to assess PLIC asymmetry",
+          "isCorrect": false,
+          "rationale": "MRI is the third step in the algorithm; it is only performed if TMS fails to show motor evoked potentials."
+        },
+        {
+          "text": "Transcranial Magnetic Stimulation (TMS) to test for Motor Evoked Potentials (MEPs)",
+          "isCorrect": true,
+          "rationale": "If the clinical SAFE score is low, the algorithm uses TMS to check for the presence of MEPs to determine if the corticospinal tract is still functional."
+        },
+        {
+          "text": "Immediate initiation of robotic-assisted therapy",
+          "isCorrect": false,
+          "rationale": "Robotic therapy is an intervention, whereas PREP2 is a prognostic algorithm used to predict outcomes."
+        },
+        {
+          "text": "Assessment of age and cognitive status",
+          "isCorrect": false,
+          "rationale": "Age is used as a modifier for those with a high SAFE score (>=5), but it is not the primary next step for those with low scores."
+        }
+      ],
+      "hint": "Consider the diagnostic tool used to physiologically assess the integrity of the motor pathways when clinical movement is absent."
+    },
+    {
+      "question": "To qualify for Constraint-Induced Movement Therapy (CIMT) based on the criteria used in the EXCITE trial, a patient must demonstrate at least 10 degrees of active movement in which specific joints?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "Shoulder abduction and elbow extension",
+          "isCorrect": false,
+          "rationale": "The eligibility criteria focus on distal control rather than proximal movements to ensure the patient has some baseline functional potential."
+        },
+        {
+          "text": "Wrist extension, finger extension, and thumb abduction/extension",
+          "isCorrect": true,
+          "rationale": "The protocol requires a minimum baseline of distal extension (10 degrees at each specified joint) to ensure the paretic hand can be used during intensive training."
+        },
+        {
+          "text": "Forearm supination and wrist flexion",
+          "isCorrect": false,
+          "rationale": "Criteria emphasize the ability to open the hand and extend the wrist, which are often the most difficult movements to regain."
+        },
+        {
+          "text": "Elbow flexion and grip strength of at least 5 lbs",
+          "isCorrect": false,
+          "rationale": "Grip strength is not the primary inclusion criterion; the focus is on active extension of the wrist and digits."
+        }
+      ],
+      "hint": "Recall the 'rule of tens' that identifies the minimal distal motor requirements for this intensive therapy."
+    },
+    {
+      "question": "Which rehabilitation philosophy explicitly views synergy patterns as a normal and necessary stage of recovery to be facilitated rather than inhibited?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "Bobath / Neurodevelopmental Treatment (NDT)",
+          "isCorrect": false,
+          "rationale": "The Bobath approach views synergies as pathological and focuses on inhibiting them to facilitate normal movement."
+        },
+        {
+          "text": "Proprioceptive Neuromuscular Facilitation (PNF)",
+          "isCorrect": false,
+          "rationale": "PNF focuses on diagonal patterns and irradiation but does not center its philosophy on the progression through Brunnstrom's synergy stages."
+        },
+        {
+          "text": "Brunnstrom Movement Therapy",
+          "isCorrect": true,
+          "rationale": "This approach uses the primitive patterns available to the patient as building blocks to eventually reach out-of-synergy control."
+        },
+        {
+          "text": "The Rood Approach",
+          "isCorrect": false,
+          "rationale": "This method relies on sensory stimulation (like icing or brushing) to modify muscle tone rather than the facilitation of synergy patterns."
+        }
+      ],
+      "hint": "Identify the approach that shares a name with the stages used to describe the transition from flaccidity to normal movement."
+    },
+    {
+      "question": "The AVERT trial investigated the timing and intensity of early mobilization after stroke. What was the primary finding regarding 'very early' (within 24 hours) aggressive mobilization?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "It significantly reduced the risk of deep vein thrombosis and pneumonia.",
+          "isCorrect": false,
+          "rationale": "While mobilization helps prevent these complications, the trial found that doing so too aggressively within the first 24 hours led to other negative outcomes."
+        },
+        {
+          "text": "It was associated with worse clinical outcomes at 3 months and increased early mortality.",
+          "isCorrect": true,
+          "rationale": "The study concluded that high-dose, very early mobilization within 24 hours was detrimental compared to standard care."
+        },
+        {
+          "text": "It led to a 70% increase in the probability of achieving independent walking.",
+          "isCorrect": false,
+          "rationale": "Independent walking is a goal, but the high-intensity timing in the AVERT trial did not support this specific outcome improvement."
+        },
+        {
+          "text": "It was only beneficial for patients with mild strokes (initial NIHSS <5).",
+          "isCorrect": false,
+          "rationale": "The findings were generally negative regarding the 24-hour window, regardless of initial stroke severity categories."
+        }
+      ],
+      "hint": "Think about the potential physiological vulnerability of the brain during the hyperacute phase of a stroke."
+    },
+    {
+      "question": "Based on the AVERT trial, what is the recommended timing for initiating mobilization after a stroke?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "Between 24 and 48 hours post-stroke",
+          "isCorrect": true,
+          "rationale": "The trial showed that very early aggressive mobilization (within 24 hours) was associated with worse outcomes and higher mortality."
+        },
+        {
+          "text": "Within the first 12 hours to prevent learned nonuse",
+          "isCorrect": false,
+          "rationale": "Early aggressive mobilization within this timeframe was specifically linked to poorer 3-month outcomes in the trial."
+        },
+        {
+          "text": "After the first 7 days once the penumbra has completely stabilized",
+          "isCorrect": false,
+          "rationale": "Waiting a full week is unnecessary and can lead to complications of immobility; 24-48 hours is the balanced window."
+        },
+        {
+          "text": "Only after the patient reaches Brunnstrom Stage 3",
+          "isCorrect": false,
+          "rationale": "Mobilization depends on physiological stability and timing, not on reaching a specific stage of synergy development."
+        }
+      ],
+      "hint": "Recall the 'Goldilocks' window that avoids the dangers of the first day while still promoting early recovery."
+    },
+    {
+      "question": "Recent large-scale trials (FOCUS, AFFINITY, EFFECTS) have provided definitive evidence regarding the use of Fluoxetine (SSRIs) for motor recovery. What is the current clinical recommendation based on these findings?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "SSRIs should be started within 48 hours to maximize neuroplasticity.",
+          "isCorrect": false,
+          "rationale": "The trials showed no benefit for motor recovery, and very early initiation of drugs was not supported for this purpose."
+        },
+        {
+          "text": "SSRIs are not routinely recommended solely for the purpose of enhancing motor recovery.",
+          "isCorrect": true,
+          "rationale": "These large trials failed to replicate earlier positive findings (FLAME) and noted increased risks of fractures and falls."
+        },
+        {
+          "text": "SSRIs are superior to conventional therapy for improving Fugl-Meyer scores.",
+          "isCorrect": false,
+          "rationale": "The confirmatory trials showed no significant difference in functional outcomes between the fluoxetine and placebo groups."
+        },
+        {
+          "text": "SSRIs are recommended only for patients with severe initial deficits (NIHSS >15).",
+          "isCorrect": false,
+          "rationale": "The evidence does not support SSRIs for motor recovery regardless of the initial severity of the stroke."
+        }
+      ],
+      "hint": "Think about whether the more recent, larger studies confirmed or refuted the earlier, smaller 'FLAME' trial."
+    },
+    {
+      "question": "In the LEAPS trial comparing Body-Weight-Supported Treadmill Training (BWSTT) to a progressive home exercise program, what were the primary results at one year?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "BWSTT was significantly superior for restoring independent walking.",
+          "isCorrect": false,
+          "rationale": "The trial showed that BWSTT did not offer a superior advantage over the comparison group for gait recovery."
+        },
+        {
+          "text": "There was no significant difference in walking outcomes between the two groups.",
+          "isCorrect": true,
+          "rationale": "Both groups showed similar improvements, leading to the conclusion that expensive treadmill equipment was not necessarily better than structured home exercise."
+        },
+        {
+          "text": "BWSTT was effective only if started within the first 24 hours.",
+          "isCorrect": false,
+          "rationale": "Early initiation (within 2 months) actually increased fall risk in the BWSTT group and did not prove more effective than delayed training."
+        },
+        {
+          "text": "BWSTT significantly reduced the risk of falls compared to home exercise.",
+          "isCorrect": false,
+          "rationale": "Patients receiving the treadmill training early were actually found to be at a higher risk for falls."
+        }
+      ],
+      "hint": "Recall the 'negative' finding that compared high-tech treadmill training with standard progressive exercise."
+    },
+    {
+      "question": "Which principle of neuroplasticity, as defined by Kleim and Jones, states that the nature of the training experience determines the nature of the plastic changes in the brain?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "Salience matters",
+          "isCorrect": false,
+          "rationale": "Salience refers to the meaningfulness or importance of the task to the patient, rather than the specific type of training movement."
+        },
+        {
+          "text": "Specificity",
+          "isCorrect": true,
+          "rationale": "This principle highlights that plastic changes are task-specific; practicing one specific skill will drive changes in the neural circuits related to that skill."
+        },
+        {
+          "text": "Transference",
+          "isCorrect": false,
+          "rationale": "Transference involves the ability of plasticity in one circuit to promote related (but different) behaviors."
+        },
+        {
+          "text": "Use it or lose it",
+          "isCorrect": false,
+          "rationale": "This principle describes the degradation of neural circuits that are not actively engaged in functional tasks."
+        }
+      ],
+      "hint": "Focus on the term that describes how the specific details of a task dictate the resulting cortical reorganization."
+    },
+    {
+      "question": "Which type of Ankle-Foot Orthosis (AFO) is specifically designed to address genu recurvatum (knee hyperextension) during the stance phase of gait?",
+      "boardReadiness": "BOARD-CORE",
+      "answerOptions": [
+        {
+          "text": "Ground Reaction AFO (GRAFO)",
+          "isCorrect": true,
+          "rationale": "The anterior shell of a GRAFO creates a knee extension moment that helps control knee position and prevent hyperextension."
+        },
+        {
+          "text": "Posterior Leaf Spring (PLS)",
+          "isCorrect": false,
+          "rationale": "A PLS is too flexible to control the knee and is primarily used for compensated foot drop."
+        },
+        {
+          "text": "Solid AFO",
+          "isCorrect": false,
+          "rationale": "While it provides stability, it is not the specific design optimized for managing the knee through an anterior tibial shell."
+        },
+        {
+          "text": "Articulated AFO with a dorsiflexion stop",
+          "isCorrect": false,
+          "rationale": "A dorsiflexion stop would actually encourage knee extension/hyperextension rather than blocking it."
+        }
+      ],
+      "hint": "This orthosis uses an anterior shell that reaches up toward the tibial tuberosity."
+    }
+  ]
+}

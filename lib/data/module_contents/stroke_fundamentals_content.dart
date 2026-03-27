@@ -115,6 +115,20 @@ final TopicData strokeFundamentalsContent = TopicData(
           'hemisphere strokes (neglect is scored but not heavily weighted). A patient '
           'with a devastating basilar occlusion may have a deceptively low NIHSS.',
         ),
+        KnowledgeCheckBlock(
+          question: 'What percentage of all strokes are ischemic?',
+          options: ['13%', '50%', '75%', '87%'],
+          correctIndex: 3,
+          explanation: 'Ischemic strokes account for approximately 87% of all strokes. Hemorrhagic strokes (ICH + SAH) account for the remaining 13%.',
+          boardRelevance: 'BOARD-CORE',
+        ),
+        KnowledgeCheckBlock(
+          question: 'An mRS score of 0-2 at 90 days is generally considered what type of outcome in stroke clinical trials?',
+          options: ['Poor outcome', 'Moderate outcome', 'Good outcome', 'Excellent outcome'],
+          correctIndex: 2,
+          explanation: 'mRS 0-2 is considered a "good outcome" in stroke trials and is the primary endpoint in most major tPA and thrombectomy trials. mRS 0-1 is considered "excellent outcome."',
+          boardRelevance: 'BOARD-CORE',
+        ),
       ],
     ),
 
@@ -218,6 +232,13 @@ final TopicData strokeFundamentalsContent = TopicData(
           'rates. This geographic disparity persists even after controlling for '
           'known risk factors, suggesting environmental and systemic contributors.',
         ),
+        KnowledgeCheckBlock(
+          question: 'Stroke is the leading cause of which of the following in the United States?',
+          options: ['Death overall', 'Long-term adult disability', 'Hospitalization', 'Healthcare spending'],
+          correctIndex: 1,
+          explanation: 'Stroke is the #1 leading cause of long-term adult disability in the United States. It is the 5th leading cause of death (not the leading cause overall).',
+          boardRelevance: 'BOARD-CORE',
+        ),
       ],
     ),
 
@@ -311,6 +332,43 @@ final TopicData strokeFundamentalsContent = TopicData(
           'Stroke/TIA (2), V=Vascular disease (1), A=Age 65-74 (1), Sc=Sex '
           'category female (1). Score >=2 in men or >=3 in women: anticoagulate. '
           'Score 0: no therapy needed. Score 1: consider anticoagulation.',
+        ),
+        TimelineBlock(
+          title: 'Stroke Risk Factor Modification Timeline',
+          milestones: [
+            TimelineMilestone(
+              label: 'Immediate',
+              title: 'Acute Interventions',
+              details: ['Start antiplatelet or anticoagulation', 'Begin statin therapy', 'Initiate BP control'],
+            ),
+            TimelineMilestone(
+              label: '1-2 Weeks',
+              title: 'Risk Factor Assessment',
+              details: ['Complete cardiac workup (ECG, echo, monitoring)', 'Obtain HbA1c and lipid panel', 'Screen for sleep apnea'],
+            ),
+            TimelineMilestone(
+              label: '1-3 Months',
+              title: 'Lifestyle Modification',
+              details: ['Smoking cessation (risk normalizes in ~5 years)', 'Dietary changes (Mediterranean/DASH diet)', 'Exercise program (150 min/week moderate activity)'],
+            ),
+            TimelineMilestone(
+              label: '3-6 Months',
+              title: 'Target Achievement',
+              details: ['BP target <130/80 mmHg', 'LDL target <70 mg/dL with high-intensity statin', 'HbA1c target <7% for diabetics'],
+            ),
+            TimelineMilestone(
+              label: 'Lifelong',
+              title: 'Ongoing Secondary Prevention',
+              details: ['Antiplatelet or anticoagulation adherence', 'Annual vascular imaging if carotid disease', 'Continued risk factor monitoring and optimization'],
+            ),
+          ],
+        ),
+        KnowledgeCheckBlock(
+          question: 'Which of the following is the single most important modifiable risk factor for stroke?',
+          options: ['Diabetes mellitus', 'Atrial fibrillation', 'Hypertension', 'Hyperlipidemia'],
+          correctIndex: 2,
+          explanation: 'Hypertension is the #1 modifiable risk factor for stroke, present in approximately 70% of stroke patients. For every 10 mmHg reduction in systolic BP, stroke risk decreases by approximately 33%.',
+          boardRelevance: 'BOARD-CORE',
         ),
       ],
     ),

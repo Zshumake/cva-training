@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Inter, Helvetica, Arial, sans-serif">
+  <rect width="800" height="600" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#0F172A">Swallowing Anatomy &amp; Phases</text>
+  <text x="400" y="52" text-anchor="middle" font-size="12" fill="#64748B">Sagittal View with Cranial Nerve Involvement</text>
+
+  <!-- Head/neck outline (sagittal) -->
+  <path d="M120,100 Q180,60 260,70 Q340,75 380,120 Q400,160 390,220 Q385,260 370,300 Q360,340 350,380 Q340,440 330,500 Q325,530 310,560"
+        fill="none" stroke="#94A3B8" stroke-width="2"/>
+  <!-- Face front -->
+  <path d="M120,100 Q100,160 90,220 Q85,260 95,300"
+        fill="none" stroke="#94A3B8" stroke-width="2"/>
+
+  <!-- Nasal cavity -->
+  <path d="M130,120 Q180,110 240,115 Q280,120 300,140"
+        fill="#EFF6FF" fill-opacity="0.5" stroke="#0284C7" stroke-width="1.5"/>
+  <text x="210" y="115" font-size="10" fill="#0284C7" font-weight="500">Nasal cavity</text>
+
+  <!-- Hard palate -->
+  <line x1="130" y1="160" x2="260" y2="155" stroke="#475569" stroke-width="2.5"/>
+  <text x="195" y="150" text-anchor="middle" font-size="9" fill="#475569" font-weight="600">Hard palate</text>
+
+  <!-- Soft palate -->
+  <path d="M260,155 Q290,160 310,180 Q320,200 300,210"
+        fill="#F1F5F9" stroke="#475569" stroke-width="2"/>
+  <text x="310" y="175" font-size="9" fill="#475569" font-weight="600">Soft palate</text>
+
+  <!-- Oral cavity -->
+  <path d="M130,165 Q180,200 240,210 Q280,215 300,210"
+        fill="#DC2626" fill-opacity="0.08"/>
+  <text x="200" y="200" text-anchor="middle" font-size="12" font-weight="700" fill="#DC2626">Oral Cavity</text>
+
+  <!-- Tongue -->
+  <path d="M140,220 Q180,200 230,205 Q270,210 290,230 Q300,250 270,260 Q220,270 160,260 Q140,250 140,220Z"
+        fill="#DC2626" fill-opacity="0.15" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="215" y="245" text-anchor="middle" font-size="11" font-weight="600" fill="#DC2626">Tongue</text>
+
+  <!-- Pharynx -->
+  <path d="M300,210 Q330,250 340,300 Q345,340 340,380"
+        fill="none" stroke="#D97706" stroke-width="2"/>
+  <path d="M290,230 Q310,270 320,300 Q325,340 320,380"
+        fill="none" stroke="#D97706" stroke-width="2"/>
+  <!-- Pharynx shading -->
+  <path d="M290,230 Q310,270 320,300 Q325,340 320,380 L340,380 Q345,340 340,300 Q330,250 300,210Z"
+        fill="#D97706" fill-opacity="0.1"/>
+  <text x="355" y="290" font-size="12" font-weight="700" fill="#D97706">Pharynx</text>
+
+  <!-- Epiglottis -->
+  <path d="M280,270 Q275,250 280,235 Q290,225 295,240 Q300,260 290,275Z"
+        fill="#059669" fill-opacity="0.3" stroke="#059669" stroke-width="1.5"/>
+  <text x="265" y="228" font-size="9" fill="#059669" font-weight="600">Epiglottis</text>
+
+  <!-- Larynx -->
+  <path d="M280,310 Q260,330 255,360 Q258,390 280,400 Q310,410 330,395 Q345,375 340,345 Q335,320 320,310Z"
+        fill="#4F46E5" fill-opacity="0.1" stroke="#4F46E5" stroke-width="1.5"/>
+  <text x="300" y="355" text-anchor="middle" font-size="11" font-weight="700" fill="#4F46E5">Larynx</text>
+  <!-- Vocal folds -->
+  <line x1="275" y1="350" x2="325" y2="350" stroke="#4F46E5" stroke-width="1.5"/>
+  <text x="300" y="368" text-anchor="middle" font-size="8" fill="#4F46E5">Vocal folds</text>
+
+  <!-- Trachea -->
+  <path d="M275,400 Q270,430 268,480 Q267,520 270,560"
+        fill="none" stroke="#0284C7" stroke-width="2"/>
+  <path d="M325,400 Q320,430 318,480 Q317,520 320,560"
+        fill="none" stroke="#0284C7" stroke-width="2"/>
+  <!-- Tracheal rings -->
+  <line x1="275" y1="420" x2="325" y2="420" stroke="#0284C7" stroke-width="1" stroke-opacity="0.5"/>
+  <line x1="274" y1="440" x2="324" y2="440" stroke="#0284C7" stroke-width="1" stroke-opacity="0.5"/>
+  <line x1="273" y1="460" x2="323" y2="460" stroke="#0284C7" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="297" y="500" text-anchor="middle" font-size="11" font-weight="600" fill="#0284C7">Trachea</text>
+
+  <!-- Esophagus (behind trachea) -->
+  <path d="M330,395 Q345,430 348,480 Q350,530 348,560"
+        fill="none" stroke="#059669" stroke-width="2"/>
+  <path d="M350,395 Q360,430 362,480 Q364,530 362,560"
+        fill="none" stroke="#059669" stroke-width="2"/>
+  <text x="370" y="490" font-size="11" font-weight="600" fill="#059669">Esophagus</text>
+
+  <!-- Hyoid bone -->
+  <path d="M255,295 Q280,285 310,295" fill="none" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <text x="235" y="295" font-size="8" fill="#475569" font-weight="600">Hyoid</text>
+
+  <!-- ═══ RIGHT PANEL: 4 PHASES ═══ -->
+  <rect x="430" y="75" width="350" height="240" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="605" y="100" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Four Phases of Swallowing</text>
+
+  <!-- Phase 1 -->
+  <rect x="445" y="112" width="320" height="42" rx="6" fill="#DC2626" fill-opacity="0.06" stroke="#DC2626" stroke-opacity="0.2"/>
+  <text x="455" y="130" font-size="11" font-weight="700" fill="#DC2626">1. Oral Preparatory</text>
+  <text x="455" y="146" font-size="9" fill="#0F172A">Mastication, bolus formation. CN V (mastication), VII (lip seal), XII (tongue)</text>
+
+  <!-- Phase 2 -->
+  <rect x="445" y="160" width="320" height="42" rx="6" fill="#D97706" fill-opacity="0.06" stroke="#D97706" stroke-opacity="0.2"/>
+  <text x="455" y="178" font-size="11" font-weight="700" fill="#D97706">2. Oral Transit</text>
+  <text x="455" y="194" font-size="9" fill="#0F172A">Tongue propels bolus posteriorly. CN XII (tongue). Voluntary phase.</text>
+
+  <!-- Phase 3 -->
+  <rect x="445" y="208" width="320" height="42" rx="6" fill="#4F46E5" fill-opacity="0.06" stroke="#4F46E5" stroke-opacity="0.2"/>
+  <text x="455" y="226" font-size="11" font-weight="700" fill="#4F46E5">3. Pharyngeal</text>
+  <text x="455" y="242" font-size="9" fill="#0F172A">Reflex triggered. Epiglottis closes. CN IX, X. Aspiration risk phase.</text>
+
+  <!-- Phase 4 -->
+  <rect x="445" y="256" width="320" height="42" rx="6" fill="#059669" fill-opacity="0.06" stroke="#059669" stroke-opacity="0.2"/>
+  <text x="455" y="274" font-size="11" font-weight="700" fill="#059669">4. Esophageal</text>
+  <text x="455" y="290" font-size="9" fill="#0F172A">Peristalsis through esophagus. CN X (vagus). Involuntary.</text>
+
+  <!-- ═══ CRANIAL NERVES TABLE ═══ -->
+  <rect x="430" y="330" width="350" height="155" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="605" y="355" text-anchor="middle" font-size="13" font-weight="700" fill="#0F172A">Cranial Nerves in Swallowing</text>
+
+  <text x="450" y="378" font-size="11" font-weight="700" fill="#7C3AED">CN V (Trigeminal)</text>
+  <text x="570" y="378" font-size="10" fill="#0F172A">Mastication muscles (jaw)</text>
+
+  <text x="450" y="398" font-size="11" font-weight="700" fill="#7C3AED">CN VII (Facial)</text>
+  <text x="570" y="398" font-size="10" fill="#0F172A">Lip closure, buccinator (cheek)</text>
+
+  <text x="450" y="418" font-size="11" font-weight="700" fill="#7C3AED">CN IX (Glossopharyngeal)</text>
+  <text x="620" y="418" font-size="10" fill="#0F172A">Pharyngeal sensation, gag</text>
+
+  <text x="450" y="438" font-size="11" font-weight="700" fill="#7C3AED">CN X (Vagus)</text>
+  <text x="570" y="438" font-size="10" fill="#0F172A">Laryngeal closure, esophageal peristalsis</text>
+
+  <text x="450" y="458" font-size="11" font-weight="700" fill="#7C3AED">CN XII (Hypoglossal)</text>
+  <text x="570" y="458" font-size="10" fill="#0F172A">Tongue movement (bolus propulsion)</text>
+
+  <text x="450" y="478" font-size="9" fill="#64748B" font-style="italic">Nucleus ambiguus (CN IX, X): key swallowing center in medulla</text>
+
+  <!-- Board Pearl -->
+  <rect x="430" y="500" width="350" height="80" rx="10" fill="#FFF7ED" stroke="#D97706" stroke-opacity="0.3"/>
+  <text x="450" y="520" font-size="11" font-weight="700" fill="#D97706">Board Pearl</text>
+  <text x="450" y="536" font-size="10" fill="#0F172A">Pharyngeal phase is most dangerous for</text>
+  <text x="450" y="550" font-size="10" fill="#0F172A">aspiration. Lateral medullary (Wallenberg)</text>
+  <text x="450" y="564" font-size="10" fill="#0F172A">stroke causes worst dysphagia due to</text>
+  <text x="450" y="578" font-size="10" fill="#DC2626" font-weight="600">nucleus ambiguus involvement (CN IX, X).</text>
+</svg>

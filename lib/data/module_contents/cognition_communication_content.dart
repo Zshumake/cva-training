@@ -95,6 +95,13 @@ final TopicData cognitionCommunicationContent = TopicData(
             ],
           ],
         ),
+        KnowledgeCheckBlock(
+          question: 'Which feature of aphasia classification distinguishes transcortical aphasias from perisylvian aphasias (Broca, Wernicke, Conduction, Global)?',
+          options: ['Fluency', 'Comprehension', 'Repetition', 'Naming'],
+          correctIndex: 2,
+          explanation: 'REPETITION is the key discriminating feature. Transcortical aphasias have INTACT repetition because the perisylvian language zone is preserved -- the lesion is outside this zone in the watershed areas. All perisylvian aphasias have impaired repetition.',
+          boardRelevance: 'BOARD-CORE',
+        ),
         PearlBlock(
           'The Repetition Rule',
           'REPETITION is the key discriminating feature for classification: '
@@ -246,6 +253,13 @@ final TopicData cognitionCommunicationContent = TopicData(
             'Behavioral Inattention Test (BIT) — comprehensive standardized battery',
           ],
         ),
+        KnowledgeCheckBlock(
+          question: 'A patient cannot pantomime brushing teeth on command but performs the task spontaneously when given a toothbrush. What type of apraxia is this?',
+          options: ['Ideational apraxia', 'Ideomotor apraxia', 'Constructional apraxia', 'Dressing apraxia'],
+          correctIndex: 1,
+          explanation: 'Ideomotor apraxia is characterized by inability to execute a learned motor act on command despite understanding and intact motor function. The hallmark is voluntary-automatic dissociation -- performance improves with actual tool use. Most commonly from left hemisphere lesions.',
+          boardRelevance: 'BOARD-CORE',
+        ),
         PearlBlock(
           'Why Right Hemisphere Neglect Is Worse',
           'Left neglect (from RIGHT hemisphere damage) is far more common and '
@@ -372,6 +386,43 @@ final TopicData cognitionCommunicationContent = TopicData(
             'Right homonymous hemianopia',
             'Alexia (reading impairment)',
           ],
+        ),
+        TimelineBlock(
+          title: 'Aphasia Recovery Timeline by Severity',
+          milestones: [
+            TimelineMilestone(
+              label: 'Weeks 1-4',
+              title: 'Rapid Spontaneous Recovery Phase',
+              details: ['Most significant language gains occur', 'Resolution of diaschisis and edema', 'Global aphasia may begin evolving toward Broca pattern'],
+            ),
+            TimelineMilestone(
+              label: 'Months 1-3',
+              title: 'Active Recovery Window',
+              details: ['Anomic aphasia: substantial naming improvement', 'Conduction aphasia: often evolves to anomic type', 'Intensive SLP therapy yields greatest gains'],
+            ),
+            TimelineMilestone(
+              label: 'Months 3-6',
+              title: 'Most Spontaneous Recovery Complete',
+              details: ['Broca: verbal output improves but telegraphic speech often persists', 'Wernicke: comprehension typically improves; paraphasias decrease', 'Global: limited if large lesion; some may reach Broca pattern'],
+            ),
+            TimelineMilestone(
+              label: 'Months 6-12',
+              title: 'Continued Therapy-Driven Gains',
+              details: ['Slower rate of improvement', 'Compensatory strategies become more important', 'AAC devices introduced for persistent severe aphasia'],
+            ),
+            TimelineMilestone(
+              label: '12+ months',
+              title: 'Chronic Aphasia',
+              details: ['Intensive therapy (CILT, MIT) can still produce gains', 'Anomic aphasia: best long-term prognosis', 'Global aphasia: poorest prognosis if large MCA territory lesion'],
+            ),
+          ],
+        ),
+        KnowledgeCheckBlock(
+          question: 'Which cognitive screening tool is PREFERRED over the MMSE for detecting post-stroke cognitive impairment?',
+          options: ['Trail Making Test', 'Montreal Cognitive Assessment (MoCA)', 'Clock Drawing Test', 'Cognitive FIM'],
+          correctIndex: 1,
+          explanation: 'The MoCA is more sensitive than the MMSE for detecting post-stroke cognitive impairment, particularly in executive function and visuospatial domains. Up to 50% of patients with post-stroke cognitive impairment score normal on MMSE but abnormal on MoCA.',
+          boardRelevance: 'BOARD-CORE',
         ),
         PearlBlock(
           'Gerstmann Syndrome',

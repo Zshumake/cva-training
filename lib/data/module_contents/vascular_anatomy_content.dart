@@ -109,6 +109,13 @@ final TopicData vascularAnatomyContent = TopicData(
           'pontine signs (CN VII facial palsy, CN VIII hearing loss). SCA = rarely '
           'tested alone; superior cerebellar signs with possible tremor.',
         ),
+        KnowledgeCheckBlock(
+          question: 'Which artery supplies approximately 80% of total cerebral blood flow?',
+          options: ['Vertebral artery', 'Basilar artery', 'Internal carotid artery', 'Middle cerebral artery'],
+          correctIndex: 2,
+          explanation: 'The internal carotid artery (ICA) system supplies approximately 80% of cerebral blood flow. The posterior circulation (vertebrobasilar system) supplies the remaining 20%.',
+          boardRelevance: 'BOARD-CORE',
+        ),
         BulletCardBlock(
           title: 'Homunculus and Vascular Territory Mapping',
           themeColor: Color(0xFF8B5CF6),
@@ -210,6 +217,13 @@ final TopicData vascularAnatomyContent = TopicData(
           'causing ipsilateral ptosis, mydriasis (dilated pupil), and "down and out" '
           'eye position. A pupil-involving CN III palsy is an aneurysm until proven '
           'otherwise and requires emergent CTA/angiography.',
+        ),
+        KnowledgeCheckBlock(
+          question: 'What is the most common location for a saccular (berry) aneurysm in the Circle of Willis?',
+          options: ['PComm artery', 'AComm artery', 'MCA bifurcation', 'Basilar tip'],
+          correctIndex: 1,
+          explanation: 'The anterior communicating artery (AComm) is the most common location for saccular aneurysms, accounting for approximately 30-35% of cases. The PComm is second most common at 25-30%.',
+          boardRelevance: 'BOARD-CORE',
         ),
       ],
     ),
@@ -330,6 +344,13 @@ final TopicData vascularAnatomyContent = TopicData(
           'bilateral watershed infarcts ("man in a barrel"). When a question '
           'describes a transcortical aphasia (intact repetition), think watershed '
           'infarct sparing the perisylvian language cortex.',
+        ),
+        KnowledgeCheckBlock(
+          question: 'A patient presents with contralateral leg weakness greater than arm or face weakness, urinary incontinence, and gait apraxia. Which vascular territory is most likely affected?',
+          options: ['MCA', 'ACA', 'PCA', 'Basilar artery'],
+          correctIndex: 1,
+          explanation: 'The ACA supplies the medial surface of the frontal and parietal lobes, including the leg area of the motor homunculus. The triad of leg-predominant weakness, urinary incontinence, and gait apraxia is classic for ACA territory infarction.',
+          boardRelevance: 'BOARD-CORE',
         ),
         TableBlock(
           title: 'Visual Field Deficits by Lesion Location',

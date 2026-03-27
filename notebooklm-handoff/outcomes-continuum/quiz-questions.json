@@ -1,0 +1,329 @@
+{
+  "title": "Stroke Quiz",
+  "questions": [
+    {
+      "question": "Which stroke subtype is associated with the most favorable functional prognosis, with approximately 80% of patients achieving independence?",
+      "answerOptions": [
+        {
+          "text": "Large vessel territory infarct (e.g., MCA)",
+          "isCorrect": false,
+          "rationale": "These involve significant brain volume and typically carry a poorer prognosis compared to small vessel disease."
+        },
+        {
+          "text": "Cardioembolic stroke",
+          "isCorrect": false,
+          "rationale": "This subtype often results in larger infarctions and higher mortality rates compared to small vessel occlusions."
+        },
+        {
+          "text": "Lacunar stroke",
+          "isCorrect": true,
+          "rationale": "These small vessel infarcts preserve cortical function and usually involve small lesion sizes, leading to better motor recovery."
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "isCorrect": false,
+          "rationale": "Intracerebral hemorrhages often have higher initial morbidity and mortality compared to small ischemic lacunar strokes."
+        }
+      ],
+      "hint": "Consider the size of the lesion and whether cortical functions are generally spared.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to the Copenhagen Stroke Study, by what time point do 95% of stroke survivors reach their peak neurological recovery level?",
+      "answerOptions": [
+        {
+          "text": "4 weeks",
+          "isCorrect": false,
+          "rationale": "While significant early recovery occurs by one month, the majority of the neurological plateau happens later."
+        },
+        {
+          "text": "11 weeks",
+          "isCorrect": true,
+          "rationale": "The study established this timeframe for the neurological plateau, though functional gains through compensation may continue much longer."
+        },
+        {
+          "text": "6 months",
+          "isCorrect": false,
+          "rationale": "Measurable motor improvement often plateaus by 6 months, but the peak neurological level is typically reached much earlier."
+        },
+        {
+          "text": "1 year",
+          "isCorrect": false,
+          "rationale": "One year is far beyond the window identified for the vast majority of patients to reach their best neurological status."
+        }
+      ],
+      "hint": "This milestone falls within the first three months post-stroke.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient displays voluntary finger extension within 72 hours of stroke onset. Based on the SAFE score concepts, what is the probability of regaining some upper extremity function?",
+      "answerOptions": [
+        {
+          "text": "50%",
+          "isCorrect": false,
+          "rationale": "This understates the high predictive value of very early motor return in the distal upper extremity."
+        },
+        {
+          "text": "70%",
+          "isCorrect": false,
+          "rationale": "This percentage is more closely associated with recovery if hand movement is present by 4 weeks, rather than the 72-hour mark."
+        },
+        {
+          "text": "85%",
+          "isCorrect": false,
+          "rationale": "While high, this does not reflect the nearly certain probability associated with this specific early clinical sign."
+        },
+        {
+          "text": "98%",
+          "isCorrect": true,
+          "rationale": "Early voluntary finger extension at 72 hours is an extremely strong positive predictor for subsequent upper extremity functional recovery."
+        }
+      ],
+      "hint": "Think of this as a near-certain indicator of at least partial recovery.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "In the context of the Functional Independence Measure (FIM), which discharge score is generally predictive of a successful transition to home?",
+      "answerOptions": [
+        {
+          "text": ">40",
+          "isCorrect": false,
+          "rationale": "A score below 40 at admission is actually a predictor of poor outcomes or the need for skilled nursing facility care."
+        },
+        {
+          "text": ">60",
+          "isCorrect": false,
+          "rationale": "While better than a lower score, this range often indicates a need for continued institutional or high-level support."
+        },
+        {
+          "text": ">80",
+          "isCorrect": true,
+          "rationale": "Most patients achieving this score are functionally independent enough to be discharged to a community setting."
+        },
+        {
+          "text": ">110",
+          "isCorrect": false,
+          "rationale": "While this score definitely predicts home discharge, it is much higher than the standard threshold used for prognosis."
+        }
+      ],
+      "hint": "This threshold represents a level of independence where minimal to modified assistance is needed across most domains.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which NIHSS score range most likely indicates that a patient will require long-term skilled nursing care rather than acute inpatient rehabilitation?",
+      "answerOptions": [
+        {
+          "text": "<5",
+          "isCorrect": false,
+          "rationale": "Scores in this range are mild and typically result in direct discharge to home."
+        },
+        {
+          "text": "6-13",
+          "isCorrect": false,
+          "rationale": "This moderate range is the 'sweet spot' for patients who typically benefit most from and require acute inpatient rehabilitation."
+        },
+        {
+          "text": ">14",
+          "isCorrect": true,
+          "rationale": "Higher scores indicate severe neurological deficits that often necessitate long-term institutional support."
+        },
+        {
+          "text": "0-1",
+          "isCorrect": false,
+          "rationale": "This indicates little to no neurological deficit, making long-term care unnecessary."
+        }
+      ],
+      "hint": "Look for the threshold associated with severe stroke severity.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "What is the minimum gait speed typically required for a stroke survivor to be classified as a 'full community ambulator'?",
+      "answerOptions": [
+        {
+          "text": "<0.4 m/s",
+          "isCorrect": false,
+          "rationale": "This speed is characteristic of household ambulators who cannot safely navigate outside the home."
+        },
+        {
+          "text": "0.4-0.8 m/s",
+          "isCorrect": false,
+          "rationale": "This range defines 'limited community' ambulators who may manage simple outdoor tasks but struggle with general community distances."
+        },
+        {
+          "text": ">0.8 m/s",
+          "isCorrect": true,
+          "rationale": "Speeds above this threshold allow for the endurance and velocity needed for general community participation."
+        },
+        {
+          "text": ">1.2 m/s",
+          "isCorrect": false,
+          "rationale": "While this is the speed required to cross most streets safely, the threshold for community ambulation itself starts lower."
+        }
+      ],
+      "hint": "This value is the upper threshold of the 'limited community' category.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "In major stroke clinical trials (like NINDS tPA or DAWN), what range on the Modified Rankin Scale (mRS) is traditionally defined as a 'good outcome' or functional independence?",
+      "answerOptions": [
+        {
+          "text": "0-1",
+          "isCorrect": false,
+          "rationale": "While 0-1 represents minimal to no symptoms, the standard definition for independence usually includes slight disability."
+        },
+        {
+          "text": "0-2",
+          "isCorrect": true,
+          "rationale": "This range encompasses patients from asymptomatic to those with slight disability who remain independent in personal affairs."
+        },
+        {
+          "text": "0-3",
+          "isCorrect": false,
+          "rationale": "A score of 3 indicates moderate disability requiring some help, which is often excluded from 'good' independence outcomes."
+        },
+        {
+          "text": "0-4",
+          "isCorrect": false,
+          "rationale": "A score of 4 involves being unable to walk or attend to bodily needs without assistance, representing significant dependence."
+        }
+      ],
+      "hint": "The cutoff includes patients who can look after their own affairs without assistance.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "To qualify for admission to an Inpatient Rehabilitation Facility (IRF) under CMS guidelines, a patient must generally be able to tolerate how much therapy?",
+      "answerOptions": [
+        {
+          "text": "1 hour per day, 3 days per week",
+          "isCorrect": false,
+          "rationale": "This intensity is more characteristic of home health or lower-level skilled nursing care."
+        },
+        {
+          "text": "2 hours per day, 5 days per week",
+          "isCorrect": false,
+          "rationale": "While intensive, this does not meet the specific '3-hour rule' mandated for acute IRF status."
+        },
+        {
+          "text": "3 hours per day, 5 days per week",
+          "isCorrect": true,
+          "rationale": "The '3-hour rule' is a cornerstone of IRF admission, requiring participation in at least two therapy disciplines at this intensity."
+        },
+        {
+          "text": "5 hours per day, 7 days per week",
+          "isCorrect": false,
+          "rationale": "This level of intensity is generally not sustainable or required for standard IRF admission."
+        }
+      ],
+      "hint": "This is often referred to as the 'rule' that defines the intensity of acute inpatient rehab.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "The AVERT trial provided critical evidence regarding the timing of mobilization. What was its primary finding regarding 'very early' high-dose mobilization (within 24 hours)?",
+      "answerOptions": [
+        {
+          "text": "It significantly reduces 30-day mortality.",
+          "isCorrect": false,
+          "rationale": "The trial did not find a mortality benefit for very early, aggressive mobilization."
+        },
+        {
+          "text": "It may be harmful and lead to worse functional outcomes.",
+          "isCorrect": true,
+          "rationale": "The trial suggested that aggressive, high-dose mobilization starting in the first 24 hours could be detrimental compared to usual care."
+        },
+        {
+          "text": "It is the gold standard for preventing deep vein thrombosis.",
+          "isCorrect": false,
+          "rationale": "While mobilization helps prevent DVT, the 'very early' high-dose approach was not recommended as the gold standard due to other risks."
+        },
+        {
+          "text": "It has no measurable effect on functional recovery compared to 48-hour initiation.",
+          "isCorrect": false,
+          "rationale": "The trial did show a difference, specifically pointing toward potential harm in the high-dose, very early group."
+        }
+      ],
+      "hint": "The study suggests that 'more and sooner' is not always better in the hyperacute phase.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "When assessing caregiver burden using the Caregiver Strain Index (CSI), which score is the validated threshold indicating high levels of strain?",
+      "answerOptions": [
+        {
+          "text": ">=3",
+          "isCorrect": false,
+          "rationale": "This score is too low to reliably identify high strain on a 13-item scale."
+        },
+        {
+          "text": ">=5",
+          "isCorrect": false,
+          "rationale": "While indicating some strain, this does not reach the standard clinical cutoff for high caregiver burden."
+        },
+        {
+          "text": ">=7",
+          "isCorrect": true,
+          "rationale": "A score of 7 or higher on the 13-item CSI indicates significant strain requiring intervention or support."
+        },
+        {
+          "text": ">=10",
+          "isCorrect": false,
+          "rationale": "While definitely indicating high strain, this threshold is more restrictive than the validated clinical cutoff."
+        }
+      ],
+      "hint": "This number is just over half of the total possible items on the scale.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A Barthel Index score of 100 indicates which of the following regarding a stroke survivor's functional status?",
+      "answerOptions": [
+        {
+          "text": "The patient has no neurological deficits.",
+          "isCorrect": false,
+          "rationale": "The Barthel Index measures ADLs, not neurological impairment; a patient can have a deficit and still score 100."
+        },
+        {
+          "text": "The patient is independent in basic ADLs only.",
+          "isCorrect": true,
+          "rationale": "A perfect score means independence in basic tasks like bathing and eating, but does not account for complex tasks (IADLs) or cognition."
+        },
+        {
+          "text": "The patient can safely return to work and driving.",
+          "isCorrect": false,
+          "rationale": "Independence in basic self-care does not equate to the cognitive or physical requirements for driving or employment."
+        },
+        {
+          "text": "The patient has no cognitive or communicative impairments.",
+          "isCorrect": false,
+          "rationale": "The Barthel Index notoriously lacks assessment of communication and cognition, creating a ceiling effect."
+        }
+      ],
+      "hint": "Consider the difference between 'basic' self-care and 'instrumental' activities or normal neurological function.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "As of October 2019, which assessment tool officially replaced the FIM functional items for CMS reporting in Inpatient Rehabilitation Facilities?",
+      "answerOptions": [
+        {
+          "text": "Barthel Index",
+          "isCorrect": false,
+          "rationale": "The Barthel Index is an older tool and was not the mandated replacement under the IMPACT Act."
+        },
+        {
+          "text": "Stroke Impact Scale (SIS)",
+          "isCorrect": false,
+          "rationale": "The SIS is a patient-reported outcome measure, not the clinician-rated tool required for CMS reimbursement."
+        },
+        {
+          "text": "Section GG",
+          "isCorrect": true,
+          "rationale": "Section GG items were implemented to standardize functional data across all post-acute care settings (IRF, SNF, Home Health)."
+        },
+        {
+          "text": "Modified Rankin Scale",
+          "isCorrect": false,
+          "rationale": "The mRS is primarily used in acute clinical trials and does not provide the item-level functional detail needed for rehab reimbursement."
+        }
+      ],
+      "hint": "This tool is part of the IMPACT Act's drive for standardized patient assessment data.",
+      "boardReadiness": "BOARD-LIKELY"
+    }
+  ]
+}

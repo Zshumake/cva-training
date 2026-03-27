@@ -1,0 +1,136 @@
+import '../../core/models/quiz_model.dart';
+
+class DysphagiaQuiz {
+  static const List<QuizQuestion> questions = [
+    QuizQuestion(
+      question: 'Which of the following is considered the most common cause of dysphagia in the acute phase following a stroke?',
+      options: [
+        'Delayed pharyngeal swallow trigger',
+        'Cricopharyngeal achalasia',
+        'Reduced tongue base retraction',
+        'Inadequate lip closure',
+      ],
+      correctIndex: 0,
+      explanation: 'Research identifies the delay in initiating the pharyngeal reflex as the primary physiological deficit in post-stroke swallowing dysfunction.',
+      moduleId: 'dysphagia',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'Damage to the lateral medulla, such as in Wallenberg syndrome, typically results in severe dysphagia due to the involvement of which structure?',
+      options: [
+        'Nucleus ambiguus',
+        'Nucleus tractus solitarius',
+        'Edinger-Westphal nucleus',
+        'Hypoglossal nucleus',
+      ],
+      correctIndex: 0,
+      explanation: 'This brainstem center contains motor neurons for the vagus and glossopharyngeal nerves that are critical for the pharyngeal swallow reflex.',
+      moduleId: 'dysphagia',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'During a Videofluoroscopic Swallow Study (VFSS), a patient is observed to have material enter the airway, pass below the vocal folds, but no cough or effort is made to eject the material. What is the correct score on the Rosenbek Penetration-Aspiration Scale (PAS)?',
+      options: [
+        'PAS 8',
+        'PAS 5',
+        'PAS 6',
+        'PAS 7',
+      ],
+      correctIndex: 0,
+      explanation: 'A score of 8 specifically denotes silent aspiration, where material passes the vocal folds without a reflexive response.',
+      moduleId: 'dysphagia',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'A patient exhibits significant residue in the right pyriform sinus after swallowing. Which compensatory strategy is most appropriate to test during the instrumental evaluation?',
+      options: [
+        'Head rotation toward the right side',
+        'Chin tuck maneuver',
+        'Head tilt toward the right side',
+        'Supraglottic swallow',
+      ],
+      correctIndex: 0,
+      explanation: 'Rotating the head toward the weak side closes off that side\'s pyriform sinus, directing the bolus through the stronger, more functional side.',
+      moduleId: 'dysphagia',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'Under the International Dysphagia Diet Standardisation Initiative (IDDSI) framework, which level corresponds to \'Minced & Moist\' food, characterized by 4 mm pieces that can be easily mashed with a fork?',
+      options: [
+        'Level 5',
+        'Level 4',
+        'Level 6',
+        'Level 3',
+      ],
+      correctIndex: 0,
+      explanation: 'Level 5 defines food that is minced and moist, requiring minimal chewing and fitting specific particle size requirements for safety.',
+      moduleId: 'dysphagia',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'Which rehabilitative exercise is specifically designed to strengthen the suprahyoid muscles to improve the duration and width of Upper Esophageal Sphincter (UES) opening?',
+      options: [
+        'Shaker exercise (Head Lift)',
+        'Masako maneuver',
+        'Effortful swallow',
+        'Thermal-tactile stimulation',
+      ],
+      correctIndex: 0,
+      explanation: 'This isometric and isotonic head-lifting exercise targets the muscles responsible for hyolaryngeal excursion, which mechanically pulls the UES open.',
+      moduleId: 'dysphagia',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'According to the \'NPO Paradox\' highlighted in 2025 research, why does strictly withholding oral intake (NPO) often fail to prevent stroke-associated pneumonia (SAP)?',
+      options: [
+        'Aspiration of colonized oral secretions is the primary driver of SAP',
+        'NG tubes provide a direct route for stomach bacteria to the lungs',
+        'NPO status causes rapid atrophy of the pharyngeal constrictors',
+        'The lack of hydration thickens lung mucus, preventing clearance',
+      ],
+      correctIndex: 0,
+      explanation: 'Most SAP occurs before oral intake begins, suggesting that bacteria from the mouth, not food or drink, are the main cause of infection.',
+      moduleId: 'dysphagia',
+      difficulty: 'intermediate',
+    ),
+    QuizQuestion(
+      question: 'A patient with a tracheostomy is being considered for a Passy-Muir Speaking Valve (PMV). What is the most critical safety step that must be taken prior to placing the valve?',
+      options: [
+        'The tracheostomy cuff must be fully deflated',
+        'The tracheostomy cuff must be fully inflated',
+        'The patient must be able to tolerate a fenestrated tube first',
+        'Suctioning must be performed every 5 minutes while the valve is on',
+      ],
+      correctIndex: 0,
+      explanation: 'Because the PMV is a one-way valve that allows air in but not out, a deflated cuff is required to allow air to escape around the tube and through the upper airway.',
+      moduleId: 'dysphagia',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'When comparing enteral feeding options in a stroke patient who is expected to be unable to meet nutritional needs for more than 4 weeks, what does the evidence suggest regarding PEG placement?',
+      options: [
+        'PEG does not eliminate the risk of aspiration pneumonia',
+        'PEG significantly reduces the risk of aspiration compared to NG tubes',
+        'PEG should be placed within the first 7 days for all dysphagic patients',
+        'PEG tubes are associated with higher rates of long-term survival in stroke',
+      ],
+      correctIndex: 0,
+      explanation: 'Patients can still aspirate their own oral secretions or refluxed gastric contents regardless of the presence of a feeding tube.',
+      moduleId: 'dysphagia',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'Which neurostimulation approach is suggested by the ESO-ESSD 2021 guidelines specifically to help accelerate decannulation in tracheotomized stroke patients with severe dysphagia?',
+      options: [
+        'Pharyngeal Electrical Stimulation (PES)',
+        'Repetitive Transcranial Magnetic Stimulation (rTMS)',
+        'Transcranial Direct Current Stimulation (tDCS)',
+        'VitalStim (Neuromuscular Electrical Stimulation)',
+      ],
+      correctIndex: 0,
+      explanation: 'The PHAST-TRAC trial showed that PES delivered via an intraluminal catheter significantly improved decannulation rates compared to sham treatment.',
+      moduleId: 'dysphagia',
+      difficulty: 'intermediate',
+    ),
+  ];
+}

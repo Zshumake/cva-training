@@ -76,6 +76,13 @@ final TopicData diagnosticStudiesContent = TopicData(
             ['Contraindications', 'Minimal (contrast allergy, pregnancy)', 'Pacemakers, metallic implants, claustrophobia'],
           ],
         ),
+        KnowledgeCheckBlock(
+          question: 'A patient presents with acute stroke symptoms 3 hours ago. Non-contrast CT is normal. What is the most sensitive imaging modality to confirm acute ischemic infarction?',
+          options: ['CT Angiography', 'FLAIR MRI', 'MRI Diffusion-Weighted Imaging (DWI)', 'CT Perfusion'],
+          correctIndex: 2,
+          explanation: 'MRI DWI is the most sensitive sequence for acute ischemic stroke, detecting restricted diffusion within minutes of onset with >95% sensitivity. Non-contrast CT is only about 60% sensitive in the first 6 hours.',
+          boardRelevance: 'BOARD-CORE',
+        ),
         BulletCardBlock(
           title: 'CT Perfusion (CTP)',
           themeColor: Color(0xFF7C3AED),
@@ -242,6 +249,43 @@ final TopicData diagnosticStudiesContent = TopicData(
           'patients who need more aggressive blood pressure control or hemostatic '
           'therapy.',
         ),
+        TimelineBlock(
+          title: 'Stroke Imaging Timeline: When to Use What',
+          milestones: [
+            TimelineMilestone(
+              label: '0-25 min',
+              title: 'Non-Contrast CT (NCCT)',
+              details: ['First-line: rule out hemorrhage', 'Must complete within 25 min of door arrival', 'Sensitivity for hemorrhage >95%; ischemia only ~60%'],
+            ),
+            TimelineMilestone(
+              label: '25-45 min',
+              title: 'CT Angiography (CTA)',
+              details: ['Detect large vessel occlusion for thrombectomy triage', 'Can be done immediately after NCCT with same contrast bolus', 'Evaluate collateral status'],
+            ),
+            TimelineMilestone(
+              label: '45 min-6 hr',
+              title: 'CT Perfusion (CTP)',
+              details: ['Map infarct core vs penumbra', 'Guide reperfusion decisions in borderline cases', 'ASPECTS score >= 6 supports thrombectomy'],
+            ),
+            TimelineMilestone(
+              label: '6-24 hr',
+              title: 'Advanced Perfusion Imaging',
+              details: ['CTP or MRI DWI for extended-window thrombectomy', 'DAWN trial: clinical-core mismatch at 6-24 hours', 'DEFUSE-3: perfusion mismatch ratio >= 1.8 at 6-16 hours'],
+            ),
+            TimelineMilestone(
+              label: '24+ hr',
+              title: 'MRI for Characterization',
+              details: ['DWI confirms infarct extent', 'DWI-FLAIR mismatch estimates stroke timing for wake-up strokes', 'GRE/SWI for microbleeds (CAA evaluation)', 'MRA for vascular anatomy and follow-up'],
+            ),
+          ],
+        ),
+        KnowledgeCheckBlock(
+          question: 'What ASPECTS score threshold is generally required for thrombectomy eligibility?',
+          options: ['>=3', '>=6', '>=8', '>=10'],
+          correctIndex: 1,
+          explanation: 'An ASPECTS score >= 6 is the standard threshold for thrombectomy eligibility. ASPECTS <6 predicts an >85% chance of poor functional outcome regardless of treatment and indicates a large established infarct.',
+          boardRelevance: 'BOARD-CORE',
+        ),
       ],
     ),
 
@@ -315,6 +359,13 @@ final TopicData diagnosticStudiesContent = TopicData(
           'loop recorder can identify paroxysmal atrial fibrillation in up to '
           '30% of cases at 3 years (CRYSTAL-AF trial). This changes '
           'management from antiplatelet to anticoagulation therapy.',
+        ),
+        KnowledgeCheckBlock(
+          question: 'Which echocardiographic modality is the gold standard for detecting a patent foramen ovale (PFO)?',
+          options: ['Transthoracic echo (TTE)', 'Transesophageal echo (TEE)', 'Stress echocardiography', 'Intracardiac echocardiography'],
+          correctIndex: 1,
+          explanation: 'TEE is the gold standard for detecting PFO, left atrial appendage thrombus, small valvular vegetations, and aortic arch atheromas. TTE is the initial screening study, but TEE should be pursued when cardioembolism is suspected and TTE is unrevealing.',
+          boardRelevance: 'BOARD-CORE',
         ),
         ComparisonCardBlock(
           title: 'Bubble Study (Agitated Saline Contrast Echocardiography)',

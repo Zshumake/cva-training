@@ -193,6 +193,13 @@ final TopicData hemorrhagicStrokeContent = TopicData(
           'and cortical microbleeds on MRI, the answer is cerebral amyloid '
           'angiopathy. CAA + anticoagulation is a particularly dangerous combination.',
         ),
+        KnowledgeCheckBlock(
+          question: 'What is the most common location for hypertensive intracerebral hemorrhage?',
+          options: ['Thalamus', 'Putamen/basal ganglia', 'Cerebellum', 'Lobar (cortical)'],
+          correctIndex: 1,
+          explanation: 'The putamen/basal ganglia is the most common site of hypertensive ICH (35-50% of cases), caused by rupture of lenticulostriate arteries. Lobar hemorrhages are more characteristic of cerebral amyloid angiopathy in normotensive elderly patients.',
+          boardRelevance: 'BOARD-CORE',
+        ),
       ],
     ),
 
@@ -375,6 +382,43 @@ final TopicData hemorrhagicStrokeContent = TopicData(
           'and need saline. SIADH patients are euvolemic and need fluid restriction. '
           'Fluid restriction in SAH is DANGEROUS because it worsens cerebral '
           'vasospasm. When in doubt in SAH, give saline.',
+        ),
+        TimelineBlock(
+          title: 'SAH Vasospasm and Complications Timeline',
+          milestones: [
+            TimelineMilestone(
+              label: 'Day 0',
+              title: 'Aneurysm Rupture',
+              details: ['Thunderclap headache, meningismus', 'Rebleeding risk highest in first 24 hours (~4%)', 'Emergent CT, secure aneurysm (clip or coil) within 72 hours'],
+            ),
+            TimelineMilestone(
+              label: 'Days 1-3',
+              title: 'Acute Hydrocephalus',
+              details: ['Blood blocks CSF absorption at arachnoid granulations', 'May require EVD placement', 'Begin nimodipine 60 mg PO q4h (continue for 21 days)'],
+            ),
+            TimelineMilestone(
+              label: 'Days 4-14',
+              title: 'Vasospasm Window',
+              details: ['Peak vasospasm at days 7-10', 'Monitor with TCD (velocity >120 cm/s = spasm)', 'Delayed cerebral ischemia (DCI) is the leading cause of morbidity', 'Treat with induced hypertension + euvolemia'],
+            ),
+            TimelineMilestone(
+              label: 'Days 14-21',
+              title: 'Vasospasm Resolution',
+              details: ['Spasm gradually resolves by day 21', 'Complete 21-day course of nimodipine', 'Monitor for hyponatremia (cerebral salt wasting)'],
+            ),
+            TimelineMilestone(
+              label: 'Weeks-Months',
+              title: 'Late Complications',
+              details: ['Chronic communicating hydrocephalus (may need VP shunt)', 'NPH triad: "wet, wobbly, wacky"', 'Seizures in 5-10%', 'Cognitive and behavioral deficits'],
+            ),
+          ],
+        ),
+        KnowledgeCheckBlock(
+          question: 'In SAH, hyponatremia is most commonly caused by which of the following?',
+          options: ['SIADH', 'Cerebral salt wasting', 'Diabetes insipidus', 'Iatrogenic fluid overload'],
+          correctIndex: 1,
+          explanation: 'In SAH, hyponatremia is most commonly caused by cerebral salt wasting (CSW), NOT SIADH. CSW produces hypovolemic hyponatremia and requires IV saline. Fluid restriction (SIADH treatment) is contraindicated in SAH because it worsens vasospasm.',
+          boardRelevance: 'BOARD-CORE',
         ),
       ],
     ),

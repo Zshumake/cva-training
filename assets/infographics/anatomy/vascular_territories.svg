@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Inter, Helvetica, Arial, sans-serif">
+  <rect width="800" height="600" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="400" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#0F172A">Cerebral Vascular Territories</text>
+  <text x="400" y="56" text-anchor="middle" font-size="12" fill="#64748B">Lateral Brain View - Arterial Supply Distributions</text>
+
+  <!-- Brain outline (lateral view) -->
+  <path d="M160,340 Q160,180 300,120 Q420,80 540,120 Q660,170 680,280 Q690,360 640,420 Q580,480 460,500 Q340,510 240,480 Q160,450 160,340Z"
+        fill="#F1F5F9" stroke="#94A3B8" stroke-width="2"/>
+
+  <!-- Sylvian fissure -->
+  <path d="M220,350 Q340,300 480,310 Q540,320 580,340"
+        fill="none" stroke="#64748B" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="350" y="295" font-size="10" fill="#64748B" font-style="italic">Sylvian fissure</text>
+
+  <!-- Central sulcus -->
+  <path d="M420,130 Q410,220 400,320"
+        fill="none" stroke="#64748B" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="425" y="180" font-size="10" fill="#64748B" font-style="italic" transform="rotate(-10,425,180)">Central sulcus</text>
+
+  <!-- MCA Territory (largest - lateral surface) - coral/red -->
+  <path d="M230,310 Q300,200 420,180 Q520,170 600,230 Q640,280 630,350 Q610,400 540,420 Q440,440 350,420 Q270,400 230,360Z"
+        fill="#DC2626" fill-opacity="0.15" stroke="#DC2626" stroke-width="2" stroke-opacity="0.6"/>
+  <text x="420" y="330" text-anchor="middle" font-size="16" font-weight="700" fill="#DC2626">MCA</text>
+  <text x="420" y="348" text-anchor="middle" font-size="11" fill="#DC2626">Territory</text>
+
+  <!-- ACA Territory (medial / superior) - blue -->
+  <path d="M200,300 Q200,200 300,140 Q380,110 440,120 Q420,150 400,200 Q350,230 280,270 Q230,290 200,300Z"
+        fill="#2563EB" fill-opacity="0.15" stroke="#2563EB" stroke-width="2" stroke-opacity="0.6"/>
+  <text x="300" y="165" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">ACA</text>
+
+  <!-- PCA Territory (posterior / inferior) - purple -->
+  <path d="M540,370 Q600,380 650,350 Q680,310 680,280 Q670,340 640,400 Q600,450 500,470 Q420,480 380,470 Q440,460 500,430 Q530,410 540,370Z"
+        fill="#7C3AED" fill-opacity="0.15" stroke="#7C3AED" stroke-width="2" stroke-opacity="0.6"/>
+  <text x="600" y="430" text-anchor="middle" font-size="14" font-weight="700" fill="#7C3AED">PCA</text>
+
+  <!-- Lobe labels -->
+  <text x="300" y="250" text-anchor="middle" font-size="11" fill="#64748B" font-weight="500">Frontal</text>
+  <text x="480" y="250" text-anchor="middle" font-size="11" fill="#64748B" font-weight="500">Parietal</text>
+  <text x="380" y="400" text-anchor="middle" font-size="11" fill="#64748B" font-weight="500">Temporal</text>
+  <text x="620" y="320" text-anchor="middle" font-size="11" fill="#64748B" font-weight="500">Occipital</text>
+
+  <!-- Legend box -->
+  <rect x="30" y="460" width="740" height="120" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="50" y="485" font-size="13" font-weight="700" fill="#0F172A">Territory Summary</text>
+
+  <!-- MCA -->
+  <rect x="50" y="500" width="14" height="14" rx="3" fill="#DC2626" fill-opacity="0.3" stroke="#DC2626"/>
+  <text x="72" y="512" font-size="12" font-weight="700" fill="#DC2626">MCA (Largest)</text>
+  <text x="72" y="527" font-size="10" fill="#0F172A">Lateral surface: face, arm motor/sensory, Broca, Wernicke, basal ganglia (lenticulostriates)</text>
+
+  <!-- ACA -->
+  <rect x="50" y="542" width="14" height="14" rx="3" fill="#2563EB" fill-opacity="0.3" stroke="#2563EB"/>
+  <text x="72" y="554" font-size="12" font-weight="700" fill="#2563EB">ACA (Medial)</text>
+  <text x="72" y="568" font-size="10" fill="#0F172A">Medial surface: leg motor/sensory, bladder control, personality changes (abulia), alien hand</text>
+
+  <!-- PCA -->
+  <rect x="430" y="542" width="14" height="14" rx="3" fill="#7C3AED" fill-opacity="0.3" stroke="#7C3AED"/>
+  <text x="452" y="554" font-size="12" font-weight="700" fill="#7C3AED">PCA (Posterior)</text>
+  <text x="452" y="568" font-size="10" fill="#0F172A">Occipital / inferior temporal: vision, visual processing, thalamus, midbrain</text>
+</svg>

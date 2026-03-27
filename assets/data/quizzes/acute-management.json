@@ -1,0 +1,411 @@
+{
+  "module": "acute-management",
+  "title": "Stroke Quiz",
+  "questions": [
+    {
+      "question": "According to the Emergency Department Stroke Protocol, which initial intravenous fluid is recommended to avoid worsening cerebral edema?",
+      "answerOptions": [
+        {
+          "text": "Normal saline (0.9% NaCl)",
+          "isCorrect": true,
+          "rationale": "Isotonic solutions like normal saline or Ringer's lactate are preferred because they maintain intravascular volume without shifting fluid into the brain parenchyma."
+        },
+        {
+          "text": "D5W (5% Dextrose in water)",
+          "isCorrect": false,
+          "rationale": "This is a hypotonic solution once the glucose is metabolized, which can promote the movement of water into brain cells and exacerbate edema."
+        },
+        {
+          "text": "0.45% Normal saline",
+          "isCorrect": false,
+          "rationale": "Hypotonic fluids reduce serum osmolality, which can lead to increased intracranial pressure through osmotic shifts into the injured brain tissue."
+        },
+        {
+          "text": "Albumin 25% bolus",
+          "isCorrect": false,
+          "rationale": "While an expander, it is not used as a standard initial maintenance fluid and could lead to excessive fluid loading in the acute setting."
+        }
+      ],
+      "hint": "Consider the tonicity of the fluid relative to the blood and how it affects the blood-brain barrier.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "For a patient with an acute ischemic stroke who is NOT a candidate for thrombolysis or thrombectomy, at what threshold should antihypertensive treatment typically be initiated?",
+      "answerOptions": [
+        {
+          "text": ">140/90 mmHg",
+          "isCorrect": false,
+          "rationale": "This is a standard target for chronic hypertension but is too low for the acute phase where collateral perfusion is vital."
+        },
+        {
+          "text": ">185/110 mmHg",
+          "isCorrect": false,
+          "rationale": "This specific threshold is the limit for initiating thrombolytic therapy, not the general threshold for permissive hypertension."
+        },
+        {
+          "text": ">220/120 mmHg",
+          "isCorrect": true,
+          "rationale": "In the absence of reperfusion therapy, permissive hypertension up to this level is allowed to maintain blood flow to the ischemic penumbra."
+        },
+        {
+          "text": ">160/100 mmHg",
+          "isCorrect": false,
+          "rationale": "Aggressively lowering blood pressure to this level acutely can lead to infarct expansion by reducing perfusion through collateral vessels."
+        }
+      ],
+      "hint": "Think about the concept of 'permissive hypertension' used to protect the ischemic penumbra.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "The ENCHANTED2/MT trial led to a critical clinical update regarding blood pressure management after successful endovascular thrombectomy (EVT). What was the primary finding?",
+      "answerOptions": [
+        {
+          "text": "Targeting a systolic BP <120 mmHg was associated with worse functional outcomes.",
+          "isCorrect": true,
+          "rationale": "Intensive lowering below this threshold was found to be harmful, likely due to reduced perfusion in recently recanalized but still vulnerable brain tissue."
+        },
+        {
+          "text": "Targeting a systolic BP <120 mmHg significantly reduced the rate of hemorrhagic transformation.",
+          "isCorrect": false,
+          "rationale": "While intensive lowering is often intended to prevent bleeding, this trial showed it actually increased early neurological deterioration."
+        },
+        {
+          "text": "Maintaining a systolic BP between 140 and 160 mmHg resulted in the highest mortality rates.",
+          "isCorrect": false,
+          "rationale": "Moderate targets are generally safer; the harm identified in the trial was specifically linked to the 'intensive' lowering group."
+        },
+        {
+          "text": "Aggressive BP lowering improved outcomes only in patients over the age of 80.",
+          "isCorrect": false,
+          "rationale": "The trial was actually terminated early for safety concerns because intensive lowering was harmful across the study population."
+        }
+      ],
+      "hint": "The trial investigated whether 'more' lowering was better or worse after successful vessel reopening.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "When managing elevated intracranial pressure (ICP), which osmotic agent is preferred for a patient who is currently hypovolemic?",
+      "answerOptions": [
+        {
+          "text": "Mannitol 20%",
+          "isCorrect": false,
+          "rationale": "This agent acts as an osmotic diuretic, which can further deplete intravascular volume and cause renal injury in a hypovolemic patient."
+        },
+        {
+          "text": "Hypertonic saline (e.g., 3%)",
+          "isCorrect": true,
+          "rationale": "Hypertonic saline creates an osmotic gradient to reduce brain edema while simultaneously expanding intravascular volume, making it safer for hypovolemic patients."
+        },
+        {
+          "text": "Dexamethasone IV",
+          "isCorrect": false,
+          "rationale": "Steroids are generally not recommended for managing cerebral edema in acute stroke, as they are more effective for vasogenic edema related to tumors."
+        },
+        {
+          "text": "Acetazolamide",
+          "isCorrect": false,
+          "rationale": "This medication reduces CSF production but is not a first-line treatment for the acute mass effect of stroke-related edema."
+        }
+      ],
+      "hint": "One agent causes significant fluid loss through the kidneys, while the other does not.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "What is the primary advantage of using Tenecteplase over Alteplase as endorsed by the 2026 AHA/ASA guidelines?",
+      "answerOptions": [
+        {
+          "text": "It has a significantly lower risk of symptomatic intracranial hemorrhage (sICH).",
+          "isCorrect": false,
+          "rationale": "Current evidence suggests that the risk of sICH is approximately 6\\% for both agents."
+        },
+        {
+          "text": "It can be administered as a single IV bolus.",
+          "isCorrect": true,
+          "rationale": "Tenecteplase's long half-life and high fibrin specificity allow for rapid bolus delivery, which simplifies the 'drip-and-ship' process for patient transfers."
+        },
+        {
+          "text": "It has a shorter half-life, allowing for quicker reversal if bleeding occurs.",
+          "isCorrect": false,
+          "rationale": "Tenecteplase actually has a longer half-life (20-24 minutes) compared to Alteplase (4-5 minutes)."
+        },
+        {
+          "text": "It does not require weight-based dosing.",
+          "isCorrect": false,
+          "rationale": "Both agents require weight-based calculations (0.25 mg/kg for Tenecteplase and 0.9 mg/kg for Alteplase)."
+        }
+      ],
+      "hint": "Consider the logistical differences in how the two medications are delivered to the patient.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "question": "Based on the 2026 AHA/ASA Guideline update, what is the recommended treatment for patients with non-disabling deficits within the 4.5-hour window?",
+      "answerOptions": [
+        {
+          "text": "Standard dose Alteplase (0.9 mg/kg)",
+          "isCorrect": false,
+          "rationale": "Recent trials have failed to show a clear benefit for thrombolysis in patients whose deficits are considered non-disabling."
+        },
+        {
+          "text": "Dual antiplatelet therapy (DAPT)",
+          "isCorrect": true,
+          "rationale": "For non-disabling strokes, DAPT is now the preferred recommendation because the risks of thrombolysis outweigh the likely functional benefit."
+        },
+        {
+          "text": "Immediate mechanical thrombectomy",
+          "isCorrect": false,
+          "rationale": "Thrombectomy is reserved for large vessel occlusions, which typically present with more severe, disabling neurological deficits."
+        },
+        {
+          "text": "Observation only without pharmacologic intervention",
+          "isCorrect": false,
+          "rationale": "Active management with antiplatelets is recommended to prevent early recurrence or progression."
+        }
+      ],
+      "hint": "The guideline shifted away from thrombolytics for very mild symptoms.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "question": "The DAWN trial established a benefit for mechanical thrombectomy in an extended window of up to 24 hours. Which selection criterion was central to this trial?",
+      "answerOptions": [
+        {
+          "text": "The patient must have an ASPECTS score of 10.",
+          "isCorrect": false,
+          "rationale": "While a high ASPECTS score is good, the trial specifically looked at the mismatch between clinical severity and the volume of the infarct core."
+        },
+        {
+          "text": "Clinical-imaging mismatch (high NIHSS score but small infarct core)",
+          "isCorrect": true,
+          "rationale": "This mismatch indicates that there is a large amount of 'at-risk' brain tissue (penumbra) that can still be saved despite the time elapsed."
+        },
+        {
+          "text": "The absence of any collateral circulation on CTA",
+          "isCorrect": false,
+          "rationale": "Good collateral circulation is actually a predictor of better outcomes and slower infarct progression."
+        },
+        {
+          "text": "Patient age must be less than 60 years.",
+          "isCorrect": false,
+          "rationale": "The DAWN trial included patients over 80 years old, using different core volume thresholds based on age."
+        }
+      ],
+      "hint": "This paradigm shift focus on the 'tissue at risk' rather than just the clock.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which finding from the AVERT trial changed the clinical approach to early mobilization after stroke?",
+      "answerOptions": [
+        {
+          "text": "Aggressive mobilization within 24 hours (high-dose activity) resulted in worse outcomes.",
+          "isCorrect": true,
+          "rationale": "The trial showed that very early, prolonged activity was associated with a lower probability of a favorable outcome at 3 months."
+        },
+        {
+          "text": "Mobilization on day 3 was found to be more effective than day 2.",
+          "isCorrect": false,
+          "rationale": "The trial compared very early (within 24 hours) to usual care, rather than specific day-by-day increments for all patients."
+        },
+        {
+          "text": "Increased duration of sessions improved functional independence.",
+          "isCorrect": false,
+          "rationale": "Dose-response analysis actually associated increased duration of early mobilization with reduced outcomes."
+        },
+        {
+          "text": "Only patients with hemorrhagic stroke benefited from early walking.",
+          "isCorrect": false,
+          "rationale": "The trial generally found that the aggressive timing was problematic regardless of stroke subtype."
+        }
+      ],
+      "hint": "The study focused on the 'dose' and 'timing' of getting patients out of bed.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "For a patient with a cerebellar hemorrhage, which clinical finding would be an emergent indication for surgical decompression?",
+      "answerOptions": [
+        {
+          "text": "A hematoma diameter of 1.5 cm",
+          "isCorrect": false,
+          "rationale": "Surgical evacuation is generally recommended for cerebellar hemorrhages with a diameter greater than 3 cm."
+        },
+        {
+          "text": "Brainstem compression or obstructive hydrocephalus",
+          "isCorrect": true,
+          "rationale": "The posterior fossa is a rigid, small space; compression of vital structures like the brainstem is a life-threatening emergency."
+        },
+        {
+          "text": "Isolated vertigo without motor deficits",
+          "isCorrect": false,
+          "rationale": "While a symptom of cerebellar stroke, vertigo alone without mass effect or neurological decline does not mandate surgery."
+        },
+        {
+          "text": "A systolic blood pressure of 170 mmHg",
+          "isCorrect": false,
+          "rationale": "Elevated blood pressure is managed medically; surgical indications are based on the mass effect of the bleed."
+        }
+      ],
+      "hint": "Consider the anatomical constraints of the posterior fossa.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to the SHINE trial and subsequent analyses, what is the recommended glucose management strategy in acute stroke?",
+      "answerOptions": [
+        {
+          "text": "Intensive control targeting 80-130 mg/dL using IV insulin",
+          "isCorrect": false,
+          "rationale": "The SHINE trial found that intensive control did not improve outcomes and increased the risk of severe hypoglycemia."
+        },
+        {
+          "text": "Standard control targeting 140-180 mg/dL",
+          "isCorrect": true,
+          "rationale": "This range avoids the dangers of both extreme hyperglycemia (which worsens infarcts) and the risks of intensive insulin therapy."
+        },
+        {
+          "text": "Permissive hyperglycemia up to 250 mg/dL to provide fuel for neurons",
+          "isCorrect": false,
+          "rationale": "Hyperglycemia is neurotoxic in the setting of ischemia because it promotes lactic acidosis and free radical production."
+        },
+        {
+          "text": "Tight control only for patients who received thrombolysis",
+          "isCorrect": false,
+          "rationale": "While hyperglycemia increases the risk of bleeding after thrombolysis, the standard target applies to all acute stroke patients."
+        }
+      ],
+      "hint": "The goal is to balance neurotoxicity with the danger of dropping the blood sugar too low.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which classification of hemorrhagic transformation is defined by a hematoma occupying >30\\% of the infarct area with significant mass effect?",
+      "answerOptions": [
+        {
+          "text": "HI-1 (Hemorrhagic Infarct Type 1)",
+          "isCorrect": false,
+          "rationale": "This type consists only of small petechiae along the margins and is usually clinically silent."
+        },
+        {
+          "text": "HI-2 (Hemorrhagic Infarct Type 2)",
+          "isCorrect": false,
+          "rationale": "This involves confluent petechiae but lacks the mass effect seen in parenchymal hematomas."
+        },
+        {
+          "text": "PH-1 (Parenchymal Hematoma Type 1)",
+          "isCorrect": false,
+          "rationale": "This is a hematoma involving less than 30\\% of the area with only mild mass effect."
+        },
+        {
+          "text": "PH-2 (Parenchymal Hematoma Type 2)",
+          "isCorrect": true,
+          "rationale": "PH-2 is the most severe form, associated with significant neurological deterioration and increased mortality."
+        }
+      ],
+      "hint": "This is the most clinically significant and feared complication of reperfusion therapy.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "In the management of a patient with an aneurysmal Subarachnoid Hemorrhage (SAH), what is the blood pressure goal BEFORE the aneurysm has been surgically secured?",
+      "answerOptions": [
+        {
+          "text": "Systolic BP <140 mmHg",
+          "isCorrect": false,
+          "rationale": "This is the target for intracerebral hemorrhage (ICH) to limit expansion, but in SAH, the concern is balancing rebleeding risk with cerebral perfusion."
+        },
+        {
+          "text": "Systolic BP <160 mmHg",
+          "isCorrect": true,
+          "rationale": "Maintaining blood pressure below this level helps prevent rebleeding of the unsecured aneurysm while maintaining adequate cerebral perfusion."
+        },
+        {
+          "text": "Permissive hypertension up to 220/120 mmHg",
+          "isCorrect": false,
+          "rationale": "This would carry an unacceptably high risk of re-rupture of the aneurysm."
+        },
+        {
+          "text": "Systolic BP 160-200 mmHg (Triple H therapy)",
+          "isCorrect": false,
+          "rationale": "This induced hypertension is used only AFTER the aneurysm is secured, specifically to combat vasospasm."
+        }
+      ],
+      "hint": "The goal is to prevent the aneurysm from bursting again without starving the brain of blood.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which diagnostic study is considered the 'gold standard' for the comprehensive evaluation and treatment of post-stroke dysphagia?",
+      "answerOptions": [
+        {
+          "text": "Bedside swallow screen",
+          "isCorrect": false,
+          "rationale": "This is a mandatory first step to prevent aspiration, but it is limited by a high rate of missed silent aspiration."
+        },
+        {
+          "text": "Videofluoroscopic Swallowing Evaluation (VFSS)",
+          "isCorrect": true,
+          "rationale": "Also known as a modified barium swallow, it allows for real-time visualization of the bolus and the effectiveness of compensatory strategies."
+        },
+        {
+          "text": "Fiberoptic Endoscopic Evaluation of Swallowing (FEES)",
+          "isCorrect": false,
+          "rationale": "FEES is an excellent tool for visualizing anatomy and the pharyngeal stage, but VFSS remains the primary gold standard for most protocols."
+        },
+        {
+          "text": "Non-contrast CT of the neck",
+          "isCorrect": false,
+          "rationale": "CT scans can identify structural damage but do not provide a functional assessment of the swallowing mechanism."
+        }
+      ],
+      "hint": "This test involves a dynamic X-ray of the swallowing process.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "What is the recommended pharmacological DVT prophylaxis for a patient with an acute ischemic stroke who has persistent immobility?",
+      "answerOptions": [
+        {
+          "text": "Aspirin 325 mg daily",
+          "isCorrect": false,
+          "rationale": "Aspirin is an antiplatelet agent used for secondary stroke prevention, but it is not effective as primary DVT prophylaxis."
+        },
+        {
+          "text": "Low molecular weight heparin (LMWH) like Enoxaparin",
+          "isCorrect": true,
+          "rationale": "LMWH is preferred over unfractionated heparin (UFH) as it has shown superior reduction in the risk of DVT and PE in stroke patients."
+        },
+        {
+          "text": "Warfarin with a target INR of 2.0-3.0",
+          "isCorrect": false,
+          "rationale": "Warfarin takes days to become therapeutic and is generally used for long-term anticoagulation in conditions like atrial fibrillation."
+        },
+        {
+          "text": "Graduated compression stockings",
+          "isCorrect": false,
+          "rationale": "Evidence from trials like CLOTS has shown that these stockings are not effective for DVT prevention in acute stroke."
+        }
+      ],
+      "hint": "Consider which anticoagulant class is specifically endorsed for its efficacy in the PREVAIL study.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "The 2026 AHA/ASA Guidelines have updated the management of basilar artery occlusions (BAO) based on trials like ATTENTION and BAOCHE. What is the current status of mechanical thrombectomy for these patients?",
+      "answerOptions": [
+        {
+          "text": "It is not recommended due to high procedural mortality.",
+          "isCorrect": false,
+          "rationale": "The trials actually showed that thrombectomy significantly improved functional status and reduced mortality compared to medical management."
+        },
+        {
+          "text": "It is formally endorsed for patients with BAO within a 6-24 hour window.",
+          "isCorrect": true,
+          "rationale": "Evidence from multiple RCTs confirmed a twofold increase in the odds of a favorable outcome with endovascular therapy for posterior circulation LVOs."
+        },
+        {
+          "text": "It is only recommended if IV thrombolysis has failed.",
+          "isCorrect": false,
+          "rationale": "Thrombectomy is complementary to thrombolysis and should be pursued as the standard of care for large vessel occlusions."
+        },
+        {
+          "text": "It is considered 'investigational' until more 10-year data is available.",
+          "isCorrect": false,
+          "rationale": "The 2026 guidelines have moved this into a formal class of recommendation based on high-quality recent evidence."
+        }
+      ],
+      "hint": "Think about how recent evidence has changed the treatment for the 'posterior circulation'.",
+      "boardReadiness": "BOARD-EMERGING"
+    }
+  ]
+}

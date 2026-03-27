@@ -1,0 +1,331 @@
+{
+  "module": "acute-management",
+  "title": "Stroke Flashcards",
+  "cards": [
+    {
+      "front": "In acute stroke management, what is the GCS threshold for securing the airway via intubation?",
+      "back": "A GCS score of less than or equal to 8.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Which type of IV solutions should be avoided in acute stroke to prevent the worsening of cerebral edema?",
+      "back": "Hypotonic solutions.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the immediate treatment for a stroke mimic caused by hypoglycemia?",
+      "back": "Bolus of 50% IV dextrose.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "According to AHA/ASA benchmarks, a non-contrast CT should be completed within how many minutes of hospital arrival?",
+      "back": "25 minutes.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the AHA/ASA target \"door-to-needle\" time for administering thrombolytics?",
+      "back": "Less than 60 minutes.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the target \"door-to-groin puncture\" time for mechanical thrombectomy?",
+      "back": "Less than 90 minutes.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "At what angle should the head of the bed be kept for an acute ischemic stroke patient to maximize cerebral perfusion?",
+      "back": "0-15 degrees (flat).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the recommended head of bed elevation for a patient with a hemorrhagic stroke?",
+      "back": "30 degrees.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the target glucose range for an acute stroke patient?",
+      "back": "140-180 mg/dL.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "In acute ischemic stroke patients NOT receiving thrombolysis, what is the BP threshold for initiating antihypertensive treatment?",
+      "back": "> 220/120 mmHg.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Before starting thrombolysis, blood pressure must be lower than what specific value?",
+      "back": "185/110 mmHg.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "For the first 24 hours after thrombolysis, blood pressure should be maintained below what level?",
+      "back": "180/105 mmHg.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "According to the INTERACT2 trial, what is the target systolic blood pressure for acute intracerebral hemorrhage (ICH)?",
+      "back": "< 140 mmHg.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the target systolic blood pressure for a subarachnoid hemorrhage (SAH) before the aneurysm is secured?",
+      "back": "< 160 mmHg.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What was the primary clinical finding of the ENCHANTED2/MT trial regarding post-thrombectomy BP?",
+      "back": "Intensive lowering to SBP < 120 mmHg was harmful and associated with worse outcomes.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Why is IV Labetalol considered a first-line agent for blood pressure management in acute stroke?",
+      "back": "It does not cause cerebral vasodilation or worsen intracranial pressure (ICP).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the formula for calculating Cerebral Perfusion Pressure (CPP)?",
+      "back": "CPP = MAP - ICP.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Medical treatment for elevated intracranial pressure (ICP) is typically indicated when the pressure exceeds ____ mmHg.",
+      "back": "20 mmHg.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "How does controlled hyperventilation temporarily reduce intracranial pressure?",
+      "back": "It causes cerebral vasoconstriction by lowering PaCO_2.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the recommended IV dose of Mannitol 20% for osmotic therapy in ICP management?",
+      "back": "0.25-1 g/kg.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "At what serum osmolality level should Mannitol be held to avoid renal injury?",
+      "back": "> 320 mOsm/kg.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the surgical window for performing a decompressive hemicraniectomy in malignant MCA infarction for patients under age 60?",
+      "back": "Within 48 hours of stroke onset.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Which trial confirmed that hemicraniectomy for malignant MCA infarction is ONLY beneficial when performed within 48 hours?",
+      "back": "The HAMLET trial.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the surgical threshold for the diameter of a cerebellar hemorrhage requiring neurosurgical evacuation?",
+      "back": "> 3 cm.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "How is a PH-2 (Parenchymal Hemorrhage type 2) defined in the ECASS classification?",
+      "back": "Hematoma > 30% of the infarct area with significant mass effect.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the total standard dose of Alteplase (tPA) for acute ischemic stroke?",
+      "back": "0.9 mg/kg (maximum 90 mg).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What percentage of the total Alteplase dose is administered as an initial bolus over 1 minute?",
+      "back": "10%.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the 2026 AHA/ASA guideline-recommended dose for Tenecteplase in acute ischemic stroke?",
+      "back": "0.25 mg/kg IV single bolus.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "front": "What are two key advantages of Tenecteplase over Alteplase in acute stroke management?",
+      "back": "Single bolus administration and higher fibrin specificity.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "A patient is ineligible for thrombolysis if their INR is greater than ____.",
+      "back": "1.7.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the exclusion threshold for platelet count when considering IV thrombolysis?",
+      "back": "< 100,000/mm^3.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the extended time window for IV thrombolysis from last known well, as established by ECASS III?",
+      "back": "3 to 4.5 hours.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What combination of medical history excludes a patient from thrombolysis in the 3-4.5 hour window?",
+      "back": "A history of both diabetes and prior stroke.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "How long must antiplatelets and anticoagulants be withheld after the administration of thrombolytics?",
+      "back": "24 hours.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the preferred treatment for patients with non-disabling deficits in the 4.5-hour window according to 2026 guidelines?",
+      "back": "Dual antiplatelet therapy (DAPT).",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "front": "What is the standard time window for mechanical thrombectomy in patients with a large vessel occlusion (LVO)?",
+      "back": "Within 6 hours of symptom onset.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "The DAWN trial demonstrated benefit for mechanical thrombectomy up to how many hours after last known well?",
+      "back": "24 hours.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the minimum ASPECTS score required for standard eligibility in most mechanical thrombectomy protocols?",
+      "back": "greater than or equal to 6.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Recent trials like SELECT2 and TENSION have shown benefit for thrombectomy in \"large core\" strokes, defined by an ASPECTS score of ____.",
+      "back": "ASPECTS 3-5.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "front": "Which trial established the benefit of thrombectomy for basilar artery occlusion within a 6-24 hour window?",
+      "back": "The BAOCHE trial.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the current clinical recommendation for thrombectomy in medium-vessel or distal occlusions (MeVO)?",
+      "back": "It is not currently recommended due to lack of proven benefit and higher hemorrhage risk.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What was the outcome of the SHINE trial regarding intensive vs. standard glucose control in stroke?",
+      "back": "Intensive control did not improve functional outcomes and increased the risk of hypoglycemia.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "How does hyperthermia (fever) negatively impact stroke outcomes?",
+      "back": "It increases metabolic demand, excitotoxicity, and blood-brain barrier breakdown.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the first-line medication used to maintain normothermia in acute stroke patients?",
+      "back": "Acetaminophen (650-1000 mg).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What was the key finding of the CLOTS 3 trial regarding DVT prophylaxis in stroke?",
+      "back": "Intermittent pneumatic compression (IPC) reduced DVT risk and improved survival.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "In ischemic stroke, when should pharmacologic DVT prophylaxis with LMWH be initiated?",
+      "back": "For the duration of acute/rehab hospitalization until the patient is mobile.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Why is dysphagia screening mandatory for all stroke patients before any oral intake?",
+      "back": "To prevent aspiration pneumonia, a leading cause of death in stroke patients.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the \"gold standard\" diagnostic tool for evaluating the pharyngeal stage of swallowing in stroke patients?",
+      "back": "Videofluoroscopic swallowing evaluation (VFSS).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What was the finding of the AVERT trial regarding aggressive mobilization within 24 hours of stroke?",
+      "back": "It was associated with worse functional outcomes compared to usual care.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "According to mobilization evidence, is session frequency or session duration more important for improved outcomes?",
+      "back": "Session frequency.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What are the physical tolerance requirements for a patient to be admitted to an Inpatient Rehabilitation Facility (IRF)?",
+      "back": "Ability to tolerate at least 3 hours of therapy per day.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Seizures occurring more than 7 days after a stroke are clinically defined as ____.",
+      "back": "Post-stroke epilepsy.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Which antiepileptic drug is preferred for post-stroke seizures due to its low drug-interaction profile?",
+      "back": "Levetiracetam (Keppra).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the most sensitive and specific imaging technique for detecting an acute ischemic infarct within minutes?",
+      "back": "DWI-MRI (Diffusion-weighted imaging).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "How does acute hemorrhage typically appear on a non-contrast head CT scan?",
+      "back": "Bright (hyperdense or white).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the primary purpose of a Mobile Stroke Unit (MSU)?",
+      "back": "To provide rapid thrombolysis before hospital arrival using an onboard CT scanner.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "The 1995 NINDS trial found that patients given tPA within 3 hours were ____% more likely to have minimal or no disability at 3 months.",
+      "back": "30%.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the compensatory rationale for allowing permissive hypertension in acute ischemic stroke?",
+      "back": "To maintain perfusion to the ischemic penumbra through collateral vessels.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the first-line treatment for status epilepticus in the setting of acute stroke?",
+      "back": "IV Lorazepam.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "For patients over age 60, what is the clinical implication of performing a hemicraniectomy for malignant MCA stroke?",
+      "back": "Survival increases, but most survivors are left with severe disability (mRS 4-5).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the target Cerebral Perfusion Pressure (CPP) according to stroke management guidelines?",
+      "back": "> 60 mmHg (some suggest > 70 mmHg).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "Which trial confirmed that EVT benefit for large core strokes is sustained at a 1-year follow-up?",
+      "back": "The TENSION trial.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What does the TICI scale measure in the context of mechanical thrombectomy?",
+      "back": "Successful recanalization or blood flow (Goal is TICI 2b-3).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "True or False: Graduated compression stockings are recommended for DVT prophylaxis in acute stroke patients.",
+      "back": "False (CLOTS trials showed they are not useful).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "front": "What is the maximum dose for Alteplase when treating acute ischemic stroke?",
+      "back": "90 mg.",
+      "boardReadiness": "BOARD-CORE"
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "title": "Neurovascular Quiz",
+  "questions": [
+    {
+      "question": "A patient presents with contralateral hemiparesis where the leg is significantly more affected than the face and arm. Which vascular territory is most likely involved?",
+      "answerOptions": [
+        {
+          "text": "Anterior Cerebral Artery (ACA)",
+          "isCorrect": true,
+          "rationale": "The ACA supplies the medial surface of the frontal and parietal lobes, where the motor homunculus represents the lower extremity."
+        },
+        {
+          "text": "Middle Cerebral Artery (MCA)",
+          "isCorrect": false,
+          "rationale": "This artery typically results in weakness where the face and arm are more affected than the leg due to its lateral cortical supply."
+        },
+        {
+          "text": "Posterior Cerebral Artery (PCA)",
+          "isCorrect": false,
+          "rationale": "Infarctions in this territory primarily cause visual and sensory deficits rather than significant motor weakness."
+        },
+        {
+          "text": "Anterior Choroidal Artery",
+          "isCorrect": false,
+          "rationale": "This syndrome typically presents with proportional hemiplegia affecting the face, arm, and leg equally."
+        }
+      ],
+      "hint": "Consider the organization of the motor homunculus on the medial versus lateral surfaces of the brain.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient is unable to recognize familiar faces despite having intact vision and the ability to recognize people by their voices. This condition, prosopagnosia, is associated with which artery?",
+      "answerOptions": [
+        {
+          "text": "Posterior Cerebral Artery (PCA)",
+          "isCorrect": true,
+          "rationale": "PCA territory includes the inferior temporal lobe and visual association cortex, which are critical for facial recognition."
+        },
+        {
+          "text": "Middle Cerebral Artery (MCA) - Superior Division",
+          "isCorrect": false,
+          "rationale": "This division supplies the frontal and anterior parietal lobes, primarily affecting motor function and expressive language."
+        },
+        {
+          "text": "Middle Cerebral Artery (MCA) - Inferior Division",
+          "isCorrect": false,
+          "rationale": "While this supplies parts of the temporal lobe, face recognition deficits specifically localize to visual association areas in the PCA territory."
+        },
+        {
+          "text": "Anterior Cerebral Artery (ACA)",
+          "isCorrect": false,
+          "rationale": "ACA territory is associated with executive function and lower extremity motor control, not high-level visual processing."
+        }
+      ],
+      "hint": "This deficit involves the visual association cortex located in the inferior temporal and occipital regions.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "The 'Gerstmann Tetrad' consisting of agraphia, acalculia, finger agnosia, and left-right confusion localizes to which specific neuroanatomical structure?",
+      "answerOptions": [
+        {
+          "text": "Dominant angular gyrus",
+          "isCorrect": true,
+          "rationale": "These four specific cognitive deficits are the hallmark of damage to the dominant parietal lobe, specifically Brodmann area 39."
+        },
+        {
+          "text": "Non-dominant parietal lobe",
+          "isCorrect": false,
+          "rationale": "Damage here typically results in hemispatial neglect and anosognosia rather than the Gerstmann Tetrad."
+        },
+        {
+          "text": "Dominant inferior frontal gyrus",
+          "isCorrect": false,
+          "rationale": "This area is associated with Broca's aphasia and motor speech production."
+        },
+        {
+          "text": "Dominant superior temporal gyrus",
+          "isCorrect": false,
+          "rationale": "This is the location of Wernicke's area, primarily involved in language comprehension."
+        }
+      ],
+      "hint": "Identify the specific gyrus in the parietal lobe responsible for high-level symbolic integration.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "What finding is considered pathognomonic for a brainstem lesion rather than a cortical or subcortical lesion?",
+      "answerOptions": [
+        {
+          "text": "Ipsilateral cranial nerve deficit with contralateral long tract signs",
+          "isCorrect": true,
+          "rationale": "The 'crossed' pattern occurs because cranial nerve nuclei are at the level of the lesion while descending tracts cross lower in the medulla."
+        },
+        {
+          "text": "Contralateral hemiparesis and contralateral sensory loss",
+          "isCorrect": false,
+          "rationale": "This is a common feature of cortical strokes where both motor and sensory tracts are affected on the same side relative to the lesion."
+        },
+        {
+          "text": "Global aphasia with dense hemiplegia",
+          "isCorrect": false,
+          "rationale": "These signs indicate a large cortical territory involvement, typically the dominant MCA."
+        },
+        {
+          "text": "Homonymous hemianopia with macular sparing",
+          "isCorrect": false,
+          "rationale": "This visual deficit points specifically to the occipital cortex in the PCA territory."
+        }
+      ],
+      "hint": "Look for a 'crossed' or 'alternating' pattern of neurological deficits.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which of the following clinical features is typically SPARED in Wallenberg Syndrome (Lateral Medullary Syndrome)?",
+      "answerOptions": [
+        {
+          "text": "Contralateral motor strength",
+          "isCorrect": true,
+          "rationale": "The corticospinal tract runs medially in the medulla and is not affected by lateral medullary lesions."
+        },
+        {
+          "text": "Ipsilateral facial pain and temperature sensation",
+          "isCorrect": false,
+          "rationale": "Loss of these is a classic feature due to damage to the spinal trigeminal nucleus."
+        },
+        {
+          "text": "Contralateral body pain and temperature sensation",
+          "isCorrect": false,
+          "rationale": "This is a standard feature caused by the interruption of the spinothalamic tract."
+        },
+        {
+          "text": "Swallowing function",
+          "isCorrect": false,
+          "rationale": "Dysphagia is common in Wallenberg syndrome due to damage to the nucleus ambiguus."
+        }
+      ],
+      "hint": "The corticospinal tract is a medial structure in the brainstem.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient presents with vertical eye movement preservation, quadriplegia, and anarthria, but is fully conscious and cognitively intact. Which artery is most likely occluded?",
+      "answerOptions": [
+        {
+          "text": "Basilar artery",
+          "isCorrect": true,
+          "rationale": "Bilateral ventral pontine infarction from basilar occlusion destroys motor tracts but spares the midbrain (vertical gaze) and reticular activating system (consciousness)."
+        },
+        {
+          "text": "Posterior Cerebral Artery (PCA)",
+          "isCorrect": false,
+          "rationale": "PCA occlusion typically causes visual or thalamic symptoms rather than complete motor paralysis."
+        },
+        {
+          "text": "Anterior Spinal Artery",
+          "isCorrect": false,
+          "rationale": "While this can cause motor deficits, it would not typically cause the specific 'locked-in' syndrome involving cranial nerves and pons."
+        },
+        {
+          "text": "Internal Carotid Artery (ICA)",
+          "isCorrect": false,
+          "rationale": "Bilateral ICA occlusion would likely lead to global ischemia and coma rather than the preserved consciousness seen in locked-in syndrome."
+        }
+      ],
+      "hint": "This syndrome results from a lesion in the ventral pons, which is supplied by a major vessel formed by the junction of the vertebrals.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient experiences an stroke resulting in the 'Man in a Barrel' syndrome, characterized by proximal arm weakness with preserved distal hand and leg function. Where is the lesion likely located?",
+      "answerOptions": [
+        {
+          "text": "External border zone between ACA and MCA",
+          "isCorrect": true,
+          "rationale": "This watershed area corresponds to the cortical representation of the shoulder and proximal arm muscles."
+        },
+        {
+          "text": "Internal watershed zone of the deep white matter",
+          "isCorrect": false,
+          "rationale": "Internal watershed infarcts typically present with cognitive decline and a 'rosary-like' pattern on imaging rather than focal motor syndromes."
+        },
+        {
+          "text": "Lenticulostriate branches of the MCA",
+          "isCorrect": false,
+          "rationale": "These branches supply the internal capsule and lead to pure motor hemiparesis affecting the face, arm, and leg equally."
+        },
+        {
+          "text": "Inferior division of the MCA",
+          "isCorrect": false,
+          "rationale": "This area supplies the temporal and posterior parietal lobes, usually causing sensory or visual deficits."
+        }
+      ],
+      "hint": "This clinical presentation is characteristic of a hemodynamic compromise between two major vascular territories.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which lacunar syndrome is most likely if a patient presents with equal weakness in the face, arm, and leg, but NO sensory loss or cortical signs?",
+      "answerOptions": [
+        {
+          "text": "Pure Motor Hemiparesis",
+          "isCorrect": true,
+          "rationale": "This is the most common lacunar syndrome and typically localizes to the posterior limb of the internal capsule or basis pontis."
+        },
+        {
+          "text": "Ataxic Hemiparesis",
+          "isCorrect": false,
+          "rationale": "This syndrome requires the presence of cerebellar ataxia alongside the weakness on the same side."
+        },
+        {
+          "text": "Dysarthria-Clumsy Hand Syndrome",
+          "isCorrect": false,
+          "rationale": "This involves prominent hand clumsiness and speech difficulty, rather than proportional weakness of the entire side."
+        },
+        {
+          "text": "Sensorimotor Stroke",
+          "isCorrect": false,
+          "rationale": "This lacunar variant involves both motor and sensory pathways, typically at the thalamocapsular junction."
+        }
+      ],
+      "hint": "This syndrome is the most frequent type of lacunar stroke and involves the internal capsule.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient with a PCA stroke has a contralateral homonymous hemianopia. On examination, the central portion of their vision is intact. What is the anatomical explanation for this 'macular sparing'?",
+      "answerOptions": [
+        {
+          "text": "Dual blood supply to the occipital pole from both the PCA and MCA",
+          "isCorrect": true,
+          "rationale": "The macular representation in the primary visual cortex often receives collateral flow from the MCA, protecting it during PCA occlusion."
+        },
+        {
+          "text": "The macula is represented in the frontal eye fields",
+          "isCorrect": false,
+          "rationale": "The frontal eye fields are involved in eye movements and gaze deviation, not visual field perception."
+        },
+        {
+          "text": "The optic tract remains partially intact during PCA strokes",
+          "isCorrect": false,
+          "rationale": "A PCA stroke affects the cortex; the optic tract is located more anteriorly and is not the primary site of damage in this syndrome."
+        },
+        {
+          "text": "The macula is supplied exclusively by the Anterior Choroidal Artery",
+          "isCorrect": false,
+          "rationale": "The Anterior Choroidal Artery supplies the optic tract and lateral geniculate body, not the primary visual cortex."
+        }
+      ],
+      "hint": "The distal tips of the occipital lobes where the macula is represented have redundant circulation.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "What is the hallmark of Anton Syndrome following bilateral PCA territory infarction?",
+      "answerOptions": [
+        {
+          "text": "Cortical blindness with denial of the deficit",
+          "isCorrect": true,
+          "rationale": "Patients with Anton syndrome are blind but confabulate visual experiences and insist they can see."
+        },
+        {
+          "text": "Inability to read but preserved ability to write",
+          "isCorrect": false,
+          "rationale": "This describes alexia without agraphia, which is a disconnection syndrome, not a form of blindness denial."
+        },
+        {
+          "text": "The presence of visual hallucinations and CN III palsy",
+          "isCorrect": false,
+          "rationale": "These features are more suggestive of Top of the Basilar syndrome or peduncular hallucinosis."
+        },
+        {
+          "text": "Akinetic mutism with preserved consciousness",
+          "isCorrect": false,
+          "rationale": "This is a behavioral state seen in bilateral ACA strokes, characterized by a lack of voluntary movement and speech."
+        }
+      ],
+      "hint": "This syndrome involves a combination of visual loss and anosognosia (lack of insight).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Dejerine-Roussy syndrome, characterized by severe contralateral burning pain months after a stroke, typically localizes to which nucleus?",
+      "answerOptions": [
+        {
+          "text": "Ventral posterolateral (VPL) nucleus of the thalamus",
+          "isCorrect": true,
+          "rationale": "Damage to the VPL nucleus leads to initial sensory loss followed by the development of central post-stroke pain."
+        },
+        {
+          "text": "Red nucleus of the midbrain",
+          "isCorrect": false,
+          "rationale": "Involvement of the red nucleus typically causes motor signs like tremor or chorea, as seen in Benedikt syndrome."
+        },
+        {
+          "text": "Nucleus ambiguus of the medulla",
+          "isCorrect": false,
+          "rationale": "This nucleus is involved in motor control of the larynx and pharynx; damage causes dysphagia and hoarseness."
+        },
+        {
+          "text": "Lateral geniculate nucleus",
+          "isCorrect": false,
+          "rationale": "The lateral geniculate nucleus is a relay center for the visual system, not the somatosensory system."
+        }
+      ],
+      "hint": "This syndrome is a classic thalamic pain syndrome.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which cerebellar artery stroke is uniquely associated with unilateral hearing loss and tinnitus?",
+      "answerOptions": [
+        {
+          "text": "Anterior Inferior Cerebellar Artery (AICA)",
+          "isCorrect": true,
+          "rationale": "The labyrinthine artery, which supplies the inner ear, is typically a branch of the AICA."
+        },
+        {
+          "text": "Posterior Inferior Cerebellar Artery (PICA)",
+          "isCorrect": false,
+          "rationale": "PICA strokes are most common and cause Wallenberg syndrome, but do not usually involve hearing loss."
+        },
+        {
+          "text": "Superior Cerebellar Artery (SCA)",
+          "isCorrect": false,
+          "rationale": "SCA strokes present with severe ataxia and dysarthria, but lack the peripheral hearing involvement."
+        },
+        {
+          "text": "Vertebral Artery",
+          "isCorrect": false,
+          "rationale": "While it can lead to various brainstem syndromes, hearing loss is the specific 'localizing' pearl for AICA."
+        }
+      ],
+      "hint": "The labyrinthine artery is a key branch of this vessel.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient is able to write a coherent sentence but cannot read it back. This 'Alexia without Agraphia' is caused by a lesion in the dominant PCA and which other structure?",
+      "answerOptions": [
+        {
+          "text": "Splenium of the corpus callosum",
+          "isCorrect": true,
+          "rationale": "The lesion disconnects visual information from the intact right hemisphere from reaching the language centers in the left hemisphere."
+        },
+        {
+          "text": "Genu of the internal capsule",
+          "isCorrect": false,
+          "rationale": "The genu contains corticobulbar fibers; lesions here lead to motor deficits like dysarthria, not reading/writing dissociation."
+        },
+        {
+          "text": "Arcuate fasciculus",
+          "isCorrect": false,
+          "rationale": "Damage to the arcuate fasciculus causes conduction aphasia, where repetition is impaired but reading is generally preserved."
+        },
+        {
+          "text": "Angular gyrus",
+          "isCorrect": false,
+          "rationale": "A lesion directly in the dominant angular gyrus would cause both alexia AND agraphia."
+        }
+      ],
+      "hint": "This condition is a classic disconnection syndrome involving a bridge between the hemispheres.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Medial Medullary Syndrome (Dejerine Syndrome) is characterized by a triad of symptoms. Which of the following is part of that triad?",
+      "answerOptions": [
+        {
+          "text": "Ipsilateral tongue deviation",
+          "isCorrect": true,
+          "rationale": "Damage to the hypoglossal nerve (CN XII) causes the tongue to deviate toward the side of the lesion."
+        },
+        {
+          "text": "Ipsilateral Horner syndrome",
+          "isCorrect": false,
+          "rationale": "Horner syndrome is a feature of lateral medullary (Wallenberg) syndrome due to damage to the sympathetic tract."
+        },
+        {
+          "text": "Contralateral loss of pain and temperature",
+          "isCorrect": false,
+          "rationale": "Pain and temperature loss (spinothalamic tract) is a lateral brainstem sign, not a medial one."
+        },
+        {
+          "text": "Ipsilateral facial paralysis",
+          "isCorrect": false,
+          "rationale": "Facial paralysis (CN VII) localizes to the pons, not the medulla."
+        }
+      ],
+      "hint": "Think about the cranial nerve located in the medial medulla (CN XII).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to the 'Rule of 4', which of these cranial nerves is located in the midbrain?",
+      "answerOptions": [
+        {
+          "text": "Cranial Nerve III",
+          "isCorrect": true,
+          "rationale": "CN III and IV are located in the midbrain, V through VIII in the pons, and IX through XII in the medulla."
+        },
+        {
+          "text": "Cranial Nerve VI",
+          "isCorrect": false,
+          "rationale": "CN VI (abducens) is a medial motor nerve located in the pons."
+        },
+        {
+          "text": "Cranial Nerve XII",
+          "isCorrect": false,
+          "rationale": "CN XII (hypoglossal) is a medial motor nerve located in the medulla."
+        },
+        {
+          "text": "Cranial Nerve VII",
+          "isCorrect": false,
+          "rationale": "CN VII (facial) is located in the pons."
+        }
+      ],
+      "hint": "The midbrain contains the nuclei for the nerves responsible for most eye movements.",
+      "boardReadiness": "BOARD-CORE"
+    }
+  ]
+}

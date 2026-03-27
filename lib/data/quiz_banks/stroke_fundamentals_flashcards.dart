@@ -1,0 +1,356 @@
+import '../models/flashcard_model.dart';
+
+class StrokeFundamentalsFlashcards {
+  static const List<Flashcard> cards = [
+    Flashcard(
+      front: 'What duration of neurological deficit defines a stroke according to the traditional WHO criteria?',
+      back: 'Deficits persisting for more than 24 hours or resulting in death.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'The term historically used to describe neurological deficits lasting 24-72 hours that is no longer used in modern classification is _____.',
+      back: 'Reversible Ischemic Neurologic Deficit (RIND)',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What percentage of all strokes are classified as ischemic?',
+      back: 'Approximately 87%.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Under the modern tissue-based definition, what imaging finding distinguishes a stroke from a TIA regardless of symptom duration?',
+      back: 'Evidence of infarction on MRI Diffusion-Weighted Imaging (DWI).',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Which ischemic stroke subtype mechanism involves in-situ clot formation on an atherosclerotic plaque, often preceded by a TIA in the same territory?',
+      back: 'Large artery atherosclerosis (thrombotic).',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What is the typical clinical onset pattern for a cardioembolic stroke?',
+      back: 'Immediate onset, occurring while the patient is awake.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Small vessel occlusion (lacunar) infarcts are defined as being less than _____ in size.',
+      back: '15 mm',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Which stroke subtype is most strongly correlated with hypertension, seen in up to 81% of cases?',
+      back: 'Small vessel occlusion (lacunar) stroke.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What is the most common anatomical location for a hypertensive intracerebral hemorrhage (ICH)?',
+      back: 'The putamen.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Where do 90-95% of saccular (berry) aneurysms causing subarachnoid hemorrhage (SAH) occur?',
+      back: 'The anterior Circle of Willis.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Term: Penumbra',
+      back: 'Definition: Ischemic tissue surrounding an infarct core that is electrically silent but structurally intact and salvageable.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'An infarct core is defined as irreversibly damaged tissue with cerebral blood flow less than _____.',
+      back: '10 mL/100g/min',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Cerebral autoregulation typically maintains constant blood flow within a Mean Arterial Pressure (MAP) range of _____.',
+      back: '60-150 mmHg',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'In the mechanism of excitotoxicity, dying cells release which neurotransmitter that leads to toxic calcium accumulation?',
+      back: 'Glutamate.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Transient monocular blindness (amaurosis fugax) is a warning sign associated with occlusion of which artery?',
+      back: 'Internal Carotid Artery (ICA).',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Which division of the Middle Cerebral Artery (MCA) is likely involved if a patient presents with Broca\'s aphasia and face/arm weakness?',
+      back: 'The superior division.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'A patient with Wernicke\'s aphasia and superior quadrantanopia likely has an infarct in which MCA division?',
+      back: 'The inferior division.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What is the hallmark motor deficit pattern in an Anterior Cerebral Artery (ACA) stroke?',
+      back: 'Contralateral weakness and sensory loss, with the leg more affected than the arm.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Bilateral PCA infarction can result in _____, characterized by cortical blindness and denial of the deficit.',
+      back: 'Anton syndrome',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Which clinical feature distinguishes posterior circulation strokes from anterior circulation strokes?',
+      back: 'The absence of cortical signs (such as aphasia or cognitive deficits).',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Which brainstem syndrome involves an ipsilateral CN3 palsy and contralateral hemiplegia?',
+      back: 'Weber syndrome (midbrain).',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Wallenberg syndrome (lateral medullary) is typically caused by occlusion of which artery?',
+      back: 'Posterior Inferior Cerebellar Artery (PICA) or the vertebral artery.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What is the key sensory finding in Wallenberg syndrome?',
+      back: 'Ipsilateral facial pain/temperature loss with contralateral body pain/temperature loss (crossed signs).',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Locked-in syndrome is caused by a bilateral lesion in which anatomical location?',
+      back: 'The ventral pons.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Which lacunar syndrome is associated with a lesion in the thalamus?',
+      back: 'Pure sensory stroke.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'A patient with dysarthria and hand clumsiness likely has a lacunar infarct in the _____ or the anterior internal capsule.',
+      back: 'basis pontis',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What is the range of scores on the NIH Stroke Scale (NIHSS)?',
+      back: '0-42.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'An NIHSS score of 21 or greater is interpreted as a _____ stroke.',
+      back: 'severe',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What is a major limitation of the NIHSS assessment tool regarding stroke location?',
+      back: 'It is weighted toward anterior circulation and dominant hemisphere deficits, underestimating posterior circulation strokes.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'In stroke clinical trials, a Modified Rankin Scale (mRS) score of _____ is generally considered a \'good outcome\'.',
+      back: '0-2',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Which scale is specifically used for grading the clinical severity of a subarachnoid hemorrhage (SAH)?',
+      back: 'The Hunt and Hess Scale.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Approximately how many people in the United States experience a stroke each year?',
+      back: 'Approximately 795,000.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Stroke is currently ranked as the _____ leading cause of death in the United States.',
+      back: '5th',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'In the first 30 days following a stroke, 90% of deaths are caused by direct brain lesion effects or _____.',
+      back: 'immobility complications',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'According to the Copenhagen Stroke Study, 95% of survivors reach their best neurological level within _____ weeks of onset.',
+      back: '11 weeks',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'How does the risk of stroke change with age after the age of 55?',
+      back: 'The risk doubles each decade.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Which racial group in the U.S. has approximately double the risk of first-ever stroke compared to White Americans?',
+      back: 'African Americans.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'The \'Stroke Belt\' refers to a region in the Southeastern U.S. with a 30% higher stroke mortality rate; which state is included in this belt?',
+      back: 'Any of: NC, SC, GA, AL, MS, TN, AR, or LA.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What is the single most important modifiable risk factor for both ischemic and hemorrhagic stroke?',
+      back: 'Hypertension.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'For every 10 mmHg reduction in systolic blood pressure, stroke risk decreases by approximately _____.',
+      back: '33%',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Atrial fibrillation increases the risk of stroke by _____ throughout all ages.',
+      back: '5-fold',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'In the CHA2DS2-VASc score, what is the point value assigned to a history of prior Stroke or TIA?',
+      back: '2 points.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'According to CHA2DS2-VASc guidelines, anticoagulation is recommended for men with a score of _____ or higher.',
+      back: '2',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Statins (HMG-CoA reductase inhibitors) reduce the risk of stroke by approximately _____.',
+      back: '30%',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What is the annual stroke risk for a patient with symptomatic carotid artery stenosis greater than 70% without intervention?',
+      back: 'Approximately 13%.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'The AHA/ASA 2024 guidelines provide a Class 1 recommendation for which dietary pattern for primary stroke prevention?',
+      back: 'The Mediterranean diet.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Which class of medications received a Class 1A recommendation in 2024 for patients with T2DM and high cardiovascular risk to reduce stroke?',
+      back: 'GLP-1 Receptor Agonists.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What anti-inflammatory medication received FDA approval in 2023 to reduce cardiovascular events in patients with established ASCVD?',
+      back: 'Colchicine (0.5 mg daily).',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Which emerging prognostic biomarker in the serum correlates with infarct size and long-term stroke outcomes?',
+      back: 'Neurofilament light chain (sNfL).',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Which environmental factor is now recognized by the GBD 2021 as a top 5 global risk factor for stroke?',
+      back: 'Air pollution (particulate matter).',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What is the risk of having a stroke within 90 days after experiencing a TIA?',
+      back: '10-15%.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'In the ABCD2 score for TIA risk, what does the \'D2\' component stand for?',
+      back: 'Diabetes present.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What is the recommended acute antiplatelet management for a high-risk TIA according to the CHANCE and POINT trials?',
+      back: 'Dual antiplatelet therapy (DAPT) with aspirin and clopidogrel for 21 days.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What classic symptom of ICH is reported in 22-44% of patients and helps distinguish it from ischemic stroke?',
+      back: 'Vomiting.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Which ICH location is associated with pinpoint pupils and rapid progression to coma?',
+      back: 'The pons.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Cerebral amyloid angiopathy typically causes _____ hemorrhages in the elderly.',
+      back: 'lobar',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'SAH patients are at peak risk for cerebral vasospasm between days _____ post-rupture.',
+      back: '3-12 (peak at day 7)',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What medication is standardly used to treat vasospasm following a subarachnoid hemorrhage?',
+      back: 'Nimodipine (a calcium channel blocker).',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What is the estimated lifetime hemorrhage risk for an arteriovenous malformation (AVM)?',
+      back: '40-50%.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'On a non-contrast CT scan, how does an acute hemorrhage appear?',
+      back: 'Hyperdense (White).',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Which imaging modality is the most sensitive and specific for detecting an acute ischemic infarct within minutes of onset?',
+      back: 'MRI Diffusion-Weighted Imaging (DWI).',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'If a subarachnoid hemorrhage is suspected but the CT scan is negative, what is the next indicated diagnostic step?',
+      back: 'Lumbar puncture.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Regarding recovery, which functional domain typically shows slower and more prolonged improvement compared to motor recovery?',
+      back: 'Language recovery.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What is a major poor prognostic sign for regaining useful hand function 4 weeks after a stroke?',
+      back: 'Complete arm paralysis with no grasp.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Early neurological improvement in the first days to weeks after stroke is primarily attributed to the resolution of edema and _____.',
+      back: 'diaschisis',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What is the population attributable risk of physical inactivity for stroke?',
+      back: 'Approximately 30%.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'The mnemonic \'ABCDD\' for secondary stroke prevention stands for Antiplatelets, Blood Pressure, Cholesterol, Diabetes, and _____.',
+      back: 'Diet and lifestyle modification',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'Which brainstem syndrome presents with an ipsilateral CN6/CN7 palsy and contralateral hemiplegia?',
+      back: 'Millard-Gubler syndrome (pons).',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'What percentage of cardioembolic strokes involve clots that travel specifically to the brain?',
+      back: '75%.',
+      moduleId: 'stroke-fundamentals',
+    ),
+    Flashcard(
+      front: 'In the US, how often does a person die from a stroke on average?',
+      back: 'Every 3.5 minutes.',
+      moduleId: 'stroke-fundamentals',
+    ),
+  ];
+}

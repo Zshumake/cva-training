@@ -110,6 +110,43 @@ final TopicData spasticityShoulderContent = TopicData(
             'spasticity. Trial injection required before implantation.',
           ),
         ]),
+        KnowledgeCheckBlock(
+          question: 'On the Modified Ashworth Scale, what grade represents "movement only within synergy patterns with spasticity at its peak"?',
+          options: ['Grade 1+', 'Grade 2', 'Grade 3', 'Grade 4'],
+          correctIndex: 2,
+          explanation: 'MAS Grade 3 indicates considerable increase in muscle tone with passive movement being difficult. Note: the MAS measures resistance to passive stretch (0, 1, 1+, 2, 3, 4) and does not directly correlate with Brunnstrom stages, but Grade 3 represents significant spasticity.',
+          boardRelevance: 'BOARD-CORE',
+        ),
+        TimelineBlock(
+          title: 'Spasticity Treatment Escalation Timeline',
+          milestones: [
+            TimelineMilestone(
+              label: 'Weeks 1-2',
+              title: 'Positioning & Stretching',
+              details: ['Daily ROM exercises', 'Anti-spasticity positioning', 'Foundation of all management'],
+            ),
+            TimelineMilestone(
+              label: 'Weeks 2-4',
+              title: 'Splinting & Orthotics',
+              details: ['Resting hand splint for wrist/finger flexion', 'AFO for ankle equinovarus', 'Serial casting if contracture developing'],
+            ),
+            TimelineMilestone(
+              label: 'Weeks 2-6',
+              title: 'Oral Medications',
+              details: ['Baclofen (GABA-B agonist) or tizanidine (alpha-2 agonist)', 'Dantrolene for peripheral action', 'Monitor for sedation and hepatotoxicity'],
+            ),
+            TimelineMilestone(
+              label: 'Months 1-3',
+              title: 'Botulinum Toxin / Phenol',
+              details: ['Botox for focal, small muscle targets', 'Phenol for large muscles (obturator nerve)', 'Onset 2-3 days (Botox), immediate (phenol)'],
+            ),
+            TimelineMilestone(
+              label: 'Months 3-6+',
+              title: 'Intrathecal Baclofen Pump',
+              details: ['For severe bilateral/generalized spasticity', 'Trial injection before implantation', '100-1000x more effective than oral at 1/100th dose'],
+            ),
+          ],
+        ),
         PearlBlock(
           'Botox vs Phenol',
           'Botulinum toxin is preferred for small muscles and when precise '
@@ -252,6 +289,18 @@ final TopicData spasticityShoulderContent = TopicData(
             'Kinesiotaping — emerging evidence, low risk',
             'NEVER let the arm hang unsupported during standing/walking',
           ],
+        ),
+        KnowledgeCheckBlock(
+          question: 'Which two muscles does FES target to reduce glenohumeral subluxation after stroke?',
+          options: [
+            'Biceps and triceps',
+            'Supraspinatus and posterior deltoid',
+            'Infraspinatus and subscapularis',
+            'Pectoralis major and latissimus dorsi',
+          ],
+          correctIndex: 1,
+          explanation: 'FES to the supraspinatus and posterior deltoid has the strongest evidence for reducing subluxation. These muscles provide the vertical force vector (Basmajian "locking mechanism") that holds the humeral head in the glenoid fossa.',
+          boardRelevance: 'BOARD-CORE',
         ),
         PearlBlock(
           'Sling Controversies',
@@ -419,6 +468,13 @@ final TopicData spasticityShoulderContent = TopicData(
             'TENS for pain management',
             'Vitamin C 500 mg/day may have preventive benefit',
           ],
+        ),
+        KnowledgeCheckBlock(
+          question: 'Which diagnostic test is the most SENSITIVE for early detection of Complex Regional Pain Syndrome (CRPS)?',
+          options: ['Plain X-ray', 'MRI', 'Triple-phase bone scan', 'CT scan'],
+          correctIndex: 2,
+          explanation: 'The triple-phase bone scan is the most sensitive diagnostic test for early CRPS, showing increased uptake in all three phases (flow, blood pool, delayed) with sensitivity up to 80-96%. Plain X-rays show patchy osteoporosis only in later stages.',
+          boardRelevance: 'BOARD-CORE',
         ),
         PearlBlock(
           'CRPS vs Central Poststroke Pain',

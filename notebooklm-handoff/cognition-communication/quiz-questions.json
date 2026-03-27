@@ -1,0 +1,411 @@
+{
+  "module": "cognition-communication",
+  "title": "Neurorehabilitation Quiz",
+  "questions": [
+    {
+      "question": "A patient presents with nonfluent speech and impaired naming but demonstrates an unexpected ability to repeat complex phrases perfectly. Where is the most likely site of the lesion?",
+      "answerOptions": [
+        {
+          "text": "Left inferior frontal gyrus (Brodmann 44, 45)",
+          "isCorrect": false,
+          "rationale": "Damage to this area, known as Broca area, typically results in impaired repetition."
+        },
+        {
+          "text": "Watershed territory anterior or superior to the Broca area",
+          "isCorrect": true,
+          "rationale": "Transcortical motor aphasia is characterized by intact repetition because the perisylvian language zone remains undamaged despite the surrounding watershed lesion."
+        },
+        {
+          "text": "Arcuate fasciculus",
+          "isCorrect": false,
+          "rationale": "Damage here leads to conduction aphasia, where repetition is the most significantly impaired parameter."
+        },
+        {
+          "text": "Left superior temporal gyrus (Brodmann 22)",
+          "isCorrect": false,
+          "rationale": "This site corresponds to Wernicke area, which results in fluent but nonsensical speech and impaired repetition."
+        }
+      ],
+      "hint": "Recall the 'Repetition Rule' regarding lesions located inside versus outside the perisylvian zone.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "During a speech evaluation, a patient repeatedly attempts to say the word 'computer' by saying 'compu... captu... computer,' showing frustration and self-correction. What is the clinical term for this behavior?",
+      "answerOptions": [
+        {
+          "text": "Echolalia",
+          "isCorrect": false,
+          "rationale": "Echolalia involves the automatic echoing of another person's speech rather than self-correction of one's own errors."
+        },
+        {
+          "text": "Logorrhea",
+          "isCorrect": false,
+          "rationale": "This term refers to excessive, uncontrollable talkativeness often seen in Wernicke aphasia, not specific self-correction attempts."
+        },
+        {
+          "text": "Conduit d'approche",
+          "isCorrect": true,
+          "rationale": "This 'path of approach' behavior is a hallmark of conduction aphasia, where the patient makes repeated phonemic adjustments to reach a target word."
+        },
+        {
+          "text": "Neologism",
+          "isCorrect": false,
+          "rationale": "Neologisms are entirely fabricated words that hold no clear phonetic relationship to the target word for the listener."
+        }
+      ],
+      "hint": "This French term describes the 'path of approach' often seen when the connection between speech understanding and production is disrupted.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which of the following describes the 'Dorsal Stream' within the modern dual-stream model of language processing?",
+      "answerOptions": [
+        {
+          "text": "It involves semantic processing and the mapping of sound to meaning.",
+          "isCorrect": false,
+          "rationale": "Mapping sound to meaning is the primary function of the ventral stream, which projects toward the anterior temporal lobe."
+        },
+        {
+          "text": "It is primarily responsible for the 'what' of language, including word recognition.",
+          "isCorrect": false,
+          "rationale": "The recognition of word meaning is associated with the ventral pathway, not the dorsal production pathway."
+        },
+        {
+          "text": "It relates to verbal production, phonological processing, and repetition.",
+          "isCorrect": true,
+          "rationale": "The dorsal stream overlaps with the classical Broca-Wernicke model and focuses on the motor-phonological aspects of speech."
+        },
+        {
+          "text": "It projects from the Wernicke area directly to the anterior temporal lobe.",
+          "isCorrect": false,
+          "rationale": "The projection to the anterior temporal lobe is the anatomical route of the ventral stream."
+        }
+      ],
+      "hint": "Think of this stream as the 'how' pathway that manages the motoric and phonological aspects of talking.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A right-handed patient develops aphasia following a stroke in the right hemisphere. This rare clinical phenomenon is known as:",
+      "answerOptions": [
+        {
+          "text": "Global aphasia",
+          "isCorrect": false,
+          "rationale": "Global aphasia describes the severity and breadth of deficits, not the unexpected laterality of the lesion."
+        },
+        {
+          "text": "Mixed Transcortical aphasia",
+          "isCorrect": false,
+          "rationale": "This term refers to an isolation of the speech area in watershed zones, regardless of which hemisphere is involved."
+        },
+        {
+          "text": "Anomic aphasia",
+          "isCorrect": false,
+          "rationale": "Anomic aphasia is a type of language deficit characterized by word-finding difficulty, not a description of hemispheric dominance."
+        },
+        {
+          "text": "Crossed aphasia",
+          "isCorrect": true,
+          "rationale": "Crossed aphasia occurs in the less than 5\\% of right-handed individuals whose language dominance is unexpectedly located in the right hemisphere."
+        }
+      ],
+      "hint": "This term is used when language function is localized to the hemisphere opposite of what is typically predicted by handedness.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "According to recent meta-analyses (2020-2023), what is the primary factor driving the effectiveness of Constraint-Induced Language Therapy (CILT)?",
+      "answerOptions": [
+        {
+          "text": "The strict prevention of gesturing and writing",
+          "isCorrect": false,
+          "rationale": "While the constraint is a defining feature, studies comparing CILT to other therapies show the constraint itself may not be the primary driver of recovery."
+        },
+        {
+          "text": "The recruitment of the right hemisphere via singing",
+          "isCorrect": false,
+          "rationale": "Right hemisphere recruitment through melodic patterns is the basis of Melodic Intonation Therapy, not CILT."
+        },
+        {
+          "text": "The high intensity and dosage of the treatment",
+          "isCorrect": true,
+          "rationale": "Research suggests that when the intensity is matched, CILT does not significantly outperform other multimodal treatments, highlighting 'dose' as the potent ingredient."
+        },
+        {
+          "text": "The use of anodal stimulation over the left inferior frontal gyrus",
+          "isCorrect": false,
+          "rationale": "Anodal stimulation is a component of transcranial direct current stimulation (tDCS), which is an adjunct to therapy rather than CILT itself."
+        }
+      ],
+      "hint": "Consider the common thread between successful motor-based Constraint-Induced Movement Therapy and its language equivalent.",
+      "boardReadiness": "BOARD-LIKELY"
+    },
+    {
+      "question": "Why is left-sided hemispatial neglect significantly more common and severe than right-sided neglect?",
+      "answerOptions": [
+        {
+          "text": "The left hemisphere is larger and more susceptible to ischemic injury.",
+          "isCorrect": false,
+          "rationale": "The size of the hemisphere does not dictate the frequency of neglect; the difference is functional and attentional."
+        },
+        {
+          "text": "The right hemisphere attends to both sides of space, while the left hemisphere primarily attends to the right.",
+          "isCorrect": true,
+          "rationale": "If the right hemisphere is damaged, the left hemisphere cannot compensate for the left side of space, whereas the right can compensate for the right side if the left is damaged."
+        },
+        {
+          "text": "The left hemisphere is responsible for all spatial perception and depth processing.",
+          "isCorrect": false,
+          "rationale": "Spatial perception and depth processing are typically functions dominant in the right hemisphere."
+        },
+        {
+          "text": "Blood flow to the right parietal lobe is lower than to the left parietal lobe.",
+          "isCorrect": false,
+          "rationale": "There is no physiological evidence that baseline blood flow differences cause the disparity in neglect prevalence."
+        }
+      ],
+      "hint": "Look at the asymmetrical way the two hemispheres distribute their 'attentional spotlight' across the environment.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which bedside assessment for neglect involves the patient marking the center of a horizontal line, typically resulting in an ipsilateral deviation?",
+      "answerOptions": [
+        {
+          "text": "Catherine Bergego Scale",
+          "isCorrect": false,
+          "rationale": "The CBS is a functional assessment of ADLs in the environment, not a simple paper-and-pencil task."
+        },
+        {
+          "text": "Star cancellation test",
+          "isCorrect": false,
+          "rationale": "This test involves crossing out small targets on a page to identify missing areas of attention."
+        },
+        {
+          "text": "Line bisection",
+          "isCorrect": true,
+          "rationale": "In line bisection, patients with neglect shift the 'center' toward the side of the lesion because they do not perceive the full extent of the contralesional side."
+        },
+        {
+          "text": "Double simultaneous stimulation",
+          "isCorrect": false,
+          "rationale": "This test identifies 'extinction,' where a patient misses a stimulus on the affected side only when both sides are stimulated at once."
+        }
+      ],
+      "hint": "This task requires the patient to divide a single stimulus into two equal halves.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient with a left hemisphere stroke is unable to pantomime the action of brushing their teeth when asked, but they are observed successfully brushing their teeth during morning hygiene. This is a classic example of:",
+      "answerOptions": [
+        {
+          "text": "Ideational apraxia",
+          "isCorrect": false,
+          "rationale": "Ideational apraxia involves a failure to sequence multi-step tasks or understand the concept of a tool even in spontaneous use."
+        },
+        {
+          "text": "Constructional apraxia",
+          "isCorrect": false,
+          "rationale": "This type of apraxia involves an inability to draw or copy spatial figures, often associated with right-sided lesions."
+        },
+        {
+          "text": "Ideomotor apraxia",
+          "isCorrect": true,
+          "rationale": "A hallmark of ideomotor apraxia is 'voluntary-automatic dissociation,' where the patient can perform the act spontaneously but not on command."
+        },
+        {
+          "text": "Dressing apraxia",
+          "isCorrect": false,
+          "rationale": "Dressing apraxia is an inability to orient clothes to the body, typically localized to the right parietal lobe."
+        }
+      ],
+      "hint": "Focus on the discrepancy between performance on command versus performance during automatic, spontaneous activity.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient is able to see and describe the individual features of a face (e.g., eyes, nose, mouth) but cannot recognize the person as their spouse until they hear their voice. Which lesion site is likely responsible?",
+      "answerOptions": [
+        {
+          "text": "Left angular gyrus",
+          "isCorrect": false,
+          "rationale": "Damage here leads to Gerstmann syndrome, not face recognition deficits."
+        },
+        {
+          "text": "Bilateral superior temporal gyrus",
+          "isCorrect": false,
+          "rationale": "This site is associated with pure word deafness, where the patient cannot understand spoken language."
+        },
+        {
+          "text": "Fusiform gyrus (Fusiform face area)",
+          "isCorrect": true,
+          "rationale": "The fusiform gyrus is specialized for facial recognition; damage here causes prosopagnosia."
+        },
+        {
+          "text": "Left occipital lobe and the splenium of the corpus callosum",
+          "isCorrect": false,
+          "rationale": "This specific combination of lesions leads to pure alexia (alexia without agraphia)."
+        }
+      ],
+      "hint": "This specialized region is located in the inferior temporal cortex and is dedicated to social-visual identification.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "What is the primary reason the Montreal Cognitive Assessment (MoCA) is preferred over the Mini-Mental State Examination (MMSE) for post-stroke cognitive screening?",
+      "answerOptions": [
+        {
+          "text": "The MMSE is too difficult for stroke survivors to complete.",
+          "isCorrect": false,
+          "rationale": "The MMSE is actually often criticized for being too simple, leading to a 'ceiling effect' in mild cases."
+        },
+        {
+          "text": "The MoCA more effectively assesses executive function and visuospatial skills.",
+          "isCorrect": true,
+          "rationale": "Stroke patients often have executive deficits that the MMSE (which focuses heavily on language and orientation) fails to capture."
+        },
+        {
+          "text": "The MoCA is the only test that has been validated for use in acute stroke units.",
+          "isCorrect": false,
+          "rationale": "Both tests are used, but MoCA's sensitivity to subtle vascular cognitive impairment makes it the clinical preference."
+        },
+        {
+          "text": "The MMSE requires specialized training that the MoCA does not.",
+          "isCorrect": false,
+          "rationale": "Both assessments are designed to be administered by clinicians with basic training."
+        }
+      ],
+      "hint": "Consider which cognitive domains are most frequently impacted by vascular disease and which test probes them more deeply.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Gerstmann syndrome is characterized by a tetrad of symptoms localized to the dominant parietal lobe. Which of the following is NOT one of those symptoms?",
+      "answerOptions": [
+        {
+          "text": "Agraphia",
+          "isCorrect": false,
+          "rationale": "Agraphia, or the inability to write, is a standard component of Gerstmann syndrome."
+        },
+        {
+          "text": "Prosopagnosia",
+          "isCorrect": true,
+          "rationale": "Prosopagnosia is a visual agnosia related to face recognition and is not part of the Gerstmann tetrad."
+        },
+        {
+          "text": "Acalculia",
+          "isCorrect": false,
+          "rationale": "Acalculia, or difficulty with mathematical calculations, is a classic finding in Gerstmann syndrome."
+        },
+        {
+          "text": "Finger agnosia",
+          "isCorrect": false,
+          "rationale": "Finger agnosia, the inability to identify one's own or others' fingers, is a core deficit of the syndrome."
+        }
+      ],
+      "hint": "The tetrad involves deficits in writing, math, spatial orientation, and body-part identification.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "A patient exhibits brief, involuntary episodes of crying that are incongruent with their actual mood. Which medication is the only FDA-approved treatment for this condition?",
+      "answerOptions": [
+        {
+          "text": "Sertraline",
+          "isCorrect": false,
+          "rationale": "SSRIs like sertraline are used off-label for this condition and are first-line for depression, but they are not specifically FDA-approved for pseudobulbar affect."
+        },
+        {
+          "text": "Methylphenidate",
+          "isCorrect": false,
+          "rationale": "Methylphenidate is often used to treat apathy and psychomotor retardation, not the emotional lability of PBA."
+        },
+        {
+          "text": "Dextromethorphan/quinidine (Nuedexta)",
+          "isCorrect": true,
+          "rationale": "Nuedexta was approved in 2010 specifically for pseudobulbar affect (PBA) to stabilize the brainstem emotional motor system."
+        },
+        {
+          "text": "Citalopram",
+          "isCorrect": false,
+          "rationale": "Like sertraline, citalopram is an effective but off-label treatment for the symptoms of PBA."
+        }
+      ],
+      "hint": "This combination drug uses one component to inhibit the metabolism of the other, increasing its bioavailability.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "The AHA/ASA 2016 and subsequent trial data (e.g., AFFINITY 2021) suggest what regarding the preventive use of SSRIs for post-stroke depression?",
+      "answerOptions": [
+        {
+          "text": "SSRIs should be started immediately for all stroke patients to prevent depression.",
+          "isCorrect": false,
+          "rationale": "Universal prophylactic use is not supported by current clinical evidence or guidelines."
+        },
+        {
+          "text": "Using antidepressants preemptively to prevent PSD is not currently supported.",
+          "isCorrect": true,
+          "rationale": "Major trials like AFFINITY found that fluoxetine did not prevent the onset of depression compared to placebo."
+        },
+        {
+          "text": "SSRIs are only effective if the stroke involves the left frontal lobe.",
+          "isCorrect": false,
+          "rationale": "While the Robinson hypothesis linked left frontal lesions to depression, SSRIs are effective regardless of lesion location if depression is present."
+        },
+        {
+          "text": "Tricyclic antidepressants are preferred over SSRIs for prevention.",
+          "isCorrect": false,
+          "rationale": "Tricyclics are generally avoided as first-line due to their anticholinergic and cardiac side effect profiles."
+        }
+      ],
+      "hint": "Recent evidence focuses on whether treating 'everyone' early prevents future emotional disorders.",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "When assessing a patient for a return to driving, what is the most common minimum horizontal visual field requirement across many states?",
+      "answerOptions": [
+        {
+          "text": "90 degrees",
+          "isCorrect": false,
+          "rationale": "90 degrees is often considered too narrow for safe navigation in typical driving environments."
+        },
+        {
+          "text": "120 degrees",
+          "isCorrect": true,
+          "rationale": "A 120-degree horizontal field is the standard requirement in many jurisdictions to ensure adequate peripheral awareness."
+        },
+        {
+          "text": "180 degrees",
+          "isCorrect": false,
+          "rationale": "A full 180 degrees is the maximum theoretical field but is not the minimum standard required for a license."
+        },
+        {
+          "text": "150 degrees",
+          "isCorrect": false,
+          "rationale": "While safer, 150 degrees is higher than the minimum legal standard set by most state driving authorities."
+        }
+      ],
+      "hint": "This degree of peripheral vision is typically tested during a Comprehensive Driving Evaluation (CDE).",
+      "boardReadiness": "BOARD-CORE"
+    },
+    {
+      "question": "Which of the following describes 'Anosodiaphoria'?",
+      "answerOptions": [
+        {
+          "text": "Total denial of the existence of a paralyzed limb.",
+          "isCorrect": false,
+          "rationale": "Total denial is the primary feature of anosognosia, whereas this term describes the emotional reaction to it."
+        },
+        {
+          "text": "Awareness of a deficit but a complete lack of concern about it.",
+          "isCorrect": true,
+          "rationale": "Anosodiaphoria refers to an indifferent attitude toward one's impairment, often seen in right hemisphere strokes."
+        },
+        {
+          "text": "The failure to represent the left side of space in mental imagery.",
+          "isCorrect": false,
+          "rationale": "This describes representational neglect, which is a specific type of hemispatial neglect."
+        },
+        {
+          "text": "The belief that a paralyzed limb belongs to someone else.",
+          "isCorrect": false,
+          "rationale": "This specific delusion is a variant of anosognosia or somatoparaphrenia, not indifference."
+        }
+      ],
+      "hint": "Focus on the patient's emotional indifference rather than their lack of awareness.",
+      "boardReadiness": "BOARD-CORE"
+    }
+  ]
+}

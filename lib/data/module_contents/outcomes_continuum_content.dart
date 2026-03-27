@@ -51,6 +51,13 @@ final TopicData outcomesContinuumContent = TopicData(
             'Severe cognitive impairment',
           ],
         ),
+        KnowledgeCheckBlock(
+          question: 'Which stroke subtype has the BEST functional prognosis, with up to 80% of patients achieving functional independence?',
+          options: ['Large MCA territory infarct', 'Lacunar infarct', 'Cardioembolic stroke', 'Watershed infarct'],
+          correctIndex: 1,
+          explanation: 'Lacunar infarcts (small vessel disease, <1.5 cm) have the best functional prognosis because the infarct size is small, cortical function is preserved, and motor recovery is often complete. However, they have a high recurrence rate.',
+          boardRelevance: 'BOARD-CORE',
+        ),
         PearlBlock(
           'Lacunar Strokes Have the Best Prognosis',
           'Lacunar infarcts (small vessel disease, <1.5 cm) have the best '
@@ -143,6 +150,13 @@ final TopicData outcomesContinuumContent = TopicData(
               '5 items, max 35. FIM score >80 at discharge predicts home discharge. '
               'FIM efficiency = FIM gain / LOS (points per day). Average FIM '
               'efficiency in IRF is 1.5-2.0 points/day for stroke.',
+        ),
+        KnowledgeCheckBlock(
+          question: 'What is the minimum FIM score at discharge that predicts a HIGH probability of discharge to home?',
+          options: ['FIM > 40', 'FIM > 60', 'FIM > 80', 'FIM > 100'],
+          correctIndex: 2,
+          explanation: 'A discharge FIM score > 80 is associated with high probability of discharge to home. A FIM score < 40 at admission predicts poor rehabilitation outcomes and possible need for skilled nursing care.',
+          boardRelevance: 'BOARD-CORE',
         ),
         PearlBlock(
           'FIM Score >80 Predicts Home Discharge',
@@ -377,6 +391,48 @@ final TopicData outcomesContinuumContent = TopicData(
             'Medicare therapy caps have been repealed (MIPS threshold replaces)',
             'Community re-integration focus',
           ],
+        ),
+        TimelineBlock(
+          title: 'Stroke Rehabilitation Continuum',
+          milestones: [
+            TimelineMilestone(
+              label: 'Days 0-3',
+              title: 'Acute Hospital Care',
+              details: ['Medical stabilization', 'Early mobilization within 24-48 hours', 'Rehabilitation needs assessment and therapy screening'],
+            ),
+            TimelineMilestone(
+              label: 'Days 3-7',
+              title: 'Acute Rehab Assessment',
+              details: ['Determine therapy tolerance (can tolerate 3 hrs/day?)', 'Match patient to appropriate rehab setting', 'IRF for moderate-severe, motivated patients'],
+            ),
+            TimelineMilestone(
+              label: 'Weeks 1-3',
+              title: 'Inpatient Rehabilitation Facility (IRF)',
+              details: ['3 hours therapy/day, 5 days/week', 'Physician supervision 3x/week', 'Average LOS: 14-17 days for stroke'],
+            ),
+            TimelineMilestone(
+              label: 'Weeks 3-8',
+              title: 'SNF or Home Health',
+              details: ['SNF: 1-2 hrs therapy/day for those who cannot tolerate IRF', 'Home health: homebound patients, 2-3 visits/week', 'Caregiver training in actual home environment'],
+            ),
+            TimelineMilestone(
+              label: 'Months 2-6',
+              title: 'Outpatient Rehabilitation',
+              details: ['Clinic-based PT/OT/SLP 1-3x per week', 'Day rehab programs 3-6 hours/day', 'Community reintegration focus'],
+            ),
+            TimelineMilestone(
+              label: 'Months 6+',
+              title: 'Community & Long-Term',
+              details: ['Community exercise programs and support groups', 'Vocational rehabilitation for return to work', 'Ongoing secondary prevention and annual reassessment'],
+            ),
+          ],
+        ),
+        KnowledgeCheckBlock(
+          question: 'According to gait speed classification, what speed threshold defines a community ambulator?',
+          options: ['> 0.4 m/s', '> 0.6 m/s', '> 0.8 m/s', '> 1.2 m/s'],
+          correctIndex: 2,
+          explanation: 'Gait speed >0.8 m/s = full community ambulator. <0.4 m/s = household ambulator. 0.4-0.8 m/s = limited community ambulator. Gait speed is considered the "sixth vital sign" in rehabilitation.',
+          boardRelevance: 'BOARD-CORE',
         ),
         PearlBlock(
           'Early Rehabilitation = Better Outcomes',

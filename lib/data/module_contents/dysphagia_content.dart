@@ -45,6 +45,13 @@ final TopicData dysphagiaContent = TopicData(
             'Social isolation due to mealtime difficulties',
           ],
         ),
+        KnowledgeCheckBlock(
+          question: 'What percentage of aspiration events are MISSED on bedside clinical examination alone due to silent aspiration?',
+          options: ['10-20%', '20-30%', '40-60%', '80-90%'],
+          correctIndex: 2,
+          explanation: 'Silent aspiration (aspiration without triggering a cough reflex) is missed in 40-60% of patients on bedside examination. This is why instrumental evaluation (VFSS or FEES) is essential in patients with suspected dysphagia.',
+          boardRelevance: 'BOARD-CORE',
+        ),
         PearlBlock(
           'Silent Aspiration',
           'Aspiration is MISSED in 40-60% of patients on bedside clinical '
@@ -189,6 +196,18 @@ final TopicData dysphagiaContent = TopicData(
             ['Secretion assessment', 'Limited', 'Excellent'],
             ['Repeat testing', 'Radiation concern', 'No limit'],
           ],
+        ),
+        KnowledgeCheckBlock(
+          question: 'On the Penetration-Aspiration Scale (PAS), what does a score of 8 represent?',
+          options: [
+            'Material enters the airway and is ejected',
+            'Material contacts the vocal folds',
+            'Material passes below the vocal folds with effort to eject',
+            'Material passes below the vocal folds with NO effort to eject (silent aspiration)',
+          ],
+          correctIndex: 3,
+          explanation: 'PAS 8 represents silent aspiration -- material passes below the vocal folds and no effort is made to eject it. This is the most dangerous finding because the patient has no protective cough response and carries the highest risk of aspiration pneumonia.',
+          boardRelevance: 'BOARD-CORE',
         ),
         PearlBlock(
           'VFSS Is the Gold Standard',
@@ -415,6 +434,53 @@ final TopicData dysphagiaContent = TopicData(
             'Multiple swallows — clear residue with repeat swallows',
             'Alternating liquids and solids — wash down pharyngeal residue',
           ],
+        ),
+        TimelineBlock(
+          title: 'Swallowing Recovery & PEG Decision Timeline',
+          milestones: [
+            TimelineMilestone(
+              label: 'Day 1',
+              title: 'Bedside Swallowing Screen',
+              details: ['Performed by trained nurse or SLP', '3-oz water swallow test', 'NPO if screen fails; order instrumental evaluation'],
+            ),
+            TimelineMilestone(
+              label: 'Days 1-3',
+              title: 'Instrumental Evaluation (VFSS or FEES)',
+              details: ['VFSS is the gold standard', 'Determine aspiration risk and swallowing phase affected', 'Recommend diet level and compensatory strategies'],
+            ),
+            TimelineMilestone(
+              label: 'Days 1-14',
+              title: 'NG Tube If NPO',
+              details: ['Short-term enteral access', 'Preferred over PEG in first 2-4 weeks (FOOD trial)', 'Continue oral care to reduce aspiration pneumonia risk'],
+            ),
+            TimelineMilestone(
+              label: 'Weeks 2-4',
+              title: 'Most Hemispheric Dysphagia Resolves',
+              details: ['Re-evaluate swallowing weekly', 'Advance diet as tolerated', 'Continue rehabilitative exercises'],
+            ),
+            TimelineMilestone(
+              label: 'Week 4+',
+              title: 'PEG Placement Decision',
+              details: ['If NPO expected beyond 4 weeks, consider PEG', 'PEG does NOT prevent aspiration', 'Multidisciplinary shared decision-making'],
+            ),
+            TimelineMilestone(
+              label: 'Months 1-6+',
+              title: 'Ongoing Recovery & Re-evaluation',
+              details: ['Brainstem dysphagia may be prolonged or permanent', 'Repeat VFSS/FEES to reassess', 'PEG removal when safe oral intake is established'],
+            ),
+          ],
+        ),
+        KnowledgeCheckBlock(
+          question: 'Which compensatory swallowing strategy is most effective for a patient with unilateral pharyngeal weakness and pyriform sinus residue on the weak side?',
+          options: [
+            'Chin tuck',
+            'Head rotation toward the WEAK side',
+            'Head tilt toward the STRONG side',
+            'Supraglottic swallow',
+          ],
+          correctIndex: 1,
+          explanation: 'Head rotation toward the weak side closes the ipsilateral pyriform sinus and directs the bolus through the stronger pharyngeal channel. This is the most targeted strategy for unilateral pharyngeal weakness.',
+          boardRelevance: 'BOARD-CORE',
         ),
         PearlBlock(
           'Chin Tuck — Most Commonly Tested Strategy',

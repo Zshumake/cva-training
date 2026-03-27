@@ -18,6 +18,14 @@ class AppTheme {
   static const Color textSecondary = Color(0xFF64748B);
   static const Color borderSubtle = Color(0xFFE2E8F0);
 
+  // ─── MID-TONE GRAYS ───
+  static const Color gray100 = Color(0xFFF8FAFC);
+  static const Color gray200 = Color(0xFFE2E8F0);
+  static const Color gray250 = Color(0xFFE5E7EB);
+  static const Color gray300 = Color(0xFFCBD5E1);
+  static const Color gray400 = Color(0xFF94A3B8);
+  static const Color gray500 = Color(0xFF64748B);
+
   // Module-specific colors — deeper, more saturated
   static const Color fundamentalsColor = Color(0xFF2563EB);
   static const Color vascularColor = Color(0xFF7C3AED);
@@ -46,8 +54,87 @@ class AppTheme {
   static const Color glassSurface = Color(0xCCFFFFFF);
   static const Color glassStroke = Color(0x33FFFFFF);
 
+  // ─── SPACING SYSTEM ───
+  static const double spacingXS = 4;
+  static const double spacingSM = 8;
+  static const double spacingMD = 16;
+  static const double spacingLG = 24;
+  static const double spacingXL = 32;
+  static const double spacingXXL = 48;
+
+  // ─── BORDER RADIUS SYSTEM ───
+  static const double radiusSM = 8;
+  static const double radiusMD = 12;
+  static const double radiusLG = 16;
+  static const double radiusXL = 20;
+
+  // ─── SHADOW SYSTEM ───
+  static List<BoxShadow> get shadowSubtle => [
+        BoxShadow(
+          color: const Color(0x08000000),
+          blurRadius: 4,
+          offset: const Offset(0, 1),
+        ),
+      ];
+
+  static List<BoxShadow> get shadowCard => [
+        BoxShadow(
+          color: const Color(0x08000000),
+          blurRadius: 8,
+          offset: const Offset(0, 2),
+        ),
+      ];
+
+  static List<BoxShadow> get shadowElevated => [
+        BoxShadow(
+          color: const Color(0x0F000000),
+          blurRadius: 16,
+          offset: const Offset(0, 4),
+        ),
+        BoxShadow(
+          color: const Color(0x08000000),
+          blurRadius: 6,
+          offset: const Offset(0, 2),
+        ),
+      ];
+
+  // ─── ANIMATION TIMING ───
+  static const Duration durationMicro = Duration(milliseconds: 50);
+  static const Duration durationFast = Duration(milliseconds: 150);
+  static const Duration durationNormal = Duration(milliseconds: 300);
+  static const Duration durationSlow = Duration(milliseconds: 500);
+
+  // ─── SEMANTIC TEXT STYLES ───
+
+  /// Board Pearl callout text -- copper italic with emphasis
+  static TextStyle boardPearlStyle() => GoogleFonts.inter(
+        fontSize: 13,
+        fontWeight: FontWeight.w600,
+        fontStyle: FontStyle.italic,
+        color: const Color(0xFF92400E),
+        height: 1.5,
+      );
+
+  /// Medication dosing text -- monospaced for clarity
+  static TextStyle dosingStyle() => GoogleFonts.jetBrainsMono(
+        fontSize: 13,
+        fontWeight: FontWeight.w400,
+        color: textPrimary,
+        height: 1.5,
+        letterSpacing: -0.2,
+      );
+
+  /// Scale / assessment tool header
+  static TextStyle scaleHeaderStyle() => GoogleFonts.sourceSerif4(
+        fontSize: 20,
+        fontWeight: FontWeight.w700,
+        color: primaryNavy,
+        letterSpacing: -0.3,
+        height: 1.2,
+      );
+
   static ThemeData get lightTheme {
-    final displayFont = GoogleFonts.playfairDisplay();
+    final displayFont = GoogleFonts.sourceSerif4();
     final bodyFont = GoogleFonts.inter();
 
     return ThemeData(
@@ -77,7 +164,7 @@ class AppTheme {
         color: cardBackground,
         elevation: 0,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(16),
+          borderRadius: BorderRadius.circular(radiusLG),
           side: const BorderSide(color: borderSubtle, width: 1),
         ),
       ),
@@ -102,6 +189,12 @@ class AppTheme {
           letterSpacing: -0.3,
         ),
         titleMedium: bodyFont.copyWith(
+          fontSize: 16,
+          fontWeight: FontWeight.w600,
+          color: textPrimary,
+          letterSpacing: -0.2,
+        ),
+        titleSmall: bodyFont.copyWith(
           fontSize: 15,
           fontWeight: FontWeight.w600,
           color: textPrimary,
@@ -138,7 +231,7 @@ class AppTheme {
           elevation: 0,
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(12),
+            borderRadius: BorderRadius.circular(radiusMD),
           ),
           textStyle: bodyFont.copyWith(
             fontSize: 14,

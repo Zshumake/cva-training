@@ -48,6 +48,18 @@ final TopicData medicalComplicationsContent = TopicData(
             'Combine pharmacologic + IPC for highest-risk patients',
           ],
         ),
+        KnowledgeCheckBlock(
+          question: 'According to the CLOTS trials, which DVT prophylaxis method is effective in immobile stroke patients?',
+          options: [
+            'Thigh-length graduated compression stockings',
+            'Below-knee graduated compression stockings',
+            'Intermittent pneumatic compression (IPC) devices',
+            'Elastic bandage wrapping',
+          ],
+          correctIndex: 2,
+          explanation: 'CLOTS 3 showed that IPC devices significantly reduce DVT in immobile stroke patients (NNT = 28). CLOTS 1 showed compression stockings do NOT reduce DVT and increase skin complications. IPC, not stockings, should be used.',
+          boardRelevance: 'BOARD-CORE',
+        ),
         PearlBlock(
           'CLOTS Trials — Compression Stockings Are Not Effective',
           'The CLOTS trials are landmark studies for stroke DVT prophylaxis. '
@@ -186,6 +198,18 @@ final TopicData medicalComplicationsContent = TopicData(
             ],
           ],
         ),
+        KnowledgeCheckBlock(
+          question: 'What is the most common type of neurogenic bladder after stroke?',
+          options: [
+            'Areflexic (flaccid) bladder',
+            'Uninhibited neurogenic (spastic) bladder with detrusor hyperreflexia',
+            'Detrusor-sphincter dyssynergia',
+            'Overflow incontinence from outlet obstruction',
+          ],
+          correctIndex: 1,
+          explanation: 'The uninhibited neurogenic bladder (detrusor hyperreflexia) is the most common type after stroke because stroke is an upper motor neuron lesion. Loss of cortical inhibition of the pontine micturition center causes involuntary detrusor contractions at low volumes, resulting in urge incontinence.',
+          boardRelevance: 'BOARD-CORE',
+        ),
         PearlBlock(
           'Most Common Bladder Type After Stroke',
           'The most common bladder dysfunction after stroke is the UNINHIBITED '
@@ -279,6 +303,48 @@ final TopicData medicalComplicationsContent = TopicData(
             'Insular cortex lesions (especially right) cause the most cardiac dysregulation',
             'Autonomic storm — catecholamine surge damages myocardium',
           ],
+        ),
+        TimelineBlock(
+          title: 'DVT Prophylaxis & Complication Prevention Timeline',
+          milestones: [
+            TimelineMilestone(
+              label: 'Day 0 (Admission)',
+              title: 'Immediate Prophylaxis',
+              details: ['Start IPC devices on both legs', 'Assess DVT risk factors', 'Remove indwelling urinary catheter ASAP (within 24-48 hours)'],
+            ),
+            TimelineMilestone(
+              label: 'Day 1',
+              title: 'Pharmacologic DVT Prophylaxis (Ischemic Stroke)',
+              details: ['Start LMWH (enoxaparin 40 mg SQ daily)', 'Begin dysphagia screening and aspiration precautions', 'Initiate skin inspection protocol'],
+            ),
+            TimelineMilestone(
+              label: 'Days 2-3',
+              title: 'Hemorrhagic Stroke Prophylaxis Window',
+              details: ['Start LMWH if hematoma stable on repeat imaging', 'Some centers wait up to 7-14 days', 'Continue IPC as primary prophylaxis until then'],
+            ),
+            TimelineMilestone(
+              label: 'Week 1',
+              title: 'Early Mobilization & Complication Screening',
+              details: ['Mobilize within 24-48 hours (avoid very early high-dose per AVERT)', 'Screen for depression, cognitive impairment', 'Begin bowel program if constipation develops'],
+            ),
+            TimelineMilestone(
+              label: 'Weeks 2-4',
+              title: 'Ongoing Monitoring',
+              details: ['Assess continence -- persistent incontinence at 2 weeks is a negative prognostic sign', 'Monitor for DVT signs (leg swelling, pain)', 'Cardiac telemetry for at least 24-72 hours; extended monitoring for cryptogenic stroke'],
+            ),
+            TimelineMilestone(
+              label: 'Months 1-3',
+              title: 'Transition to Long-Term Prevention',
+              details: ['Transition DVT prophylaxis to therapeutic anticoagulation if indicated (AF)', 'Address seizure risk -- prophylactic anticonvulsants NOT recommended', 'Ongoing fall prevention and pressure injury prevention'],
+            ),
+          ],
+        ),
+        KnowledgeCheckBlock(
+          question: 'Which insular cortex lesion is associated with sympathetic overactivity and higher risk of fatal cardiac arrhythmias after stroke?',
+          options: ['Left insular cortex', 'Right insular cortex', 'Bilateral insular cortex', 'Posterior insular cortex'],
+          correctIndex: 1,
+          explanation: 'Right insular cortex lesions are associated with sympathetic overactivity (tachycardia, hypertension, arrhythmias, myocardial injury) and carry a higher risk of sudden cardiac death. Left insular lesions are associated with parasympathetic overactivity (bradycardia, hypotension).',
+          boardRelevance: 'BOARD-CORE',
         ),
         PearlBlock(
           'Insular Cortex and Cardiac Autonomic Control',

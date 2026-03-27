@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../core/widgets/drag_drop_mapper.dart';
 
 // --- Generic Block Types ---
 
@@ -113,6 +114,52 @@ class MedicationCardBlock extends ContentBlock {
   });
 }
 
+class AvoidBlock extends ContentBlock {
+  final String title;
+  final String text;
+  AvoidBlock(this.title, this.text);
+}
+
+class KnowledgeCheckBlock extends ContentBlock {
+  final String question;
+  final List<String> options;
+  final int correctIndex;
+  final String explanation;
+  final String? boardRelevance;
+
+  KnowledgeCheckBlock({
+    required this.question,
+    required this.options,
+    required this.correctIndex,
+    required this.explanation,
+    this.boardRelevance,
+  });
+}
+
+class TimelineMilestone {
+  final String label;
+  final String title;
+  final List<String> details;
+  final Color? color;
+
+  TimelineMilestone({
+    required this.label,
+    required this.title,
+    required this.details,
+    this.color,
+  });
+}
+
+class TimelineBlock extends ContentBlock {
+  final String title;
+  final List<TimelineMilestone> milestones;
+
+  TimelineBlock({
+    required this.title,
+    required this.milestones,
+  });
+}
+
 // Enum for bespoke custom widgets
 enum CustomWidgetType {
   nihssScoreTool,
@@ -131,6 +178,112 @@ enum CustomWidgetType {
 class CustomWidgetBlock extends ContentBlock {
   final CustomWidgetType type;
   CustomWidgetBlock(this.type);
+}
+
+// --- Interactive Visual Learning Blocks ---
+
+class BeforeAfterBlock extends ContentBlock {
+  final String? title;
+  final String beforeImage;
+  final String afterImage;
+  final String? caption;
+
+  BeforeAfterBlock({
+    this.title,
+    required this.beforeImage,
+    required this.afterImage,
+    this.caption,
+  });
+}
+
+class SpotFindingBlock extends ContentBlock {
+  final String? title;
+  final String imagePath;
+  final String? annotatedImagePath;
+  final double targetCenterX; // normalized 0.0-1.0
+  final double targetCenterY; // normalized 0.0-1.0
+  final double targetRadius; // normalized 0.0-1.0
+  final String findingName;
+  final String teachingPoint;
+
+  SpotFindingBlock({
+    this.title,
+    required this.imagePath,
+    this.annotatedImagePath,
+    required this.targetCenterX,
+    required this.targetCenterY,
+    required this.targetRadius,
+    required this.findingName,
+    required this.teachingPoint,
+  });
+}
+
+class DragDropBlock extends ContentBlock {
+  final String title;
+  final List<DragItem> items;
+  final List<DropTarget> targets;
+  final DiagramType diagramType;
+
+  DragDropBlock({
+    required this.title,
+    required this.items,
+    required this.targets,
+    required this.diagramType,
+  });
+}
+
+// --- Audio Recognition Trainer ---
+
+class AudioChallengeBlock extends ContentBlock {
+  final String title;
+  final String audioAssetPath;
+  final String transcript;
+  final List<String> options;
+  final int correctIndex;
+  final String explanation;
+  final List<String> keyFeatures;
+
+  AudioChallengeBlock({
+    required this.title,
+    required this.audioAssetPath,
+    required this.transcript,
+    required this.options,
+    required this.correctIndex,
+    required this.explanation,
+    required this.keyFeatures,
+  });
+}
+
+// --- Clinical Video Atlas ---
+
+class VideoAnnotation {
+  final double timestamp;
+  final String label;
+  final double x;
+  final double y;
+
+  const VideoAnnotation({
+    required this.timestamp,
+    required this.label,
+    required this.x,
+    required this.y,
+  });
+}
+
+class VideoAtlasBlock extends ContentBlock {
+  final String title;
+  final String videoAssetPath;
+  final String description;
+  final List<VideoAnnotation> annotations;
+  final String? boardRelevance;
+
+  VideoAtlasBlock({
+    required this.title,
+    required this.videoAssetPath,
+    required this.description,
+    required this.annotations,
+    this.boardRelevance,
+  });
 }
 
 // --- Tab and Topic Containers ---

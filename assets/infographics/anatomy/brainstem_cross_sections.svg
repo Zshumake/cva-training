@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Inter, Helvetica, Arial, sans-serif">
+  <rect width="800" height="600" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#0F172A">Brainstem Cross-Sections</text>
+  <text x="400" y="52" text-anchor="middle" font-size="12" fill="#64748B">Midbrain, Pons, Medulla - Medial vs Lateral Structures</text>
+
+  <!-- ═══ MIDBRAIN ═══ -->
+  <text x="140" y="85" text-anchor="middle" font-size="15" font-weight="700" fill="#4F46E5">MIDBRAIN</text>
+
+  <!-- Midbrain cross-section outline -->
+  <ellipse cx="140" cy="175" rx="105" ry="75" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+
+  <!-- Midline -->
+  <line x1="140" y1="100" x2="140" y2="250" stroke="#4F46E5" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.5"/>
+
+  <!-- Cerebral peduncle (medial - anterior) -->
+  <ellipse cx="115" cy="215" rx="30" ry="18" fill="#DC2626" fill-opacity="0.2" stroke="#DC2626" stroke-width="1.5"/>
+  <ellipse cx="165" cy="215" rx="30" ry="18" fill="#DC2626" fill-opacity="0.2" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="140" y="220" text-anchor="middle" font-size="8" font-weight="600" fill="#DC2626">Cerebral peduncle</text>
+  <text x="140" y="230" text-anchor="middle" font-size="7" fill="#DC2626">(CST)</text>
+
+  <!-- Red nucleus (medial) -->
+  <circle cx="125" cy="170" r="12" fill="#059669" fill-opacity="0.2" stroke="#059669" stroke-width="1.5"/>
+  <circle cx="155" cy="170" r="12" fill="#059669" fill-opacity="0.2" stroke="#059669" stroke-width="1.5"/>
+  <text x="140" y="155" text-anchor="middle" font-size="8" font-weight="600" fill="#059669">Red nucleus</text>
+
+  <!-- Substantia nigra -->
+  <path d="M100,195 Q140,190 180,195" stroke="#475569" stroke-width="2" fill="none"/>
+  <text x="140" y="200" text-anchor="middle" font-size="7" fill="#475569">Subst. nigra</text>
+
+  <!-- CN III (medial) -->
+  <circle cx="130" cy="195" r="5" fill="#D97706" stroke="#D97706"/>
+  <text x="90" y="198" font-size="8" font-weight="600" fill="#D97706">CN III</text>
+
+  <!-- Superior colliculus (lateral/dorsal) -->
+  <ellipse cx="120" cy="120" rx="15" ry="10" fill="#2563EB" fill-opacity="0.2" stroke="#2563EB" stroke-width="1"/>
+  <ellipse cx="160" cy="120" rx="15" ry="10" fill="#2563EB" fill-opacity="0.2" stroke="#2563EB" stroke-width="1"/>
+  <text x="140" y="112" text-anchor="middle" font-size="7" fill="#2563EB">Sup. colliculus</text>
+
+  <!-- Medial label -->
+  <text x="140" y="258" text-anchor="middle" font-size="9" font-weight="600" fill="#DC2626">MEDIAL</text>
+
+  <!-- ═══ PONS ═══ -->
+  <text x="400" y="85" text-anchor="middle" font-size="15" font-weight="700" fill="#0284C7">PONS</text>
+
+  <!-- Pons cross-section -->
+  <ellipse cx="400" cy="175" rx="110" ry="80" fill="#EFF6FF" stroke="#0284C7" stroke-width="2"/>
+
+  <!-- Midline -->
+  <line x1="400" y1="95" x2="400" y2="255" stroke="#0284C7" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.5"/>
+
+  <!-- Corticospinal tract (medial/basis pontis) -->
+  <ellipse cx="380" cy="220" rx="20" ry="15" fill="#DC2626" fill-opacity="0.2" stroke="#DC2626" stroke-width="1.5"/>
+  <ellipse cx="420" cy="220" rx="20" ry="15" fill="#DC2626" fill-opacity="0.2" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="400" y="224" text-anchor="middle" font-size="7" font-weight="600" fill="#DC2626">CST</text>
+
+  <!-- Medial lemniscus -->
+  <ellipse cx="395" cy="190" rx="8" ry="14" fill="#059669" fill-opacity="0.3" stroke="#059669" stroke-width="1"/>
+  <ellipse cx="405" cy="190" rx="8" ry="14" fill="#059669" fill-opacity="0.3" stroke="#059669" stroke-width="1"/>
+  <text x="400" y="175" text-anchor="middle" font-size="7" fill="#059669">ML</text>
+
+  <!-- CN VI (medial) -->
+  <circle cx="395" cy="155" r="5" fill="#D97706" stroke="#D97706"/>
+  <text x="370" y="150" font-size="8" font-weight="600" fill="#D97706">CN VI</text>
+
+  <!-- CN VII (wraps around VI) -->
+  <path d="M395,150 Q370,140 365,160 Q365,175 385,170" stroke="#D97706" stroke-width="1.5" fill="none"/>
+  <text x="345" y="168" font-size="8" font-weight="600" fill="#D97706">CN VII</text>
+
+  <!-- CN V (lateral) -->
+  <circle cx="445" cy="165" r="6" fill="#2563EB" fill-opacity="0.3" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="460" y="168" font-size="8" font-weight="600" fill="#2563EB">CN V</text>
+
+  <!-- Spinothalamic tract (lateral) -->
+  <ellipse cx="450" cy="145" rx="10" ry="12" fill="#7C3AED" fill-opacity="0.2" stroke="#7C3AED" stroke-width="1"/>
+  <text x="470" y="148" font-size="7" fill="#7C3AED">STT</text>
+
+  <!-- ═══ MEDULLA ═══ -->
+  <text x="660" y="85" text-anchor="middle" font-size="15" font-weight="700" fill="#059669">MEDULLA</text>
+
+  <!-- Medulla cross-section -->
+  <ellipse cx="660" cy="175" rx="100" ry="75" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+
+  <!-- Midline -->
+  <line x1="660" y1="100" x2="660" y2="250" stroke="#059669" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.5"/>
+
+  <!-- Pyramid (CST - medial) -->
+  <ellipse cx="645" cy="220" rx="18" ry="15" fill="#DC2626" fill-opacity="0.2" stroke="#DC2626" stroke-width="1.5"/>
+  <ellipse cx="675" cy="220" rx="18" ry="15" fill="#DC2626" fill-opacity="0.2" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="660" y="224" text-anchor="middle" font-size="7" font-weight="600" fill="#DC2626">Pyramid</text>
+
+  <!-- Medial lemniscus -->
+  <ellipse cx="655" cy="190" rx="6" ry="15" fill="#059669" fill-opacity="0.3" stroke="#059669" stroke-width="1"/>
+  <ellipse cx="665" cy="190" rx="6" ry="15" fill="#059669" fill-opacity="0.3" stroke="#059669" stroke-width="1"/>
+  <text x="660" y="175" text-anchor="middle" font-size="7" fill="#059669">ML</text>
+
+  <!-- CN XII (medial) -->
+  <circle cx="650" cy="160" r="5" fill="#D97706" stroke="#D97706"/>
+  <text x="625" y="163" font-size="8" font-weight="600" fill="#D97706">CN XII</text>
+
+  <!-- Inferior cerebellar peduncle (lateral) -->
+  <ellipse cx="715" cy="140" rx="15" ry="20" fill="#2563EB" fill-opacity="0.15" stroke="#2563EB" stroke-width="1"/>
+  <text x="735" y="140" font-size="7" fill="#2563EB">ICP</text>
+
+  <!-- CN IX, X (lateral) -->
+  <circle cx="710" cy="175" r="5" fill="#2563EB" fill-opacity="0.3" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="725" y="178" font-size="8" font-weight="600" fill="#2563EB">CN IX/X</text>
+
+  <!-- Spinothalamic tract (lateral) -->
+  <ellipse cx="710" cy="155" rx="8" ry="10" fill="#7C3AED" fill-opacity="0.2" stroke="#7C3AED" stroke-width="1"/>
+  <text x="728" y="158" font-size="7" fill="#7C3AED">STT</text>
+
+  <!-- Nucleus ambiguus -->
+  <ellipse cx="700" cy="195" rx="8" ry="5" fill="#0F766E" fill-opacity="0.3" stroke="#0F766E" stroke-width="1"/>
+  <text x="720" y="198" font-size="7" fill="#0F766E">N.Amb</text>
+
+  <!-- ═══ RULE OF 4 BOX ═══ -->
+  <rect x="30" y="290" width="740" height="130" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="400" y="315" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">Rule of 4 (Brainstem Stroke Localization)</text>
+
+  <!-- Medial structures -->
+  <rect x="50" y="330" width="340" height="80" rx="8" fill="#DC2626" fill-opacity="0.05" stroke="#DC2626" stroke-opacity="0.2"/>
+  <text x="220" y="350" text-anchor="middle" font-size="12" font-weight="700" fill="#DC2626">4 MEDIAL Structures (start with M)</text>
+  <text x="70" y="370" font-size="11" fill="#0F172A">1. Motor pathway (CST/pyramid)</text>
+  <text x="70" y="386" font-size="11" fill="#0F172A">2. Medial lemniscus (vibration/proprioception)</text>
+  <text x="70" y="402" font-size="11" fill="#0F172A">3. Medial longitudinal fasciculus (eye movement)</text>
+  <text x="250" y="402" font-size="11" fill="#0F172A">4. Motor nucleus/nerve (CN)</text>
+
+  <!-- Lateral structures -->
+  <rect x="410" y="330" width="340" height="80" rx="8" fill="#2563EB" fill-opacity="0.05" stroke="#2563EB" stroke-opacity="0.2"/>
+  <text x="580" y="350" text-anchor="middle" font-size="12" font-weight="700" fill="#2563EB">4 LATERAL Structures (start with S)</text>
+  <text x="430" y="370" font-size="11" fill="#0F172A">1. Spinocerebellar tract (ataxia)</text>
+  <text x="430" y="386" font-size="11" fill="#0F172A">2. Spinothalamic tract (pain/temp)</text>
+  <text x="430" y="402" font-size="11" fill="#0F172A">3. Sensory nucleus of CN V (face)</text>
+  <text x="600" y="402" font-size="11" fill="#0F172A">4. Sympathetic tract (Horner)</text>
+
+  <!-- Board Pearl -->
+  <rect x="30" y="435" width="740" height="155" rx="12" fill="#FFF7ED" stroke="#D97706" stroke-opacity="0.3"/>
+  <text x="50" y="460" font-size="12" font-weight="700" fill="#D97706">Board Pearl: Classic Brainstem Syndromes</text>
+
+  <text x="50" y="482" font-size="11" font-weight="600" fill="#059669">Wallenberg (Lateral Medullary):</text>
+  <text x="260" y="482" font-size="10" fill="#0F172A">PICA -- vertigo, Horner, dysphagia, crossed sensory loss, ataxia</text>
+
+  <text x="50" y="500" font-size="11" font-weight="600" fill="#059669">Medial Medullary (Dejerine):</text>
+  <text x="250" y="500" font-size="10" fill="#0F172A">ASA -- contralateral hemiparesis, contralateral proprioception loss, CN XII palsy</text>
+
+  <text x="50" y="518" font-size="11" font-weight="600" fill="#0284C7">Locked-in (Ventral Pons):</text>
+  <text x="240" y="518" font-size="10" fill="#0F172A">Basilar -- quadriplegia, anarthria, vertical eye movement preserved</text>
+
+  <text x="50" y="536" font-size="11" font-weight="600" fill="#4F46E5">Weber (Medial Midbrain):</text>
+  <text x="240" y="536" font-size="10" fill="#0F172A">PCA perforators -- ipsilateral CN III palsy + contralateral hemiparesis</text>
+
+  <text x="50" y="554" font-size="11" font-weight="600" fill="#4F46E5">Benedikt (Midbrain tegmentum):</text>
+  <text x="275" y="554" font-size="10" fill="#0F172A">Weber + contralateral tremor/chorea (red nucleus)</text>
+
+  <text x="50" y="572" font-size="11" font-weight="600" fill="#4F46E5">Claude (Dorsal Midbrain):</text>
+  <text x="240" y="572" font-size="10" fill="#0F172A">CN III palsy + contralateral ataxia (superior cerebellar peduncle)</text>
+</svg>

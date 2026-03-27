@@ -1,0 +1,136 @@
+import '../../core/models/quiz_model.dart';
+
+class MedicalComplicationsQuiz {
+  static const List<QuizQuestion> questions = [
+    QuizQuestion(
+      question: 'According to board-core literature, what is the most common cause of death in stroke patients between 2 and 4 weeks post-insult?',
+      options: [
+        'Recurrent ischemic stroke',
+        'Pulmonary embolism (PE)',
+        'Aspiration pneumonia',
+        'Acute myocardial infarction',
+      ],
+      correctIndex: 1,
+      explanation: 'PE is identified as the leading cause of death during the subacute phase, typically occurring between 2 and 4 weeks post-stroke.',
+      moduleId: 'medical-complications',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'Based on the results of the CLOTS 1 and CLOTS 3 trials, which strategy is recommended for DVT prophylaxis in immobile stroke patients?',
+      options: [
+        'Thigh-length graduated compression stockings (GCS)',
+        'Below-knee graduated compression stockings (GCS)',
+        'Intermittent pneumatic compression (IPC) devices',
+        'Bed rest until the paretic limb regains Trace strength',
+      ],
+      correctIndex: 2,
+      explanation: 'The CLOTS 3 trial showed a significant reduction in DVT incidence with the use of IPC, with an absolute risk reduction of approximately 3.6\\%.',
+      moduleId: 'medical-complications',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'A patient with a right-sided middle cerebral artery (MCA) stroke presents with urinary frequency and urgency. What is the most likely neurogenic bladder classification?',
+      options: [
+        'Areflexic (flaccid) bladder',
+        'Uninhibited neurogenic (spastic) bladder',
+        'Detrusor-sphincter dyssynergia',
+        'Autonomous bladder',
+      ],
+      correctIndex: 1,
+      explanation: 'Stroke is an upper motor neuron lesion that causes a loss of cortical inhibition, leading to detrusor hyperreflexia.',
+      moduleId: 'medical-complications',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'Lesions in which specific area of the brain are most strongly associated with sympathetic overactivity, leading to a higher risk of arrhythmias and myocardial injury?',
+      options: [
+        'Left insular cortex',
+        'Right insular cortex',
+        'Bilateral occipital lobes',
+        'Cerebellar vermis',
+      ],
+      correctIndex: 1,
+      explanation: 'The right insula is the primary center for sympathetic cardiovascular regulation; damage here leads to a catecholamine surge and cardiac damage.',
+      moduleId: 'medical-complications',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'Which of the following statements regarding post-stroke seizures is correct according to current clinical guidelines?',
+      options: [
+        'Prophylactic anticonvulsants are recommended for all cortical strokes',
+        'Early seizures (<7 days) have a high recurrence risk (>70\\%)',
+        'Late seizures (>7 days) represent true epilepsy with a high recurrence risk',
+        'Phenytoin is the preferred first-line agent for long-term management',
+      ],
+      correctIndex: 2,
+      explanation: 'Late-onset seizures are caused by permanent structural changes like gliosis and carry a 50\\%-70\\% risk of recurrence.',
+      moduleId: 'medical-complications',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'A patient experiences burning, contralateral pain and allodynia several months after a stroke. Which medication is considered to have the most robust evidence for this condition?',
+      options: [
+        'Oxycodone',
+        'Amitriptyline',
+        'Naproxen',
+        'Baclofen',
+      ],
+      correctIndex: 1,
+      explanation: 'Tricyclic antidepressants like amitriptyline are the first-line treatment with the most robust evidence for central neuropathic pain.',
+      moduleId: 'medical-complications',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'For a patient with suspected Complex Regional Pain Syndrome (CRPS) in the hemiplegic upper extremity, which diagnostic test is considered most sensitive in the early stages?',
+      options: [
+        'Plain X-ray of the hand',
+        'Electromyography (EMG)',
+        'Triple-phase bone scan',
+        'Serum alkaline phosphatase',
+      ],
+      correctIndex: 2,
+      explanation: 'The triple-phase bone scan is highly sensitive (92\\%) for detecting early vasomotor and metabolic changes in CRPS Stage 1.',
+      moduleId: 'medical-complications',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'A stroke patient is assessed using the Braden Scale and receives a score of 11. How should this score be interpreted regarding pressure injury risk?',
+      options: [
+        'Low risk; standard care is sufficient',
+        'Moderate risk; initiate turning schedule every 4 hours',
+        'High risk; require aggressive prevention strategies',
+        'The score is invalid because the patient is hemiplegic',
+      ],
+      correctIndex: 2,
+      explanation: 'On the Braden Scale, lower scores indicate higher risk; a score of 12 or less is classified as high risk.',
+      moduleId: 'medical-complications',
+      difficulty: 'board',
+    ),
+    QuizQuestion(
+      question: 'Which new recommendation was included in the 2024 VA/DoD Clinical Practice Guideline for the management of hemiplegic shoulder pain?',
+      options: [
+        'Routine use of slings for all patients',
+        'Extracorporeal shock wave therapy (ESWT)',
+        'Aggressive high-intensity stretching',
+        'Surgical rotator cuff repair in the acute phase',
+      ],
+      correctIndex: 1,
+      explanation: 'The 2024 update specifically added ESWT as a recommended intervention for hemiplegic shoulder pain.',
+      moduleId: 'medical-complications',
+      difficulty: 'intermediate',
+    ),
+    QuizQuestion(
+      question: 'Regarding osteoporosis after stroke, where is the decrease in bone mineral density (BMD) most significant and what is the resulting fracture risk?',
+      options: [
+        'Bilateral hips; 2\\times fracture risk',
+        'Paretic side; 4\\times fracture risk',
+        'Non-paretic side; 4\\times fracture risk',
+        'Axial skeleton (spine); 10\\times fracture risk',
+      ],
+      correctIndex: 1,
+      explanation: 'BMD decreases significantly on the hemiplegic side due to lack of weight-bearing, leading to a four-fold increase in fracture risk.',
+      moduleId: 'medical-complications',
+      difficulty: 'board',
+    ),
+  ];
+}

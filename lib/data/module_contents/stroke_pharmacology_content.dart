@@ -79,6 +79,13 @@ final TopicData strokePharmacologyContent = TopicData(
           'stroke recurrence rate. Long-term DAPT beyond 21-90 days is NOT '
           'recommended due to increased hemorrhagic risk (SPS3 trial).',
         ),
+        KnowledgeCheckBlock(
+          question: 'A patient with minor ischemic stroke (NIHSS 2) presents within 12 hours. Per CHANCE/POINT data, what is the recommended duration of dual antiplatelet therapy?',
+          options: ['7 days', '21 days', '90 days', '12 months'],
+          correctIndex: 1,
+          explanation: 'The CHANCE and POINT trials established 21 days as the optimal DAPT duration for minor stroke or high-risk TIA. Extending beyond 21 days increases bleeding risk without additional ischemic benefit.',
+          boardRelevance: 'BOARD-CORE',
+        ),
         TableBlock(
           title: 'Antiplatelet Agent Comparison',
           columns: ['Agent', 'Key Trial', 'Relative Efficacy'],
@@ -288,6 +295,13 @@ final TopicData strokePharmacologyContent = TopicData(
             ],
           ],
         ),
+        KnowledgeCheckBlock(
+          question: 'Which DOAC was shown to be SUPERIOR to warfarin for both stroke prevention AND major bleeding reduction in the ARISTOTLE trial?',
+          options: ['Dabigatran', 'Rivaroxaban', 'Apixaban', 'Edoxaban'],
+          correctIndex: 2,
+          explanation: 'Apixaban (Eliquis) was superior to warfarin for stroke prevention, major bleeding reduction, AND all-cause mortality in the ARISTOTLE trial, making it often considered the preferred DOAC for atrial fibrillation.',
+          boardRelevance: 'BOARD-CORE',
+        ),
         PearlBlock(
           'Timing of Anticoagulation After Stroke',
           'There is no definitive evidence for optimal timing. General guidance: '
@@ -304,6 +318,31 @@ final TopicData strokePharmacologyContent = TopicData(
             ['Small infarct (<1.5 cm)', 'Day 3', 'Low risk of hemorrhagic transformation'],
             ['Moderate infarct', 'Day 6', 'Moderate hemorrhagic risk; balance with recurrence risk'],
             ['Large infarct (>1/3 MCA territory)', 'Day 12-14', 'High hemorrhagic transformation risk; repeat imaging before starting'],
+          ],
+        ),
+        TimelineBlock(
+          title: 'Anticoagulation Timing After Cardioembolic Stroke (1-3-6-12 Day Rule)',
+          milestones: [
+            TimelineMilestone(
+              label: 'Day 1',
+              title: 'TIA (No Infarct on Imaging)',
+              details: ['No hemorrhagic transformation risk', 'Start anticoagulation immediately', 'Greatest benefit from early initiation'],
+            ),
+            TimelineMilestone(
+              label: 'Day 3',
+              title: 'Small Infarct (<1.5 cm)',
+              details: ['Low hemorrhagic transformation risk', 'Start DOAC or heparin bridge to warfarin', 'Most common clinical scenario'],
+            ),
+            TimelineMilestone(
+              label: 'Day 6',
+              title: 'Moderate Infarct',
+              details: ['Moderate hemorrhagic risk', 'Balance recurrence risk vs bleeding', 'Consider repeat imaging before starting'],
+            ),
+            TimelineMilestone(
+              label: 'Day 12-14',
+              title: 'Large Infarct (>1/3 MCA Territory)',
+              details: ['High hemorrhagic transformation risk', 'Repeat CT before initiation', 'Delay further if hemorrhagic conversion present'],
+            ),
           ],
         ),
         TableBlock(
@@ -376,6 +415,13 @@ final TopicData strokePharmacologyContent = TopicData(
             'Neuroprotective effects (experimental models)',
             'May promote neuroplasticity and angiogenesis',
           ],
+        ),
+        KnowledgeCheckBlock(
+          question: 'In the SPARCL trial, what dose of atorvastatin reduced recurrent stroke by 16% in patients with recent stroke/TIA?',
+          options: ['10 mg daily', '20 mg daily', '40 mg daily', '80 mg daily'],
+          correctIndex: 3,
+          explanation: 'The SPARCL trial used atorvastatin 80 mg daily (high-intensity statin therapy) and demonstrated a 16% reduction in recurrent stroke and 20% reduction in major cardiovascular events.',
+          boardRelevance: 'BOARD-CORE',
         ),
         PearlBlock(
           'Statins for ALL Atherosclerotic Strokes',
