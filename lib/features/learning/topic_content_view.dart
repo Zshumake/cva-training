@@ -16,13 +16,21 @@ class TopicContentView extends StatelessWidget {
   // ─── Shared decoration constants ───
   static const _blockRadius = AppTheme.radiusMD;
   static const _blockHPadding = AppTheme.spacingMD;
-  static const _blockVPadding = AppTheme.spacingMD - 4; // 12px
-  static const _blockSpacing = AppTheme.spacingMD - 4; // 12px between blocks
+  static const _blockVPadding = AppTheme.spacingMD; // 16px
+  static const _blockSpacing = 20.0; // breathing room between blocks
   static const _cardShadow = [
     BoxShadow(
       color: Color(0x08000000),
       blurRadius: 8,
       offset: Offset(0, 2),
+    ),
+  ];
+  // Elevated shadow for high-priority blocks (pearls, mnemonics, knowledge checks)
+  static const _elevatedShadow = [
+    BoxShadow(
+      color: Color(0x14000000),
+      blurRadius: 16,
+      offset: Offset(0, 4),
     ),
   ];
 
@@ -161,14 +169,15 @@ class TopicContentView extends StatelessWidget {
   // ─── HEADER BLOCK ───
   Widget _buildHeader(HeaderBlock block) {
     return Padding(
-      padding: const EdgeInsets.only(top: 28, bottom: 14),
+      padding: const EdgeInsets.only(top: 32, bottom: 18),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisSize: MainAxisSize.min,
         children: [
           const SizedBox(height: AppTheme.spacingSM),
           Text(
             block.title,
+            textAlign: TextAlign.center,
             style: GoogleFonts.sourceSerif4(
               fontSize: 24,
               fontWeight: FontWeight.w700,
@@ -196,18 +205,15 @@ class TopicContentView extends StatelessWidget {
   // ─── TEXT BLOCK ───
   Widget _buildText(TextBlock block) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: _blockSpacing),
-      child: ConstrainedBox(
-        constraints: const BoxConstraints(maxWidth: 680),
-        child: Text(
-          block.text,
-          style: GoogleFonts.inter(
-            fontSize: block.isIntro ? 16 : 15,
-            height: 1.75,
-            color: AppTheme.textPrimary,
-            fontStyle: block.isIntro ? FontStyle.italic : FontStyle.normal,
-            letterSpacing: -0.1,
-          ),
+      padding: EdgeInsets.only(bottom: block.isIntro ? _blockSpacing : _blockSpacing * 0.7),
+      child: Text(
+        block.text,
+        style: GoogleFonts.inter(
+          fontSize: block.isIntro ? 16 : 14.5,
+          height: 1.8,
+          color: block.isIntro ? AppTheme.textPrimary : AppTheme.textSecondary,
+          fontStyle: block.isIntro ? FontStyle.italic : FontStyle.normal,
+          letterSpacing: -0.1,
         ),
       ),
     );
@@ -216,48 +222,48 @@ class TopicContentView extends StatelessWidget {
   // ─── PEARL BLOCK ───
   Widget _buildPearl(PearlBlock block) {
     return Container(
-      margin: const EdgeInsets.symmetric(vertical: _blockSpacing / 2),
+      margin: const EdgeInsets.symmetric(vertical: _blockSpacing * 0.6),
       decoration: BoxDecoration(
-        color: const Color(0xFFFFFDF5),
+        color: const Color(0xFFFFFBEB),
         borderRadius: BorderRadius.circular(_blockRadius),
         border: const Border(
-          left: BorderSide(color: Color(0xFFD97706), width: 3),
+          left: BorderSide(color: Color(0xFFD97706), width: 4),
         ),
-        boxShadow: _cardShadow,
+        boxShadow: _elevatedShadow,
       ),
       child: Stack(
         children: [
-          // Watermark lightbulb
+          // Watermark lightbulb — larger and more visible
           Positioned(
-            top: 12,
-            left: 12,
+            top: 14,
+            left: 14,
             child: Icon(
               Icons.lightbulb_rounded,
-              color: const Color(0xFFD97706).withValues(alpha: 0.20),
-              size: 32,
+              color: const Color(0xFFD97706).withValues(alpha: 0.12),
+              size: 40,
               semanticLabel: 'Clinical Pearl',
             ),
           ),
           // Content
           Padding(
             padding: const EdgeInsets.fromLTRB(
-                _blockHPadding, _blockVPadding, _blockHPadding, _blockVPadding),
+                _blockHPadding + 4, _blockVPadding + 2, _blockHPadding + 4, _blockVPadding + 2),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(left: 28),
+                  padding: const EdgeInsets.only(left: 32),
                   child: Text(
                     'BOARD PEARL',
                     style: GoogleFonts.inter(
                       fontSize: 11,
-                      fontWeight: FontWeight.w700,
+                      fontWeight: FontWeight.w800,
                       color: const Color(0xFFD97706),
-                      letterSpacing: 1.2,
+                      letterSpacing: 1.4,
                     ),
                   ),
                 ),
-                const SizedBox(height: 6),
+                const SizedBox(height: 8),
                 if (block.title.isNotEmpty && block.title != 'Board Pearl') ...[
                   Text(
                     block.title,
@@ -289,14 +295,14 @@ class TopicContentView extends StatelessWidget {
   // ─── MNEMONIC BLOCK ───
   Widget _buildMnemonic(MnemonicBlock block) {
     return Container(
-      margin: const EdgeInsets.symmetric(vertical: _blockSpacing / 2),
+      margin: const EdgeInsets.symmetric(vertical: _blockSpacing * 0.6),
       decoration: BoxDecoration(
         color: const Color(0xFFEEF2FF),
         borderRadius: BorderRadius.circular(_blockRadius),
         border: const Border(
-          left: BorderSide(color: Color(0xFF4F46E5), width: 3),
+          left: BorderSide(color: Color(0xFF4F46E5), width: 4),
         ),
-        boxShadow: _cardShadow,
+        boxShadow: _elevatedShadow,
       ),
       child: Stack(
         children: [
@@ -361,14 +367,14 @@ class TopicContentView extends StatelessWidget {
   // ─── AVOID BLOCK ───
   Widget _buildAvoid(AvoidBlock block) {
     return Container(
-      margin: const EdgeInsets.symmetric(vertical: _blockSpacing / 2),
+      margin: const EdgeInsets.symmetric(vertical: _blockSpacing * 0.6),
       decoration: BoxDecoration(
         color: const Color(0xFFFEF2F2),
         borderRadius: BorderRadius.circular(_blockRadius),
         border: const Border(
-          left: BorderSide(color: Color(0xFFDC2626), width: 3),
+          left: BorderSide(color: Color(0xFFDC2626), width: 4),
         ),
-        boxShadow: _cardShadow,
+        boxShadow: _elevatedShadow,
       ),
       child: Stack(
         children: [
@@ -441,7 +447,7 @@ class TopicContentView extends StatelessWidget {
         boxShadow: _cardShadow,
       ),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           if (block.title.isNotEmpty)
             Padding(
@@ -458,7 +464,7 @@ class TopicContentView extends StatelessWidget {
               ),
             ),
           if (block.title.isNotEmpty) const SizedBox(height: 8),
-          // Horizontal scrollable table with fade edges
+          // Table with full-width rows
           ClipRRect(
             borderRadius: BorderRadius.only(
               bottomLeft: const Radius.circular(_blockRadius),
@@ -468,68 +474,58 @@ class TopicContentView extends StatelessWidget {
               topRight:
                   Radius.circular(block.title.isEmpty ? _blockRadius : 0),
             ),
-            child: ShaderMask(
-              shaderCallback: (Rect bounds) {
-                return const LinearGradient(
-                  begin: Alignment.centerLeft,
-                  end: Alignment.centerRight,
-                  colors: [
-                    Colors.transparent,
-                    Colors.white,
-                    Colors.white,
-                    Colors.transparent,
-                  ],
-                  stops: [0.0, 0.02, 0.98, 1.0],
-                ).createShader(bounds);
-              },
-              blendMode: BlendMode.dstIn,
-              child: SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: DataTable(
-                  headingRowColor: WidgetStateProperty.all(AppTheme.gray100),
-                  columnSpacing: 20,
-                  horizontalMargin: 12,
-                  dataRowMinHeight: 40,
-                  headingTextStyle: GoogleFonts.inter(
-                    fontWeight: FontWeight.w700,
-                    fontSize: 12,
-                    color: AppTheme.primaryNavy,
-                    letterSpacing: 0.5,
-                  ),
-                  dataTextStyle: GoogleFonts.inter(
-                    fontSize: 13,
-                    color: AppTheme.textPrimary,
-                    height: 1.5,
-                  ),
-                  columns: block.columns
-                      .map((c) => DataColumn(
-                            label: Text(c.toUpperCase()),
-                          ))
-                      .toList(),
-                  rows: List.generate(block.rows.length, (rowIndex) {
-                    return DataRow(
-                      color: WidgetStateProperty.all(
-                        rowIndex.isEven
-                            ? Colors.white
-                            : AppTheme.gray100,
+            child: LayoutBuilder(
+              builder: (context, constraints) {
+                return SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: ConstrainedBox(
+                    constraints: BoxConstraints(
+                      minWidth: constraints.maxWidth,
+                    ),
+                    child: DataTable(
+                      headingRowColor:
+                          WidgetStateProperty.all(AppTheme.gray100),
+                      columnSpacing: 20,
+                      horizontalMargin: _blockHPadding,
+                      dataRowMinHeight: 40,
+                      headingTextStyle: GoogleFonts.inter(
+                        fontWeight: FontWeight.w700,
+                        fontSize: 12,
+                        color: AppTheme.primaryNavy,
+                        letterSpacing: 0.5,
                       ),
-                      cells: block.rows[rowIndex]
-                          .map((cell) => DataCell(
-                                Padding(
-                                  padding: const EdgeInsets.symmetric(
-                                      vertical: 10),
-                                  child: ConstrainedBox(
-                                    constraints:
-                                        const BoxConstraints(maxWidth: 200),
-                                    child: Text(cell),
-                                  ),
-                                ),
+                      dataTextStyle: GoogleFonts.inter(
+                        fontSize: 13,
+                        color: AppTheme.textPrimary,
+                        height: 1.5,
+                      ),
+                      columns: block.columns
+                          .map((c) => DataColumn(
+                                label: Text(c.toUpperCase()),
                               ))
                           .toList(),
-                    );
-                  }),
-                ),
-              ),
+                      rows: List.generate(block.rows.length, (rowIndex) {
+                        return DataRow(
+                          color: WidgetStateProperty.all(
+                            rowIndex.isEven
+                                ? Colors.white
+                                : AppTheme.gray100,
+                          ),
+                          cells: block.rows[rowIndex]
+                              .map((cell) => DataCell(
+                                    Padding(
+                                      padding: const EdgeInsets.symmetric(
+                                          vertical: 10),
+                                      child: Text(cell),
+                                    ),
+                                  ))
+                              .toList(),
+                        );
+                      }),
+                    ),
+                  ),
+                );
+              },
             ),
           ),
         ],
@@ -896,7 +892,7 @@ class TopicContentView extends StatelessWidget {
         boxShadow: _cardShadow,
       ),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           // Scale name and description
           Padding(
