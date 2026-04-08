@@ -606,19 +606,21 @@ class TopicContentView extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
-                  width: 28,
-                  height: 28,
-                  decoration: const BoxDecoration(
+                  constraints: const BoxConstraints(minWidth: 32, minHeight: 28),
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                  decoration: BoxDecoration(
                     color: AppTheme.accentTeal,
-                    shape: BoxShape.circle,
+                    borderRadius: BorderRadius.circular(14),
                   ),
                   alignment: Alignment.center,
                   child: Text(
                     item.key,
+                    textAlign: TextAlign.center,
                     style: GoogleFonts.inter(
                       fontSize: 13,
                       fontWeight: FontWeight.w700,
                       color: Colors.white,
+                      height: 1.2,
                     ),
                   ),
                 ),
@@ -944,24 +946,41 @@ class TopicContentView extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   if (row.isNotEmpty)
-                    SizedBox(
-                      width: 40,
-                      child: Text(
-                        row[0],
-                        style: GoogleFonts.inter(
-                          fontSize: 24,
-                          fontWeight: FontWeight.w700,
-                          color: AppTheme.primaryNavy,
-                          height: 1.1,
-                        ),
-                      ),
-                    ),
+                    (row[0].length <= 3)
+                        ? SizedBox(
+                            width: 40,
+                            child: Text(
+                              row[0],
+                              style: GoogleFonts.inter(
+                                fontSize: 24,
+                                fontWeight: FontWeight.w700,
+                                color: AppTheme.primaryNavy,
+                                height: 1.1,
+                              ),
+                            ),
+                          )
+                        : ConstrainedBox(
+                            constraints:
+                                const BoxConstraints(maxWidth: 160),
+                            child: Padding(
+                              padding: const EdgeInsets.only(top: 2),
+                              child: Text(
+                                row[0],
+                                style: GoogleFonts.inter(
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.w700,
+                                  color: AppTheme.primaryNavy,
+                                  height: 1.35,
+                                ),
+                              ),
+                            ),
+                          ),
                   if (row.length > 1)
                     Expanded(
                       child: Padding(
-                        padding: const EdgeInsets.only(left: 8, top: 2),
+                        padding: const EdgeInsets.only(left: 12, top: 2),
                         child: Text(
-                          row.sublist(1).join(' - '),
+                          row.sublist(1).join(' — '),
                           style: GoogleFonts.inter(
                             fontSize: 13,
                             height: 1.5,
