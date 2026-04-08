@@ -283,7 +283,7 @@ The "Rule of 4" is a simplified framework for understanding brainstem stroke syn
 | Syndrome | Lesion Location | Structures Involved | Clinical Features |
 |----------|----------------|--------------------|--------------------|
 | **Millard-Gubler syndrome** | Ventral pons (medial) | CN VI + CN VII fascicles + corticospinal tract | Ipsilateral lateral rectus palsy (CN VI) + ipsilateral facial weakness (CN VII, LMN type) + contralateral hemiparesis |
-| **Foville syndrome** | Dorsal pons (tegmentum) | CN VI nucleus + PPRF + CN VII + medial lemniscus | Ipsilateral gaze palsy (eyes deviate AWAY from lesion) + ipsilateral facial weakness + contralateral hemiparesis + contralateral sensory loss |
+| **Foville syndrome** | Dorsal pons (tegmentum) | CN VI nucleus + PPRF + CN VII fascicle + corticospinal tract | Ipsilateral horizontal gaze palsy (eyes deviate AWAY from lesion) + ipsilateral peripheral facial weakness + contralateral hemiparesis |
 | **Lateral pontine (AICA) syndrome** | Lateral pons | CN VII, CN VIII, lateral spinothalamic, cerebellar peduncle | Ipsilateral facial paralysis + ipsilateral hearing loss + ipsilateral ataxia + contralateral pain/temperature loss |
 | **Locked-in syndrome** | Bilateral ventral pons | Bilateral corticospinal tracts + bilateral corticobulbar tracts | Quadriplegia + anarthria (cannot speak); consciousness PRESERVED; only vertical eye movements and blinking intact |
 

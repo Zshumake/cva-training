@@ -228,8 +228,8 @@ class IschemicStrokeFlashcards {
       moduleId: 'ischemic-stroke',
     ),
     Flashcard(
-      front: 'In asymptomatic carotid stenosis, which intervention showed statistical superiority over medical therapy in the CREST-2 trial?',
-      back: 'Carotid artery stenting (CAS).',
+      front: 'What did the CREST-2 trial demonstrate about revascularization vs intensive medical therapy for asymptomatic carotid stenosis?',
+      back: 'Neither CEA nor CAS demonstrated superiority over intensive medical therapy alone.',
       moduleId: 'ischemic-stroke',
     ),
     Flashcard(

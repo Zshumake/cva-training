@@ -115,23 +115,23 @@
     {
       "question": "In a patient with cryptogenic stroke, an Implantable Loop Recorder (ILR) is often used for extended monitoring. What is the approximate detection rate of occult Atrial Fibrillation after 12 months of monitoring?",
       "answerOptions": [
-        {"text": "5.0%", "isCorrect": false, "rationale": "This rate is too low; initial monitoring catches some cases, but detection increases significantly over time."},
-        {"text": "12.2%", "isCorrect": false, "rationale": "This rate is more typical for detection at 3 months of monitoring."},
-        {"text": "18.7%", "isCorrect": true, "rationale": "By 12 months, nearly one in five patients with cryptogenic stroke will have detected AFib via ILR."},
-        {"text": "45.0%", "isCorrect": false, "rationale": "Even at 36 months, the detection rate is approximately 28-30%, making 45% an overestimation."}
+        {"text": "5.0%", "isCorrect": false, "rationale": "Too low; this is closer to the rate at very early follow-up. Detection at 6 months in CRYSTAL-AF was approximately 8.9%."},
+        {"text": "12.4%", "isCorrect": true, "rationale": "CRYSTAL-AF reported AF detection of approximately 12.4% at 12 months of ILR monitoring (vs 8.9% at 6 months and ~30% at 36 months)."},
+        {"text": "18.7%", "isCorrect": false, "rationale": "This figure is not supported by CRYSTAL-AF; detection at 12 months was approximately 12%, not 18%."},
+        {"text": "45.0%", "isCorrect": false, "rationale": "Even at 36 months the CRYSTAL-AF detection rate was approximately 30%, making 45% an overestimation."}
       ],
-      "hint": "Detection rates rise steadily from 12% at 3 months to nearly 30% at three years.",
+      "hint": "CRYSTAL-AF detection rates: ~9% at 6 months, ~12% at 12 months, ~30% at 36 months.",
       "boardReadiness": "BOARD-CORE"
     },
     {
-      "question": "The CREST-2 trial (2025 update) provided significant new data regarding the management of asymptomatic carotid stenosis. What was a key finding of this study?",
+      "question": "The CREST-2 trial (reported 2025) compared revascularization to intensive medical therapy in asymptomatic carotid stenosis. What was the key finding?",
       "answerOptions": [
-        {"text": "CEA was significantly superior to medical therapy alone.", "isCorrect": false, "rationale": "In CREST-2, Carotid Endarterectomy (CEA) did not reach statistical significance when compared to medical management in asymptomatic patients."},
-        {"text": "Carotid Artery Stenting (CAS) plus medical therapy was superior to medical therapy alone.", "isCorrect": true, "rationale": "This was the first RCT to demonstrate the superiority of stenting over intensive medical management for asymptomatic disease."},
-        {"text": "Medical therapy alone is superior to any intervention.", "isCorrect": false, "rationale": "While medical therapy is very effective, CAS showed a statistically significant additional benefit in the primary outcome."},
-        {"text": "Intervention is only beneficial if stenosis is greater than 99%.", "isCorrect": false, "rationale": "Benefit is typically evaluated in the 60-99% range; total occlusion (100%) usually precludes surgical intervention."}
+        {"text": "CEA was significantly superior to intensive medical therapy alone.", "isCorrect": false, "rationale": "CREST-2 did not demonstrate superiority of CEA over intensive medical management in asymptomatic patients."},
+        {"text": "Neither CEA nor CAS demonstrated superiority over intensive medical therapy alone.", "isCorrect": true, "rationale": "CREST-2 (two parallel RCTs) found that both CEA and CAS failed to show benefit over modern intensive medical management for the primary endpoint, supporting medical therapy as a reasonable first-line strategy in asymptomatic disease."},
+        {"text": "Carotid Artery Stenting (CAS) was superior to medical therapy alone.", "isCorrect": false, "rationale": "CAS did not demonstrate superiority over intensive medical therapy in CREST-2."},
+        {"text": "Intervention is only beneficial if stenosis is greater than 99%.", "isCorrect": false, "rationale": "CREST-2 enrolled patients with ≥70% asymptomatic stenosis; the trial did not establish a stenosis-based subgroup benefit."}
       ],
-      "hint": "Look for the outcome that challenged the traditional preference for endarterectomy in asymptomatic patients.",
+      "hint": "Consider how modern intensive medical management has changed the calculus for asymptomatic carotid revascularization.",
       "boardReadiness": "BOARD-LIKELY"
     }
   ]

@@ -253,17 +253,17 @@ final TopicData ischemicStrokeContent = TopicData(
             'Occurs during activity (unlike thrombotic strokes)',
             'Higher risk of hemorrhagic transformation (when embolus lyses, reperfusion into damaged tissue)',
             'May affect multiple vascular territories simultaneously',
-            '75% of emboli from cardiac sources go to the brain (preferentially via the left carotid)',
-            'MCA is the most commonly affected vessel (direct continuation of ICA)',
+            'Cerebral circulation receives ~15-20% of cardiac output, making it a frequent destination for cardiac emboli',
+            'MCA is the most commonly affected cerebral vessel (direct continuation of ICA, favored by streamline flow from the aortic arch)',
           ],
         ),
         PearlBlock(
-          'Board Pearl: Cardiac Emboli to the Brain',
-          '75% of cardiac emboli travel to the brain rather than to other '
-          'organs. This is because the carotid arteries are direct branches '
-          'of the aortic arch, and the left MCA is essentially a direct '
-          'continuation of the left ICA. Atrial fibrillation is the #1 '
-          'cardiac source of embolic stroke.',
+          'Board Pearl: Cardiac Sources of Embolic Stroke',
+          'Atrial fibrillation is the #1 cardiac source of embolic stroke, '
+          'followed by recent MI with LV thrombus, mechanical valves, and '
+          'dilated cardiomyopathy. The left MCA is the most commonly affected '
+          'cerebral vessel because it is a near-direct continuation of the '
+          'left ICA, favored by streamline flow from the aortic arch.',
         ),
         BulletCardBlock(
           title: 'Sources of Emboli',

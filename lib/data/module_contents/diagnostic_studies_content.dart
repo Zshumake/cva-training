@@ -485,7 +485,7 @@ final TopicData diagnosticStudiesContent = TopicData(
           themeColor: Color(0xFF7C3AED),
           backgroundColor: Color(0xFFF5F3FF),
           points: [
-            'NIH Stroke Scale: standardized 15-item neurological examination scored 0-42',
+            'NIH Stroke Scale: standardized 11-item neurological examination scored 0-42',
             'Used to quantify stroke severity, guide treatment decisions (tPA eligibility), and track recovery',
             'Score 0 = no deficit; 1-4 = minor; 5-15 = moderate; 16-20 = moderate-severe; 21-42 = severe',
             'Higher NIHSS at presentation predicts worse outcome',

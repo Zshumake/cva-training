@@ -332,12 +332,12 @@
         {
           "text": "The most common location is the medial aspect of the hip",
           "isCorrect": false,
-          "rationale": "Hip HO is more common in SCI; in stroke, the elbow is the most frequent site."
+          "rationale": "Hip HO is more typical of SCI; in stroke, the shoulder is the most common site, followed by the elbow."
         },
         {
-          "text": "The most common location is the extensor (lateral) side of the elbow",
+          "text": "The most common location is the shoulder (glenohumeral joint), followed by the elbow",
           "isCorrect": true,
-          "rationale": "Stroke-related HO uniquely tends to involve the lateral elbow, distinguishing it from other neurogenic HO."
+          "rationale": "In stroke, HO most commonly involves the shoulder, followed by the elbow. When the elbow is involved, the typical location is anterior (over the brachialis) or medial — distinct from the posterior/lateral pattern in TBI/SCI."
         },
         {
           "text": "Surgical excision should be performed as soon as HO is identified on X-ray",

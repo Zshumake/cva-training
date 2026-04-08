@@ -198,8 +198,8 @@ class VascularAnatomyFlashcards {
       moduleId: 'vascular-anatomy',
     ),
     Flashcard(
-      front: 'Which trial demonstrated that Carotid Artery Stenting (CAS) is superior to medical therapy alone for asymptomatic stenosis?',
-      back: 'CREST-2.',
+      front: 'What did the CREST-2 trial demonstrate about revascularization vs intensive medical therapy for asymptomatic carotid stenosis?',
+      back: 'Neither CEA nor CAS demonstrated superiority over intensive medical therapy alone.',
       moduleId: 'vascular-anatomy',
     ),
     Flashcard(

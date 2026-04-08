@@ -187,7 +187,7 @@ Atrial fibrillation is the most common indication for anticoagulation in stroke 
 
 | DOAC | Mechanism | Dose for AF | Key Trial | Half-Life | Renal Elimination |
 |------|-----------|------------|-----------|-----------|-------------------|
-| Dabigatran (Pradaxa) | Direct thrombin inhibitor | 150 mg BID (110 mg BID if CrCl 15-30) | RE-LY | 12-17 hours | 80% |
+| Dabigatran (Pradaxa) | Direct thrombin inhibitor | 150 mg BID (75 mg BID if CrCl 15-30; note: 110 mg BID is the European/Canadian dose, not FDA-approved in the US) | RE-LY | 12-17 hours | 80% |
 | Rivaroxaban (Xarelto) | Factor Xa inhibitor | 20 mg daily with food (15 mg if CrCl 15-50) | ROCKET-AF | 5-9 hours | 36% |
 | Apixaban (Eliquis) | Factor Xa inhibitor | 5 mg BID (2.5 mg BID if 2 of 3: age of 80 or greater, weight 60 kg or less, Cr of 1.5 or greater) | ARISTOTLE | 12 hours | 27% |
 | Edoxaban (Savaysa) | Factor Xa inhibitor | 60 mg daily (30 mg if CrCl 15-50, weight 60 kg or less, or P-gp inhibitor) | ENGAGE AF-TIMI 48 | 10-14 hours | 50% |

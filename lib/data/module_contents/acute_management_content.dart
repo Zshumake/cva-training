@@ -93,7 +93,7 @@ final TopicData acuteManagementContent = TopicData(
           themeColor: Color(0xFFEA580C),
           backgroundColor: Color(0xFFFFF7ED),
           points: [
-            'Head of bed at 0-15 degrees (flat) for ischemic stroke to maximize cerebral perfusion (unless ICP concerns)',
+            'Head of bed positioning: HeadPoST trial (2017) showed no difference between flat (0 degrees) and sitting (30 degrees) at 90 days; current AHA/ASA guidance individualizes positioning based on tolerance, ICP, and aspiration risk',
             'Head of bed at 30 degrees for hemorrhagic stroke (balance ICP and perfusion)',
             'IV normal saline -- avoid hypotonic fluids (can worsen cerebral edema)',
             'Treat hyperthermia aggressively -- fever worsens stroke outcomes; target normothermia',

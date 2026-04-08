@@ -3,30 +3,30 @@
   "title": "Stroke Quiz",
   "questions": [
     {
-      "question": "According to board-core literature, what is the most common cause of death in stroke patients between 2 and 4 weeks post-insult?",
+      "question": "According to standard PM&R board references (Cuccurullo, DeLisa), what is the most common cause of death in stroke patients between 2 and 4 weeks post-insult?",
       "answerOptions": [
         {
           "text": "Recurrent ischemic stroke",
           "isCorrect": false,
-          "rationale": "While recurrent stroke is a significant risk, it is not cited as the primary cause of mortality specifically during the 2-to-4-week window."
+          "rationale": "While recurrent stroke is a significant risk, it is not the leading cause of mortality specifically during the 2-to-4-week subacute window."
         },
         {
           "text": "Pulmonary embolism (PE)",
-          "isCorrect": true,
-          "rationale": "PE is identified as the leading cause of death during the subacute phase, typically occurring between 2 and 4 weeks post-stroke."
+          "isCorrect": false,
+          "rationale": "PE is an important and recognized cause of death post-stroke (~5%), but pneumonia is more common during weeks 2-4."
         },
         {
           "text": "Aspiration pneumonia",
-          "isCorrect": false,
-          "rationale": "Pneumonia is a very frequent complication (40%), but it is not the single most common cause of death in the specific 2-to-4-week timeframe."
+          "isCorrect": true,
+          "rationale": "Aspiration pneumonia is the leading non-neurologic cause of death in stroke patients during weeks 2-4 post-insult, accounting for 15-25% of post-stroke mortality (Cuccurullo, DeLisa)."
         },
         {
           "text": "Acute myocardial infarction",
           "isCorrect": false,
-          "rationale": "Cardiac events are the leading cause of long-term mortality, but PE takes precedence in the immediate weeks following the stroke."
+          "rationale": "Cardiac events are a leading cause of long-term mortality after stroke, but pneumonia predominates in the subacute 2-4 week window."
         }
       ],
-      "hint": "This condition is a secondary complication of venous stasis in the paretic limbs.",
+      "hint": "This complication is closely linked to dysphagia, which affects roughly half of acute stroke patients.",
       "boardReadiness": "BOARD-CORE"
     },
     {

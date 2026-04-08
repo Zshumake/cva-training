@@ -90,7 +90,7 @@ final TopicData hemorrhagicStrokeContent = TopicData(
           columns: ['Location', 'Frequency', 'Usual Cause', 'Clinical Features'],
           rows: [
             ['Putamen/basal ganglia', '35-50% (most common)', 'Hypertension', 'Contralateral hemiparesis, hemisensory loss, homonymous hemianopia, aphasia or neglect'],
-            ['Thalamus', '10-15%', 'Hypertension', 'Contralateral sensory loss, upgaze palsy ("eyes look at the nose"), aphasia or neglect, may extend into ventricles'],
+            ['Thalamus', '10-15%', 'Hypertension', 'Contralateral sensory loss; forced downward and inward gaze deviation ("eyes look at the nose") with impaired upgaze; aphasia or neglect; may extend into ventricles'],
             ['Pons', '5-10%', 'Hypertension', 'Rapidly fatal; coma, quadriplegia, pinpoint reactive pupils, hyperthermia, posturing'],
             ['Cerebellum', '5-10%', 'Hypertension', 'Sudden onset ataxia, vertigo, headache, vomiting; may compress brainstem -- SURGICAL EMERGENCY'],
             ['Lobar (cortical)', '20-30%', 'Amyloid angiopathy, AVM', 'Varies by lobe; more common in elderly normotensive patients; recurrence risk is high with CAA'],

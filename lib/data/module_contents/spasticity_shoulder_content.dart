@@ -538,28 +538,31 @@ final TopicData spasticityShoulderContent = TopicData(
           backgroundColor: Color(0xFFEFF6FF),
           icon: Icons.healing_rounded,
           description:
-              'Abnormal formation of mature lamellar bone in soft tissues '
-              'around joints. Less common in stroke than TBI or SCI but occurs '
-              'in approximately 0.5-1% of stroke patients.',
+              'Abnormal formation of mature lamellar bone in periarticular soft '
+              'tissues. Less common in stroke than in TBI or SCI, but clinically '
+              'significant HO occurs in approximately 0.5-1.2% of stroke patients '
+              '(higher rates if subclinical scintigraphic disease is included).',
           keyPoints: [
-            'Most common location: EXTENSOR (lateral) side of the elbow',
-            'Also seen in hip, shoulder, knee',
+            'Most common location in stroke: shoulder (glenohumeral), followed by elbow',
+            'When at the elbow in stroke: typically anterior (over the brachialis) or medial — distinct from the posterior/lateral pattern seen with TBI/SCI',
+            'Also seen in hip and knee',
             'Presents with warmth, swelling, decreased ROM, pain',
-            'Elevated alkaline phosphatase (but nonspecific)',
-            'Triple phase bone scan is most sensitive early test',
+            'Elevated alkaline phosphatase (sensitive but nonspecific)',
+            'Triple-phase bone scan is the most sensitive early test',
             'X-rays lag behind — may not show HO for 2-6 weeks',
-            'Treatment: gentle ROM (DO NOT force through HO), NSAIDs, etidronate',
-            'Surgery: only after HO is mature (12-18 months, normal alk phos)',
+            'Treatment: gentle ROM (DO NOT force through HO), NSAIDs (indomethacin), etidronate',
+            'Surgery: only after HO is mature (typically 12-18 months, normal alk phos)',
           ],
         ),
         PearlBlock(
-          'HO in Stroke — Elbow Extensor Side',
-          'In stroke, HO most commonly forms on the EXTENSOR (lateral/posterior) '
-          'side of the elbow, which is different from the pattern in SCI (more '
-          'commonly hip). This is a frequently tested board fact. Risk factors '
-          'include prolonged immobility, spasticity, and vigorous passive ROM. '
-          'Gentle ROM is continued through HO unless there is a clear block — '
-          'aggressive ROM may worsen HO.',
+          'HO in Stroke — Shoulder First, Elbow Anterior',
+          'In stroke, HO most commonly involves the shoulder (glenohumeral '
+          'joint), followed by the elbow. When the elbow is involved in '
+          'stroke, the typical location is anteriorly over the brachialis or '
+          'medially — this is different from the posterior/lateral elbow '
+          'pattern classically described in TBI and SCI. Risk factors include '
+          'prolonged immobility, severe spasticity, and aggressive passive ROM. '
+          'Gentle ROM is continued through HO unless there is a clear mechanical block.',
         ),
         BulletCardBlock(
           title: 'Contracture Prevention & Management',

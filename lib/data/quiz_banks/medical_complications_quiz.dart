@@ -3,15 +3,15 @@ import '../../core/models/quiz_model.dart';
 class MedicalComplicationsQuiz {
   static const List<QuizQuestion> questions = [
     QuizQuestion(
-      question: 'According to board-core literature, what is the most common cause of death in stroke patients between 2 and 4 weeks post-insult?',
+      question: 'According to standard PM&R board references (Cuccurullo, DeLisa), what is the most common cause of death in stroke patients between 2 and 4 weeks post-insult?',
       options: [
         'Recurrent ischemic stroke',
         'Pulmonary embolism (PE)',
         'Aspiration pneumonia',
         'Acute myocardial infarction',
       ],
-      correctIndex: 1,
-      explanation: 'PE is identified as the leading cause of death during the subacute phase, typically occurring between 2 and 4 weeks post-stroke.',
+      correctIndex: 2,
+      explanation: 'Aspiration pneumonia is the leading non-neurologic cause of death in stroke patients during weeks 2-4 post-insult, accounting for 15-25% of post-stroke mortality (Cuccurullo, DeLisa). PE is recognized but less common.',
       moduleId: 'medical-complications',
       difficulty: 'board',
     ),

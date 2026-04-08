@@ -545,7 +545,7 @@ final TopicData medicalComplicationsContent = TopicData(
               'Formation of mature lamellar bone in periarticular soft tissues. '
               'Less common in stroke than in TBI or SCI, but does occur.',
           keyPoints: [
-            'Prevalence in stroke: ~1-5% (much lower than TBI at 10-20% or SCI at 15-30%)',
+            'Prevalence in stroke: ~0.5-1.2% clinically significant (much lower than TBI at 10-20% or SCI at 15-30%)',
             'Most common location: shoulder (glenohumeral) and elbow on the hemiplegic side',
             'Presents as painful, warm, swollen joint with progressive loss of ROM',
             'Can be confused with DVT, septic arthritis, or fracture',

@@ -289,7 +289,7 @@ class SpasticityShoulderFlashcards {
     ),
     Flashcard(
       front: 'What is the most common anatomical location for Heterotopic Ossification (HO) in stroke patients?',
-      back: 'The extensor (lateral) side of the elbow.',
+      back: 'The shoulder (glenohumeral joint), followed by the elbow. Elbow HO in stroke is typically anterior (over the brachialis) or medial — distinct from the posterior/lateral pattern seen in TBI/SCI.',
       moduleId: 'spasticity-shoulder',
     ),
     Flashcard(
